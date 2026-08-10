@@ -1,7 +1,7 @@
 import sys
 import pandas as pd
 from pathlib import Path
-root_dir = Path(__file__).resolve().parents[3]
+root_dir = Path(__file__).resolve().parents[2]
 
 sys.path.append(str(root_dir))
 from source import MODEL_DIR, FLUX_SAMP_DIR, FVCB_PHI_TABLE
