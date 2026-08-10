@@ -1,0 +1,7 @@
+The newly generated tGEM model at 20 degrees differs from the one that Yannick generated only in the following points:
+
+- They contain a field TRANS_ID: {'Im_H2O_REV'}
+- The upper bound of a water sink reaction is set to 1000 (according to comments to 'simulate transpiration')
+- The upper bound of the protein pool exchange is 0.2 instead of 0.078, because it was adapted to the temperature by using the 'proteinModel' function in the model
+
+In my opinion, these differences are find to keep, because the simulateTempEffects script by Philipps gives good reasons for adapting these values.

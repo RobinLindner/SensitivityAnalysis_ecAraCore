@@ -1,0 +1,831 @@
+,Enzyme,Subsystem
+0,A0A178UD24,pentose phosphate pathway
+1,A0A178VX82,glycolysis
+2,A0A178WJZ2,CTP synthesis
+3,A0A1P8ANY1,lysine synthesis
+4,A0A1P8AW36,glutamate synthesis
+5,A0A1P8B6F9,CTP synthesis
+6,A0A384K8P2,CTP synthesis
+7,A0A384KII3,glycolysis
+8,A0A384KLZ3,tricarboxylic acid cycle
+9,A0A384L5D5,glycolysis
+10,A0A5S9YI34,tricarboxylic acid cycle
+11,A0A654EZT9,IMP synthesis
+12,A0A654FAY0,glycolysis
+13,A0A654FQL5,IMP synthesis
+14,A0A654FQL5,AMP synthesis
+15,A1A6H3,ADN salvage
+16,A8MR07,glycolysis
+17,B5X574,gluconeogenesis
+18,B9DGD6,actyl-coenzyme A synthesis
+19,B9DHD3,histidine synthesis
+20,F4HUC4,carbon fixation
+21,F4I1A6,trehalose synthesis
+22,F4I1L9,IMP synthesis
+23,F4I1L9,AMP synthesis
+24,F4I6G9,CTP synthesis
+25,F4I7I0,alanine synthesis
+26,F4I8M8,glycolysis
+27,F4I8U2,starch synthesis
+28,F4IAG2,starch synthesis
+29,F4IC59,pentose phosphate pathway
+30,F4IHR4,carbon fixation
+31,F4IW47,Calvin-Benson cycle
+32,F4IW47,pentose phosphate pathway
+33,F4IWV2,tricarboxylic acid cycle
+34,F4JGR5,pyrophosphate recycling
+35,F4JIK2,carbon fixation
+36,F4JJJ3,
+37,F4JWS8,oxidative phosphorylation
+38,F4KGQ0,Calvin-Benson cycle
+39,F4KGQ0,sucrose synthesis
+40,F4KGQ0,glycolysis
+41,F4KGQ0,gluconeogenesis
+42,O03042,Calvin-Benson cycle
+43,O03042,photorespiration
+44,O04130,serine synthesis
+45,O04308,oxidative phosphorylation
+46,O04499,gluconeogenesis
+47,O04499,glycolysis
+48,O04846,carbon fixation
+49,O04904,UMP synthesis
+50,O04905,nucleotide metabolism
+51,O04983,fatty acid synthesis
+52,O22048,
+53,O22049,
+54,O22229,TRX recycling
+55,O22241,phenylalanine synthesis
+56,O22682,cysteine synthesis
+57,O22718,actyl-coenzyme A synthesis
+58,O22765,tryptophan synthesis
+59,O22769,oxidative phosphorylation
+60,O22912,oxidative phosphorylation
+61,O23254,methionine synthesis
+62,O23254,THF recycling
+63,O23255,methionine synthesis
+64,O23324,sulfur assimilation
+65,O23346,histidine synthesis
+66,O23404,pyruvate metabolism
+67,O23553,starch degradation
+68,O23653,lysine synthesis
+69,O23653,methionine synthesis
+70,O23653,threonine synthesis
+71,O23913,
+72,O48946,cellulose synthesis
+73,O48947,cellulose synthesis
+74,O49299,starch synthesis
+75,O49299,sucrose synthesis
+76,O49299,sucrose degradation
+77,O49347,light reactions
+78,O49485,serine synthesis
+79,O49506,photorespiration
+80,O50008,methionine synthesis
+81,O50039,arginine synthesis
+82,O64753,CTP synthesis
+83,O64767,IMP synthesis
+84,O64888,PRPP synthesis
+85,O64903,nucleotide metabolism
+86,O65258,starch degradation
+87,O65396,photorespiration
+88,O65581,Calvin-Benson cycle
+89,O65581,sucrose synthesis
+90,O65581,glycolysis
+91,O65581,gluconeogenesis
+92,O80452,GMP synthesis
+93,O80526,actyl-coenzyme A synthesis
+94,O80574,lysine synthesis
+95,O80585,methionine synthesis
+96,O80585,THF recycling
+97,O80634,
+98,O80738,trehalose synthesis
+99,O80874,
+100,O80988,photorespiration
+101,O81796,tricarboxylic acid cycle
+102,O81852,lysine synthesis
+103,O81852,methionine synthesis
+104,O81852,methionine synthesis
+105,O81852,threonine synthesis
+106,O82191,pyruvate metabolism
+107,O82399,photorespiration
+108,O82514,nucleotide metabolism
+109,O82662,tricarboxylic acid cycle
+110,O82663,tricarboxylic acid cycle
+111,O82663,oxidative phosphorylation
+112,O82768,histidine synthesis
+113,O82782,histidine synthesis
+114,O82793,pyrophosphate recycling
+115,O82796,serine synthesis
+116,P05466,Shikimate pathway
+117,P09468,
+118,P0CC32,
+119,P0CC33,
+120,P0DI07,histidine synthesis
+121,P0DKC3,photorespiration
+122,P0DKC4,photorespiration
+123,P0DKI0,tricarboxylic acid cycle
+124,P0DKI0,oxidative phosphorylation
+125,P0DKI1,tricarboxylic acid cycle
+126,P0DKI1,oxidative phosphorylation
+127,P10795,Calvin-Benson cycle
+128,P10795,photorespiration
+129,P10796,Calvin-Benson cycle
+130,P10796,photorespiration
+131,P10797,Calvin-Benson cycle
+132,P10797,photorespiration
+133,P10798,Calvin-Benson cycle
+134,P10798,photorespiration
+135,P11035,nitrate assimilation
+136,P11832,nitrate assimilation
+137,P14671,tryptophan synthesis
+138,P17562,
+139,P17597,isoleucine synthesis
+140,P17597,leucine synthesis
+141,P17597,leucine synthesis
+142,P17597,valine synthesis
+143,P19366,
+144,P20115,tricarboxylic acid cycle
+145,P20115,pyruvate metabolism
+146,P20115,glyoxylate cycle
+147,P21216,pyrophosphate recycling
+148,P22197,sucrose synthesis
+149,P22197,gluconeogenesis
+150,P22197,glycolysis
+151,P23321,light reactions
+152,P23686,
+153,P25269,tryptophan synthesis
+154,P25696,gluconeogenesis
+155,P25696,glycolysis
+156,P25696,glycolysis
+157,P25697,Calvin-Benson cycle
+158,P25819,photorespiration
+159,P25819,glycine synthesis
+160,P25851,Calvin-Benson cycle
+161,P25851,glycolysis
+162,P25853,starch degradation
+163,P25856,Calvin-Benson cycle
+164,P25857,Calvin-Benson cycle
+165,P25858,gluconeogenesis
+166,P25858,glycolysis
+167,P26288,
+168,P26289,
+169,P27140,carbon fixation
+170,P27202,light reactions
+171,P28297,
+172,P29976,Shikimate pathway
+173,P31166,ADN salvage
+174,P32068,tryptophan synthesis
+175,P32069,tryptophan synthesis
+176,P32746,UMP synthesis
+177,P34047,histidine synthesis
+178,P34795,sucrose synthesis
+179,P34795,sucrose degradation
+180,P34795,gluconeogenesis
+181,P38025,IMP synthesis
+182,P39207,nucleotide metabolism
+183,P42737,carbon fixation
+184,P42738,
+185,P42770,sulfur assimilation
+186,P42792,oxidative phosphorylation
+187,P46248,aspartate synthesis
+188,P46248,
+189,P46283,Calvin-Benson cycle
+190,P46637,proline synthesis
+191,P46643,aspartate synthesis
+192,P46643,
+193,P46644,aspartate synthesis
+194,P46644,
+195,P46645,aspartate synthesis
+196,P46645,
+197,P46646,aspartate synthesis
+198,P46646,
+199,P47996,GMP synthesis
+200,P47998,cysteine synthesis
+201,P47999,cysteine synthesis
+202,P48491,Calvin-Benson cycle
+203,P48491,sucrose synthesis
+204,P48491,glycolysis
+205,P48491,gluconeogenesis
+206,P49040,sucrose degradation
+207,P49077,UMP synthesis
+208,P49078,asparagine synthesis
+209,P49078,lysine synthesis
+210,P49078,methionine synthesis
+211,P49107,light reactions
+212,P49572,tryptophan synthesis
+213,P50287,aspartate synthesis
+214,P50318,Calvin-Benson cycle
+215,P50318,glycolysis
+216,P50651,nucleotide metabolism
+217,P52420,IMP synthesis
+218,P52422,IMP synthesis
+219,P52901,pyruvate decarboxylation
+220,P53780,methionine synthesis
+221,P54887,proline synthesis
+222,P54888,proline synthesis
+223,P54904,proline synthesis
+224,P55217,methionine synthesis
+225,P55228,starch synthesis
+226,P55229,starch synthesis
+227,P55230,starch synthesis
+228,P55231,starch synthesis
+229,P56751,
+230,P56752,
+231,P56753,
+232,P56754,
+233,P56755,
+234,P56756,
+235,P56757,
+236,P56758,
+237,P56759,
+238,P56760,
+239,P56761,light reactions
+240,P56765,fatty acid synthesis
+241,P56766,light reactions
+242,P56767,light reactions
+243,P56768,light reactions
+244,P56769,light reactions
+245,P56771,
+246,P56773,
+247,P56774,
+248,P56775,
+249,P56776,
+250,P56777,light reactions
+251,P56778,light reactions
+252,P56779,light reactions
+253,P56780,light reactions
+254,P56781,light reactions
+255,P56782,light reactions
+256,P56790,light reactions
+257,P57106,gluconeogenesis
+258,P57720,Shikimate pathway
+259,P57751,sucrose synthesis
+260,P57751,sucrose degradation
+261,P57751,pyrophosphate recycling
+262,P60112,
+263,P60129,light reactions
+264,P60497,oxidative phosphorylation
+265,P60620,oxidative phosphorylation
+266,P61039,
+267,P61839,light reactions
+268,P62090,light reactions
+269,P62095,light reactions
+270,P62100,light reactions
+271,P62109,light reactions
+272,P62113,light reactions
+273,P68209,tricarboxylic acid cycle
+274,P83483,
+275,P83484,
+276,P83755,light reactions
+277,P92533,oxidative phosphorylation
+278,P92547,
+279,P92549,
+280,P92979,sulfur assimilation
+281,P92980,sulfur assimilation
+282,P92981,sulfur assimilation
+283,P92983,proline degradation
+284,P93032,tricarboxylic acid cycle
+285,P93033,tricarboxylic acid cycle
+286,P93285,oxidative phosphorylation
+287,P93306,oxidative phosphorylation
+288,P93313,oxidative phosphorylation
+289,P93757,nucleotide metabolism
+290,P93819,gluconeogenesis
+291,P93832,leucine synthesis
+292,P93834,starch degradation
+293,P93834,sucrose degradation
+294,P93834,sucrose degradation
+295,Q00218,Shikimate pathway
+296,Q00917,sucrose degradation
+297,Q01908,
+298,Q01909,
+299,Q02166,tryptophan synthesis
+300,Q04613,
+301,Q04614,oxidative phosphorylation
+302,Q05728,IMP synthesis
+303,Q05758,
+304,Q05762,THF recycling
+305,Q05762,nucleotide metabolism
+306,Q0WNZ5,methionine synthesis
+307,Q0WQF7,pyruvate decarboxylation
+308,Q0WRY1,CTP synthesis
+309,Q0WSF1,glycine synthesis
+310,Q0WVX5,starch synthesis
+311,Q0WW55,nucleotide metabolism
+312,Q0WWE3,oxidative phosphorylation
+313,Q1JPL4,
+314,Q1WIQ6,glycolysis
+315,Q24JJ8,photorespiration
+316,Q2PGG3,serine racemization
+317,Q2V2S7,
+318,Q37165,
+319,Q38799,pyruvate decarboxylation
+320,Q38946,glutamate synthesis
+321,Q38946,glutamate degradation
+322,Q39161,nitrate assimilation
+323,Q39194,light reactions
+324,Q39195,light reactions
+325,Q39218,cysteine synthesis
+326,Q39219,
+327,Q39242,TRX recycling
+328,Q39243,TRX recycling
+329,Q3E870,tricarboxylic acid cycle
+330,Q3E870,oxidative phosphorylation
+331,Q41932,light reactions
+332,Q42029,light reactions
+333,Q42290,oxidative phosphorylation
+334,Q42440,tryptophan synthesis
+335,Q42472,glutamate degradation
+336,Q42521,glutamate degradation
+337,Q42527,tryptophan synthesis
+338,Q42529,tryptophan synthesis
+339,Q42533,fatty acid synthesis
+340,Q42538,cysteine synthesis
+341,Q42547,photorespiration
+342,Q42547,glycine synthesis
+343,Q42560,tricarboxylic acid cycle
+344,Q42560,pyruvate metabolism
+345,Q42560,glyoxylate cycle
+346,Q42563,ADN salvage
+347,Q42577,oxidative phosphorylation
+348,Q42581,PRPP synthesis
+349,Q42583,PRPP synthesis
+350,Q42586,UMP synthesis
+351,Q42588,cysteine synthesis
+352,Q42599,oxidative phosphorylation
+353,Q42601,arginine synthesis
+354,Q42601,UMP synthesis
+355,Q43127,glutamine synthesis
+356,Q43314,glutamate synthesis
+357,Q43314,glutamate degradation
+358,Q43727,pentose phosphate pathway
+359,Q43870,sulfur assimilation
+360,Q56WN1,glutamine synthesis
+361,Q56X52,
+362,Q56YA5,photorespiration
+363,Q56YA5,glycine synthesis
+364,Q56YA5,glycine synthesis
+365,Q56YU0,glycine synthesis
+366,Q5E924,glycolysis
+367,Q5GM68,gluconeogenesis
+368,Q5HZ05,trehalose synthesis
+369,Q5M729,pyruvate decarboxylation
+370,Q67X99,trehalose synthesis
+371,Q67XC9,trehalose synthesis
+372,Q67XD9,sucrose degradation
+373,Q6NKX1,proline degradation
+374,Q6NPM8,histidine synthesis
+375,Q70DU8,glycine synthesis
+376,Q70E96,glycine synthesis
+377,Q84JA6,cellulose synthesis
+378,Q84TI2,IMP synthesis
+379,Q84VQ4,
+380,Q84VW9,gluconeogenesis
+381,Q84WW2,pentose phosphate pathway
+382,Q8GSJ1,histidine synthesis
+383,Q8GVE8,gluconeogenesis
+384,Q8GWA1,
+385,Q8GWG2,trehalose synthesis
+386,Q8GWU0,photorespiration
+387,Q8GXG1,aspartate synthesis
+388,Q8GXR9,
+389,Q8GXW5,glutamine synthesis
+390,Q8GY88,Shikimate pathway
+391,Q8GYY0,aspartate synthesis
+392,Q8GYY0,
+393,Q8H103,starch synthesis
+394,Q8H103,sucrose synthesis
+395,Q8H103,sucrose degradation
+396,Q8H103,gluconeogenesis
+397,Q8H107,tricarboxylic acid cycle
+398,Q8H1E2,pyruvate metabolism
+399,Q8L743,pentose phosphate pathway
+400,Q8L762,starch degradation
+401,Q8L778,cellulose synthesis
+402,Q8L7R2,methionine synthesis
+403,Q8L7R2,threonine synthesis
+404,Q8L817,carbon fixation
+405,Q8LAD0,glutamate synthesis
+406,Q8LAD2,tricarboxylic acid cycle
+407,Q8LAX0,methionine synthesis
+408,Q8LB01,lysine synthesis
+409,Q8LB02,tricarboxylic acid cycle
+410,Q8LB02,oxidative phosphorylation
+411,Q8LBZ7,tricarboxylic acid cycle
+412,Q8LBZ7,oxidative phosphorylation
+413,Q8LCA1,light reactions
+414,Q8LCE1,glutamine synthesis
+415,Q8LEE7,
+416,Q8LEV7,pentose phosphate pathway
+417,Q8LFC0,tricarboxylic acid cycle
+418,Q8LG70,pentose phosphate pathway
+419,Q8LG77,tricarboxylic acid cycle
+420,Q8LPI9,tryptophan synthesis
+421,Q8LPJ5,pyruvate metabolism
+422,Q8LPK5,cellulose synthesis
+423,Q8RU07,fatty acid synthesis
+424,Q8RWN9,pyruvate decarboxylation
+425,Q8RWV0,Calvin-Benson cycle
+426,Q8RWV0,pentose phosphate pathway
+427,Q8RXD9,starch degradation
+428,Q8RXS1,
+429,Q8RXU4,glycine synthesis
+430,Q8RY94,IMP synthesis
+431,Q8RY94,AMP synthesis
+432,Q8S895,cysteine synthesis
+433,Q8VYL1,nucleotide metabolism
+434,Q8VYN6,glycolysis
+435,Q8VYV7,Shikimate pathway
+436,Q8VYW2,starch degradation
+437,Q8VZC3,proline degradation
+438,Q8W2B8,cysteine synthesis
+439,Q8W493,light reactions
+440,Q8W4M5,pyrophosphate recycling
+441,Q93V56,pyrophosphate recycling
+442,Q93XN8,sucrose synthesis
+443,Q93Z53,glycolysis
+444,Q93Z66,PRPP synthesis
+445,Q93Z70,arginine synthesis
+446,Q93ZN9,lysine synthesis
+447,Q93ZW0,pentose phosphate pathway
+448,Q941A0,tricarboxylic acid cycle
+449,Q941A0,oxidative phosphorylation
+450,Q941A6,tricarboxylic acid cycle
+451,Q941A6,oxidative phosphorylation
+452,Q941L0,cellulose synthesis
+453,Q944G9,Calvin-Benson cycle
+454,Q944G9,glycolysis
+455,Q944I4,photorespiration
+456,Q945K7,tricarboxylic acid cycle
+457,Q945L0,oxidative phosphorylation
+458,Q949Q5,light reactions
+459,Q949X7,lysine synthesis
+460,Q94A28,tricarboxylic acid cycle
+461,Q94A28,pyruvate metabolism
+462,Q94A28,glyoxylate cycle
+463,Q94A41,starch degradation
+464,Q94A94,lysine synthesis
+465,Q94AA4,glycolysis
+466,Q94AR8,leucine synthesis
+467,Q94B78,photorespiration
+468,Q94BT0,sucrose synthesis
+469,Q94BV7,
+470,Q94C74,photorespiration
+471,Q94CE3,carbon fixation
+472,Q94CE4,carbon fixation
+473,Q94CE5,glutamate degradation
+474,Q94JQ6,cellulose synthesis
+475,Q94JS0,oxidative phosphorylation
+476,Q95695,
+477,Q95748,oxidative phosphorylation
+478,Q96250,
+479,Q96251,
+480,Q96252,
+481,Q96253,
+482,Q96255,serine synthesis
+483,Q96528,photorespiration
+484,Q96528,glycine synthesis
+485,Q96529,AMP synthesis
+486,Q9ASS6,
+487,Q9C522,actyl-coenzyme A synthesis
+488,Q9C544,
+489,Q9C550,leucine synthesis
+490,Q9C5A9,
+491,Q9C5E8,tricarboxylic acid cycle
+492,Q9C5E8,oxidative phosphorylation
+493,Q9C5J7,glycolysis
+494,Q9C5U8,histidine synthesis
+495,Q9C6F5,carbon fixation
+496,Q9C9C4,glycolysis
+497,Q9C9K3,pyrophosphate recycling
+498,Q9C9W5,photorespiration
+499,Q9CA83,
+500,Q9CA90,
+501,Q9CAC5,
+502,Q9CAD1,GMP synthesis
+503,Q9FFP6,glycolysis
+504,Q9FFR3,pentose phosphate pathway
+505,Q9FG89,
+506,Q9FGI6,oxidative phosphorylation
+507,Q9FGX1,actyl-coenzyme A synthesis
+508,Q9FI53,tricarboxylic acid cycle
+509,Q9FI53,arginine synthesis
+510,Q9FI53,IMP synthesis
+511,Q9FI53,AMP synthesis
+512,Q9FIJ7,nucleotide metabolism
+513,Q9FIK0,glycolysis
+514,Q9FIN1,pentose phosphate pathway
+515,Q9FJ82,lysine synthesis
+516,Q9FJP9,tricarboxylic acid cycle
+517,Q9FJP9,oxidative phosphorylation
+518,Q9FJU0,gluconeogenesis
+519,Q9FK35,nucleotide metabolism
+520,Q9FKG3,glycolysis
+521,Q9FKS5,oxidative phosphorylation
+522,Q9FKW6,light reactions
+523,Q9FLB7,oxidative phosphorylation
+524,Q9FLH2,tricarboxylic acid cycle
+525,Q9FLK2,oxidative phosphorylation
+526,Q9FLQ4,tricarboxylic acid cycle
+527,Q9FLW9,glycolysis
+528,Q9FMD9,glutamine synthesis
+529,Q9FMT1,leucine synthesis
+530,Q9FNF2,starch synthesis
+531,Q9FNJ8,phenylalanine synthesis
+532,Q9FNK4,proline synthesis
+533,Q9FNN1,glycolysis
+534,Q9FNN5,oxidative phosphorylation
+535,Q9FT52,
+536,Q9FVC8,lysine synthesis
+537,Q9FWA3,pentose phosphate pathway
+538,Q9FX54,gluconeogenesis
+539,Q9FX54,glycolysis
+540,Q9FX83,oxidative phosphorylation
+541,Q9FY99,pentose phosphate pathway
+542,Q9FYA6,isoleucine synthesis
+543,Q9FYA6,leucine synthesis
+544,Q9FYA6,valine synthesis
+545,Q9FYE3,carbon fixation
+546,Q9FZ57,trehalose synthesis
+547,Q9LD43,fatty acid synthesis
+548,Q9LD57,Calvin-Benson cycle
+549,Q9LD57,gluconeogenesis
+550,Q9LD57,glycolysis
+551,Q9LDV4,alanine synthesis
+552,Q9LE33,glycine synthesis
+553,Q9LEU8,arginine synthesis
+554,Q9LF98,Calvin-Benson cycle
+555,Q9LF98,sucrose synthesis
+556,Q9LF98,glycolysis
+557,Q9LF98,gluconeogenesis
+558,Q9LFF9,pyrophosphate recycling
+559,Q9LFG2,lysine synthesis
+560,Q9LFP0,ADN salvage
+561,Q9LFU1,asparagine synthesis
+562,Q9LFU1,lysine synthesis
+563,Q9LFU1,methionine synthesis
+564,Q9LIK0,glycolysis
+565,Q9LIK9,sulfur assimilation
+566,Q9LIR4,isoleucine synthesis
+567,Q9LIR4,leucine synthesis
+568,Q9LIR4,valine synthesis
+569,Q9LIR6,starch degradation
+570,Q9LJA0,cysteine synthesis
+571,Q9LK23,pentose phosphate pathway
+572,Q9LK29,oxidative phosphorylation
+573,Q9LK36,methionine synthesis
+574,Q9LKA3,tricarboxylic acid cycle
+575,Q9LKA3,glyoxylate cycle
+576,Q9LLC1,fatty acid synthesis
+577,Q9LM13,glycolysis
+578,Q9LMI0,trehalose synthesis
+579,Q9LMR3,tyrosine synthesis
+580,Q9LMX8,pentose phosphate pathway
+581,Q9LPR4,leucine synthesis
+582,Q9LPW0,Calvin-Benson cycle
+583,Q9LQ10,aspartate synthesis
+584,Q9LQ10,
+585,Q9LQF2,sucrose degradation
+586,Q9LQK9,pyruvate metabolism
+587,Q9LR30,photorespiration
+588,Q9LR30,alanine synthesis
+589,Q9LR30,glycine synthesis
+590,Q9LRR9,photorespiration
+591,Q9LRR9,glycine synthesis
+592,Q9LRS0,photorespiration
+593,Q9LRS0,glycine synthesis
+594,Q9LSD0,nucleotide metabolism
+595,Q9LSH2,glutamate degradation
+596,Q9LT69,serine synthesis
+597,Q9LTW8,CTP synthesis
+598,Q9LU21,
+599,Q9LU95,glycolysis
+600,Q9LUT2,
+601,Q9LV03,glutamate synthesis
+602,Q9LV77,asparagine synthesis
+603,Q9LV77,lysine synthesis
+604,Q9LV77,methionine synthesis
+605,Q9LV91,starch degradation
+606,Q9LVI8,glutamine synthesis
+607,Q9LVM2,
+608,Q9LVW7,arginine synthesis
+609,Q9LVW7,UMP synthesis
+610,Q9LW15,oxidative phosphorylation
+611,Q9LXC9,pyrophosphate recycling
+612,Q9LXJ2,oxidative phosphorylation
+613,Q9LXL5,sucrose degradation
+614,Q9LXS6,pyruvate metabolism
+615,Q9LYG3,pyruvate metabolism
+616,Q9LYR2,oxidative phosphorylation
+617,Q9LYR4,pentose phosphate pathway
+618,Q9LYT7,leucine synthesis
+619,Q9LYU8,lysine synthesis
+620,Q9LYU8,methionine synthesis
+621,Q9LYU8,threonine synthesis
+622,Q9LZ66,sulfur assimilation
+623,Q9LZC3,pyruvate metabolism
+624,Q9LZG0,ADN salvage
+625,Q9LZQ0,oxidative phosphorylation
+626,Q9LZX6,lysine synthesis
+627,Q9M044,glycolysis
+628,Q9M057,glycolysis
+629,Q9M076,glycolysis
+630,Q9M0F9,glycolysis
+631,Q9M1B9,sucrose degradation
+632,Q9M1D3,tricarboxylic acid cycle
+633,Q9M1D3,glyoxylate cycle
+634,Q9M1W4,methionine synthesis
+635,Q9M394,sucrose degradation
+636,Q9M401,isoleucine synthesis
+637,Q9M401,leucine synthesis
+638,Q9M401,valine synthesis
+639,Q9M439,isoleucine synthesis
+640,Q9M439,leucine synthesis
+641,Q9M439,valine synthesis
+642,Q9M5K2,pyruvate decarboxylation
+643,Q9M5K2,photorespiration
+644,Q9M5K2,tricarboxylic acid cycle
+645,Q9M5K3,pyruvate decarboxylation
+646,Q9M5K3,photorespiration
+647,Q9M5K3,tricarboxylic acid cycle
+648,Q9M682,nucleotide metabolism
+649,Q9M8D3,IMP synthesis
+650,Q9M8M7,arginine synthesis
+651,Q9M9K1,gluconeogenesis
+652,Q9M9K1,glycolysis
+653,Q9M9P3,sucrose synthesis
+654,Q9M9P3,sucrose degradation
+655,Q9M9P3,pyrophosphate recycling
+656,Q9MA79,sucrose synthesis
+657,Q9MA79,gluconeogenesis
+658,Q9MA79,glycolysis
+659,Q9MAC8,starch synthesis
+660,Q9MAH0,gluconeogenesis
+661,Q9MB58,sucrose synthesis
+662,Q9S702,lysine synthesis
+663,Q9S702,methionine synthesis
+664,Q9S702,threonine synthesis
+665,Q9S714,light reactions
+666,Q9S726,Calvin-Benson cycle
+667,Q9S726,pentose phosphate pathway
+668,Q9S757,cysteine synthesis
+669,Q9S762,histidine synthesis
+670,Q9S7A0,glutamate synthesis
+671,Q9S7B5,threonine synthesis
+672,Q9S7D8,sulfur assimilation
+673,Q9S7E4,THF recycling
+674,Q9S7E9,photorespiration
+675,Q9S7E9,alanine synthesis
+676,Q9S7E9,glycine synthesis
+677,Q9S7H1,light reactions
+678,Q9S7H4,phenylalanine synthesis
+679,Q9S7H4,tyrosine synthesis
+680,Q9S7L9,oxidative phosphorylation
+681,Q9S7N7,light reactions
+682,Q9S829,
+683,Q9S831,light reactions
+684,Q9S841,light reactions
+685,Q9S9N6,
+686,Q9SA14,leucine synthesis
+687,Q9SA18,lysine synthesis
+688,Q9SA18,methionine synthesis
+689,Q9SA18,methionine synthesis
+690,Q9SA18,threonine synthesis
+691,Q9SA34,GMP synthesis
+692,Q9SA56,light reactions
+693,Q9SA96,phenylalanine synthesis
+694,Q9SAJ4,gluconeogenesis
+695,Q9SAJ4,glycolysis
+696,Q9SAJ6,glycolysis
+697,Q9SAK4,glutamate degradation
+698,Q9SAU2,Calvin-Benson cycle
+699,Q9SAU2,pentose phosphate pathway
+700,Q9SCL7,arginine synthesis
+701,Q9SCS3,gluconeogenesis
+702,Q9SCS3,glycolysis
+703,Q9SCY0,starch synthesis
+704,Q9SCY0,sucrose synthesis
+705,Q9SCY0,sucrose degradation
+706,Q9SCY3,
+707,Q9SD76,starch degradation
+708,Q9SDL7,methionine synthesis
+709,Q9SE60,methionine synthesis
+710,Q9SE60,THF recycling
+711,Q9SF85,ADN salvage
+712,Q9SG91,oxidative phosphorylation
+713,Q9SGC1,starch synthesis
+714,Q9SGC1,sucrose synthesis
+715,Q9SGC1,sucrose degradation
+716,Q9SGD6,phenylalanine synthesis
+717,Q9SGH4,
+718,Q9SGY2,actyl-coenzyme A synthesis
+719,Q9SH69,pentose phosphate pathway
+720,Q9SHE8,light reactions
+721,Q9SHG0,trehalose synthesis
+722,Q9SHP0,serine synthesis
+723,Q9SI61,IMP synthesis
+724,Q9SIB9,tricarboxylic acid cycle
+725,Q9SIB9,pyruvate metabolism
+726,Q9SIB9,glyoxylate cycle
+727,Q9SID0,sucrose degradation
+728,Q9SIE1,aspartate synthesis
+729,Q9SIE1,phenylalanine synthesis
+730,Q9SIE1,
+731,Q9SIE1,tyrosine synthesis
+732,Q9SIK1,starch synthesis
+733,Q9SIU0,
+734,Q9SJ05,Shikimate pathway
+735,Q9SJ20,nucleotide metabolism
+736,Q9SJ22,cellulose synthesis
+737,Q9SJ66,sucrose synthesis
+738,Q9SJH7,pyruvate metabolism
+739,Q9SJL8,
+740,Q9SJM7,ADN salvage
+741,Q9SJQ0,glycolysis
+742,Q9SJQ9,sucrose synthesis
+743,Q9SJQ9,gluconeogenesis
+744,Q9SJQ9,glycolysis
+745,Q9SJU4,Calvin-Benson cycle
+746,Q9SJU4,glycolysis
+747,Q9SJV7,oxidative phosphorylation
+748,Q9SKE0,tricarboxylic acid cycle
+749,Q9SKE0,oxidative phosphorylation
+750,Q9SKJ5,cellulose synthesis
+751,Q9SKP6,Calvin-Benson cycle
+752,Q9SKP6,sucrose synthesis
+753,Q9SKP6,glycolysis
+754,Q9SKP6,gluconeogenesis
+755,Q9SKT7,
+756,Q9SLK0,pyruvate metabolism
+757,Q9SMS0,
+758,Q9SN86,pyruvate metabolism
+759,Q9SPK5,THF recycling
+760,Q9SQG2,nucleotide metabolism
+761,Q9SQQ7,glycolysis
+762,Q9SQT8,Shikimate pathway
+763,Q9SR52,proline synthesis
+764,Q9SR86,alanine synthesis
+765,Q9SRV5,methionine synthesis
+766,Q9SRZ6,pyruvate metabolism
+767,Q9SSB8,oxidative phosphorylation
+768,Q9SSE7,phenylalanine synthesis
+769,Q9SSP5,threonine synthesis
+770,Q9SSS9,
+771,Q9STG6,nucleotide metabolism
+772,Q9STG9,IMP synthesis
+773,Q9SU38,ADN salvage
+774,Q9SU39,trehalose synthesis
+775,Q9SUB4,carbon fixation
+776,Q9SUD3,oxidative phosphorylation
+777,Q9SUI4,light reactions
+778,Q9SUI5,light reactions
+779,Q9SUI6,light reactions
+780,Q9SUI7,light reactions
+781,Q9SUU5,oxidative phosphorylation
+782,Q9SUW0,trehalose synthesis
+783,Q9SUW2,ADN salvage
+784,Q9SVM4,methionine synthesis
+785,Q9SVM4,THF recycling
+786,Q9SWW6,cellulose synthesis
+787,Q9SX77,tricarboxylic acid cycle
+788,Q9SX77,oxidative phosphorylation
+789,Q9SXS7,cysteine synthesis
+790,Q9SYG7,glycine synthesis
+791,Q9SYM4,trehalose synthesis
+792,Q9SYP2,pyrophosphate recycling
+793,Q9SZ30,histidine synthesis
+794,Q9SZJ5,photorespiration
+795,Q9SZT8,oxidative phosphorylation
+796,Q9SZX3,arginine synthesis
+797,Q9T074,gluconeogenesis
+798,Q9T0A4,
+799,Q9T0J5,IMP synthesis
+800,Q9T0P4,glutamate synthesis
+801,Q9XF91,light reactions
+802,Q9XFT3,light reactions
+803,Q9XGZ0,pyruvate metabolism
+804,Q9XI73,
+805,Q9ZNZ7,glutamate synthesis
+806,Q9ZP05,photorespiration
+807,Q9ZP05,pyruvate metabolism
+808,Q9ZP06,tricarboxylic acid cycle
+809,Q9ZP06,glyoxylate cycle
+810,Q9ZPF5,proline synthesis
+811,Q9ZPS3,glutamate degradation
+812,Q9ZPS4,glutamate degradation
+813,Q9ZPX5,tricarboxylic acid cycle
+814,Q9ZPX5,oxidative phosphorylation
+815,Q9ZR03,
+816,Q9ZSS6,isoleucine synthesis
+817,Q9ZU25,oxidative phosphorylation
+818,Q9ZU52,Calvin-Benson cycle
+819,Q9ZU52,glycolysis
+820,Q9ZUC2,carbon fixation
+821,Q9ZUR7,arginine synthesis
+822,Q9ZUU1,nucleotide metabolism
+823,Q9ZUY3,phenylalanine synthesis
+824,Q9ZV48,trehalose synthesis
+825,Q9ZW34,gluconeogenesis
+826,Q9ZW34,glycolysis
+827,Q9ZW84,leucine synthesis
+828,Q9ZW85,leucine synthesis
+829,O48717,

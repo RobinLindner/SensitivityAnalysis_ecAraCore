@@ -1,0 +1,672 @@
+,prot
+A0A178UD24,"(thale cress) hypothetical protein, TRA2"
+A0A178VX82,Pyruvate kinase
+A0A178WJZ2,CTP synthase
+A0A1P8ANY1,Semialdehyde dehydrogenase family protein
+A0A1P8AW36,glutamate dehydrogenase (NADP(+))
+A0A1P8B6F9,CTP synthase
+A0A384K8P2,CTP synthase
+A0A384KII3,Pyruvate kinase
+A0A384KLZ3,"2-oxoglutarate dehydrogenase, mitochondrial"
+A0A384L5D5,Pyruvate kinase
+A0A5S9YI34,"2-oxoglutarate dehydrogenase, mitochondrial"
+A0A654EZT9,phosphoribosylaminoimidazole carboxylase
+A0A654FAY0,Pyruvate kinase
+A0A654FQL5,Adenylosuccinate lyase
+A1A6H3,Ribokinase
+A8MR07,Pyruvate kinase
+B5X574,Phosphoenolpyruvate carboxykinase (ATP) 2
+B9DGD6,"Acetyl-coenzyme A synthetase, chloroplastic/glyoxysomal"
+B9DHD3,"Histidinol-phosphate aminotransferase 1, chloroplastic"
+F4HUC4,Alpha carbonic anhydrase 5
+F4I1A6,Probable trehalose-phosphate phosphatase C
+F4I1L9,Adenylosuccinate lyase
+F4I6G9,CTP synthase
+F4I7I0,"Alanine aminotransferase 1, mitochondrial"
+F4I8M8,"2,3-bisphosphoglycerate-dependent phosphoglycerate mutase 2"
+F4I8U2,"Inactive glucose-1-phosphate adenylyltransferase small subunit 2, chloroplastic"
+F4IAG2,"Starch synthase 3, chloroplastic/amyloplastic"
+F4IC59,transaldolase
+F4IHR4,Alpha carbonic anhydrase 2
+F4IW47,"Transketolase-2, chloroplastic"
+F4IWV2,"2-oxoglutarate dehydrogenase, mitochondrial"
+F4JGR5,Pyrophosphate--fructose 6-phosphate 1-phosphotransferase subunit beta 2
+F4JIK2,Alpha carbonic anhydrase 4
+F4JJJ3,"External alternative NAD(P)H-ubiquinone oxidoreductase B3, mitochondrial"
+F4JWS8,"Cytochrome b-c1 complex subunit 7-2, mitochondrial"
+F4KGQ0,"Fructose-bisphosphate aldolase 4, cytosolic"
+O03042,Ribulose bisphosphate carboxylase large chain
+O04130,"D-3-phosphoglycerate dehydrogenase 2, chloroplastic"
+O04308,"Probable mitochondrial-processing peptidase subunit alpha-2, chloroplastic/mitochondrial"
+O04499,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase 1"
+O04846,"Alpha carbonic anhydrase 1, chloroplastic"
+O04904,"Dihydroorotase, mitochondrial"
+O04905,UMP-CMP kinase 3
+O04983,"Biotin carboxylase, chloroplastic"
+O22048,"Ubiquinol oxidase 1c, mitochondrial"
+O22049,"Ubiquinol oxidase 2, mitochondrial"
+O22229,NADPH-dependent thioredoxin reductase 3
+O22241,"Arogenate dehydratase 4, chloroplastic"
+O22682,"S-sulfo-L-cysteine synthase (O-acetyl-L-serine-dependent), chloroplastic"
+O22718,ATP-citrate synthase alpha chain protein 2
+O22765,Tryptophan synthase alpha chain
+O22769,"NADH dehydrogenase [ubiquinone] flavoprotein 2, mitochondrial"
+O22912,Probable cytochrome c oxidase subunit 5C-1
+O23254,Serine hydroxymethyltransferase 4
+O23255,Adenosylhomocysteinase 1
+O23324,"ATP-sulfurylase 3, chloroplastic"
+O23346,"Imidazoleglycerol-phosphate dehydratase 2, chloroplastic"
+O23404,"Pyruvate, phosphate dikinase 1, chloroplastic"
+O23553,"Beta-amylase 3, chloroplastic"
+O23653,"Aspartokinase 2, chloroplastic"
+O23913,"Ubiquinol oxidase 1b, mitochondrial"
+O48946,Cellulose synthase A catalytic subunit 1 [UDP-forming]
+O48947,Cellulose synthase A catalytic subunit 2 [UDP-forming]
+O49299,"Probable phosphoglucomutase, cytoplasmic 1"
+O49347,"Photosystem II reaction center proteins PsbY, chloroplastic"
+O49485,"D-3-phosphoglycerate dehydrogenase 1, chloroplastic"
+O49506,Glycolate oxidase 3
+O50008,5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase 1
+O50039,"Ornithine transcarbamylase, chloroplastic"
+O64753,CTP synthase
+O64767,"AICARFT/IMPCHase bienzyme family protein, Putative phosphoribosylaminoimidazolecarboxamide formyltransferase"
+O64888,"Ribose-phosphate pyrophosphokinase 5, chloroplastic"
+O64903,"Nucleoside diphosphate kinase II, chloroplastic"
+O65258,"Beta-amylase 2, chloroplastic"
+O65396,"Aminomethyltransferase, mitochondrial"
+O65581,"Fructose-bisphosphate aldolase 5, cytosolic"
+O80452,AMP deaminase
+O80526,ATP-citrate synthase alpha chain protein 3
+O80574,"4-hydroxy-tetrahydrodipicolinate reductase 1, chloroplastic"
+O80585,Methylenetetrahydrofolate reductase (NADH) 2
+O80634,"Photosynthetic NDH subunit of lumenal location 1, chloroplastic"
+O80738,"Probable alpha,alpha-trehalose-phosphate synthase [UDP-forming] 10"
+O80874,"Internal alternative NAD(P)H-ubiquinone oxidoreductase A2, mitochondrial"
+O80988,"Glycine dehydrogenase (decarboxylating) 2, mitochondrial"
+O81796,"Isocitrate dehydrogenase [NAD] regulatory subunit 3, mitochondrial"
+O81852,"Bifunctional aspartokinase/homoserine dehydrogenase 2, chloroplastic"
+O82191,NADP-dependent malic enzyme 1
+O82399,"Malate dehydrogenase 1, peroxisomal"
+O82514,Adenylate kinase 4
+O82662,"Succinate--CoA ligase [ADP-forming] subunit beta, mitochondrial"
+O82663,"Succinate dehydrogenase [ubiquinone] flavoprotein subunit 1, mitochondrial"
+O82768,"Histidine biosynthesis bifunctional protein hisIE, chloroplastic"
+O82782,"1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase HISN3, chloroplastic"
+O82793,Soluble inorganic pyrophosphatase 3
+O82796,"Phosphoserine phosphatase, chloroplastic"
+P05466,"3-phosphoshikimate 1-carboxyvinyltransferase, chloroplastic"
+P09468,"ATP synthase epsilon chain, chloroplastic"
+P0CC32,"NAD(P)H-quinone oxidoreductase subunit 2 A, chloroplastic"
+P0CC33,"NAD(P)H-quinone oxidoreductase subunit 2 B, chloroplastic"
+P0DI07,"Histidinol-phosphate aminotransferase 2, chloroplastic"
+P0DKC3,"Phosphoglycolate phosphatase 1A, chloroplastic"
+P0DKC4,"Phosphoglycolate phosphatase 1B, chloroplastic"
+P0DKI0,"Succinate dehydrogenase subunit 3-1, mitochondrial"
+P0DKI1,"Succinate dehydrogenase subunit 3-2, mitochondrial"
+P10795,"Ribulose bisphosphate carboxylase small subunit 1A, chloroplastic"
+P10796,"Ribulose bisphosphate carboxylase small subunit 1B, chloroplastic"
+P10797,"Ribulose bisphosphate carboxylase small subunit 2B, chloroplastic"
+P10798,"Ribulose bisphosphate carboxylase small subunit 3B, chloroplastic"
+P11035,Nitrate reductase [NADH] 2
+P11832,Nitrate reductase [NADH] 1
+P14671,"Tryptophan synthase beta chain 1, chloroplastic"
+P17562,S-adenosylmethionine synthase 2
+P17597,"Acetolactate synthase, chloroplastic"
+P19366,"ATP synthase subunit beta, chloroplastic"
+P20115,"Citrate synthase 4, mitochondrial"
+P21216,Soluble inorganic pyrophosphatase 2
+P22197,"Fructose-bisphosphate aldolase 7, cytosolic"
+P23321,"Oxygen-evolving enhancer protein 1-1, chloroplastic"
+P23686,S-adenosylmethionine synthase 1
+P25269,"Tryptophan synthase beta chain 2, chloroplastic"
+P25696,Bifunctional enolase 2/transcriptional activator
+P25697,"Phosphoribulokinase, chloroplastic"
+P25819,Catalase-2
+P25851,"Fructose-1,6-bisphosphatase 1, chloroplastic"
+P25853,Beta-amylase 5
+P25856,"Glyceraldehyde-3-phosphate dehydrogenase GAPA1, chloroplastic"
+P25857,"Glyceraldehyde-3-phosphate dehydrogenase GAPB, chloroplastic"
+P25858,"Glyceraldehyde-3-phosphate dehydrogenase GAPC1, cytosolic"
+P26288,"NAD(P)H-quinone oxidoreductase chain 4, chloroplastic"
+P26289,"NAD(P)H-quinone oxidoreductase subunit 4L, chloroplastic"
+P27140,"Beta carbonic anhydrase 1, chloroplastic"
+P27202,"Photosystem II 10 kDa polypeptide, chloroplastic"
+P28297,Isocitrate lyase
+P29976,"Phospho-2-dehydro-3-deoxyheptonate aldolase 1, chloroplastic"
+P31166,"Adenine phosphoribosyltransferase 1, chloroplastic"
+P32068,"Anthranilate synthase alpha subunit 1, chloroplastic"
+P32069,"Anthranilate synthase alpha subunit 2, chloroplastic"
+P32746,"Dihydroorotate dehydrogenase (quinone), mitochondrial"
+P34047,"Imidazoleglycerol-phosphate dehydratase 1, chloroplastic"
+P34795,"Glucose-6-phosphate isomerase, cytosolic"
+P38025,"Phosphoribosylaminoimidazole-succinocarboxamide synthase, chloroplastic"
+P39207,Nucleoside diphosphate kinase 1
+P42737,"Beta carbonic anhydrase 2, chloroplastic"
+P42738,"Chorismate mutase 1, chloroplastic"
+P42770,"Glutathione reductase, chloroplastic"
+P42792,Cytochrome b
+P46248,"Aspartate aminotransferase, chloroplastic"
+P46283,"Sedoheptulose-1,7-bisphosphatase, chloroplastic"
+P46637,"Arginase 1, mitochondrial"
+P46643,"Aspartate aminotransferase, mitochondrial"
+P46644,"Aspartate aminotransferase 3, chloroplastic"
+P46645,"Aspartate aminotransferase, cytoplasmic isozyme 1"
+P46646,"Aspartate aminotransferase, cytoplasmic isozyme 2"
+P47996,Inosine-5'-monophosphate dehydrogenase 1
+P47998,Cysteine synthase 1
+P47999,"Cysteine synthase, chloroplastic/chromoplastic"
+P48491,"Triosephosphate isomerase, cytosolic"
+P49040,Sucrose synthase 1
+P49077,"Aspartate carbamoyltransferase, chloroplastic"
+P49078,Asparagine synthetase [glutamine-hydrolyzing] 1
+P49107,"Photosystem I reaction center subunit N, chloroplastic"
+P49572,"Indole-3-glycerol phosphate synthase, chloroplastic"
+P50287,Isoaspartyl peptidase/L-asparaginase 1
+P50318,"Phosphoglycerate kinase 2, chloroplastic"
+P50651,Ribonucleoside-diphosphate reductase small chain A
+P52420,"Phosphoribosylamine--glycine ligase, chloroplastic"
+P52422,"Phosphoribosylglycinamide formyltransferase, chloroplastic"
+P52901,"Pyruvate dehydrogenase E1 component subunit alpha-1, mitochondrial"
+P53780,"Cystathionine beta-lyase, chloroplastic"
+P54887,Delta-1-pyrroline-5-carboxylate synthase A
+P54888,Delta-1-pyrroline-5-carboxylate synthase B
+P54904,Pyrroline-5-carboxylate reductase
+P55217,"Cystathionine gamma-synthase 1, chloroplastic"
+P55228,"Glucose-1-phosphate adenylyltransferase small subunit, chloroplastic"
+P55229,"Glucose-1-phosphate adenylyltransferase large subunit 1, chloroplastic"
+P55230,"Glucose-1-phosphate adenylyltransferase large subunit 2, chloroplastic"
+P55231,"Glucose-1-phosphate adenylyltransferase large subunit 3, chloroplastic"
+P56751,"NAD(P)H-quinone oxidoreductase subunit 3, chloroplastic"
+P56752,"NAD(P)H-quinone oxidoreductase subunit 5, chloroplastic"
+P56753,"NAD(P)H-quinone oxidoreductase subunit H, chloroplastic"
+P56754,"NAD(P)H-quinone oxidoreductase subunit J, chloroplastic"
+P56755,"NAD(P)H-quinone oxidoreductase subunit I, chloroplastic"
+P56756,"NAD(P)H-quinone oxidoreductase subunit K, chloroplastic"
+P56757,"ATP synthase subunit alpha, chloroplastic"
+P56758,"ATP synthase subunit a, chloroplastic"
+P56759,"ATP synthase subunit b, chloroplastic"
+P56760,"ATP synthase subunit c, chloroplastic"
+P56761,Photosystem II D2 protein
+P56765,"Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta, chloroplastic"
+P56766,Photosystem I P700 chlorophyll a apoprotein A1
+P56767,Photosystem I P700 chlorophyll a apoprotein A2
+P56768,Photosystem I reaction center subunit VIII
+P56769,Photosystem I reaction center subunit IX
+P56771,Cytochrome f
+P56773,Cytochrome b6
+P56774,Cytochrome b6-f complex subunit 4
+P56775,Cytochrome b6-f complex subunit 5
+P56776,Cytochrome b6-f complex subunit 6
+P56777,Photosystem II CP47 reaction center protein
+P56778,Photosystem II CP43 reaction center protein
+P56779,Cytochrome b559 subunit alpha
+P56780,Photosystem II reaction center protein H
+P56781,Photosystem II reaction center protein J
+P56782,Photosystem II reaction center protein K
+P56790,Photosystem II reaction center protein Z
+P57106,"Malate dehydrogenase 2, cytoplasmic"
+P57720,"Chorismate synthase, chloroplastic"
+P57751,UTP--glucose-1-phosphate uridylyltransferase 1
+P60112,"ATP synthase subunit 9, mitochondrial"
+P60129,Photosystem II reaction center protein L
+P60497,NADH-ubiquinone oxidoreductase chain 6
+P60620,Cytochrome c oxidase subunit 1
+P61039,Cytochrome b6-f complex subunit 8
+P61839,Photosystem II reaction center protein T
+P62090,Photosystem I iron-sulfur center
+P62095,Cytochrome b559 subunit beta
+P62100,Photosystem II reaction center protein I
+P62109,Photosystem II reaction center protein M
+P62113,Protein PsbN
+P68209,"Succinate--CoA ligase [ADP-forming] subunit alpha-1, mitochondrial"
+P83483,"ATP synthase subunit beta-1, mitochondrial"
+P83484,"ATP synthase subunit beta-2, mitochondrial"
+P83755,Photosystem II protein D1
+P92533,NADH-ubiquinone oxidoreductase chain 3
+P92547,ATP synthase subunit a-2
+P92549,"ATP synthase subunit alpha, mitochondrial"
+P92979,"5'-adenylylsulfate reductase 1, chloroplastic"
+P92980,"5'-adenylylsulfate reductase 3, chloroplastic"
+P92981,"5'-adenylylsulfate reductase 2, chloroplastic"
+P92983,"Proline dehydrogenase 1, mitochondrial"
+P93032,"Isocitrate dehydrogenase [NAD] regulatory subunit 2, mitochondrial"
+P93033,"Fumarate hydratase 1, mitochondrial"
+P93285,Cytochrome c oxidase subunit 2
+P93306,NADH dehydrogenase [ubiquinone] iron-sulfur protein 2
+P93313,NADH-ubiquinone oxidoreductase chain 4
+P93757,Guanylate kinase 1
+P93819,"Malate dehydrogenase 1, cytoplasmic"
+P93832,"3-isopropylmalate dehydrogenase 2, chloroplastic"
+P93834,Hexokinase-2
+Q00218,"Phospho-2-dehydro-3-deoxyheptonate aldolase 2, chloroplastic"
+Q00917,Sucrose synthase 2
+Q01908,"ATP synthase gamma chain 1, chloroplastic"
+Q01909,"ATP synthase gamma chain 2, chloroplastic"
+Q02166,"Anthranilate phosphoribosyltransferase, chloroplastic"
+Q04613,ATP synthase protein MI25
+Q04614,NADH-ubiquinone oxidoreductase chain 4L
+Q05728,"Phosphoribosylformylglycinamidine cyclo-ligase, chloroplastic"
+Q05758,"Ketol-acid reductoisomerase, chloroplastic"
+Q05762,Bifunctional dihydrofolate reductase-thymidylate synthase 1
+Q0WNZ5,"5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase 3, chloroplastic"
+Q0WQF7,"Dihydrolipoyllysine-residue acetyltransferase component 1 of pyruvate dehydrogenase complex, mitochondrial"
+Q0WRY1,CTP synthase
+Q0WSF1,Aldehyde dehydrogenase 22A1
+Q0WVX5,"Probable starch synthase 4, chloroplastic/amyloplastic"
+Q0WW55,Thymidylate kinase
+Q0WWE3,"Cytochrome b-c1 complex subunit 6-1, mitochondrial"
+Q1JPL4,"External alternative NAD(P)H-ubiquinone oxidoreductase B1, mitochondrial"
+Q1WIQ6,NADP-dependent glyceraldehyde-3-phosphate dehydrogenase
+Q24JJ8,Peroxisomal (S)-2-hydroxyacid oxidase GLO3
+Q2PGG3,Serine racemase
+Q2V2S7,"NAD(P)H-quinone oxidoreductase subunit M, chloroplastic"
+Q37165,"NAD(P)H-quinone oxidoreductase subunit 1, chloroplastic"
+Q38799,"Pyruvate dehydrogenase E1 component subunit beta-1, mitochondrial"
+Q38946,Glutamate dehydrogenase 2
+Q39161,"Ferredoxin--nitrite reductase, chloroplastic"
+Q39194,"Photosystem II reaction center W protein, chloroplastic"
+Q39195,"Photosystem II 5 kDa protein, chloroplastic"
+Q39218,"Serine acetyltransferase 3, mitochondrial"
+Q39219,"Ubiquinol oxidase 1a, mitochondrial"
+Q39242,Thioredoxin reductase 2
+Q39243,"Thioredoxin reductase 1, mitochondrial"
+Q3E870,"Succinate dehydrogenase subunit 7B, mitochondrial"
+Q41932,"Oxygen-evolving enhancer protein 3-2, chloroplastic"
+Q42029,"Oxygen-evolving enhancer protein 2-1, chloroplastic"
+Q42290,"Probable mitochondrial-processing peptidase subunit beta, mitochondrial"
+Q42440,"N-(5'-phosphoribosyl)anthranilate isomerase 1, chloroplastic"
+Q42472,Glutamate decarboxylase 2
+Q42521,Glutamate decarboxylase 1
+Q42527,"N-(5'-phosphoribosyl)anthranilate isomerase 2, chloroplastic"
+Q42529,"Tryptophan synthase alpha chain, chloroplastic"
+Q42533,"Biotin carboxyl carrier protein of acetyl-CoA carboxylase 1, chloroplastic"
+Q42538,Serine acetyltransferase 5
+Q42547,Catalase-3
+Q42560,Aconitate hydratase 1
+Q42563,Adenine phosphoribosyltransferase 2
+Q42577,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 7, mitochondrial"
+Q42581,"Ribose-phosphate pyrophosphokinase 1, chloroplastic"
+Q42583,"Ribose-phosphate pyrophosphokinase 2, chloroplastic"
+Q42586,Uridine 5'-monophosphate synthase
+Q42588,"Serine acetyltransferase 1, chloroplastic"
+Q42599,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 8-A, mitochondrial"
+Q42601,"Carbamoyl phosphate synthase arginine-specific large chain, chloroplastic"
+Q43127,"Glutamine synthetase, chloroplastic/mitochondrial"
+Q43314,Glutamate dehydrogenase 1
+Q43727,"Glucose-6-phosphate 1-dehydrogenase 1, chloroplastic"
+Q43870,ATP sulfurylase 2
+Q56WN1,Glutamine synthetase cytosolic isozyme 1-1
+Q56X52,"Ubiquinol oxidase 4, chloroplastic/chromoplastic"
+Q56YA5,Serine--glyoxylate aminotransferase
+Q56YU0,Aldehyde dehydrogenase family 2 member C4
+Q5E924,"Glyceraldehyde-3-phosphate dehydrogenase GAPCP2, chloroplastic"
+Q5GM68,Phosphoenolpyruvate carboxylase 2
+Q5HZ05,Probable trehalose-phosphate phosphatase J
+Q5M729,"Dihydrolipoyllysine-residue acetyltransferase component 3 of pyruvate dehydrogenase complex, mitochondrial"
+Q67X99,Probable trehalose-phosphate phosphatase E
+Q67XC9,Probable trehalose-phosphate phosphatase D
+Q67XD9,Alkaline/neutral invertase CINV2
+Q6NKX1,"Proline dehydrogenase 2, mitochondrial"
+Q6NPM8,"Bifunctional phosphatase IMPL2, chloroplastic"
+Q70DU8,Aldehyde dehydrogenase family 3 member H1
+Q70E96,Aldehyde dehydrogenase family 3 member F1
+Q84JA6,Cellulose synthase A catalytic subunit 4 [UDP-forming]
+Q84TI2,phosphoribosylaminoimidazole carboxylase
+Q84VQ4,"NAD(P)H-quinone oxidoreductase subunit U, chloroplastic"
+Q84VW9,Phosphoenolpyruvate carboxylase 3
+Q84WW2,"6-phosphogluconolactonase 3, chloroplastic"
+Q8GSJ1,"ATP phosphoribosyltransferase 2, chloroplastic"
+Q8GVE8,Phosphoenolpyruvate carboxylase 4
+Q8GWA1,"Internal alternative NAD(P)H-ubiquinone oxidoreductase A1, mitochondrial"
+Q8GWG2,Probable trehalose-phosphate phosphatase H
+Q8GWU0,Phosphoglycolate phosphatase 2
+Q8GXG1,Probable isoaspartyl peptidase/L-asparaginase 2
+Q8GXR9,"Alternative NAD(P)H-ubiquinone oxidoreductase C1, chloroplastic/mitochondrial"
+Q8GXW5,Glutamine synthetase cytosolic isozyme 1-5
+Q8GY88,"Shikimate kinase 2, chloroplastic"
+Q8GYY0,Probable aminotransferase ACS12
+Q8H103,"Glucose-6-phosphate isomerase 1, chloroplastic"
+Q8H107,"Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex 2, mitochondrial"
+Q8H1E2,"Malate dehydrogenase [NADP], chloroplastic"
+Q8L743,"Glucose-6-phosphate 1-dehydrogenase 3, chloroplastic"
+Q8L762,Beta-amylase 6
+Q8L778,Cellulose synthase A catalytic subunit 5 [UDP-forming]
+Q8L7R2,Homoserine kinase
+Q8L817,Alpha carbonic anhydrase 7
+Q8LAD0,Probable pyridoxal 5'-phosphate synthase subunit PDX2
+Q8LAD2,"Succinate--CoA ligase [ADP-forming] subunit alpha-2, mitochondrial"
+Q8LAX0,Homocysteine S-methyltransferase 3
+Q8LB01,"4-hydroxy-tetrahydrodipicolinate reductase 2, chloroplastic"
+Q8LB02,"Succinate dehydrogenase [ubiquinone] iron-sulfur subunit 2, mitochondrial"
+Q8LBZ7,"Succinate dehydrogenase [ubiquinone] iron-sulfur subunit 1, mitochondrial"
+Q8LCA1,"Protein CURVATURE THYLAKOID 1B, chloroplastic"
+Q8LCE1,Glutamine synthetase cytosolic isozyme 1-2
+Q8LEE7,"Ubiquinol oxidase 3, mitochondrial"
+Q8LEV7,Probable 6-phosphogluconolactonase 5
+Q8LFC0,"Isocitrate dehydrogenase [NAD] regulatory subunit 1, mitochondrial"
+Q8LG70,Probable 6-phosphogluconolactonase 2
+Q8LG77,"Isocitrate dehydrogenase [NAD] catalytic subunit 6, mitochondrial"
+Q8LPI9,"N-(5'-phosphoribosyl)anthranilate isomerase 3, chloroplastic"
+Q8LPJ5,"Isocitrate dehydrogenase [NADP], chloroplastic/mitochondrial"
+Q8LPK5,Cellulose synthase A catalytic subunit 8 [UDP-forming]
+Q8RU07,"EMBRYO DEFECTIVE 3147, Putative malonyl-CoA"
+Q8RWN9,"Dihydrolipoyllysine-residue acetyltransferase component 2 of pyruvate dehydrogenase complex, mitochondrial"
+Q8RWV0,"Transketolase-1, chloroplastic"
+Q8RXD9,4-alpha-glucanotransferase DPE2
+Q8RXS1,"Photosynthetic NDH subunit of subcomplex B 4, chloroplastic"
+Q8RXU4,Low-specificity L-threonine aldolase 1
+Q8RY94,Adenylosuccinate lyase
+Q8S895,Serine acetyltransferase 2
+Q8VYL1,"Adenylate kinase 5, chloroplastic"
+Q8VYN6,"ATP-dependent 6-phosphofructokinase 5, chloroplastic"
+Q8VYV7,"3-dehydroquinate synthase, chloroplastic"
+Q8VYW2,Inactive beta-amylase 9
+Q8VZC3,"Delta-1-pyrroline-5-carboxylate dehydrogenase 12A1, mitochondrial"
+Q8W2B8,Serine acetyltransferase 4
+Q8W493,"Ferredoxin--NADP reductase, leaf isozyme 2, chloroplastic"
+Q8W4M5,Pyrophosphate--fructose 6-phosphate 1-phosphotransferase subunit beta 1
+Q93V56,Soluble inorganic pyrophosphatase 1
+Q93XN8,Probable sucrose-phosphatase 3b
+Q93Z53,"Plastidial pyruvate kinase 3, chloroplastic"
+Q93Z66,"Ribose-phosphate pyrophosphokinase 3, chloroplastic"
+Q93Z70,"Probable N-acetyl-gamma-glutamyl-phosphate reductase, chloroplastic"
+Q93ZN9,"LL-diaminopimelate aminotransferase, chloroplastic"
+Q93ZW0,"Inactive glucose-6-phosphate 1-dehydrogenase 4, chloroplastic"
+Q941A0,"Succinate dehydrogenase subunit 4, mitochondrial"
+Q941A6,"Succinate dehydrogenase subunit 6, mitochondrial"
+Q941L0,Cellulose synthase A catalytic subunit 3 [UDP-forming]
+Q944G9,"Fructose-bisphosphate aldolase 2, chloroplastic"
+Q944I4,"D-glycerate 3-kinase, chloroplastic"
+Q945K7,"Isocitrate dehydrogenase [NAD] catalytic subunit 5, mitochondrial"
+Q945L0,Cytochrome c oxidase subunit 6b-2
+Q949Q5,Photosystem I subunit O
+Q949X7,"Diaminopimelate decarboxylase 1, chloroplastic"
+Q94A28,"Aconitate hydratase 2, mitochondrial"
+Q94A41,"Alpha-amylase 3, chloroplastic"
+Q94A94,"Diaminopimelate decarboxylase 2, chloroplastic"
+Q94AA4,ATP-dependent 6-phosphofructokinase 3
+Q94AR8,"3-isopropylmalate dehydratase large subunit, chloroplastic"
+Q94B78,"Glycine dehydrogenase (decarboxylating) 1, mitochondrial"
+Q94BT0,Sucrose-phosphate synthase 1
+Q94BV7,"External alternative NAD(P)H-ubiquinone oxidoreductase B2, mitochondrial"
+Q94C74,"Serine hydroxymethyltransferase 2, mitochondrial"
+Q94CE3,"Beta carbonic anhydrase 5, chloroplastic"
+Q94CE4,Beta carbonic anhydrase 4
+Q94CE5,"Gamma-aminobutyrate transaminase POP2, mitochondrial"
+Q94JQ6,Cellulose synthase A catalytic subunit 6 [UDP-forming]
+Q94JS0,"Cytochrome b-c1 complex subunit Rieske-1, mitochondrial"
+Q95695,"NAD(P)H-quinone oxidoreductase subunit 6, chloroplastic"
+Q95748,NADH dehydrogenase [ubiquinone] iron-sulfur protein 3
+Q96250,"ATP synthase subunit gamma, mitochondrial"
+Q96251,"ATP synthase subunit O, mitochondrial"
+Q96252,"ATP synthase subunit delta', mitochondrial"
+Q96253,"ATP synthase subunit epsilon, mitochondrial"
+Q96255,"Phosphoserine aminotransferase 1, chloroplastic"
+Q96528,Catalase-1
+Q96529,"Adenylosuccinate synthetase, chloroplastic"
+Q9ASS6,"Photosynthetic NDH subunit of lumenal location 5, chloroplastic"
+Q9C522,ATP-citrate synthase beta chain protein 1
+Q9C544,"Chorismate mutase 3, chloroplastic"
+Q9C550,"2-isopropylmalate synthase 2, chloroplastic"
+Q9C5A9,"ATP synthase subunit beta-3, mitochondrial"
+Q9C5E8,"Succinate dehydrogenase subunit 7A, mitochondrial"
+Q9C5J7,ATP-dependent 6-phosphofructokinase 7
+Q9C5U8,"Histidinol dehydrogenase, chloroplastic"
+Q9C6F5,"Beta carbonic anhydrase 6, mitochondrial"
+Q9C9C4,"Enolase 1, chloroplastic"
+Q9C9K3,Pyrophosphate--fructose 6-phosphate 1-phosphotransferase subunit alpha 2
+Q9C9W5,"Glycerate dehydrogenase HPR, peroxisomal"
+Q9CA83,"NADP-dependent malic enzyme 4, chloroplastic"
+Q9CA90,Glyoxylate/hydroxypyruvate reductase A HPR2
+Q9CAC5,"NAD(P)H-quinone oxidoreductase subunit L, chloroplastic"
+Q9CAD1,GMP synthase [glutamine-hydrolyzing]
+Q9FFP6,Pyruvate kinase
+Q9FFR3,"6-phosphogluconate dehydrogenase, decarboxylating 3, chloroplastic"
+Q9FG89,"Photosynthetic NDH subunit of subcomplex B 5, chloroplastic"
+Q9FGI6,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 1, mitochondrial"
+Q9FGX1,ATP-citrate synthase beta chain protein 2
+Q9FI53,Fumarate hydratase 2
+Q9FIJ7,"Adenylate kinase 2, chloroplastic"
+Q9FIK0,ATP-dependent 6-phosphofructokinase 2
+Q9FIN1,Probable 6-phosphogluconolactonase 4
+Q9FJ82,"Dihydrodipicolinate reductase-like protein CRR1, chloroplastic"
+Q9FJP9,"Succinate dehydrogenase [ubiquinone] iron-sulfur subunit 3, mitochondrial"
+Q9FJU0,"Malate dehydrogenase 3, cytoplasmic"
+Q9FK35,Adenylate kinase 3
+Q9FKG3,"ATP-dependent 6-phosphofructokinase 4, chloroplastic"
+Q9FKS5,"Cytochrome c1 2, heme protein, mitochondrial"
+Q9FKW6,"Ferredoxin--NADP reductase, leaf isozyme 1, chloroplastic"
+Q9FLB7,"Cytochrome b-c1 complex subunit 8-2, mitochondrial"
+Q9FLH2,"2-oxoglutarate dehydrogenase, mitochondrial"
+Q9FLK2,Probable cytochrome c oxidase subunit 5C-3
+Q9FLQ4,"Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex 1, mitochondrial"
+Q9FLW9,Plastidial pyruvate kinase 2
+Q9FMD9,Glutamine synthetase cytosolic isozyme 1-4
+Q9FMT1,"3-isopropylmalate dehydrogenase 1, chloroplastic"
+Q9FNF2,"Starch synthase 1, chloroplastic/amyloplastic"
+Q9FNJ8,"Arogenate dehydratase 5, chloroplastic"
+Q9FNK4,"Ornithine aminotransferase, mitochondrial"
+Q9FNN1,Pyruvate kinase
+Q9FNN5,"NADH dehydrogenase [ubiquinone] flavoprotein 1, mitochondrial"
+Q9FT52,"ATP synthase subunit d, mitochondrial"
+Q9FVC8,"4-hydroxy-tetrahydrodipicolinate synthase 2, chloroplastic"
+Q9FWA3,"6-phosphogluconate dehydrogenase, decarboxylating 2"
+Q9FX54,"Glyceraldehyde-3-phosphate dehydrogenase GAPC2, cytosolic"
+Q9FX83,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 8-B, mitochondrial"
+Q9FY99,"Glucose-6-phosphate 1-dehydrogenase 2, chloroplastic"
+Q9FYA6,"Branched-chain-amino-acid aminotransferase 5, chloroplastic"
+Q9FYE3,Alpha carbonic anhydrase 3
+Q9FZ57,"Probable alpha,alpha-trehalose-phosphate synthase [UDP-forming] 2"
+Q9LD43,"Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha, chloroplastic"
+Q9LD57,"Phosphoglycerate kinase 1, chloroplastic"
+Q9LDV4,"Alanine aminotransferase 2, mitochondrial"
+Q9LE33,Glyoxylate/hydroxypyruvate reductase HPR3
+Q9LEU8,"Argininosuccinate lyase, chloroplastic"
+Q9LF98,"Fructose-bisphosphate aldolase 8, cytosolic"
+Q9LFF9,Soluble inorganic pyrophosphatase 4
+Q9LFG2,"Diaminopimelate epimerase, chloroplastic"
+Q9LFP0,Adenine phosphoribosyltransferase 5
+Q9LFU1,Asparagine synthetase [glutamine-hydrolyzing] 3
+Q9LIK0,"Plastidial pyruvate kinase 1, chloroplastic"
+Q9LIK9,"ATP sulfurylase 1, chloroplastic"
+Q9LIR4,"Dihydroxy-acid dehydratase, chloroplastic"
+Q9LIR6,"Beta-amylase 1, chloroplastic"
+Q9LJA0,Putative inactive cysteine synthase 2
+Q9LK23,"Glucose-6-phosphate 1-dehydrogenase 5, cytoplasmic"
+Q9LK29,"Cytochrome c1 1, heme protein, mitochondrial"
+Q9LK36,Adenosylhomocysteinase 2
+Q9LKA3,"Malate dehydrogenase 2, mitochondrial"
+Q9LLC1,"Biotin carboxyl carrier protein of acetyl-CoA carboxylase 2, chloroplastic"
+Q9LM13,"2,3-bisphosphoglycerate-dependent phosphoglycerate mutase 1"
+Q9LMI0,"Probable alpha,alpha-trehalose-phosphate synthase [UDP-forming] 7"
+Q9LMR3,"Arogenate dehydrogenase 2, chloroplastic"
+Q9LMX8,Probable 6-phosphogluconolactonase 1
+Q9LPR4,"2-isopropylmalate synthase 1, chloroplastic"
+Q9LPW0,"Glyceraldehyde-3-phosphate dehydrogenase GAPA2, chloroplastic"
+Q9LQ10,Probable aminotransferase ACS10
+Q9LQF2,Alkaline/neutral invertase CINV1
+Q9LQK9,Putative isocitrate dehydrogenase [NAD] subunit-like 4
+Q9LR30,Glutamate--glyoxylate aminotransferase 1
+Q9LRR9,Glycolate oxidase 1
+Q9LRS0,Glycolate oxidase 2
+Q9LSD0,Ribonucleoside-diphosphate reductase small chain C
+Q9LSH2,Glutamate decarboxylase 5
+Q9LT69,"D-3-phosphoglycerate dehydrogenase 3, chloroplastic"
+Q9LTW8,CTP synthase
+Q9LU21,"Photosynthetic NDH subunit of subcomplex B 3, chloroplastic"
+Q9LU95,Pyruvate kinase
+Q9LUT2,S-adenosylmethionine synthase 4
+Q9LV03,"Glutamate synthase 1 [NADH], chloroplastic"
+Q9LV77,Asparagine synthetase [glutamine-hydrolyzing] 2
+Q9LV91,"4-alpha-glucanotransferase DPE1, chloroplastic/amyloplastic"
+Q9LVI8,Glutamine synthetase cytosolic isozyme 1-3
+Q9LVM2,"NAD(P)H-quinone oxidoreductase subunit N, chloroplastic"
+Q9LVW7,"Carbamoyl phosphate synthase small chain, chloroplastic"
+Q9LW15,"Cytochrome c oxidase subunit 5b-1, mitochondrial"
+Q9LXC9,"Soluble inorganic pyrophosphatase 6, chloroplastic"
+Q9LXJ2,"Cytochrome b-c1 complex subunit 9, mitochondrial"
+Q9LXL5,Sucrose synthase 4
+Q9LXS6,"Citrate synthase 2, peroxisomal"
+Q9LYG3,NADP-dependent malic enzyme 2
+Q9LYR2,"Cytochrome b-c1 complex subunit Rieske-2, mitochondrial"
+Q9LYR4,"Aldolase-type TIM barrel family protein, Putative transaldolase, Transaldolase-like protein"
+Q9LYT7,3-isopropylmalate dehydratase small subunit 3
+Q9LYU8,"Aspartokinase 1, chloroplastic"
+Q9LZ66,"Assimilatory sulfite reductase (ferredoxin), chloroplastic"
+Q9LZC3,Malate synthase
+Q9LZG0,Adenosine kinase 2
+Q9LZQ0,Cytochrome c oxidase subunit 5C-2
+Q9LZX6,"4-hydroxy-tetrahydrodipicolinate synthase 1, chloroplastic"
+Q9M044,Pyruvate kinase
+Q9M057,Pyruvate kinase
+Q9M076,ATP-dependent 6-phosphofructokinase 6
+Q9M0F9,ATP-dependent 6-phosphofructokinase 1
+Q9M1B9,Probable fructokinase-4
+Q9M1D3,"Citrate synthase 5, mitochondrial"
+Q9M1W4,Homocysteine S-methyltransferase 2
+Q9M394,"Fructokinase-like 1, chloroplastic"
+Q9M401,"Branched-chain-amino-acid aminotransferase 3, chloroplastic"
+Q9M439,"Branched-chain-amino-acid aminotransferase 2, chloroplastic"
+Q9M5K2,"Dihydrolipoyl dehydrogenase 2, mitochondrial"
+Q9M5K3,"Dihydrolipoyl dehydrogenase 1, mitochondrial"
+Q9M682,Guanylate kinase 2
+Q9M8D3,"Probable phosphoribosylformylglycinamidine synthase, chloroplastic/mitochondrial"
+Q9M8M7,"Acetylornithine aminotransferase, chloroplastic/mitochondrial"
+Q9M9K1,"Probable 2,3-bisphosphoglycerate-independent phosphoglycerate mutase 2"
+Q9M9P3,UTP--glucose-1-phosphate uridylyltransferase 2
+Q9MA79,"Fructose-1,6-bisphosphatase, cytosolic"
+Q9MAC8,"Starch synthase 2, chloroplastic/amyloplastic"
+Q9MAH0,Phosphoenolpyruvate carboxylase 1
+Q9MB58,"6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase"
+Q9S702,"Aspartokinase 3, chloroplastic"
+Q9S714,"Photosystem I reaction center subunit IV B, chloroplastic"
+Q9S726,"Probable ribose-5-phosphate isomerase 3, chloroplastic"
+Q9S757,"Bifunctional L-3-cyanoalanine synthase/cysteine synthase C1, mitochondrial"
+Q9S762,"ATP phosphoribosyltransferase 1, chloroplastic"
+Q9S7A0,Probable glutamate dehydrogenase 3
+Q9S7B5,"Threonine synthase 1, chloroplastic"
+Q9S7D8,"ATP sulfurylase 4, chloroplastic"
+Q9S7E4,"Formate dehydrogenase, chloroplastic/mitochondrial"
+Q9S7E9,Glutamate--glyoxylate aminotransferase 2
+Q9S7H1,"Photosystem I reaction center subunit II-1, chloroplastic"
+Q9S7H4,Chorismate mutase 2
+Q9S7L9,Cytochrome c oxidase subunit 6b-1
+Q9S7N7,"Photosystem I reaction center subunit V, chloroplastic"
+Q9S829,"NAD(P)H-quinone oxidoreductase subunit O, chloroplastic"
+Q9S831,"Photosystem I reaction center subunit IV A, chloroplastic"
+Q9S841,"Oxygen-evolving enhancer protein 1-2, chloroplastic"
+Q9S9N6,"Photosynthetic NDH subunit of subcomplex B 1, chloroplastic"
+Q9SA14,"3-isopropylmalate dehydrogenase 3, chloroplastic"
+Q9SA18,"Bifunctional aspartokinase/homoserine dehydrogenase 1, chloroplastic"
+Q9SA34,Inosine-5'-monophosphate dehydrogenase 2
+Q9SA56,"Photosystem I reaction center subunit II-2, chloroplastic"
+Q9SA96,"Arogenate dehydratase/prephenate dehydratase 1, chloroplastic"
+Q9SAJ4,"Phosphoglycerate kinase 3, cytosolic"
+Q9SAJ6,"Glyceraldehyde-3-phosphate dehydrogenase GAPCP1, chloroplastic"
+Q9SAK4,"Succinate-semialdehyde dehydrogenase, mitochondrial"
+Q9SAU2,"Ribulose-5-phosphate-3-epimerase, chloroplastic"
+Q9SCL7,"Acetylglutamate kinase, chloroplastic"
+Q9SCS3,Phosphoglycerate mutase-like protein 4
+Q9SCY0,"Phosphoglucomutase, chloroplastic"
+Q9SCY3,"Photosynthetic NDH subunit of lumenal location 4, chloroplastic"
+Q9SD76,"Alpha-glucan phosphorylase 2, cytosolic"
+Q9SDL7,Homocysteine S-methyltransferase 1
+Q9SE60,Methylenetetrahydrofolate reductase (NADH) 1
+Q9SF85,Adenosine kinase 1
+Q9SG91,"Cytochrome b-c1 complex subunit 8-1, mitochondrial"
+Q9SGC1,"Probable phosphoglucomutase, cytoplasmic 2"
+Q9SGD6,"Arogenate dehydratase/prephenate dehydratase 6, chloroplastic"
+Q9SGH4,"Photosynthetic NDH subunit of lumenal location 3, chloroplastic"
+Q9SGY2,ATP-citrate synthase alpha chain protein 1
+Q9SH69,"6-phosphogluconate dehydrogenase, decarboxylating 1, chloroplastic"
+Q9SHE8,"Photosystem I reaction center subunit III, chloroplastic"
+Q9SHG0,"Probable alpha,alpha-trehalose-phosphate synthase [UDP-forming] 3"
+Q9SHP0,"Phosphoserine aminotransferase 2, chloroplastic"
+Q9SI61,"Amidophosphoribosyltransferase 1, chloroplastic"
+Q9SIB9,"Aconitate hydratase 3, mitochondrial"
+Q9SID0,Probable fructokinase-1
+Q9SIE1,Bifunctional aspartate aminotransferase and glutamate/aspartate-prephenate aminotransferase
+Q9SIK1,"Probable glucose-1-phosphate adenylyltransferase large subunit, chloroplastic"
+Q9SIU0,"NAD-dependent malic enzyme 1, mitochondrial"
+Q9SJ05,"Shikimate kinase 1, chloroplastic"
+Q9SJ20,Ribonucleoside-diphosphate reductase large subunit
+Q9SJ22,Probable cellulose synthase A catalytic subunit 9 [UDP-forming]
+Q9SJ66,Probable sucrose-phosphatase 2
+Q9SJH7,"Citrate synthase 3, peroxisomal"
+Q9SJL8,S-adenosylmethionine synthase 3
+Q9SJM7,Uridine nucleosidase 1
+Q9SJQ0,Pyruvate kinase
+Q9SJQ9,"Fructose-bisphosphate aldolase 6, cytosolic"
+Q9SJU4,"Fructose-bisphosphate aldolase 1, chloroplastic"
+Q9SJV7,"Cytochrome b-c1 complex subunit 6-2, mitochondrial"
+Q9SKE0,"Succinate dehydrogenase subunit 8, mitochondrial"
+Q9SKJ5,Probable cellulose synthase A catalytic subunit 10 [UDP-forming]
+Q9SKP6,"Triosephosphate isomerase, chloroplastic"
+Q9SKT7,"External alternative NAD(P)H-ubiquinone oxidoreductase B4, mitochondrial"
+Q9SLK0,Peroxisomal isocitrate dehydrogenase [NADP]
+Q9SMS0,"NAD(P)H-quinone oxidoreductase subunit T, chloroplastic"
+Q9SN86,"Malate dehydrogenase, chloroplastic"
+Q9SPK5,Formate--tetrahydrofolate ligase
+Q9SQG2,Apyrase 1
+Q9SQQ7,Pyruvate kinase
+Q9SQT8,"Bifunctional 3-dehydroquinate dehydratase/shikimate dehydrogenase, chloroplastic"
+Q9SR52,Urease
+Q9SR86,"Alanine--glyoxylate aminotransferase 2 homolog 3, mitochondrial"
+Q9SRV5,5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase 2
+Q9SRZ6,Cytosolic isocitrate dehydrogenase [NADP]
+Q9SSB8,"Cytochrome c oxidase subunit 5b-2, mitochondrial"
+Q9SSE7,"Arogenate dehydratase/prephenate dehydratase 2, chloroplastic"
+Q9SSP5,"Threonine synthase 2, chloroplastic"
+Q9SSS9,"ATP synthase subunit delta, chloroplastic"
+Q9STG6,Deoxyuridine 5'-triphosphate nucleotidohydrolase
+Q9STG9,"Amidophosphoribosyltransferase 2, chloroplastic"
+Q9SU38,Adenine phosphoribosyltransferase 4
+Q9SU39,Probable trehalose-phosphate phosphatase F
+Q9SUB4,Alpha carbonic anhydrase 6
+Q9SUD3,Cytochrome c oxidase subunit 6b-3
+Q9SUI4,"Photosystem I reaction center subunit XI, chloroplastic"
+Q9SUI5,"Photosystem I reaction center subunit psaK, chloroplastic"
+Q9SUI6,"Photosystem I reaction center subunit VI-2, chloroplastic"
+Q9SUI7,"Photosystem I reaction center subunit VI-1, chloroplastic"
+Q9SUU5,"Cytochrome b-c1 complex subunit 7-1, mitochondrial"
+Q9SUW0,Probable trehalose-phosphate phosphatase G
+Q9SUW2,Adenine phosphoribosyltransferase 3
+Q9SVM4,Serine hydroxymethyltransferase 5
+Q9SWW6,Cellulose synthase A catalytic subunit 7 [UDP-forming]
+Q9SX77,"Succinate dehydrogenase subunit 5, mitochondrial"
+Q9SXS7,Bifunctional L-3-cyanoalanine synthase/cysteine synthase D2
+Q9SYG7,Aldehyde dehydrogenase family 7 member B4
+Q9SYM4,"Alpha,alpha-trehalose-phosphate synthase [UDP-forming] 1"
+Q9SYP2,Pyrophosphate--fructose 6-phosphate 1-phosphotransferase subunit alpha 1
+Q9SZ30,"Imidazole glycerol phosphate synthase hisHF, chloroplastic"
+Q9SZJ5,"Serine hydroxymethyltransferase 1, mitochondrial"
+Q9SZT8,"Pentatricopeptide repeat-containing protein ELI1, chloroplastic"
+Q9SZX3,"Argininosuccinate synthase, chloroplastic"
+Q9T074,Phosphoenolpyruvate carboxykinase (ATP) 1
+Q9T0A4,"NAD(P)H-quinone oxidoreductase subunit S, chloroplastic"
+Q9T0J5,"Amidophosphoribosyltransferase 3, chloroplastic"
+Q9T0P4,"Ferredoxin-dependent glutamate synthase 2, chloroplastic"
+Q9XF91,"Photosystem II 22 kDa protein, chloroplastic"
+Q9XFT3,"Oxygen-evolving enhancer protein 3-1, chloroplastic"
+Q9XGZ0,NADP-dependent malic enzyme 3
+Q9XI73,"Photosynthetic NDH subunit of lumenal location 2, chloroplastic"
+Q9ZNZ7,"Ferredoxin-dependent glutamate synthase 1, chloroplastic/mitochondrial"
+Q9ZP05,"Malate dehydrogenase 2, peroxisomal"
+Q9ZP06,"Malate dehydrogenase 1, mitochondrial"
+Q9ZPF5,"Arginase 2, chloroplastic/mitochondrial"
+Q9ZPS3,Glutamate decarboxylase 4
+Q9ZPS4,Glutamate decarboxylase 3
+Q9ZPX5,"Succinate dehydrogenase [ubiquinone] flavoprotein subunit 2, mitochondrial"
+Q9ZR03,"Cytochrome b6-f complex iron-sulfur subunit, chloroplastic"
+Q9ZSS6,"Threonine dehydratase biosynthetic, chloroplastic"
+Q9ZU25,"Probable mitochondrial-processing peptidase subunit alpha-1, mitochondrial"
+Q9ZU52,"Fructose-bisphosphate aldolase 3, chloroplastic"
+Q9ZUC2,Beta carbonic anhydrase 3
+Q9ZUR7,"Arginine biosynthesis bifunctional protein ArgJ, chloroplastic"
+Q9ZUU1,"Adenylate kinase 1, chloroplastic"
+Q9ZUY3,"Arogenate dehydratase 3, chloroplastic"
+Q9ZV48,"Probable alpha,alpha-trehalose-phosphate synthase [UDP-forming] 11"
+Q9ZW34,Cytosolic enolase 3
+Q9ZW84,3-isopropylmalate dehydratase small subunit 2
+Q9ZW85,3-isopropylmalate dehydratase small subunit 1
+O48717,"At2g26500, Cytochrome b6f complex subunit (PetM), Expressed protein"

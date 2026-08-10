@@ -1,0 +1,3179 @@
+ModelID,Name,Type
+AlaTA_h,"Ala transaminase",Reaction
+GGAT_h,"Glu:GLX aminotransferase",Reaction
+IPODC_h,"spontaneous",Reaction
+GluSeADA_c,"spontaneous",Reaction
+GluSeADA_h,"spontaneous",Reaction
+GluSeADA_m,"spontaneous",Reaction
+Tr_SO4,"SO4 diffusion",Reaction
+Tr_NO2,"NO2 transporter",Reaction
+Tr_NTT,"Nucleotide transporter",Reaction
+Tr_AAC,"ADP/ATP carrier",Reaction
+Tr_BT11,"Brittle1 protein transporter",Reaction
+Tr_BT12,"Brittle1 protein transporter",Reaction
+Tr_BT13,"Brittle1 protein transporter",Reaction
+Tr_NDT1,"NAD transporter",Reaction
+Tr_NDT2,"NAD transporter",Reaction
+Tr_TPT1,"TP/Pi translocator",Reaction
+Tr_TPT2,"TP/Pi translocator",Reaction
+Tr_TPT3,"TP/Pi translocator",Reaction
+Tr_PPT,"PEP/Pi translocator",Reaction
+Tr_GCA1,"GCA/GCEA shuffle",Reaction
+Tr_GCEA1,"GCA/GCEA shuffle",Reaction
+Tr_GPT1,"G6P exporter",Reaction
+Tr_pGlc,"Glc transporter",Reaction
+Tr_Mex1,"Mas exporter",Reaction
+Tr_PLT5,"Polyol transporter 5",Reaction
+Tr_DIC1,"Dicarboxylate carrier",Reaction
+Tr_DIC2,"Dicarboxylate carrier",Reaction
+Tr_DIT1,"Dicarboxylate transporter",Reaction
+Tr_DIT2,"Dicarboxylate transporter",Reaction
+Tr_DTC1A,"Di-/ri-carboxylate carrier",Reaction
+Tr_DTC1B,"Di-/ri-carboxylate carrier",Reaction
+Tr_DTC1C,"Di-/ri-carboxylate carrier",Reaction
+Tr_DTC2A,"Di-/ri-carboxylate carrier",Reaction
+Tr_DTC2B,"Di-/ri-carboxylate carrier",Reaction
+Tr_DTC2C,"Di-/ri-carboxylate carrier",Reaction
+Tr_DTC3A,"Di-/ri-carboxylate carrier",Reaction
+Tr_DTC3B,"Di-/ri-carboxylate carrier",Reaction
+Tr_DTC3C,"Di-/ri-carboxylate carrier",Reaction
+Tr_DTC4A,"Di-/ri-carboxylate carrier",Reaction
+Tr_DTC4B,"Di-/ri-carboxylate carrier",Reaction
+Tr_DTC4C,"Di-/ri-carboxylate carrier",Reaction
+Tr_SFC,"SCA/Fum carrier",Reaction
+Tr_BAT11,"B0,+-type amino acid transporter 1",Reaction
+Tr_BAT12,"B0,+-type amino acid transporter 1",Reaction
+Tr_BAT13,"B0,+-type amino acid transporter 1",Reaction
+Tr_BAT14,"B0,+-type amino acid transporter 1",Reaction
+Tr_BAT15,"B0,+-type amino acid transporter 1",Reaction
+Tr_BAC1,"Basic amino acid carriers",Reaction
+Tr_BAC2,"Basic amino acid carriers",Reaction
+Tr_ProU,"Pro uniporter",Reaction
+Tr_ProA,"Pro/Glu antiporter",Reaction
+Tr_P5C1,"P5C exporter",Reaction
+Tr_P5C2,"P5C exporter",Reaction
+Tr_PRPP,"PRPP exporter",Reaction
+Tr_Fum,"Fum exporter",Reaction
+Tr_HCys,"H-Cys exporter",Reaction
+Tr_ORO,"ORO exporter",Reaction
+Tr_DHO1,"DHO shuffle",Reaction
+Tr_DHO2,"DHO shuffle",Reaction
+Tr_GlySer,"Gly/Ser shuffle",Reaction
+Tr_O2h,"O2 diffusion",Reaction
+Tr_O2m,"O2 diffusion",Reaction
+Tr_O2p,"O2 diffusion",Reaction
+Tr_CO2h,"CO2 diffusion",Reaction
+Tr_CO2m,"CO2 diffusion",Reaction
+Tr_H2Oh,"H2O diffusion",Reaction
+Tr_H2Om,"H2O diffusion",Reaction
+Tr_H2Op,"H2O diffusion",Reaction
+Tr_Hp,"Proton diffusion",Reaction
+Tr_NH41,"NH4 diffusion",Reaction
+Tr_NH42,"NH4 diffusion",Reaction
+Tr_H2S1,"H2S diffusion",Reaction
+Tr_H2S2,"H2S diffusion",Reaction
+Tr_AC1,"AC diffusion",Reaction
+Tr_AC2,"AC diffusion",Reaction
+Tr_Pyr1,"Pyr diffusion",Reaction
+Tr_Pyr2,"Pyr diffusion",Reaction
+Tr_Pyr3,"Pyr diffusion",Reaction
+Tr_GCA2,"GCA diffusion",Reaction
+Tr_GCEA2,"GCEA diffusion",Reaction
+Tr_Mal,"Mal diffusion",Reaction
+Tr_OAA,"OAA diffusion",Reaction
+Tr_KG,"KG diffusion",Reaction
+Tr_Ala1,"Ala diffusion",Reaction
+Tr_Arg1,"Arg diffusion",Reaction
+Tr_Asn1,"Asn diffusion",Reaction
+Tr_Asp,"Asp diffusion",Reaction
+Tr_Cys,"Cys diffusion",Reaction
+Tr_Glu1,"Glu diffusion",Reaction
+Tr_Gln,"Gln diffusion",Reaction
+Tr_Gly,"Gly diffusion",Reaction
+Tr_His1,"His diffusion",Reaction
+Tr_Ile1,"Ile diffusion",Reaction
+Tr_Leu1,"Leu diffusion",Reaction
+Tr_Lys1,"Lys diffusion",Reaction
+Tr_Met1,"Met diffusion",Reaction
+Tr_Phe1,"Phe diffusion",Reaction
+Tr_Pro1,"Pro diffusion",Reaction
+Tr_Ser1,"Ser diffusion",Reaction
+Tr_Thr1,"Thr diffusion",Reaction
+Tr_Trp1,"Trp diffusion",Reaction
+Tr_Tyr1,"Tyr diffusion",Reaction
+Tr_Val1,"Val diffusion",Reaction
+Tr_Ala2,"Ala exporter",Reaction
+Tr_Arg2,"Arg exporter",Reaction
+Tr_Asn2,"Asn importer",Reaction
+Tr_Asn3,"Asn importer",Reaction
+Tr_Glu2,"Glu importer",Reaction
+Tr_His2,"His exporter",Reaction
+Tr_His3,"His importer",Reaction
+Tr_Ile2,"Ile exporter",Reaction
+Tr_Ile3,"Ile importer",Reaction
+Tr_Leu2,"Leu exporter",Reaction
+Tr_Leu3,"Leu importer",Reaction
+Tr_Lys2,"Lys exporter",Reaction
+Tr_Met2,"Met importer",Reaction
+Tr_Met3,"Met importer",Reaction
+Tr_Phe2,"Phe exporter",Reaction
+Tr_Phe3,"Phe importer",Reaction
+Tr_Pro2,"Pro importer",Reaction
+Tr_Ser2,"Ser exporter",Reaction
+Tr_Ser3,"Ser importer",Reaction
+Tr_Thr2,"Thr exporter",Reaction
+Tr_Thr3,"Thr importer",Reaction
+Tr_Trp2,"Trp exporter",Reaction
+Tr_Trp3,"Trp importer",Reaction
+Tr_Tyr2,"Tyr exporter",Reaction
+Tr_Tyr3,"Tyr importer",Reaction
+Tr_Val2,"Val exporter",Reaction
+Tr_Val3,"Val importer",Reaction
+Im_hnu,"Import Photon",Reaction
+Im_CO2,"Import CO2",Reaction
+Im_H2O,"Import H2O",Reaction
+Im_Pi,"Import Pi",Reaction
+Im_NO3,"Import NO3",Reaction
+Im_NH4,"Import NH4",Reaction
+Im_SO4,"Import SO4",Reaction
+Im_H2S,"Import H2S",Reaction
+Ex_O2,"Export O2",Reaction
+Ex_Ala_c,"Export Ala",Reaction
+Ex_Ala_h,"Export Ala",Reaction
+Ex_Ala_m,"Export Ala",Reaction
+Ex_Ala_p,"Export Ala",Reaction
+Ex_Arg_c,"Export Arg",Reaction
+Ex_Arg_h,"Export Arg",Reaction
+Ex_Arg_m,"Export Arg",Reaction
+Ex_Arg_p,"Export Arg",Reaction
+Ex_Asn_c,"Export Asn",Reaction
+Ex_Asn_h,"Export Asn",Reaction
+Ex_Asn_m,"Export Asn",Reaction
+Ex_Asn_p,"Export Asn",Reaction
+Ex_Asp_c,"Export Asp",Reaction
+Ex_Asp_h,"Export Asp",Reaction
+Ex_Asp_m,"Export Asp",Reaction
+Ex_Asp_p,"Export Asp",Reaction
+Ex_Cys_c,"Export Cys",Reaction
+Ex_Cys_h,"Export Cys",Reaction
+Ex_Cys_m,"Export Cys",Reaction
+Ex_Cys_p,"Export Cys",Reaction
+Ex_Gln_c,"Export Gln",Reaction
+Ex_Gln_h,"Export Gln",Reaction
+Ex_Gln_m,"Export Gln",Reaction
+Ex_Gln_p,"Export Gln",Reaction
+Ex_Glu_c,"Export Glu",Reaction
+Ex_Glu_h,"Export Glu",Reaction
+Ex_Glu_m,"Export Glu",Reaction
+Ex_Glu_p,"Export Glu",Reaction
+Ex_Gly_c,"Export Gly",Reaction
+Ex_Gly_h,"Export Gly",Reaction
+Ex_Gly_m,"Export Gly",Reaction
+Ex_Gly_p,"Export Gly",Reaction
+Ex_His_c,"Export His",Reaction
+Ex_His_h,"Export His",Reaction
+Ex_His_m,"Export His",Reaction
+Ex_His_p,"Export His",Reaction
+Ex_Ile_c,"Export Ile",Reaction
+Ex_Ile_h,"Export Ile",Reaction
+Ex_Ile_m,"Export Ile",Reaction
+Ex_Ile_p,"Export Ile",Reaction
+Ex_Leu_c,"Export Leu",Reaction
+Ex_Leu_h,"Export Leu",Reaction
+Ex_Leu_m,"Export Leu",Reaction
+Ex_Leu_p,"Export Leu",Reaction
+Ex_Lys_c,"Export lys",Reaction
+Ex_Lys_h,"Export lys",Reaction
+Ex_Lys_m,"Export lys",Reaction
+Ex_Lys_p,"Export lys",Reaction
+Ex_Met_c,"Export Met",Reaction
+Ex_Met_h,"Export Met",Reaction
+Ex_Met_m,"Export Met",Reaction
+Ex_Met_p,"Export Met",Reaction
+Ex_Phe_c,"Export Phe",Reaction
+Ex_Phe_h,"Export Phe",Reaction
+Ex_Phe_m,"Export Phe",Reaction
+Ex_Phe_p,"Export Phe",Reaction
+Ex_Pro_c,"Export Pro",Reaction
+Ex_Pro_h,"Export Pro",Reaction
+Ex_Pro_m,"Export Pro",Reaction
+Ex_Pro_p,"Export Pro",Reaction
+Ex_Ser_c,"Export Ser",Reaction
+Ex_Ser_h,"Export Ser",Reaction
+Ex_Ser_m,"Export Ser",Reaction
+Ex_Ser_p,"Export Ser",Reaction
+Ex_Thr_c,"Export Thr",Reaction
+Ex_Thr_h,"Export Thr",Reaction
+Ex_Thr_m,"Export Thr",Reaction
+Ex_Thr_p,"Export Thr",Reaction
+Ex_Trp_c,"Export Trp",Reaction
+Ex_Trp_h,"Export Trp",Reaction
+Ex_Trp_m,"Export Trp",Reaction
+Ex_Trp_p,"Export Trp",Reaction
+Ex_Tyr_c,"Export Tyr",Reaction
+Ex_Tyr_h,"Export Tyr",Reaction
+Ex_Tyr_m,"Export Tyr",Reaction
+Ex_Tyr_p,"Export Tyr",Reaction
+Ex_Val_c,"Export Val",Reaction
+Ex_Val_h,"Export Val",Reaction
+Ex_Val_m,"Export Val",Reaction
+Ex_Val_p,"Export Val",Reaction
+Ex_starch,"Export starch",Reaction
+Ex_Glc,"Export glucose",Reaction
+Ex_Frc,"Export fructose",Reaction
+Ex_Suc,"Export sucrose",Reaction
+Ex_cellulose,"Export cell wall precursor",Reaction
+Ex_Mas,"Export maltose",Reaction
+Ex_MACP,"Export fatty acid precursor",Reaction
+Ex_Tre,"Export signaling precursor",Reaction
+NGAM_c,"Maintenance",Reaction
+NGAM_h,"Maintenance",Reaction
+NGAM_m,"Maintenance",Reaction
+Bio_AA,"Amino acid composition",Reaction
+Bio_CLim,"Carbon limiting biomass",Reaction
+Bio_NLim,"Nitrogen limiting biomass",Reaction
+Bio_opt,"Light limiting biomass",Reaction
+Tr_HPR1,"Hydroxypyruvate transporter",Reaction
+Tr_Asp_OAA_h,"Asp/OAA transporter",Reaction
+Tr_DIT1_OAA_h,"Dicarboxylate transporter",Reaction
+Tr_H_Na_h,"H/Na translocation",Reaction
+Tr_Pi_h,"Pi/H translocation",Reaction
+Tr_Pyr_H_h,"Pyr/H translocator",Reaction
+Tr_Pyr_Mal_h,"Mal/Pyr translocator",Reaction
+Tr_Pyr_Na_h,"Pyr/Na translocator",Reaction
+Tr_THF_h,"folate transporter",Reaction
+Tr_Asp_Glu_m,"Glu/Asp translocator",Reaction
+Tr_Asp_m,"Asp transport",Reaction
+Tr_Cit_iCit_m,"Cit/iCit translocator",Reaction
+Tr_DIC4_m,"Dicarboxylate carrier",Reaction
+Tr_KG_Mal_m,"KG/Mal translocator",Reaction
+Tr_PIC_m,"Pi/H translocation",Reaction
+Tr_DTC5_m,"Dicarboxylate transporter",Reaction
+Tr_UCP_m,"mitochondrial uncoupling protein (proton translocating)",Reaction
+Tr_PXN3_p,"nicotinamide adenine dinucleotide carrier",Reaction
+Tr_SCA_p,"succinate transport",Reaction
+Tr_iCit_p,"isocitrate transport",Reaction
+Si_H_c,"Proton sink/source for charge balancing of im-/export",Reaction
+Si_H_h,"Proton sink/source for charge balancing of im-/export",Reaction
+Si_H_m,"Proton sink/source for charge balancing of im-/export",Reaction
+Si_H_p,"Proton sink/source for charge balancing of im-/export",Reaction
+PGR5PGRL11_h,"proton gradient regulation 5 (PGR5)/PGR5-like photosynthetic phenotype 1 (PGRL1) complex",Reaction
+PGR5PGRL12_h,"proton gradient regulation 5 (PGR5)/PGR5-like photosynthetic phenotype 1 (PGRL1) complex",Reaction
+protein,"protein pseudoreaction",Reaction
+DNA,"DNA pseudoreaction",Reaction
+RNA,"RNA pseudoreaction",Reaction
+carbohydrate,"carbohydrate pseudoreaction",Reaction
+lipid,"lipid pseudoreaction",Reaction
+AlaTA_h_REV,"Ala transaminase (reversible)",Reaction
+Tr_SO4_REV,"SO4 diffusion (reversible)",Reaction
+Tr_NDT1_REV,"NAD transporter (reversible)",Reaction
+Tr_NDT2_REV,"NAD transporter (reversible)",Reaction
+Tr_TPT1_REV,"TP/Pi translocator (reversible)",Reaction
+Tr_TPT2_REV,"TP/Pi translocator (reversible)",Reaction
+Tr_TPT3_REV,"TP/Pi translocator (reversible)",Reaction
+Tr_DIC1_REV,"Dicarboxylate carrier (reversible)",Reaction
+Tr_DIC2_REV,"Dicarboxylate carrier (reversible)",Reaction
+Tr_DTC1A_REV,"Di-/ri-carboxylate carrier (reversible)",Reaction
+Tr_DTC1B_REV,"Di-/ri-carboxylate carrier (reversible)",Reaction
+Tr_DTC1C_REV,"Di-/ri-carboxylate carrier (reversible)",Reaction
+Tr_DTC2A_REV,"Di-/ri-carboxylate carrier (reversible)",Reaction
+Tr_DTC2B_REV,"Di-/ri-carboxylate carrier (reversible)",Reaction
+Tr_DTC2C_REV,"Di-/ri-carboxylate carrier (reversible)",Reaction
+Tr_DTC3A_REV,"Di-/ri-carboxylate carrier (reversible)",Reaction
+Tr_DTC3B_REV,"Di-/ri-carboxylate carrier (reversible)",Reaction
+Tr_DTC3C_REV,"Di-/ri-carboxylate carrier (reversible)",Reaction
+Tr_DTC4A_REV,"Di-/ri-carboxylate carrier (reversible)",Reaction
+Tr_DTC4B_REV,"Di-/ri-carboxylate carrier (reversible)",Reaction
+Tr_DTC4C_REV,"Di-/ri-carboxylate carrier (reversible)",Reaction
+Tr_BAT11_REV,"B0,+-type amino acid transporter 1 (reversible)",Reaction
+Tr_BAT12_REV,"B0,+-type amino acid transporter 1 (reversible)",Reaction
+Tr_BAT13_REV,"B0,+-type amino acid transporter 1 (reversible)",Reaction
+Tr_BAT14_REV,"B0,+-type amino acid transporter 1 (reversible)",Reaction
+Tr_BAT15_REV,"B0,+-type amino acid transporter 1 (reversible)",Reaction
+Tr_O2h_REV,"O2 diffusion (reversible)",Reaction
+Tr_O2m_REV,"O2 diffusion (reversible)",Reaction
+Tr_O2p_REV,"O2 diffusion (reversible)",Reaction
+Tr_CO2h_REV,"CO2 diffusion (reversible)",Reaction
+Tr_CO2m_REV,"CO2 diffusion (reversible)",Reaction
+Tr_H2Oh_REV,"H2O diffusion (reversible)",Reaction
+Tr_H2Om_REV,"H2O diffusion (reversible)",Reaction
+Tr_H2Op_REV,"H2O diffusion (reversible)",Reaction
+Tr_Hp_REV,"Proton diffusion (reversible)",Reaction
+Tr_NH41_REV,"NH4 diffusion (reversible)",Reaction
+Tr_NH42_REV,"NH4 diffusion (reversible)",Reaction
+Tr_H2S1_REV,"H2S diffusion (reversible)",Reaction
+Tr_H2S2_REV,"H2S diffusion (reversible)",Reaction
+Tr_AC1_REV,"AC diffusion (reversible)",Reaction
+Tr_AC2_REV,"AC diffusion (reversible)",Reaction
+Tr_Pyr1_REV,"Pyr diffusion (reversible)",Reaction
+Tr_Pyr2_REV,"Pyr diffusion (reversible)",Reaction
+Tr_Pyr3_REV,"Pyr diffusion (reversible)",Reaction
+Tr_GCA2_REV,"GCA diffusion (reversible)",Reaction
+Tr_GCEA2_REV,"GCEA diffusion (reversible)",Reaction
+Tr_Mal_REV,"Mal diffusion (reversible)",Reaction
+Tr_OAA_REV,"OAA diffusion (reversible)",Reaction
+Tr_KG_REV,"KG diffusion (reversible)",Reaction
+Tr_Ala1_REV,"Ala diffusion (reversible)",Reaction
+Tr_Arg1_REV,"Arg diffusion (reversible)",Reaction
+Tr_Asn1_REV,"Asn diffusion (reversible)",Reaction
+Tr_Asp_REV,"Asp diffusion (reversible)",Reaction
+Tr_Cys_REV,"Cys diffusion (reversible)",Reaction
+Tr_Glu1_REV,"Glu diffusion (reversible)",Reaction
+Tr_Gln_REV,"Gln diffusion (reversible)",Reaction
+Tr_Gly_REV,"Gly diffusion (reversible)",Reaction
+Tr_His1_REV,"His diffusion (reversible)",Reaction
+Tr_Ile1_REV,"Ile diffusion (reversible)",Reaction
+Tr_Leu1_REV,"Leu diffusion (reversible)",Reaction
+Tr_Lys1_REV,"Lys diffusion (reversible)",Reaction
+Tr_Met1_REV,"Met diffusion (reversible)",Reaction
+Tr_Phe1_REV,"Phe diffusion (reversible)",Reaction
+Tr_Pro1_REV,"Pro diffusion (reversible)",Reaction
+Tr_Ser1_REV,"Ser diffusion (reversible)",Reaction
+Tr_Thr1_REV,"Thr diffusion (reversible)",Reaction
+Tr_Trp1_REV,"Trp diffusion (reversible)",Reaction
+Tr_Tyr1_REV,"Tyr diffusion (reversible)",Reaction
+Tr_Val1_REV,"Val diffusion (reversible)",Reaction
+Im_hnu_REV,"Import Photon (reversible)",Reaction
+Im_CO2_REV,"Import CO2 (reversible)",Reaction
+Im_H2O_REV,"Import H2O (reversible)",Reaction
+Im_NH4_REV,"Import NH4 (reversible)",Reaction
+Im_H2S_REV,"Import H2S (reversible)",Reaction
+Ex_O2_REV,"Export O2 (reversible)",Reaction
+Ex_Ala_c_REV,"Export Ala (reversible)",Reaction
+Ex_Ala_h_REV,"Export Ala (reversible)",Reaction
+Ex_Ala_m_REV,"Export Ala (reversible)",Reaction
+Ex_Ala_p_REV,"Export Ala (reversible)",Reaction
+Ex_Arg_c_REV,"Export Arg (reversible)",Reaction
+Ex_Arg_h_REV,"Export Arg (reversible)",Reaction
+Ex_Arg_m_REV,"Export Arg (reversible)",Reaction
+Ex_Arg_p_REV,"Export Arg (reversible)",Reaction
+Ex_Asn_c_REV,"Export Asn (reversible)",Reaction
+Ex_Asn_h_REV,"Export Asn (reversible)",Reaction
+Ex_Asn_m_REV,"Export Asn (reversible)",Reaction
+Ex_Asn_p_REV,"Export Asn (reversible)",Reaction
+Ex_Asp_c_REV,"Export Asp (reversible)",Reaction
+Ex_Asp_h_REV,"Export Asp (reversible)",Reaction
+Ex_Asp_m_REV,"Export Asp (reversible)",Reaction
+Ex_Asp_p_REV,"Export Asp (reversible)",Reaction
+Ex_Cys_c_REV,"Export Cys (reversible)",Reaction
+Ex_Cys_h_REV,"Export Cys (reversible)",Reaction
+Ex_Cys_m_REV,"Export Cys (reversible)",Reaction
+Ex_Cys_p_REV,"Export Cys (reversible)",Reaction
+Ex_Gln_c_REV,"Export Gln (reversible)",Reaction
+Ex_Gln_h_REV,"Export Gln (reversible)",Reaction
+Ex_Gln_m_REV,"Export Gln (reversible)",Reaction
+Ex_Gln_p_REV,"Export Gln (reversible)",Reaction
+Ex_Glu_c_REV,"Export Glu (reversible)",Reaction
+Ex_Glu_h_REV,"Export Glu (reversible)",Reaction
+Ex_Glu_m_REV,"Export Glu (reversible)",Reaction
+Ex_Glu_p_REV,"Export Glu (reversible)",Reaction
+Ex_Gly_c_REV,"Export Gly (reversible)",Reaction
+Ex_Gly_h_REV,"Export Gly (reversible)",Reaction
+Ex_Gly_m_REV,"Export Gly (reversible)",Reaction
+Ex_Gly_p_REV,"Export Gly (reversible)",Reaction
+Ex_His_c_REV,"Export His (reversible)",Reaction
+Ex_His_h_REV,"Export His (reversible)",Reaction
+Ex_His_m_REV,"Export His (reversible)",Reaction
+Ex_His_p_REV,"Export His (reversible)",Reaction
+Ex_Ile_c_REV,"Export Ile (reversible)",Reaction
+Ex_Ile_h_REV,"Export Ile (reversible)",Reaction
+Ex_Ile_m_REV,"Export Ile (reversible)",Reaction
+Ex_Ile_p_REV,"Export Ile (reversible)",Reaction
+Ex_Leu_c_REV,"Export Leu (reversible)",Reaction
+Ex_Leu_h_REV,"Export Leu (reversible)",Reaction
+Ex_Leu_m_REV,"Export Leu (reversible)",Reaction
+Ex_Leu_p_REV,"Export Leu (reversible)",Reaction
+Ex_Lys_c_REV,"Export lys (reversible)",Reaction
+Ex_Lys_h_REV,"Export lys (reversible)",Reaction
+Ex_Lys_m_REV,"Export lys (reversible)",Reaction
+Ex_Lys_p_REV,"Export lys (reversible)",Reaction
+Ex_Met_c_REV,"Export Met (reversible)",Reaction
+Ex_Met_h_REV,"Export Met (reversible)",Reaction
+Ex_Met_m_REV,"Export Met (reversible)",Reaction
+Ex_Met_p_REV,"Export Met (reversible)",Reaction
+Ex_Phe_c_REV,"Export Phe (reversible)",Reaction
+Ex_Phe_h_REV,"Export Phe (reversible)",Reaction
+Ex_Phe_m_REV,"Export Phe (reversible)",Reaction
+Ex_Phe_p_REV,"Export Phe (reversible)",Reaction
+Ex_Pro_c_REV,"Export Pro (reversible)",Reaction
+Ex_Pro_h_REV,"Export Pro (reversible)",Reaction
+Ex_Pro_m_REV,"Export Pro (reversible)",Reaction
+Ex_Pro_p_REV,"Export Pro (reversible)",Reaction
+Ex_Ser_c_REV,"Export Ser (reversible)",Reaction
+Ex_Ser_h_REV,"Export Ser (reversible)",Reaction
+Ex_Ser_m_REV,"Export Ser (reversible)",Reaction
+Ex_Ser_p_REV,"Export Ser (reversible)",Reaction
+Ex_Thr_c_REV,"Export Thr (reversible)",Reaction
+Ex_Thr_h_REV,"Export Thr (reversible)",Reaction
+Ex_Thr_m_REV,"Export Thr (reversible)",Reaction
+Ex_Thr_p_REV,"Export Thr (reversible)",Reaction
+Ex_Trp_c_REV,"Export Trp (reversible)",Reaction
+Ex_Trp_h_REV,"Export Trp (reversible)",Reaction
+Ex_Trp_m_REV,"Export Trp (reversible)",Reaction
+Ex_Trp_p_REV,"Export Trp (reversible)",Reaction
+Ex_Tyr_c_REV,"Export Tyr (reversible)",Reaction
+Ex_Tyr_h_REV,"Export Tyr (reversible)",Reaction
+Ex_Tyr_m_REV,"Export Tyr (reversible)",Reaction
+Ex_Tyr_p_REV,"Export Tyr (reversible)",Reaction
+Ex_Val_c_REV,"Export Val (reversible)",Reaction
+Ex_Val_h_REV,"Export Val (reversible)",Reaction
+Ex_Val_m_REV,"Export Val (reversible)",Reaction
+Ex_Val_p_REV,"Export Val (reversible)",Reaction
+Ex_starch_REV,"Export starch (reversible)",Reaction
+Ex_Glc_REV,"Export glucose (reversible)",Reaction
+Ex_Frc_REV,"Export fructose (reversible)",Reaction
+Ex_Suc_REV,"Export sucrose (reversible)",Reaction
+Ex_cellulose_REV,"Export cell wall precursor (reversible)",Reaction
+Ex_Mas_REV,"Export maltose (reversible)",Reaction
+Ex_Tre_REV,"Export signaling precursor (reversible)",Reaction
+Tr_HPR1_REV,"Hydroxypyruvate transporter (reversible)",Reaction
+Tr_Asp_OAA_h_REV,"Asp/OAA transporter (reversible)",Reaction
+Tr_DIT1_OAA_h_REV,"Dicarboxylate transporter (reversible)",Reaction
+Tr_H_Na_h_REV,"H/Na translocation (reversible)",Reaction
+Tr_Pi_h_REV,"Pi/H translocation (reversible)",Reaction
+Tr_Pyr_H_h_REV,"Pyr/H translocator (reversible)",Reaction
+Tr_Pyr_Mal_h_REV,"Mal/Pyr translocator (reversible)",Reaction
+Tr_Pyr_Na_h_REV,"Pyr/Na translocator (reversible)",Reaction
+Tr_THF_h_REV,"folate transporter (reversible)",Reaction
+Tr_Asp_Glu_m_REV,"Glu/Asp translocator (reversible)",Reaction
+Tr_Asp_m_REV,"Asp transport (reversible)",Reaction
+Tr_Cit_iCit_m_REV,"Cit/iCit translocator (reversible)",Reaction
+Tr_DIC4_m_REV,"Dicarboxylate carrier (reversible)",Reaction
+Tr_KG_Mal_m_REV,"KG/Mal translocator (reversible)",Reaction
+Tr_PIC_m_REV,"Pi/H translocation (reversible)",Reaction
+Tr_DTC5_m_REV,"Dicarboxylate transporter (reversible)",Reaction
+Tr_UCP_m_REV,"mitochondrial uncoupling protein (proton translocating) (reversible)",Reaction
+Tr_PXN3_p_REV,"nicotinamide adenine dinucleotide carrier (reversible)",Reaction
+Tr_SCA_p_REV,"succinate transport (reversible)",Reaction
+Tr_iCit_p_REV,"isocitrate transport (reversible)",Reaction
+Si_H_c_REV,"Proton sink/source for charge balancing of im-/export (reversible)",Reaction
+Si_H_h_REV,"Proton sink/source for charge balancing of im-/export (reversible)",Reaction
+Si_H_m_REV,"Proton sink/source for charge balancing of im-/export (reversible)",Reaction
+Si_H_p_REV,"Proton sink/source for charge balancing of im-/export (reversible)",Reaction
+arm_PSII_h,"photosystem II (arm)",Reaction
+PSII_hNo1,"photosystem II (No1)",Reaction
+PSII_hNo2,"photosystem II (No2)",Reaction
+PSII_hNo3,"photosystem II (No3)",Reaction
+PSII_hNo4,"photosystem II (No4)",Reaction
+arm_PSI_h,"photosystem I (arm)",Reaction
+PSI_hNo1,"photosystem I (No1)",Reaction
+PSI_hNo2,"photosystem I (No2)",Reaction
+PSI_hNo3,"photosystem I (No3)",Reaction
+PSI_hNo4,"photosystem I (No4)",Reaction
+PSI_hNo5,"photosystem I (No5)",Reaction
+PSI_hNo6,"photosystem I (No6)",Reaction
+PSI_hNo7,"photosystem I (No7)",Reaction
+PSI_hNo8,"photosystem I (No8)",Reaction
+Fd-NADPR_hNo1,"ferredoxin-NADP reductase (No1)",Reaction
+arm_ATPase_h,"ATPase (arm)",Reaction
+ATPase_hNo1,"ATPase (No1)",Reaction
+ATPase_hNo2,"ATPase (No2)",Reaction
+arm_RBC_h,"RuBisCO (arm)",Reaction
+RBC_hNo1,"RuBisCO (No1)",Reaction
+RBC_hNo2,"RuBisCO (No2)",Reaction
+RBC_hNo3,"RuBisCO (No3)",Reaction
+RBC_hNo4,"RuBisCO (No4)",Reaction
+arm_PGAK_h,"PGA kinase (arm)",Reaction
+PGAK_hNo1,"PGA kinase (No1)",Reaction
+PGAK_hNo2,"PGA kinase (No2)",Reaction
+arm_GAPDH1_h,"GAP dehydrogenase (arm)",Reaction
+GAPDH1_hNo1,"GAP dehydrogenase (No1)",Reaction
+GAPDH1_hNo2,"GAP dehydrogenase (No2)",Reaction
+GAPDH1_hNo3,"GAP dehydrogenase (No3)",Reaction
+GAPDH1_hNo4,"GAP dehydrogenase (No4)",Reaction
+arm_TPI_h,"TP isomerase (arm)",Reaction
+TPI_hNo1,"TP isomerase (No1)",Reaction
+TPI_hNo2,"TP isomerase (No2)",Reaction
+arm_FBPA_h,"FBP aldolase (arm)",Reaction
+FBPA_hNo1,"FBP aldolase (No1)",Reaction
+FBPA_hNo2,"FBP aldolase (No2)",Reaction
+FBPA_hNo3,"FBP aldolase (No3)",Reaction
+FBPA_hNo4,"FBP aldolase (No4)",Reaction
+FBPA_hNo5,"FBP aldolase (No5)",Reaction
+FBPA_hNo6,"FBP aldolase (No6)",Reaction
+FBPase_hNo1,"FBPase (No1)",Reaction
+arm_FTK_h,"F6P transketolase (arm)",Reaction
+FTK_hNo1,"F6P transketolase (No1)",Reaction
+FTK_hNo2,"F6P transketolase (No2)",Reaction
+arm_SBPA_h,"SBP aldolase (arm)",Reaction
+SBPA_hNo1,"SBP aldolase (No1)",Reaction
+SBPA_hNo2,"SBP aldolase (No2)",Reaction
+SBPA_hNo3,"SBP aldolase (No3)",Reaction
+SBPA_hNo4,"SBP aldolase (No4)",Reaction
+SBPA_hNo5,"SBP aldolase (No5)",Reaction
+SBPA_hNo6,"SBP aldolase (No6)",Reaction
+SBPase_hNo1,"SBPase (No1)",Reaction
+arm_STK_h,"S7P transketolase (arm)",Reaction
+STK_hNo1,"S7P transketolase (No1)",Reaction
+STK_hNo2,"S7P transketolase (No2)",Reaction
+Ru5PE_hNo1,"Ru5P epimerase (No1)",Reaction
+R5PI_hNo1,"R5P isomerase (No1)",Reaction
+Ru5PK_hNo1,"Ru5P kinase (No1)",Reaction
+PGI_hNo1,"G6P isomerase (No1)",Reaction
+arm_PGM_h,"Phosphoglucomutase (arm)",Reaction
+PGM_hNo1,"Phosphoglucomutase (No1)",Reaction
+PGM_hNo2,"Phosphoglucomutase (No2)",Reaction
+PGM_hNo3,"Phosphoglucomutase (No3)",Reaction
+arm_AGPase_h,"G1P adenylyltransferase (arm)",Reaction
+AGPase_hNo1,"G1P adenylyltransferase (No1)",Reaction
+AGPase_hNo2,"G1P adenylyltransferase (No2)",Reaction
+AGPase_hNo3,"G1P adenylyltransferase (No3)",Reaction
+AGPase_hNo4,"G1P adenylyltransferase (No4)",Reaction
+AGPase_hNo5,"G1P adenylyltransferase (No5)",Reaction
+AGPase_hNo6,"G1P adenylyltransferase (No6)",Reaction
+AGPase_hNo7,"G1P adenylyltransferase (No7)",Reaction
+AGPase_hNo8,"G1P adenylyltransferase (No8)",Reaction
+arm_StS_h1,"starch synthase (arm)",Reaction
+StS_h1No1,"starch synthase (No1)",Reaction
+StS_h1No2,"starch synthase (No2)",Reaction
+StS_h1No3,"starch synthase (No3)",Reaction
+StS_h1No4,"starch synthase (No4)",Reaction
+arm_StS_h2,"starch synthase (arm)",Reaction
+StS_h2No1,"starch synthase (No1)",Reaction
+StS_h2No2,"starch synthase (No2)",Reaction
+StS_h2No3,"starch synthase (No3)",Reaction
+StS_h2No4,"starch synthase (No4)",Reaction
+arm_StS_h3,"starch synthase (arm)",Reaction
+StS_h3No1,"starch synthase (No1)",Reaction
+StS_h3No2,"starch synthase (No2)",Reaction
+StS_h3No3,"starch synthase (No3)",Reaction
+StS_h3No4,"starch synthase (No4)",Reaction
+arm_bAMY1_h,"amylase (arm)",Reaction
+bAMY1_hNo1,"amylase (No1)",Reaction
+bAMY1_hNo2,"amylase (No2)",Reaction
+bAMY1_hNo3,"amylase (No3)",Reaction
+bAMY1_hNo4,"amylase (No4)",Reaction
+bAMY1_hNo5,"amylase (No5)",Reaction
+bAMY1_hNo6,"amylase (No6)",Reaction
+arm_bAMY2_h,"amylase (arm)",Reaction
+bAMY2_hNo1,"amylase (No1)",Reaction
+bAMY2_hNo2,"amylase (No2)",Reaction
+bAMY2_hNo3,"amylase (No3)",Reaction
+bAMY2_hNo4,"amylase (No4)",Reaction
+bAMY2_hNo5,"amylase (No5)",Reaction
+bAMY2_hNo6,"amylase (No6)",Reaction
+arm_DPE11_h,"disproportionating enzyme (arm)",Reaction
+DPE11_hNo1,"disproportionating enzyme (No1)",Reaction
+DPE11_hNo2,"disproportionating enzyme (No2)",Reaction
+arm_DPE12_h,"disproportionating enzyme (arm)",Reaction
+DPE12_hNo1,"disproportionating enzyme (No1)",Reaction
+DPE12_hNo2,"disproportionating enzyme (No2)",Reaction
+arm_DPE13_h,"disproportionating enzyme (arm)",Reaction
+DPE13_hNo1,"disproportionating enzyme (No1)",Reaction
+DPE13_hNo2,"disproportionating enzyme (No2)",Reaction
+arm_DPE2_c,"disproportionating enzyme (arm)",Reaction
+DPE2_cNo1,"disproportionating enzyme (No1)",Reaction
+DPE2_cNo2,"disproportionating enzyme (No2)",Reaction
+HEXK_cNo1,"Hexokinase (No1)",Reaction
+StP1_hNo1,"(starch) phosphorylase (No1)",Reaction
+StP21_cNo1,"(starch) phosphorylase (No1)",Reaction
+arm_TPI_c,"TP isomerase (arm)",Reaction
+TPI_cNo1,"TP isomerase (No1)",Reaction
+TPI_cNo2,"TP isomerase (No2)",Reaction
+arm_FBPA_c,"FBP aldolase (arm)",Reaction
+FBPA_cNo1,"FBP aldolase (No1)",Reaction
+FBPA_cNo2,"FBP aldolase (No2)",Reaction
+FBPA_cNo3,"FBP aldolase (No3)",Reaction
+FBPA_cNo4,"FBP aldolase (No4)",Reaction
+FBPA_cNo5,"FBP aldolase (No5)",Reaction
+FBPase_cNo1,"FBPase (No1)",Reaction
+F6PK2_cNo1,"F6P kinase (No1)",Reaction
+F26BPPh_cNo1,"F26BP phosphorylase (No1)",Reaction
+arm_PGI_c,"G6P isomerase (arm)",Reaction
+PGI_cNo1,"G6P isomerase (No1)",Reaction
+PGI_cNo2,"G6P isomerase (No2)",Reaction
+arm_PGM_c,"Phosphoglucomutase (arm)",Reaction
+PGM_cNo1,"Phosphoglucomutase (No1)",Reaction
+PGM_cNo2,"Phosphoglucomutase (No2)",Reaction
+PGM_cNo3,"Phosphoglucomutase (No3)",Reaction
+arm_UGPase_c,"UDPG pyrophosphorylase (arm)",Reaction
+UGPase_cNo1,"UDPG pyrophosphorylase (No1)",Reaction
+UGPase_cNo2,"UDPG pyrophosphorylase (No2)",Reaction
+S6PS_cNo1,"S6P synthase (No1)",Reaction
+arm_S6PPh_c,"S6P phosphorylase (arm)",Reaction
+S6PPh_cNo1,"S6P phosphorylase (No1)",Reaction
+S6PPh_cNo2,"S6P phosphorylase (No2)",Reaction
+arm_SucS_c,"Suc synthase (arm)",Reaction
+SucS_cNo1,"Suc synthase (No1)",Reaction
+SucS_cNo2,"Suc synthase (No2)",Reaction
+SucS_cNo3,"Suc synthase (No3)",Reaction
+arm_FrcFD_c,"Fructofuranosidase (arm)",Reaction
+FrcFD_cNo1,"Fructofuranosidase (No1)",Reaction
+FrcFD_cNo2,"Fructofuranosidase (No2)",Reaction
+arm_FrcK_c,"Fructokinase (arm)",Reaction
+FrcK_cNo1,"Fructokinase (No1)",Reaction
+FrcK_cNo2,"Fructokinase (No2)",Reaction
+FrcK_cNo3,"Fructokinase (No3)",Reaction
+FrcK_cNo4,"Fructokinase (No4)",Reaction
+arm_TPS_c,"UDPG:G6P glucosyltransferase (arm)",Reaction
+TPS_cNo1,"UDPG:G6P glucosyltransferase (No1)",Reaction
+TPS_cNo2,"UDPG:G6P glucosyltransferase (No2)",Reaction
+TPS_cNo3,"UDPG:G6P glucosyltransferase (No3)",Reaction
+TPS_cNo4,"UDPG:G6P glucosyltransferase (No4)",Reaction
+TPS_cNo5,"UDPG:G6P glucosyltransferase (No5)",Reaction
+TPS_cNo6,"UDPG:G6P glucosyltransferase (No6)",Reaction
+arm_TPP_c,"Tre phosphatase (arm)",Reaction
+TPP_cNo1,"Tre phosphatase (No1)",Reaction
+TPP_cNo2,"Tre phosphatase (No2)",Reaction
+TPP_cNo3,"Tre phosphatase (No3)",Reaction
+TPP_cNo4,"Tre phosphatase (No4)",Reaction
+TPP_cNo5,"Tre phosphatase (No5)",Reaction
+TPP_cNo6,"Tre phosphatase (No6)",Reaction
+TPP_cNo7,"Tre phosphatase (No7)",Reaction
+arm_CeS_c1,"cellulose synthase (arm)",Reaction
+CeS_c1No1,"cellulose synthase (No1)",Reaction
+CeS_c1No2,"cellulose synthase (No2)",Reaction
+CeS_c1No3,"cellulose synthase (No3)",Reaction
+CeS_c1No4,"cellulose synthase (No4)",Reaction
+CeS_c1No5,"cellulose synthase (No5)",Reaction
+CeS_c1No6,"cellulose synthase (No6)",Reaction
+CeS_c1No7,"cellulose synthase (No7)",Reaction
+CeS_c1No8,"cellulose synthase (No8)",Reaction
+CeS_c1No9,"cellulose synthase (No9)",Reaction
+CeS_c1No10,"cellulose synthase (No10)",Reaction
+arm_CeS_c2,"cellulose synthase (arm)",Reaction
+CeS_c2No1,"cellulose synthase (No1)",Reaction
+CeS_c2No2,"cellulose synthase (No2)",Reaction
+CeS_c2No3,"cellulose synthase (No3)",Reaction
+CeS_c2No4,"cellulose synthase (No4)",Reaction
+CeS_c2No5,"cellulose synthase (No5)",Reaction
+CeS_c2No6,"cellulose synthase (No6)",Reaction
+CeS_c2No7,"cellulose synthase (No7)",Reaction
+CeS_c2No8,"cellulose synthase (No8)",Reaction
+CeS_c2No9,"cellulose synthase (No9)",Reaction
+CeS_c2No10,"cellulose synthase (No10)",Reaction
+arm_CeS_c3,"cellulose synthase (arm)",Reaction
+CeS_c3No1,"cellulose synthase (No1)",Reaction
+CeS_c3No2,"cellulose synthase (No2)",Reaction
+CeS_c3No3,"cellulose synthase (No3)",Reaction
+CeS_c3No4,"cellulose synthase (No4)",Reaction
+CeS_c3No5,"cellulose synthase (No5)",Reaction
+CeS_c3No6,"cellulose synthase (No6)",Reaction
+CeS_c3No7,"cellulose synthase (No7)",Reaction
+CeS_c3No8,"cellulose synthase (No8)",Reaction
+CeS_c3No9,"cellulose synthase (No9)",Reaction
+CeS_c3No10,"cellulose synthase (No10)",Reaction
+arm_MalDH1_c,"Mal dehydrogenase (arm)",Reaction
+MalDH1_cNo1,"Mal dehydrogenase (No1)",Reaction
+MalDH1_cNo2,"Mal dehydrogenase (No2)",Reaction
+MalDH1_cNo3,"Mal dehydrogenase (No3)",Reaction
+arm_PEPC1_c,"PEP carboxylase (arm)",Reaction
+PEPC1_cNo1,"PEP carboxylase (No1)",Reaction
+PEPC1_cNo2,"PEP carboxylase (No2)",Reaction
+arm_PEPC2_c,"PEP carboxylase (arm)",Reaction
+PEPC2_cNo1,"PEP carboxylase (No1)",Reaction
+PEPC2_cNo2,"PEP carboxylase (No2)",Reaction
+PEPC2_cNo3,"PEP carboxylase (No3)",Reaction
+PEPC2_cNo4,"PEP carboxylase (No4)",Reaction
+arm_Enol_c,"Enolase (arm)",Reaction
+Enol_cNo1,"Enolase (No1)",Reaction
+Enol_cNo2,"Enolase (No2)",Reaction
+arm_PGAM_c,"PGA mutase (arm)",Reaction
+PGAM_cNo1,"PGA mutase (No1)",Reaction
+PGAM_cNo2,"PGA mutase (No2)",Reaction
+PGAM_cNo3,"PGA mutase (No3)",Reaction
+arm_PGAK_c,"PGA kinase (arm)",Reaction
+PGAK_cNo1,"PGA kinase (No1)",Reaction
+PGAK_cNo2,"PGA kinase (No2)",Reaction
+arm_GAPDH2_c,"GAP dehydrogenase (arm)",Reaction
+GAPDH2_cNo1,"GAP dehydrogenase (No1)",Reaction
+GAPDH2_cNo2,"GAP dehydrogenase (No2)",Reaction
+GAPDH3_cNo1,"GAP dehydrogenase (No1)",Reaction
+arm_F6PK1_c,"6-Phosphofructokinase (arm)",Reaction
+F6PK1_cNo1,"6-Phosphofructokinase (No1)",Reaction
+F6PK1_cNo2,"6-Phosphofructokinase (No2)",Reaction
+F6PK1_cNo3,"6-Phosphofructokinase (No3)",Reaction
+F6PK1_cNo4,"6-Phosphofructokinase (No4)",Reaction
+F6PK1_cNo5,"6-Phosphofructokinase (No5)",Reaction
+arm_F6PK1_h,"6-Phosphofructokinase (arm)",Reaction
+F6PK1_hNo1,"6-Phosphofructokinase (No1)",Reaction
+F6PK1_hNo2,"6-Phosphofructokinase (No2)",Reaction
+arm_GAPDH2_h,"GAP dehydrogenase (arm)",Reaction
+GAPDH2_hNo1,"GAP dehydrogenase (No1)",Reaction
+GAPDH2_hNo2,"GAP dehydrogenase (No2)",Reaction
+arm_PGAM_h,"PGA mutase (arm)",Reaction
+PGAM_hNo1,"PGA mutase (No1)",Reaction
+PGAM_hNo2,"PGA mutase (No2)",Reaction
+arm_Enol_h,"Enolase (arm)",Reaction
+Enol_hNo1,"Enolase (No1)",Reaction
+Enol_hNo2,"Enolase (No2)",Reaction
+arm_PyrK_c,"Pyr kinase (arm)",Reaction
+PyrK_cNo1,"Pyr kinase (No1)",Reaction
+PyrK_cNo2,"Pyr kinase (No2)",Reaction
+PyrK_cNo3,"Pyr kinase (No3)",Reaction
+PyrK_cNo4,"Pyr kinase (No4)",Reaction
+PyrK_cNo5,"Pyr kinase (No5)",Reaction
+PyrK_cNo6,"Pyr kinase (No6)",Reaction
+PyrK_cNo7,"Pyr kinase (No7)",Reaction
+PyrK_cNo8,"Pyr kinase (No8)",Reaction
+arm_PyrK_h,"Pyr kinase (arm)",Reaction
+PyrK_hNo1,"Pyr kinase (No1)",Reaction
+PyrK_hNo2,"Pyr kinase (No2)",Reaction
+PyrDH1_mNo1,"Pyr dehydrogenase (No1)",Reaction
+PyrDH2_mNo1,"Pyr dehydrogenase (No1)",Reaction
+arm_DHLAcT_m,"DHL acetyltransferase (arm)",Reaction
+DHLAcT_mNo1,"DHL acetyltransferase (No1)",Reaction
+DHLAcT_mNo2,"DHL acetyltransferase (No2)",Reaction
+DHLAcT_mNo3,"DHL acetyltransferase (No3)",Reaction
+arm_DHLDH2_m,"DHL dehydrogenase (arm)",Reaction
+DHLDH2_mNo1,"DHL dehydrogenase (No1)",Reaction
+DHLDH2_mNo2,"DHL dehydrogenase (No2)",Reaction
+arm_CitS_m,"Cit synthase (arm)",Reaction
+CitS_mNo1,"Cit synthase (No1)",Reaction
+CitS_mNo2,"Cit synthase (No2)",Reaction
+arm_cACNDHA_m,"Aconitase dehydration (arm)",Reaction
+cACNDHA_mNo1,"Aconitase dehydration (No1)",Reaction
+cACNDHA_mNo2,"Aconitase dehydration (No2)",Reaction
+cACNDHA_mNo3,"Aconitase dehydration (No3)",Reaction
+arm_cACNHA_m,"Aconitase hydration (arm)",Reaction
+cACNHA_mNo1,"Aconitase hydration (No1)",Reaction
+cACNHA_mNo2,"Aconitase hydration (No2)",Reaction
+cACNHA_mNo3,"Aconitase hydration (No3)",Reaction
+arm_iCitDHNAD_m,"iCit dehydrogenase (arm)",Reaction
+iCitDHNAD_mNo1,"iCit dehydrogenase (No1)",Reaction
+iCitDHNAD_mNo2,"iCit dehydrogenase (No2)",Reaction
+iCitDHNAD_mNo3,"iCit dehydrogenase (No3)",Reaction
+iCitDHNAD_mNo4,"iCit dehydrogenase (No4)",Reaction
+iCitDHNAD_mNo5,"iCit dehydrogenase (No5)",Reaction
+iCitDHNAD_mNo6,"iCit dehydrogenase (No6)",Reaction
+arm_KGDH_m,"KG dehydrogenase (arm)",Reaction
+KGDH_mNo1,"KG dehydrogenase (No1)",Reaction
+KGDH_mNo2,"KG dehydrogenase (No2)",Reaction
+arm_DHLST_m,"DHL succinyltransferase (arm)",Reaction
+DHLST_mNo1,"DHL succinyltransferase (No1)",Reaction
+DHLST_mNo2,"DHL succinyltransferase (No2)",Reaction
+arm_SCACoAL_m,"SCA-CoA ligase (arm)",Reaction
+SCACoAL_mNo1,"SCA-CoA ligase (No1)",Reaction
+SCACoAL_mNo2,"SCA-CoA ligase (No2)",Reaction
+arm_cplx2_m,"SCA dehydrogenase (Q) (arm)",Reaction
+cplx2_mNo1,"SCA dehydrogenase (Q) (No1)",Reaction
+cplx2_mNo2,"SCA dehydrogenase (Q) (No2)",Reaction
+cplx2_mNo3,"SCA dehydrogenase (Q) (No3)",Reaction
+cplx2_mNo4,"SCA dehydrogenase (Q) (No4)",Reaction
+cplx2_mNo5,"SCA dehydrogenase (Q) (No5)",Reaction
+cplx2_mNo6,"SCA dehydrogenase (Q) (No6)",Reaction
+cplx2_mNo7,"SCA dehydrogenase (Q) (No7)",Reaction
+cplx2_mNo8,"SCA dehydrogenase (Q) (No8)",Reaction
+cplx2_mNo9,"SCA dehydrogenase (Q) (No9)",Reaction
+cplx2_mNo10,"SCA dehydrogenase (Q) (No10)",Reaction
+cplx2_mNo11,"SCA dehydrogenase (Q) (No11)",Reaction
+cplx2_mNo12,"SCA dehydrogenase (Q) (No12)",Reaction
+cplx2_mNo13,"SCA dehydrogenase (Q) (No13)",Reaction
+cplx2_mNo14,"SCA dehydrogenase (Q) (No14)",Reaction
+cplx2_mNo15,"SCA dehydrogenase (Q) (No15)",Reaction
+cplx2_mNo16,"SCA dehydrogenase (Q) (No16)",Reaction
+cplx2_mNo17,"SCA dehydrogenase (Q) (No17)",Reaction
+cplx2_mNo18,"SCA dehydrogenase (Q) (No18)",Reaction
+cplx2_mNo19,"SCA dehydrogenase (Q) (No19)",Reaction
+cplx2_mNo20,"SCA dehydrogenase (Q) (No20)",Reaction
+cplx2_mNo21,"SCA dehydrogenase (Q) (No21)",Reaction
+cplx2_mNo22,"SCA dehydrogenase (Q) (No22)",Reaction
+cplx2_mNo23,"SCA dehydrogenase (Q) (No23)",Reaction
+cplx2_mNo24,"SCA dehydrogenase (Q) (No24)",Reaction
+arm_FumHA_m,"Fum hydratase (arm)",Reaction
+FumHA_mNo1,"Fum hydratase (No1)",Reaction
+FumHA_mNo2,"Fum hydratase (No2)",Reaction
+arm_MalDH1_m,"Mal dehydrogenase (arm)",Reaction
+MalDH1_mNo1,"Mal dehydrogenase (No1)",Reaction
+MalDH1_mNo2,"Mal dehydrogenase (No2)",Reaction
+arm_cplx1_m,"NADH dehydrogenase (Q) (arm)",Reaction
+cplx1_mNo1,"NADH dehydrogenase (Q) (No1)",Reaction
+cplx1_mNo2,"NADH dehydrogenase (Q) (No2)",Reaction
+cplx1_mNo3,"NADH dehydrogenase (Q) (No3)",Reaction
+cplx1_mNo4,"NADH dehydrogenase (Q) (No4)",Reaction
+arm_cplx3_m,"Cytc reductase (arm)",Reaction
+cplx3_mNo1,"Cytc reductase (No1)",Reaction
+cplx3_mNo2,"Cytc reductase (No2)",Reaction
+cplx3_mNo3,"Cytc reductase (No3)",Reaction
+cplx3_mNo4,"Cytc reductase (No4)",Reaction
+cplx3_mNo5,"Cytc reductase (No5)",Reaction
+cplx3_mNo6,"Cytc reductase (No6)",Reaction
+cplx3_mNo7,"Cytc reductase (No7)",Reaction
+cplx3_mNo8,"Cytc reductase (No8)",Reaction
+cplx3_mNo9,"Cytc reductase (No9)",Reaction
+cplx3_mNo10,"Cytc reductase (No10)",Reaction
+cplx3_mNo11,"Cytc reductase (No11)",Reaction
+cplx3_mNo12,"Cytc reductase (No12)",Reaction
+cplx3_mNo13,"Cytc reductase (No13)",Reaction
+cplx3_mNo14,"Cytc reductase (No14)",Reaction
+cplx3_mNo15,"Cytc reductase (No15)",Reaction
+cplx3_mNo16,"Cytc reductase (No16)",Reaction
+cplx3_mNo17,"Cytc reductase (No17)",Reaction
+cplx3_mNo18,"Cytc reductase (No18)",Reaction
+cplx3_mNo19,"Cytc reductase (No19)",Reaction
+cplx3_mNo20,"Cytc reductase (No20)",Reaction
+cplx3_mNo21,"Cytc reductase (No21)",Reaction
+cplx3_mNo22,"Cytc reductase (No22)",Reaction
+cplx3_mNo23,"Cytc reductase (No23)",Reaction
+cplx3_mNo24,"Cytc reductase (No24)",Reaction
+cplx3_mNo25,"Cytc reductase (No25)",Reaction
+cplx3_mNo26,"Cytc reductase (No26)",Reaction
+cplx3_mNo27,"Cytc reductase (No27)",Reaction
+cplx3_mNo28,"Cytc reductase (No28)",Reaction
+cplx3_mNo29,"Cytc reductase (No29)",Reaction
+cplx3_mNo30,"Cytc reductase (No30)",Reaction
+cplx3_mNo31,"Cytc reductase (No31)",Reaction
+cplx3_mNo32,"Cytc reductase (No32)",Reaction
+cplx3_mNo33,"Cytc reductase (No33)",Reaction
+cplx3_mNo34,"Cytc reductase (No34)",Reaction
+cplx3_mNo35,"Cytc reductase (No35)",Reaction
+cplx3_mNo36,"Cytc reductase (No36)",Reaction
+cplx3_mNo37,"Cytc reductase (No37)",Reaction
+cplx3_mNo38,"Cytc reductase (No38)",Reaction
+cplx3_mNo39,"Cytc reductase (No39)",Reaction
+cplx3_mNo40,"Cytc reductase (No40)",Reaction
+cplx3_mNo41,"Cytc reductase (No41)",Reaction
+cplx3_mNo42,"Cytc reductase (No42)",Reaction
+cplx3_mNo43,"Cytc reductase (No43)",Reaction
+cplx3_mNo44,"Cytc reductase (No44)",Reaction
+cplx3_mNo45,"Cytc reductase (No45)",Reaction
+cplx3_mNo46,"Cytc reductase (No46)",Reaction
+cplx3_mNo47,"Cytc reductase (No47)",Reaction
+cplx3_mNo48,"Cytc reductase (No48)",Reaction
+cplx3_mNo49,"Cytc reductase (No49)",Reaction
+cplx3_mNo50,"Cytc reductase (No50)",Reaction
+cplx3_mNo51,"Cytc reductase (No51)",Reaction
+cplx3_mNo52,"Cytc reductase (No52)",Reaction
+cplx3_mNo53,"Cytc reductase (No53)",Reaction
+cplx3_mNo54,"Cytc reductase (No54)",Reaction
+cplx3_mNo55,"Cytc reductase (No55)",Reaction
+cplx3_mNo56,"Cytc reductase (No56)",Reaction
+cplx3_mNo57,"Cytc reductase (No57)",Reaction
+cplx3_mNo58,"Cytc reductase (No58)",Reaction
+cplx3_mNo59,"Cytc reductase (No59)",Reaction
+cplx3_mNo60,"Cytc reductase (No60)",Reaction
+cplx3_mNo61,"Cytc reductase (No61)",Reaction
+cplx3_mNo62,"Cytc reductase (No62)",Reaction
+cplx3_mNo63,"Cytc reductase (No63)",Reaction
+cplx3_mNo64,"Cytc reductase (No64)",Reaction
+cplx3_mNo65,"Cytc reductase (No65)",Reaction
+cplx3_mNo66,"Cytc reductase (No66)",Reaction
+cplx3_mNo67,"Cytc reductase (No67)",Reaction
+cplx3_mNo68,"Cytc reductase (No68)",Reaction
+cplx3_mNo69,"Cytc reductase (No69)",Reaction
+cplx3_mNo70,"Cytc reductase (No70)",Reaction
+cplx3_mNo71,"Cytc reductase (No71)",Reaction
+cplx3_mNo72,"Cytc reductase (No72)",Reaction
+cplx3_mNo73,"Cytc reductase (No73)",Reaction
+cplx3_mNo74,"Cytc reductase (No74)",Reaction
+cplx3_mNo75,"Cytc reductase (No75)",Reaction
+cplx3_mNo76,"Cytc reductase (No76)",Reaction
+cplx3_mNo77,"Cytc reductase (No77)",Reaction
+cplx3_mNo78,"Cytc reductase (No78)",Reaction
+cplx3_mNo79,"Cytc reductase (No79)",Reaction
+cplx3_mNo80,"Cytc reductase (No80)",Reaction
+cplx3_mNo81,"Cytc reductase (No81)",Reaction
+cplx3_mNo82,"Cytc reductase (No82)",Reaction
+cplx3_mNo83,"Cytc reductase (No83)",Reaction
+cplx3_mNo84,"Cytc reductase (No84)",Reaction
+cplx3_mNo85,"Cytc reductase (No85)",Reaction
+cplx3_mNo86,"Cytc reductase (No86)",Reaction
+cplx3_mNo87,"Cytc reductase (No87)",Reaction
+cplx3_mNo88,"Cytc reductase (No88)",Reaction
+cplx3_mNo89,"Cytc reductase (No89)",Reaction
+cplx3_mNo90,"Cytc reductase (No90)",Reaction
+cplx3_mNo91,"Cytc reductase (No91)",Reaction
+cplx3_mNo92,"Cytc reductase (No92)",Reaction
+cplx3_mNo93,"Cytc reductase (No93)",Reaction
+cplx3_mNo94,"Cytc reductase (No94)",Reaction
+cplx3_mNo95,"Cytc reductase (No95)",Reaction
+cplx3_mNo96,"Cytc reductase (No96)",Reaction
+cplx3_mNo97,"Cytc reductase (No97)",Reaction
+cplx3_mNo98,"Cytc reductase (No98)",Reaction
+cplx3_mNo99,"Cytc reductase (No99)",Reaction
+cplx3_mNo100,"Cytc reductase (No100)",Reaction
+cplx3_mNo101,"Cytc reductase (No101)",Reaction
+cplx3_mNo102,"Cytc reductase (No102)",Reaction
+cplx3_mNo103,"Cytc reductase (No103)",Reaction
+cplx3_mNo104,"Cytc reductase (No104)",Reaction
+cplx3_mNo105,"Cytc reductase (No105)",Reaction
+cplx3_mNo106,"Cytc reductase (No106)",Reaction
+cplx3_mNo107,"Cytc reductase (No107)",Reaction
+cplx3_mNo108,"Cytc reductase (No108)",Reaction
+cplx3_mNo109,"Cytc reductase (No109)",Reaction
+cplx3_mNo110,"Cytc reductase (No110)",Reaction
+cplx3_mNo111,"Cytc reductase (No111)",Reaction
+cplx3_mNo112,"Cytc reductase (No112)",Reaction
+cplx3_mNo113,"Cytc reductase (No113)",Reaction
+cplx3_mNo114,"Cytc reductase (No114)",Reaction
+cplx3_mNo115,"Cytc reductase (No115)",Reaction
+cplx3_mNo116,"Cytc reductase (No116)",Reaction
+cplx3_mNo117,"Cytc reductase (No117)",Reaction
+cplx3_mNo118,"Cytc reductase (No118)",Reaction
+cplx3_mNo119,"Cytc reductase (No119)",Reaction
+cplx3_mNo120,"Cytc reductase (No120)",Reaction
+cplx3_mNo121,"Cytc reductase (No121)",Reaction
+cplx3_mNo122,"Cytc reductase (No122)",Reaction
+cplx3_mNo123,"Cytc reductase (No123)",Reaction
+cplx3_mNo124,"Cytc reductase (No124)",Reaction
+cplx3_mNo125,"Cytc reductase (No125)",Reaction
+cplx3_mNo126,"Cytc reductase (No126)",Reaction
+cplx3_mNo127,"Cytc reductase (No127)",Reaction
+cplx3_mNo128,"Cytc reductase (No128)",Reaction
+arm_cplx4_m,"Cytc oxidase (arm)",Reaction
+cplx4_mNo1,"Cytc oxidase (No1)",Reaction
+cplx4_mNo2,"Cytc oxidase (No2)",Reaction
+cplx4_mNo3,"Cytc oxidase (No3)",Reaction
+cplx4_mNo4,"Cytc oxidase (No4)",Reaction
+cplx4_mNo5,"Cytc oxidase (No5)",Reaction
+cplx4_mNo6,"Cytc oxidase (No6)",Reaction
+cplx4_mNo7,"Cytc oxidase (No7)",Reaction
+cplx4_mNo8,"Cytc oxidase (No8)",Reaction
+cplx4_mNo9,"Cytc oxidase (No9)",Reaction
+cplx4_mNo10,"Cytc oxidase (No10)",Reaction
+cplx4_mNo11,"Cytc oxidase (No11)",Reaction
+cplx4_mNo12,"Cytc oxidase (No12)",Reaction
+cplx4_mNo13,"Cytc oxidase (No13)",Reaction
+cplx4_mNo14,"Cytc oxidase (No14)",Reaction
+cplx4_mNo15,"Cytc oxidase (No15)",Reaction
+cplx4_mNo16,"Cytc oxidase (No16)",Reaction
+cplx4_mNo17,"Cytc oxidase (No17)",Reaction
+cplx4_mNo18,"Cytc oxidase (No18)",Reaction
+arm_cplx5_m,"ATP synthase (arm)",Reaction
+cplx5_mNo1,"ATP synthase (No1)",Reaction
+cplx5_mNo2,"ATP synthase (No2)",Reaction
+cplx5_mNo3,"ATP synthase (No3)",Reaction
+cplx5_mNo4,"ATP synthase (No4)",Reaction
+cplx5_mNo5,"ATP synthase (No5)",Reaction
+cplx5_mNo6,"ATP synthase (No6)",Reaction
+cplx5_mNo7,"ATP synthase (No7)",Reaction
+cplx5_mNo8,"ATP synthase (No8)",Reaction
+cplx5_mNo9,"ATP synthase (No9)",Reaction
+cplx5_mNo10,"ATP synthase (No10)",Reaction
+cplx5_mNo11,"ATP synthase (No11)",Reaction
+cplx5_mNo12,"ATP synthase (No12)",Reaction
+cplx5_mNo13,"ATP synthase (No13)",Reaction
+cplx5_mNo14,"ATP synthase (No14)",Reaction
+cplx5_mNo15,"ATP synthase (No15)",Reaction
+cplx5_mNo16,"ATP synthase (No16)",Reaction
+cplx5_mNo17,"ATP synthase (No17)",Reaction
+cplx5_mNo18,"ATP synthase (No18)",Reaction
+cplx5_mNo19,"ATP synthase (No19)",Reaction
+cplx5_mNo20,"ATP synthase (No20)",Reaction
+cplx5_mNo21,"ATP synthase (No21)",Reaction
+cplx5_mNo22,"ATP synthase (No22)",Reaction
+cplx5_mNo23,"ATP synthase (No23)",Reaction
+cplx5_mNo24,"ATP synthase (No24)",Reaction
+cplx5_mNo25,"ATP synthase (No25)",Reaction
+cplx5_mNo26,"ATP synthase (No26)",Reaction
+cplx5_mNo27,"ATP synthase (No27)",Reaction
+cplx5_mNo28,"ATP synthase (No28)",Reaction
+cplx5_mNo29,"ATP synthase (No29)",Reaction
+cplx5_mNo30,"ATP synthase (No30)",Reaction
+cplx5_mNo31,"ATP synthase (No31)",Reaction
+cplx5_mNo32,"ATP synthase (No32)",Reaction
+cplx5_mNo33,"ATP synthase (No33)",Reaction
+cplx5_mNo34,"ATP synthase (No34)",Reaction
+cplx5_mNo35,"ATP synthase (No35)",Reaction
+cplx5_mNo36,"ATP synthase (No36)",Reaction
+cplx5_mNo37,"ATP synthase (No37)",Reaction
+cplx5_mNo38,"ATP synthase (No38)",Reaction
+cplx5_mNo39,"ATP synthase (No39)",Reaction
+cplx5_mNo40,"ATP synthase (No40)",Reaction
+cplx5_mNo41,"ATP synthase (No41)",Reaction
+cplx5_mNo42,"ATP synthase (No42)",Reaction
+cplx5_mNo43,"ATP synthase (No43)",Reaction
+cplx5_mNo44,"ATP synthase (No44)",Reaction
+cplx5_mNo45,"ATP synthase (No45)",Reaction
+cplx5_mNo46,"ATP synthase (No46)",Reaction
+cplx5_mNo47,"ATP synthase (No47)",Reaction
+cplx5_mNo48,"ATP synthase (No48)",Reaction
+arm_RBO_h,"RuBisCO (arm)",Reaction
+RBO_hNo1,"RuBisCO (No1)",Reaction
+RBO_hNo2,"RuBisCO (No2)",Reaction
+RBO_hNo3,"RuBisCO (No3)",Reaction
+RBO_hNo4,"RuBisCO (No4)",Reaction
+arm_PGP_h,"PGCA phosphorylase (arm)",Reaction
+PGP_hNo1,"PGCA phosphorylase (No1)",Reaction
+PGP_hNo2,"PGCA phosphorylase (No2)",Reaction
+PGP_hNo3,"PGCA phosphorylase (No3)",Reaction
+arm_GCAO_p,"GCA oxidase (arm)",Reaction
+GCAO_pNo1,"GCA oxidase (No1)",Reaction
+GCAO_pNo2,"GCA oxidase (No2)",Reaction
+GCAO_pNo3,"GCA oxidase (No3)",Reaction
+GCAO_pNo4,"GCA oxidase (No4)",Reaction
+arm_CAT_p,"Catalase (arm)",Reaction
+CAT_pNo1,"Catalase (No1)",Reaction
+CAT_pNo2,"Catalase (No2)",Reaction
+CAT_pNo3,"Catalase (No3)",Reaction
+arm_GGAT_p,"Glu:GLX aminotransferase (arm)",Reaction
+GGAT_pNo1,"Glu:GLX aminotransferase (No1)",Reaction
+GGAT_pNo2,"Glu:GLX aminotransferase (No2)",Reaction
+arm_GlyDH_m,"Gly dehydrogenase (arm)",Reaction
+GlyDH_mNo1,"Gly dehydrogenase (No1)",Reaction
+GlyDH_mNo2,"Gly dehydrogenase (No2)",Reaction
+AMT_mNo1,"Aminomethyltransferase (No1)",Reaction
+arm_DHLDH1_m,"DHL dehydrogenase (arm)",Reaction
+DHLDH1_mNo1,"DHL dehydrogenase (No1)",Reaction
+DHLDH1_mNo2,"DHL dehydrogenase (No2)",Reaction
+arm_GlyHMT_m,"Gly hydroxymethyltransferase (arm)",Reaction
+GlyHMT_mNo1,"Gly hydroxymethyltransferase (No1)",Reaction
+GlyHMT_mNo2,"Gly hydroxymethyltransferase (No2)",Reaction
+SGAT_pNo1,"Ser:GLX aminotransferase (No1)",Reaction
+GCEADH_pNo1,"GCEA dehydrogenase (No1)",Reaction
+arm_MalDH1_p,"Mal dehydrogenase (arm)",Reaction
+MalDH1_pNo1,"Mal dehydrogenase (No1)",Reaction
+MalDH1_pNo2,"Mal dehydrogenase (No2)",Reaction
+GCEAK_hNo1,"GCEA kinase (No1)",Reaction
+arm_G6PDH_h,"G6P dehydrogenase (arm)",Reaction
+G6PDH_hNo1,"G6P dehydrogenase (No1)",Reaction
+G6PDH_hNo2,"G6P dehydrogenase (No2)",Reaction
+G6PDH_hNo3,"G6P dehydrogenase (No3)",Reaction
+G6PDH_hNo4,"G6P dehydrogenase (No4)",Reaction
+G6PDH_hNo5,"G6P dehydrogenase (No5)",Reaction
+arm_6PGL_h,"6-Phosphogluconolactonase (arm)",Reaction
+6PGL_hNo1,"6-Phosphogluconolactonase (No1)",Reaction
+6PGL_hNo2,"6-Phosphogluconolactonase (No2)",Reaction
+6PGL_hNo3,"6-Phosphogluconolactonase (No3)",Reaction
+6PGL_hNo4,"6-Phosphogluconolactonase (No4)",Reaction
+6PGL_hNo5,"6-Phosphogluconolactonase (No5)",Reaction
+arm_6PGDHNAD_h,"6PG dehydrogenase (arm)",Reaction
+6PGDHNAD_hNo1,"6PG dehydrogenase (No1)",Reaction
+6PGDHNAD_hNo2,"6PG dehydrogenase (No2)",Reaction
+6PGDHNAD_hNo3,"6PG dehydrogenase (No3)",Reaction
+arm_6PGDHNADP_h,"6PG dehydrogenase (arm)",Reaction
+6PGDHNADP_hNo1,"6PG dehydrogenase (No1)",Reaction
+6PGDHNADP_hNo2,"6PG dehydrogenase (No2)",Reaction
+6PGDHNADP_hNo3,"6PG dehydrogenase (No3)",Reaction
+arm_TA_h,"Transaldolase (arm)",Reaction
+TA_hNo1,"Transaldolase (No1)",Reaction
+TA_hNo2,"Transaldolase (No2)",Reaction
+arm_DAHPS_h,"DAHP synthase (arm)",Reaction
+DAHPS_hNo1,"DAHP synthase (No1)",Reaction
+DAHPS_hNo2,"DAHP synthase (No2)",Reaction
+DHQS_hNo1,"DHQ synthase (No1)",Reaction
+DHQDH_hNo1,"DHQ dehydratase (No1)",Reaction
+SADH_hNo1,"SA dehydrogenase (No1)",Reaction
+arm_SAK_h,"SA kinase (arm)",Reaction
+SAK_hNo1,"SA kinase (No1)",Reaction
+SAK_hNo2,"SA kinase (No2)",Reaction
+EPSPS_hNo1,"EPSP synthase (No1)",Reaction
+CHRS_hNo1,"CHR synthase (No1)",Reaction
+arm_R5PDPK_h,"R5P diphosphokinase (arm)",Reaction
+R5PDPK_hNo1,"R5P diphosphokinase (No1)",Reaction
+R5PDPK_hNo2,"R5P diphosphokinase (No2)",Reaction
+R5PDPK_hNo3,"R5P diphosphokinase (No3)",Reaction
+R5PDPK_hNo4,"R5P diphosphokinase (No4)",Reaction
+PyrPiDK_hNo1,"Pyr phosphate dikinase (No1)",Reaction
+arm_MalDH2NADP_c,"Mal dehydrogenase (arm)",Reaction
+MalDH2NADP_cNo1,"Mal dehydrogenase (No1)",Reaction
+MalDH2NADP_cNo2,"Mal dehydrogenase (No2)",Reaction
+MalDH2NADP_cNo3,"Mal dehydrogenase (No3)",Reaction
+arm_MalDH1_h,"Mal dehydrogenase (arm)",Reaction
+MalDH1_hNo1,"Mal dehydrogenase (No1)",Reaction
+MalDH1_hNo2,"Mal dehydrogenase (No2)",Reaction
+MalDH3_hNo1,"Mal dehydrogenase (No1)",Reaction
+arm_CitS_c,"Cit synthase (arm)",Reaction
+CitS_cNo1,"Cit synthase (No1)",Reaction
+CitS_cNo2,"Cit synthase (No2)",Reaction
+CitS_hNo1,"Cit synthase (No1)",Reaction
+arm_cACNDHA_c,"Aconitase dehydration (arm)",Reaction
+cACNDHA_cNo1,"Aconitase dehydration (No1)",Reaction
+cACNDHA_cNo2,"Aconitase dehydration (No2)",Reaction
+cACNDHA_cNo3,"Aconitase dehydration (No3)",Reaction
+arm_cACNDHA_h,"Aconitase dehydration (arm)",Reaction
+cACNDHA_hNo1,"Aconitase dehydration (No1)",Reaction
+cACNDHA_hNo2,"Aconitase dehydration (No2)",Reaction
+arm_cACNHA_c,"Aconitase hydration (arm)",Reaction
+cACNHA_cNo1,"Aconitase hydration (No1)",Reaction
+cACNHA_cNo2,"Aconitase hydration (No2)",Reaction
+cACNHA_cNo3,"Aconitase hydration (No3)",Reaction
+arm_cACNHA_h,"Aconitase hydration (arm)",Reaction
+cACNHA_hNo1,"Aconitase hydration (No1)",Reaction
+cACNHA_hNo2,"Aconitase hydration (No2)",Reaction
+iCitDHNAD_cNo1,"iCit dehydrogenase (No1)",Reaction
+iCitDHNADP_cNo1,"iCit dehydrogenase (No1)",Reaction
+arm_iCitDHNADP_h,"iCit dehydrogenase (arm)",Reaction
+iCitDHNADP_hNo1,"iCit dehydrogenase (No1)",Reaction
+iCitDHNADP_hNo2,"iCit dehydrogenase (No2)",Reaction
+iCitDHNADP_hNo3,"iCit dehydrogenase (No3)",Reaction
+iCitDHNADP_mNo1,"iCit dehydrogenase (No1)",Reaction
+MalS_cNo1,"Mal synthase (No1)",Reaction
+arm_ATPCitL_c,"ATP-Cit lyase (arm)",Reaction
+ATPCitL_cNo1,"ATP-Cit lyase (No1)",Reaction
+ATPCitL_cNo2,"ATP-Cit lyase (No2)",Reaction
+ATPCitL_cNo3,"ATP-Cit lyase (No3)",Reaction
+ATPCitL_cNo4,"ATP-Cit lyase (No4)",Reaction
+ATPCitL_cNo5,"ATP-Cit lyase (No5)",Reaction
+ATPCitL_cNo6,"ATP-Cit lyase (No6)",Reaction
+ACoAS_hNo1,"A-CoA synthetase (No1)",Reaction
+arm_ACoAC_h,"A-CoA carboxylase (arm)",Reaction
+ACoAC_hNo1,"A-CoA carboxylase (No1)",Reaction
+ACoAC_hNo2,"A-CoA carboxylase (No2)",Reaction
+ACPM_hNo1,"M-CoA:ACP malonyltransferase (No1)",Reaction
+PPiase_hNo1,"inorganic PPiase (No1)",Reaction
+arm_PPIase_c,"inorganic PPiase (arm)",Reaction
+PPIase_cNo1,"inorganic PPiase (No1)",Reaction
+PPIase_cNo2,"inorganic PPiase (No2)",Reaction
+PPIase_cNo3,"inorganic PPiase (No3)",Reaction
+PPIase_cNo4,"inorganic PPiase (No4)",Reaction
+arm_PPIF6PK_c,"PPi-dep.  Phosphofructokinase (arm)",Reaction
+PPIF6PK_cNo1,"PPi-dep.  Phosphofructokinase (No1)",Reaction
+PPIF6PK_cNo2,"PPi-dep.  Phosphofructokinase (No2)",Reaction
+PPIF6PK_cNo3,"PPi-dep.  Phosphofructokinase (No3)",Reaction
+PPIF6PK_cNo4,"PPi-dep.  Phosphofructokinase (No4)",Reaction
+ForDH_hNo1,"For dehydrogenase (No1)",Reaction
+ForTHFL_hNo1,"For-THF ligase (No1)",Reaction
+DHFR_cNo1,"Dihydrofolate reductase (No1)",Reaction
+arm_TRXR_c,"Thioredoxin reductase (arm)",Reaction
+TRXR_cNo1,"Thioredoxin reductase (No1)",Reaction
+TRXR_cNo2,"Thioredoxin reductase (No2)",Reaction
+TRXR_cNo3,"Thioredoxin reductase (No3)",Reaction
+arm_ADNK_c,"ADN kinase (arm)",Reaction
+ADNK_cNo1,"ADN kinase (No1)",Reaction
+ADNK_cNo2,"ADN kinase (No2)",Reaction
+ADNN_cNo1,"ADN nucleosidase (No1)",Reaction
+arm_ADPRPPT_c,"AD PRPP-transferase (arm)",Reaction
+ADPRPPT_cNo1,"AD PRPP-transferase (No1)",Reaction
+ADPRPPT_cNo2,"AD PRPP-transferase (No2)",Reaction
+ADPRPPT_cNo3,"AD PRPP-transferase (No3)",Reaction
+ADPRPPT_cNo4,"AD PRPP-transferase (No4)",Reaction
+ADPRPPT_cNo5,"AD PRPP-transferase (No5)",Reaction
+RibK_hNo1,"Ribokinase (No1)",Reaction
+arm_NO3R1_c,"NO3 reductase (arm)",Reaction
+NO3R1_cNo1,"NO3 reductase (No1)",Reaction
+NO3R1_cNo2,"NO3 reductase (No2)",Reaction
+arm_NO3R2_c,"NO3 reductase (arm)",Reaction
+NO3R2_cNo1,"NO3 reductase (No1)",Reaction
+NO3R2_cNo2,"NO3 reductase (No2)",Reaction
+NO2R_hNo1,"Fd-NO2 reductase (No1)",Reaction
+arm_ATPSL_h,"ATP sulfurylase (arm)",Reaction
+ATPSL_hNo1,"ATP sulfurylase (No1)",Reaction
+ATPSL_hNo2,"ATP sulfurylase (No2)",Reaction
+ATPSL_hNo3,"ATP sulfurylase (No3)",Reaction
+ATPSL_hNo4,"ATP sulfurylase (No4)",Reaction
+arm_APSR_h,"APS reductase (arm)",Reaction
+APSR_hNo1,"APS reductase (No1)",Reaction
+APSR_hNo2,"APS reductase (No2)",Reaction
+APSR_hNo3,"APS reductase (No3)",Reaction
+GSSGR_hNo1,"GSSG reductase (No1)",Reaction
+SO3R_hNo1,"SO3 reductase (No1)",Reaction
+arm_HCO3DHA_c,"HCO3 dehydratase (arm)",Reaction
+HCO3DHA_cNo1,"HCO3 dehydratase (No1)",Reaction
+HCO3DHA_cNo2,"HCO3 dehydratase (No2)",Reaction
+HCO3DHA_cNo3,"HCO3 dehydratase (No3)",Reaction
+HCO3DHA_cNo4,"HCO3 dehydratase (No4)",Reaction
+HCO3DHA_cNo5,"HCO3 dehydratase (No5)",Reaction
+HCO3DHA_cNo6,"HCO3 dehydratase (No6)",Reaction
+HCO3DHA_cNo7,"HCO3 dehydratase (No7)",Reaction
+HCO3DHA_cNo8,"HCO3 dehydratase (No8)",Reaction
+arm_HCO3DHA_h,"HCO3 dehydratase (arm)",Reaction
+HCO3DHA_hNo1,"HCO3 dehydratase (No1)",Reaction
+HCO3DHA_hNo2,"HCO3 dehydratase (No2)",Reaction
+HCO3DHA_hNo3,"HCO3 dehydratase (No3)",Reaction
+HCO3DHA_hNo4,"HCO3 dehydratase (No4)",Reaction
+HCO3DHA_hNo5,"HCO3 dehydratase (No5)",Reaction
+HCO3DHA_hNo6,"HCO3 dehydratase (No6)",Reaction
+HCO3DHA_hNo7,"HCO3 dehydratase (No7)",Reaction
+HCO3DHA_hNo8,"HCO3 dehydratase (No8)",Reaction
+HCO3DHA_hNo9,"HCO3 dehydratase (No9)",Reaction
+arm_AlaTA_m,"Ala transaminase (arm)",Reaction
+AlaTA_mNo1,"Ala transaminase (No1)",Reaction
+AlaTA_mNo2,"Ala transaminase (No2)",Reaction
+AlaTA_mNo3,"Ala transaminase (No3)",Reaction
+arm_AlaTA_p,"Ala transaminase (arm)",Reaction
+AlaTA_pNo1,"Ala transaminase (No1)",Reaction
+AlaTA_pNo2,"Ala transaminase (No2)",Reaction
+AGluKNo1,"A-Glu kinase (No1)",Reaction
+AGluPR_hNo1,"A-GluP reductase (No1)",Reaction
+AOrnTA_hNo1,"A-Orn transaminase (No1)",Reaction
+AOrnAGluAcT_hNo1,"A-Orn:A-Glu acetyltransferase (No1)",Reaction
+CBPS_hNo1,"CBP synthase (No1)",Reaction
+OrnCMT_hNo1,"Orn carbamoyltransferase (No1)",Reaction
+ArgSCAS_hNo1,"Arg-SCA synthase (No1)",Reaction
+ArgSCAL_hNo1,"Arg-SCA lyase (No1)",Reaction
+FumHA_cNo1,"Fum hydratase (No1)",Reaction
+arm_AsnS_c,"Asn synthase (arm)",Reaction
+AsnS_cNo1,"Asn synthase (No1)",Reaction
+AsnS_cNo2,"Asn synthase (No2)",Reaction
+AsnS_cNo3,"Asn synthase (No3)",Reaction
+arm_AspAT_c,"Asp aminotransferase (arm)",Reaction
+AspAT_cNo1,"Asp aminotransferase (No1)",Reaction
+AspAT_cNo2,"Asp aminotransferase (No2)",Reaction
+AspAT_cNo3,"Asp aminotransferase (No3)",Reaction
+AspAT_cNo4,"Asp aminotransferase (No4)",Reaction
+arm_AspAT_h,"Asp aminotransferase (arm)",Reaction
+AspAT_hNo1,"Asp aminotransferase (No1)",Reaction
+AspAT_hNo2,"Asp aminotransferase (No2)",Reaction
+arm_AspAT_m,"Asp aminotransferase (arm)",Reaction
+AspAT_mNo1,"Asp aminotransferase (No1)",Reaction
+AspAT_mNo2,"Asp aminotransferase (No2)",Reaction
+AspAT_pNo1,"Asp aminotransferase (No1)",Reaction
+Asnase_cNo1,"Asnase (No1)",Reaction
+arm_SerAcT_c,"Ser O-acetyltransferase (arm)",Reaction
+SerAcT_cNo1,"Ser O-acetyltransferase (No1)",Reaction
+SerAcT_cNo2,"Ser O-acetyltransferase (No2)",Reaction
+SerAcT_cNo3,"Ser O-acetyltransferase (No3)",Reaction
+SerAcT_cNo4,"Ser O-acetyltransferase (No4)",Reaction
+SerAcT_cNo5,"Ser O-acetyltransferase (No5)",Reaction
+arm_SerAcT_h,"Ser O-acetyltransferase (arm)",Reaction
+SerAcT_hNo1,"Ser O-acetyltransferase (No1)",Reaction
+SerAcT_hNo2,"Ser O-acetyltransferase (No2)",Reaction
+arm_SerAcT_m,"Ser O-acetyltransferase (arm)",Reaction
+SerAcT_mNo1,"Ser O-acetyltransferase (No1)",Reaction
+SerAcT_mNo2,"Ser O-acetyltransferase (No2)",Reaction
+arm_CysS_c,"Cys synthase (arm)",Reaction
+CysS_cNo1,"Cys synthase (No1)",Reaction
+CysS_cNo2,"Cys synthase (No2)",Reaction
+arm_CysS_h,"Cys synthase (arm)",Reaction
+CysS_hNo1,"Cys synthase (No1)",Reaction
+CysS_hNo2,"Cys synthase (No2)",Reaction
+CysS_hNo3,"Cys synthase (No3)",Reaction
+CysS_hNo4,"Cys synthase (No4)",Reaction
+arm_CysS_m,"Cys synthase (arm)",Reaction
+CysS_mNo1,"Cys synthase (No1)",Reaction
+CysS_mNo2,"Cys synthase (No2)",Reaction
+CysS_mNo3,"Cys synthase (No3)",Reaction
+CysS_mNo4,"Cys synthase (No4)",Reaction
+GluDH3NADP_cNo1,"Glu dehydrogenase (No1)",Reaction
+Glnase_cNo1,"Glnase (No1)",Reaction
+GluSNAD_hNo1,"Glu synthase (No1)",Reaction
+arm_GluSFd_h,"Glu synthase (FeS-Fd) (arm)",Reaction
+GluSFd_hNo1,"Glu synthase (FeS-Fd) (No1)",Reaction
+GluSFd_hNo2,"Glu synthase (FeS-Fd) (No2)",Reaction
+arm_GluDH1NAD_m,"Glu dehydrogenase (arm)",Reaction
+GluDH1NAD_mNo1,"Glu dehydrogenase (No1)",Reaction
+GluDH1NAD_mNo2,"Glu dehydrogenase (No2)",Reaction
+GluDH1NAD_mNo3,"Glu dehydrogenase (No3)",Reaction
+arm_GluDH1NADP_m,"Glu dehydrogenase (arm)",Reaction
+GluDH1NADP_mNo1,"Glu dehydrogenase (No1)",Reaction
+GluDH1NADP_mNo2,"Glu dehydrogenase (No2)",Reaction
+GluDH1NADP_mNo3,"Glu dehydrogenase (No3)",Reaction
+arm_GluDH2NAD_m,"Glu dehydrogenase (arm)",Reaction
+GluDH2NAD_mNo1,"Glu dehydrogenase (No1)",Reaction
+GluDH2NAD_mNo2,"Glu dehydrogenase (No2)",Reaction
+arm_GluDC_c,"Glu decarboxylase (arm)",Reaction
+GluDC_cNo1,"Glu decarboxylase (No1)",Reaction
+GluDC_cNo2,"Glu decarboxylase (No2)",Reaction
+GluDC_cNo3,"Glu decarboxylase (No3)",Reaction
+GluDC_cNo4,"Glu decarboxylase (No4)",Reaction
+GluDC_cNo5,"Glu decarboxylase (No5)",Reaction
+GABATA1_mNo1,"GABA transaminase (No1)",Reaction
+GABATA2_mNo1,"GABA transaminase (No1)",Reaction
+SCASeADH_mNo1,"SCA-SeA dehydrogenase (No1)",Reaction
+arm_GlnS_c,"Gln synthetase (arm)",Reaction
+GlnS_cNo1,"Gln synthetase (No1)",Reaction
+GlnS_cNo2,"Gln synthetase (No2)",Reaction
+GlnS_cNo3,"Gln synthetase (No3)",Reaction
+GlnS_cNo4,"Gln synthetase (No4)",Reaction
+arm_GlnS_h,"Gln synthetase (arm)",Reaction
+GlnS_hNo1,"Gln synthetase (No1)",Reaction
+GlnS_hNo2,"Gln synthetase (No2)",Reaction
+GlnS_hNo3,"Gln synthetase (No3)",Reaction
+GlnS_mNo1,"Gln synthetase (No1)",Reaction
+ThrA_cNo1,"Thr aldolase (No1)",Reaction
+arm_ACDOxRed_c,"ACD oxidoreductase (arm)",Reaction
+ACDOxRed_cNo1,"ACD oxidoreductase (No1)",Reaction
+ACDOxRed_cNo2,"ACD oxidoreductase (No2)",Reaction
+ACDOxRed_cNo3,"ACD oxidoreductase (No3)",Reaction
+ACDOxRed_cNo4,"ACD oxidoreductase (No4)",Reaction
+ACDOxRed_cNo5,"ACD oxidoreductase (No5)",Reaction
+arm_GCAO_h,"GCA oxidase (arm)",Reaction
+GCAO_hNo1,"GCA oxidase (No1)",Reaction
+GCAO_hNo2,"GCA oxidase (No2)",Reaction
+arm_CAT_h,"Catalase (arm)",Reaction
+CAT_hNo1,"Catalase (No1)",Reaction
+CAT_hNo2,"Catalase (No2)",Reaction
+CAT_hNo3,"Catalase (No3)",Reaction
+SGAT_hNo1,"Ser:GLX aminotransferase (No1)",Reaction
+GCEADH_hNo1,"GCEA dehydrogenase (No1)",Reaction
+arm_ATPPRT_h,"ATP PR-transferase (arm)",Reaction
+ATPPRT_hNo1,"ATP PR-transferase (No1)",Reaction
+ATPPRT_hNo2,"ATP PR-transferase (No2)",Reaction
+PrATPDP_hNo1,"Pr-ATP diphosphatase (No1)",Reaction
+PrAMPCy_hNo1,"Pr-AMP cyclohydrolase (No1)",Reaction
+PAICARPI_hNo1,"P-AICAR-P isomerase (No1)",Reaction
+IGPS_hNo1,"ImGP synthase (No1)",Reaction
+arm_IGPDA_h,"ImGP dehydratase (arm)",Reaction
+IGPDA_hNo1,"ImGP dehydratase (No1)",Reaction
+IGPDA_hNo2,"ImGP dehydratase (No2)",Reaction
+arm_HisolPTA_h,"Hisol-P transaminase (arm)",Reaction
+HisolPTA_hNo1,"Hisol-P transaminase (No1)",Reaction
+HisolPTA_hNo2,"Hisol-P transaminase (No2)",Reaction
+HisolPP_hNo1,"Hisol-P phosphatase (No1)",Reaction
+HisolPDH_hNo1,"Hisol-P dehydrogenase (No1)",Reaction
+HisalPDH_hNo1,"Hisal-P dehydrogenase (No1)",Reaction
+ThrDA_hNo1,"Thr dehydratase (No1)",Reaction
+ALS1_hNo1,"AL synthase (No1)",Reaction
+ALS2_hNo1,"AL synthase (No1)",Reaction
+DHADA1_hNo1,"DH-acid dehydratase (No1)",Reaction
+arm_BAATA1_h,"B.-chain-aa transaminase (arm)",Reaction
+BAATA1_hNo1,"B.-chain-aa transaminase (No1)",Reaction
+BAATA1_hNo2,"B.-chain-aa transaminase (No2)",Reaction
+BAATA1_hNo3,"B.-chain-aa transaminase (No3)",Reaction
+ALS3_hNo1,"AL synthase (No1)",Reaction
+DHADA2_hNo1,"DH-acid dehydratase (No1)",Reaction
+arm_2IPMS_h,"2-IPM synthase (arm)",Reaction
+2IPMS_hNo1,"2-IPM synthase (No1)",Reaction
+2IPMS_hNo2,"2-IPM synthase (No2)",Reaction
+arm_3IPMDA1_h,"3-IPM dehydratase (arm)",Reaction
+3IPMDA1_hNo1,"3-IPM dehydratase (No1)",Reaction
+3IPMDA1_hNo2,"3-IPM dehydratase (No2)",Reaction
+3IPMDA1_hNo3,"3-IPM dehydratase (No3)",Reaction
+arm_3IPMDA2_h,"3-IPM dehydratase (arm)",Reaction
+3IPMDA2_hNo1,"3-IPM dehydratase (No1)",Reaction
+3IPMDA2_hNo2,"3-IPM dehydratase (No2)",Reaction
+3IPMDA2_hNo3,"3-IPM dehydratase (No3)",Reaction
+arm_3IPMDH_h,"3-IPM dehydrogenase (arm)",Reaction
+3IPMDH_hNo1,"3-IPM dehydrogenase (No1)",Reaction
+3IPMDH_hNo2,"3-IPM dehydrogenase (No2)",Reaction
+3IPMDH_hNo3,"3-IPM dehydrogenase (No3)",Reaction
+arm_BAATA2_h,"B.-chain-aa transaminase (arm)",Reaction
+BAATA2_hNo1,"B.-chain-aa transaminase (No1)",Reaction
+BAATA2_hNo2,"B.-chain-aa transaminase (No2)",Reaction
+BAATA2_hNo3,"B.-chain-aa transaminase (No3)",Reaction
+arm_AspK_h,"Asp kinase (arm)",Reaction
+AspK_hNo1,"Asp kinase (No1)",Reaction
+AspK_hNo2,"Asp kinase (No2)",Reaction
+AspK_hNo3,"Asp kinase (No3)",Reaction
+AspK_hNo4,"Asp kinase (No4)",Reaction
+AspK_hNo5,"Asp kinase (No5)",Reaction
+Asp-SeADH_hNo1,"Asp-SeA dehydrogenase (No1)",Reaction
+arm_DHDS_h,"DHD synthase (arm)",Reaction
+DHDS_hNo1,"DHD synthase (No1)",Reaction
+DHDS_hNo2,"DHD synthase (No2)",Reaction
+arm_DHDRNAD_h,"DHD reductase (arm)",Reaction
+DHDRNAD_hNo1,"DHD reductase (No1)",Reaction
+DHDRNAD_hNo2,"DHD reductase (No2)",Reaction
+DHDRNAD_hNo3,"DHD reductase (No3)",Reaction
+arm_DHDRNADP_h,"DHD reductase (arm)",Reaction
+DHDRNADP_hNo1,"DHD reductase (No1)",Reaction
+DHDRNADP_hNo2,"DHD reductase (No2)",Reaction
+DHDRNADP_hNo3,"DHD reductase (No3)",Reaction
+DAPAT_hNo1,"DAP aminotransferase (No1)",Reaction
+DAPE_hNo1,"DAP epimerase (No1)",Reaction
+arm_DAPDC_h,"DAP decarboxylase (arm)",Reaction
+DAPDC_hNo1,"DAP decarboxylase (No1)",Reaction
+DAPDC_hNo2,"DAP decarboxylase (No2)",Reaction
+arm_HSerDHNADP_h,"H-Ser dehydrogenase (arm)",Reaction
+HSerDHNADP_hNo1,"H-Ser dehydrogenase (No1)",Reaction
+HSerDHNADP_hNo2,"H-Ser dehydrogenase (No2)",Reaction
+HSerDHNADP_hNo3,"H-Ser dehydrogenase (No3)",Reaction
+arm_HSerDHNAD_h,"H-Ser dehydrogenase (arm)",Reaction
+HSerDHNAD_hNo1,"H-Ser dehydrogenase (No1)",Reaction
+HSerDHNAD_hNo2,"H-Ser dehydrogenase (No2)",Reaction
+HSerDHNAD_hNo3,"H-Ser dehydrogenase (No3)",Reaction
+HSerK_hNo1,"H-Ser kinase (No1)",Reaction
+CTHS_hNo1,"CTH synthase (No1)",Reaction
+CTHL_hNo1,"CTH beta-lyase (No1)",Reaction
+arm_5M-THFOR_c,"5M-THF oxidoreductase (arm)",Reaction
+5M-THFOR_cNo1,"5M-THF oxidoreductase (No1)",Reaction
+5M-THFOR_cNo2,"5M-THF oxidoreductase (No2)",Reaction
+arm_MetS_c,"Met synthase (arm)",Reaction
+MetS_cNo1,"Met synthase (No1)",Reaction
+MetS_cNo2,"Met synthase (No2)",Reaction
+MetS_cNo3,"Met synthase (No3)",Reaction
+arm_GlyHMT_c,"Gly hydroxymethyltransferase (arm)",Reaction
+GlyHMT_cNo1,"Gly hydroxymethyltransferase (No1)",Reaction
+GlyHMT_cNo2,"Gly hydroxymethyltransferase (No2)",Reaction
+arm_HCysMT_c,"H-Cys S-Met-transf. (arm)",Reaction
+HCysMT_cNo1,"H-Cys S-Met-transf. (No1)",Reaction
+HCysMT_cNo2,"H-Cys S-Met-transf. (No2)",Reaction
+HCysMT_cNo3,"H-Cys S-Met-transf. (No3)",Reaction
+arm_Cysase_c,"aH-Cysase (arm)",Reaction
+Cysase_cNo1,"aH-Cysase (No1)",Reaction
+Cysase_cNo2,"aH-Cysase (No2)",Reaction
+CHRM_cNo1,"CHR mutase (No1)",Reaction
+GPAT_hNo1,"Glu:PRE aminotransferase (No1)",Reaction
+arm_AGNDA_h,"AGN dehydratase (arm)",Reaction
+AGNDA_hNo1,"AGN dehydratase (No1)",Reaction
+AGNDA_hNo2,"AGN dehydratase (No2)",Reaction
+AGNDA_hNo3,"AGN dehydratase (No3)",Reaction
+AGNDA_hNo4,"AGN dehydratase (No4)",Reaction
+AGNDA_hNo5,"AGN dehydratase (No5)",Reaction
+AGNDA_hNo6,"AGN dehydratase (No6)",Reaction
+arm_Arginase_m,"Arginase (arm)",Reaction
+Arginase_mNo1,"Arginase (No1)",Reaction
+Arginase_mNo2,"Arginase (No2)",Reaction
+Urease_mNo1,"Urease (No1)",Reaction
+OrnAT_mNo1,"Orn aminotransferase (No1)",Reaction
+arm_GluK_c,"Glu kinase (arm)",Reaction
+GluK_cNo1,"Glu kinase (No1)",Reaction
+GluK_cNo2,"Glu kinase (No2)",Reaction
+arm_GluK_h,"Glu kinase (arm)",Reaction
+GluK_hNo1,"Glu kinase (No1)",Reaction
+GluK_hNo2,"Glu kinase (No2)",Reaction
+arm_GluK_m,"Glu kinase (arm)",Reaction
+GluK_mNo1,"Glu kinase (No1)",Reaction
+GluK_mNo2,"Glu kinase (No2)",Reaction
+arm_GluSeADH_c,"GluSeA dehydrogenase (arm)",Reaction
+GluSeADH_cNo1,"GluSeA dehydrogenase (No1)",Reaction
+GluSeADH_cNo2,"GluSeA dehydrogenase (No2)",Reaction
+arm_GluSeADH_h,"GluSeA dehydrogenase (arm)",Reaction
+GluSeADH_hNo1,"GluSeA dehydrogenase (No1)",Reaction
+GluSeADH_hNo2,"GluSeA dehydrogenase (No2)",Reaction
+arm_GluSeADH_m,"GluSeA dehydrogenase (arm)",Reaction
+GluSeADH_mNo1,"GluSeA dehydrogenase (No1)",Reaction
+GluSeADH_mNo2,"GluSeA dehydrogenase (No2)",Reaction
+P5CRNAD_cNo1,"P5C reductase (No1)",Reaction
+arm_ProDHNAD_m,"Pro dehydrogenase (arm)",Reaction
+ProDHNAD_mNo1,"Pro dehydrogenase (No1)",Reaction
+ProDHNAD_mNo2,"Pro dehydrogenase (No2)",Reaction
+arm_ProDHNADP_m,"Pro dehydrogenase (arm)",Reaction
+ProDHNADP_mNo1,"Pro dehydrogenase (No1)",Reaction
+ProDHNADP_mNo2,"Pro dehydrogenase (No2)",Reaction
+P5CDHNAD_hNo1,"P5C dehydrogenase (No1)",Reaction
+P5CDHNAD_mNo1,"P5C dehydrogenase (No1)",Reaction
+P5CDHNADP_mNo1,"P5C dehydrogenase (No1)",Reaction
+arm_PGADH_h,"PGA dehydrogenase (arm)",Reaction
+PGADH_hNo1,"PGA dehydrogenase (No1)",Reaction
+PGADH_hNo2,"PGA dehydrogenase (No2)",Reaction
+PGADH_hNo3,"PGA dehydrogenase (No3)",Reaction
+arm_PSerAT_h,"PSer aminotransferase (arm)",Reaction
+PSerAT_hNo1,"PSer aminotransferase (No1)",Reaction
+PSerAT_hNo2,"PSer aminotransferase (No2)",Reaction
+PSerP_hNo1,"PSer phosphatase (No1)",Reaction
+SerRM_cNo1,"Ser racemase (No1)",Reaction
+arm_ThrS_h,"Threonine synthase (arm)",Reaction
+ThrS_hNo1,"Threonine synthase (No1)",Reaction
+ThrS_hNo2,"Threonine synthase (No2)",Reaction
+arm_ANTS_h,"ANT synthase (arm)",Reaction
+ANTS_hNo1,"ANT synthase (No1)",Reaction
+ANTS_hNo2,"ANT synthase (No2)",Reaction
+ANTPRT_hNo1,"ANT PR-transferase (No1)",Reaction
+arm_PRANTI_h,"PR-ANT isomerase (arm)",Reaction
+PRANTI_hNo1,"PR-ANT isomerase (No1)",Reaction
+PRANTI_hNo2,"PR-ANT isomerase (No2)",Reaction
+PRANTI_hNo3,"PR-ANT isomerase (No3)",Reaction
+IndGPS_hNo1,"Ind-GP synthase (No1)",Reaction
+arm_IndGPL_h,"Ind-GP lyase (arm)",Reaction
+IndGPL_hNo1,"Ind-GP lyase (No1)",Reaction
+IndGPL_hNo2,"Ind-GP lyase (No2)",Reaction
+arm_TrpS_h,"Trp synthase (arm)",Reaction
+TrpS_hNo1,"Trp synthase (No1)",Reaction
+TrpS_hNo2,"Trp synthase (No2)",Reaction
+AGNDH_hNo1,"AGN dehydrogenase (No1)",Reaction
+arm_BAATA3_h,"B.-chain-aa transaminase (arm)",Reaction
+BAATA3_hNo1,"B.-chain-aa transaminase (No1)",Reaction
+BAATA3_hNo2,"B.-chain-aa transaminase (No2)",Reaction
+BAATA3_hNo3,"B.-chain-aa transaminase (No3)",Reaction
+arm_ATase_h,"ATase (arm)",Reaction
+ATase_hNo1,"ATase (No1)",Reaction
+ATase_hNo2,"ATase (No2)",Reaction
+ATase_hNo3,"ATase (No3)",Reaction
+PRAGlyL_hNo1,"PRA-Gly ligase (No1)",Reaction
+GARFT_hNo1,"GAR formyltransferase (No1)",Reaction
+FGAMS_hNo1,"FGAM synthase (No1)",Reaction
+FGAMCL_hNo1,"FGAM cyclo-ligase (No1)",Reaction
+AIRC_hNo1,"AIR carboxylase (No1)",Reaction
+SAICARS_hNo1,"SAICAR synthase (No1)",Reaction
+arm_DCAMPL1_h,"Adenylo-SCA lyase (arm)",Reaction
+DCAMPL1_hNo1,"Adenylo-SCA lyase (No1)",Reaction
+DCAMPL1_hNo2,"Adenylo-SCA lyase (No2)",Reaction
+AICARFT_hNo1,"AICAR formyltransferase (No1)",Reaction
+IMPCH_hNo1,"IMP cyclohydrolase (No1)",Reaction
+AMPDA_cNo1,"AMP deaminase (No1)",Reaction
+arm_IMPDH_c,"IMP dehydrogenase (arm)",Reaction
+IMPDH_cNo1,"IMP dehydrogenase (No1)",Reaction
+IMPDH_cNo2,"IMP dehydrogenase (No2)",Reaction
+GMPS_cNo1,"GMP synthase (No1)",Reaction
+DCAMPS_hNo1,"Adenylo-SCA synthase (No1)",Reaction
+arm_DCAMPL2_h,"Adenylo-SCA lyase (arm)",Reaction
+DCAMPL2_hNo1,"Adenylo-SCA lyase (No1)",Reaction
+DCAMPL2_hNo2,"Adenylo-SCA lyase (No2)",Reaction
+AspCT_hNo1,"Asp carbamoyltransferase (No1)",Reaction
+DHOase_hNo1,"DHOase (No1)",Reaction
+DHODH_mNo1,"DHO dehydrogenase (No1)",Reaction
+OROPRT_cNo1,"ORO PR-transferase (No1)",Reaction
+OMPDC_cNo1,"OMP decarboxylase (No1)",Reaction
+arm_CTPS_c,"CTP synthase (arm)",Reaction
+CTPS_cNo1,"CTP synthase (No1)",Reaction
+CTPS_cNo2,"CTP synthase (No2)",Reaction
+CTPS_cNo3,"CTP synthase (No3)",Reaction
+CTPS_cNo4,"CTP synthase (No4)",Reaction
+CTPS_cNo5,"CTP synthase (No5)",Reaction
+arm_AMPK_c,"adenylate kinase (arm)",Reaction
+AMPK_cNo1,"adenylate kinase (No1)",Reaction
+AMPK_cNo2,"adenylate kinase (No2)",Reaction
+AMPK_cNo3,"adenylate kinase (No3)",Reaction
+arm_AMPK_h,"adenylate kinase (arm)",Reaction
+AMPK_hNo1,"adenylate kinase (No1)",Reaction
+AMPK_hNo2,"adenylate kinase (No2)",Reaction
+AMPK_hNo3,"adenylate kinase (No3)",Reaction
+arm_GMPK_c,"guanylate kinase (arm)",Reaction
+GMPK_cNo1,"guanylate kinase (No1)",Reaction
+GMPK_cNo2,"guanylate kinase (No2)",Reaction
+NMPK_cNo1,"UMP/CMP kinase (No1)",Reaction
+CTPP_cNo1,"Nucleoside-triphosphatase (No1)",Reaction
+arm_ADPR_c,"Ribonucleoside-diphosphate reductase (arm)",Reaction
+ADPR_cNo1,"Ribonucleoside-diphosphate reductase (No1)",Reaction
+ADPR_cNo2,"Ribonucleoside-diphosphate reductase (No2)",Reaction
+arm_CDPR_c,"Ribonucleoside-diphosphate reductase (arm)",Reaction
+CDPR_cNo1,"Ribonucleoside-diphosphate reductase (No1)",Reaction
+CDPR_cNo2,"Ribonucleoside-diphosphate reductase (No2)",Reaction
+arm_GDPR_c,"Ribonucleoside-diphosphate reductase (arm)",Reaction
+GDPR_cNo1,"Ribonucleoside-diphosphate reductase (No1)",Reaction
+GDPR_cNo2,"Ribonucleoside-diphosphate reductase (No2)",Reaction
+arm_UDPR_c,"Ribonucleoside-diphosphate reductase (arm)",Reaction
+UDPR_cNo1,"Ribonucleoside-diphosphate reductase (No1)",Reaction
+UDPR_cNo2,"Ribonucleoside-diphosphate reductase (No2)",Reaction
+dUTPP_cNo1,"Deoxyuridine-triphosphatase (No1)",Reaction
+dTMPS_cNo1,"Thymidylate synthase (No1)",Reaction
+dTMPK_cNo1,"Thymidine monophosphate kinase (No1)",Reaction
+arm_GDPK_c,"Nucleoside-diphosphate kinase (arm)",Reaction
+GDPK_cNo1,"Nucleoside-diphosphate kinase (No1)",Reaction
+GDPK_cNo2,"Nucleoside-diphosphate kinase (No2)",Reaction
+arm_GDPK_h,"Nucleoside-diphosphate kinase (arm)",Reaction
+GDPK_hNo1,"Nucleoside-diphosphate kinase (No1)",Reaction
+GDPK_hNo2,"Nucleoside-diphosphate kinase (No2)",Reaction
+arm_UDPK_c,"Nucleoside-diphosphate kinase (arm)",Reaction
+UDPK_cNo1,"Nucleoside-diphosphate kinase (No1)",Reaction
+UDPK_cNo2,"Nucleoside-diphosphate kinase (No2)",Reaction
+arm_dADPK_c,"Nucleoside-diphosphate kinase (arm)",Reaction
+dADPK_cNo1,"Nucleoside-diphosphate kinase (No1)",Reaction
+dADPK_cNo2,"Nucleoside-diphosphate kinase (No2)",Reaction
+arm_dCDPK_c,"Nucleoside-diphosphate kinase (arm)",Reaction
+dCDPK_cNo1,"Nucleoside-diphosphate kinase (No1)",Reaction
+dCDPK_cNo2,"Nucleoside-diphosphate kinase (No2)",Reaction
+arm_dGDPK_c,"Nucleoside-diphosphate kinase (arm)",Reaction
+dGDPK_cNo1,"Nucleoside-diphosphate kinase (No1)",Reaction
+dGDPK_cNo2,"Nucleoside-diphosphate kinase (No2)",Reaction
+arm_dTDPK_c,"Nucleoside-diphosphate kinase (arm)",Reaction
+dTDPK_cNo1,"Nucleoside-diphosphate kinase (No1)",Reaction
+dTDPK_cNo2,"Nucleoside-diphosphate kinase (No2)",Reaction
+arm_dUDPK_c,"Nucleoside-diphosphate kinase (arm)",Reaction
+dUDPK_cNo1,"Nucleoside-diphosphate kinase (No1)",Reaction
+dUDPK_cNo2,"Nucleoside-diphosphate kinase (No2)",Reaction
+GCEADH_cNo1,"GCEA dehydrogenase (No1)",Reaction
+MalDH2_mNo1,"Mal dehydrogenase (No1)",Reaction
+MalDH4_hNo1,"Mal dehydrogenase (No1)",Reaction
+NDC1_1_hNo1,"Alternative NAD(P)H-ubiquinone oxidoreductase C1 (No1)",Reaction
+NDC1_2_hNo1,"Alternative NAD(P)H-ubiquinone oxidoreductase C1 (No1)",Reaction
+NDH1_hNo1,"NADH dehydrogenase-like (NDH) complex (No1)",Reaction
+NDH2_hNo1,"NADH dehydrogenase-like (NDH) complex (No1)",Reaction
+Cytb6f1_hNo1,"cytochrome b6f complex (No1)",Reaction
+Cytb6f2_hNo1,"cytochrome b6f complex (No1)",Reaction
+arm_AOX1A_m,"Ubiquinol oxidase 1a (arm)",Reaction
+AOX1A_mNo1,"Ubiquinol oxidase 1a (No1)",Reaction
+AOX1A_mNo2,"Ubiquinol oxidase 1a (No2)",Reaction
+AOX1A_mNo3,"Ubiquinol oxidase 1a (No3)",Reaction
+AOX1A_mNo4,"Ubiquinol oxidase 1a (No4)",Reaction
+AOX1A_mNo5,"Ubiquinol oxidase 1a (No5)",Reaction
+AOX4_hNo1,"Alternative NAD(P)H-ubiquinone oxidoreductase C1 (No1)",Reaction
+arm_AspAT2_c,"Asp aminotransferase (arm)",Reaction
+AspAT2_cNo1,"Asp aminotransferase (No1)",Reaction
+AspAT2_cNo2,"Asp aminotransferase (No2)",Reaction
+AspAT2_cNo3,"Asp aminotransferase (No3)",Reaction
+AspAT2_cNo4,"Asp aminotransferase (No4)",Reaction
+AspAT2_cNo5,"Asp aminotransferase (No5)",Reaction
+AspAT2_cNo6,"Asp aminotransferase (No6)",Reaction
+arm_AspAT2_h,"Asp aminotransferase (arm)",Reaction
+AspAT2_hNo1,"Asp aminotransferase (No1)",Reaction
+AspAT2_hNo2,"Asp aminotransferase (No2)",Reaction
+AspAT2_hNo3,"Asp aminotransferase (No3)",Reaction
+arm_AspAT2_m,"Asp aminotransferase (arm)",Reaction
+AspAT2_mNo1,"Asp aminotransferase (No1)",Reaction
+AspAT2_mNo2,"Asp aminotransferase (No2)",Reaction
+AspAT2_pNo1,"Asp aminotransferase (No1)",Reaction
+arm_CHRM_h,"CHR mutase (arm)",Reaction
+CHRM_hNo1,"CHR mutase (No1)",Reaction
+CHRM_hNo2,"CHR mutase (No2)",Reaction
+KARI12_hNo1,"Ketol-acid reductoisomerase (No1)",Reaction
+KARI34_hNo1,"Ketol-acid reductoisomerase (No1)",Reaction
+arm_MetAdT_c,"Met adenosyltransferase (arm)",Reaction
+MetAdT_cNo1,"Met adenosyltransferase (No1)",Reaction
+MetAdT_cNo2,"Met adenosyltransferase (No2)",Reaction
+MetAdT_cNo3,"Met adenosyltransferase (No3)",Reaction
+MetAdT_cNo4,"Met adenosyltransferase (No4)",Reaction
+arm_NDA2_1_m,"NADH dehydrogenase (arm)",Reaction
+NDA2_1_mNo1,"NADH dehydrogenase (No1)",Reaction
+NDA2_1_mNo2,"NADH dehydrogenase (No2)",Reaction
+NDA2_1_mNo3,"NADH dehydrogenase (No3)",Reaction
+NDA2_1_mNo4,"NADH dehydrogenase (No4)",Reaction
+NDA2_1_mNo5,"NADH dehydrogenase (No5)",Reaction
+NDA2_1_mNo6,"NADH dehydrogenase (No6)",Reaction
+NDA2_1_mNo7,"NADH dehydrogenase (No7)",Reaction
+arm_NDA2_2_m,"NADH dehydrogenase (arm)",Reaction
+NDA2_2_mNo1,"NADH dehydrogenase (No1)",Reaction
+NDA2_2_mNo2,"NADH dehydrogenase (No2)",Reaction
+NDA2_2_mNo3,"NADH dehydrogenase (No3)",Reaction
+NDA2_2_mNo4,"NADH dehydrogenase (No4)",Reaction
+NDA2_2_mNo5,"NADH dehydrogenase (No5)",Reaction
+NDA2_2_mNo6,"NADH dehydrogenase (No6)",Reaction
+NDA2_2_mNo7,"NADH dehydrogenase (No7)",Reaction
+iCitL_pNo1,"isocitrate lyase (No1)",Reaction
+arm_ATPase_h_REV,"ATPase (reversible) (arm)",Reaction
+ATPase_h_REVNo1,"ATPase (reversible) (No1)",Reaction
+ATPase_h_REVNo2,"ATPase (reversible) (No2)",Reaction
+arm_PGAK_h_REV,"PGA kinase (reversible) (arm)",Reaction
+PGAK_h_REVNo1,"PGA kinase (reversible) (No1)",Reaction
+PGAK_h_REVNo2,"PGA kinase (reversible) (No2)",Reaction
+arm_TPI_h_REV,"TP isomerase (reversible) (arm)",Reaction
+TPI_h_REVNo1,"TP isomerase (reversible) (No1)",Reaction
+TPI_h_REVNo2,"TP isomerase (reversible) (No2)",Reaction
+arm_FBPA_h_REV,"FBP aldolase (reversible) (arm)",Reaction
+FBPA_h_REVNo1,"FBP aldolase (reversible) (No1)",Reaction
+FBPA_h_REVNo2,"FBP aldolase (reversible) (No2)",Reaction
+FBPA_h_REVNo3,"FBP aldolase (reversible) (No3)",Reaction
+FBPA_h_REVNo4,"FBP aldolase (reversible) (No4)",Reaction
+FBPA_h_REVNo5,"FBP aldolase (reversible) (No5)",Reaction
+FBPA_h_REVNo6,"FBP aldolase (reversible) (No6)",Reaction
+arm_FTK_h_REV,"F6P transketolase (reversible) (arm)",Reaction
+FTK_h_REVNo1,"F6P transketolase (reversible) (No1)",Reaction
+FTK_h_REVNo2,"F6P transketolase (reversible) (No2)",Reaction
+arm_STK_h_REV,"S7P transketolase (reversible) (arm)",Reaction
+STK_h_REVNo1,"S7P transketolase (reversible) (No1)",Reaction
+STK_h_REVNo2,"S7P transketolase (reversible) (No2)",Reaction
+Ru5PE_h_REVNo1,"Ru5P epimerase (reversible) (No1)",Reaction
+R5PI_h_REVNo1,"R5P isomerase (reversible) (No1)",Reaction
+PGI_h_REVNo1,"G6P isomerase (reversible) (No1)",Reaction
+arm_PGM_h_REV,"Phosphoglucomutase (reversible) (arm)",Reaction
+PGM_h_REVNo1,"Phosphoglucomutase (reversible) (No1)",Reaction
+PGM_h_REVNo2,"Phosphoglucomutase (reversible) (No2)",Reaction
+PGM_h_REVNo3,"Phosphoglucomutase (reversible) (No3)",Reaction
+arm_TPI_c_REV,"TP isomerase (reversible) (arm)",Reaction
+TPI_c_REVNo1,"TP isomerase (reversible) (No1)",Reaction
+TPI_c_REVNo2,"TP isomerase (reversible) (No2)",Reaction
+arm_FBPA_c_REV,"FBP aldolase (reversible) (arm)",Reaction
+FBPA_c_REVNo1,"FBP aldolase (reversible) (No1)",Reaction
+FBPA_c_REVNo2,"FBP aldolase (reversible) (No2)",Reaction
+FBPA_c_REVNo3,"FBP aldolase (reversible) (No3)",Reaction
+FBPA_c_REVNo4,"FBP aldolase (reversible) (No4)",Reaction
+FBPA_c_REVNo5,"FBP aldolase (reversible) (No5)",Reaction
+F26BPPh_c_REVNo1,"F26BP phosphorylase (reversible) (No1)",Reaction
+arm_PGI_c_REV,"G6P isomerase (reversible) (arm)",Reaction
+PGI_c_REVNo1,"G6P isomerase (reversible) (No1)",Reaction
+PGI_c_REVNo2,"G6P isomerase (reversible) (No2)",Reaction
+arm_PGM_c_REV,"Phosphoglucomutase (reversible) (arm)",Reaction
+PGM_c_REVNo1,"Phosphoglucomutase (reversible) (No1)",Reaction
+PGM_c_REVNo2,"Phosphoglucomutase (reversible) (No2)",Reaction
+PGM_c_REVNo3,"Phosphoglucomutase (reversible) (No3)",Reaction
+arm_UGPase_c_REV,"UDPG pyrophosphorylase (reversible) (arm)",Reaction
+UGPase_c_REVNo1,"UDPG pyrophosphorylase (reversible) (No1)",Reaction
+UGPase_c_REVNo2,"UDPG pyrophosphorylase (reversible) (No2)",Reaction
+arm_SucS_c_REV,"Suc synthase (reversible) (arm)",Reaction
+SucS_c_REVNo1,"Suc synthase (reversible) (No1)",Reaction
+SucS_c_REVNo2,"Suc synthase (reversible) (No2)",Reaction
+SucS_c_REVNo3,"Suc synthase (reversible) (No3)",Reaction
+arm_MalDH1_c_REV,"Mal dehydrogenase (reversible) (arm)",Reaction
+MalDH1_c_REVNo1,"Mal dehydrogenase (reversible) (No1)",Reaction
+MalDH1_c_REVNo2,"Mal dehydrogenase (reversible) (No2)",Reaction
+MalDH1_c_REVNo3,"Mal dehydrogenase (reversible) (No3)",Reaction
+arm_PEPC2_c_REV,"PEP carboxylase (reversible) (arm)",Reaction
+PEPC2_c_REVNo1,"PEP carboxylase (reversible) (No1)",Reaction
+PEPC2_c_REVNo2,"PEP carboxylase (reversible) (No2)",Reaction
+PEPC2_c_REVNo3,"PEP carboxylase (reversible) (No3)",Reaction
+PEPC2_c_REVNo4,"PEP carboxylase (reversible) (No4)",Reaction
+arm_Enol_c_REV,"Enolase (reversible) (arm)",Reaction
+Enol_c_REVNo1,"Enolase (reversible) (No1)",Reaction
+Enol_c_REVNo2,"Enolase (reversible) (No2)",Reaction
+arm_PGAM_c_REV,"PGA mutase (reversible) (arm)",Reaction
+PGAM_c_REVNo1,"PGA mutase (reversible) (No1)",Reaction
+PGAM_c_REVNo2,"PGA mutase (reversible) (No2)",Reaction
+PGAM_c_REVNo3,"PGA mutase (reversible) (No3)",Reaction
+arm_PGAK_c_REV,"PGA kinase (reversible) (arm)",Reaction
+PGAK_c_REVNo1,"PGA kinase (reversible) (No1)",Reaction
+PGAK_c_REVNo2,"PGA kinase (reversible) (No2)",Reaction
+arm_GAPDH2_c_REV,"GAP dehydrogenase (reversible) (arm)",Reaction
+GAPDH2_c_REVNo1,"GAP dehydrogenase (reversible) (No1)",Reaction
+GAPDH2_c_REVNo2,"GAP dehydrogenase (reversible) (No2)",Reaction
+arm_GAPDH2_h_REV,"GAP dehydrogenase (reversible) (arm)",Reaction
+GAPDH2_h_REVNo1,"GAP dehydrogenase (reversible) (No1)",Reaction
+GAPDH2_h_REVNo2,"GAP dehydrogenase (reversible) (No2)",Reaction
+arm_PGAM_h_REV,"PGA mutase (reversible) (arm)",Reaction
+PGAM_h_REVNo1,"PGA mutase (reversible) (No1)",Reaction
+PGAM_h_REVNo2,"PGA mutase (reversible) (No2)",Reaction
+arm_Enol_h_REV,"Enolase (reversible) (arm)",Reaction
+Enol_h_REVNo1,"Enolase (reversible) (No1)",Reaction
+Enol_h_REVNo2,"Enolase (reversible) (No2)",Reaction
+arm_cACNDHA_m_REV,"Aconitase dehydration (reversible) (arm)",Reaction
+cACNDHA_m_REVNo1,"Aconitase dehydration (reversible) (No1)",Reaction
+cACNDHA_m_REVNo2,"Aconitase dehydration (reversible) (No2)",Reaction
+cACNDHA_m_REVNo3,"Aconitase dehydration (reversible) (No3)",Reaction
+arm_cACNHA_m_REV,"Aconitase hydration (reversible) (arm)",Reaction
+cACNHA_m_REVNo1,"Aconitase hydration (reversible) (No1)",Reaction
+cACNHA_m_REVNo2,"Aconitase hydration (reversible) (No2)",Reaction
+cACNHA_m_REVNo3,"Aconitase hydration (reversible) (No3)",Reaction
+arm_FumHA_m_REV,"Fum hydratase (reversible) (arm)",Reaction
+FumHA_m_REVNo1,"Fum hydratase (reversible) (No1)",Reaction
+FumHA_m_REVNo2,"Fum hydratase (reversible) (No2)",Reaction
+arm_MalDH1_m_REV,"Mal dehydrogenase (reversible) (arm)",Reaction
+MalDH1_m_REVNo1,"Mal dehydrogenase (reversible) (No1)",Reaction
+MalDH1_m_REVNo2,"Mal dehydrogenase (reversible) (No2)",Reaction
+arm_cplx5_m_REV,"ATP synthase (reversible) (arm)",Reaction
+cplx5_m_REVNo1,"ATP synthase (reversible) (No1)",Reaction
+cplx5_m_REVNo2,"ATP synthase (reversible) (No2)",Reaction
+cplx5_m_REVNo3,"ATP synthase (reversible) (No3)",Reaction
+cplx5_m_REVNo4,"ATP synthase (reversible) (No4)",Reaction
+cplx5_m_REVNo5,"ATP synthase (reversible) (No5)",Reaction
+cplx5_m_REVNo6,"ATP synthase (reversible) (No6)",Reaction
+cplx5_m_REVNo7,"ATP synthase (reversible) (No7)",Reaction
+cplx5_m_REVNo8,"ATP synthase (reversible) (No8)",Reaction
+cplx5_m_REVNo9,"ATP synthase (reversible) (No9)",Reaction
+cplx5_m_REVNo10,"ATP synthase (reversible) (No10)",Reaction
+cplx5_m_REVNo11,"ATP synthase (reversible) (No11)",Reaction
+cplx5_m_REVNo12,"ATP synthase (reversible) (No12)",Reaction
+cplx5_m_REVNo13,"ATP synthase (reversible) (No13)",Reaction
+cplx5_m_REVNo14,"ATP synthase (reversible) (No14)",Reaction
+cplx5_m_REVNo15,"ATP synthase (reversible) (No15)",Reaction
+cplx5_m_REVNo16,"ATP synthase (reversible) (No16)",Reaction
+cplx5_m_REVNo17,"ATP synthase (reversible) (No17)",Reaction
+cplx5_m_REVNo18,"ATP synthase (reversible) (No18)",Reaction
+cplx5_m_REVNo19,"ATP synthase (reversible) (No19)",Reaction
+cplx5_m_REVNo20,"ATP synthase (reversible) (No20)",Reaction
+cplx5_m_REVNo21,"ATP synthase (reversible) (No21)",Reaction
+cplx5_m_REVNo22,"ATP synthase (reversible) (No22)",Reaction
+cplx5_m_REVNo23,"ATP synthase (reversible) (No23)",Reaction
+cplx5_m_REVNo24,"ATP synthase (reversible) (No24)",Reaction
+cplx5_m_REVNo25,"ATP synthase (reversible) (No25)",Reaction
+cplx5_m_REVNo26,"ATP synthase (reversible) (No26)",Reaction
+cplx5_m_REVNo27,"ATP synthase (reversible) (No27)",Reaction
+cplx5_m_REVNo28,"ATP synthase (reversible) (No28)",Reaction
+cplx5_m_REVNo29,"ATP synthase (reversible) (No29)",Reaction
+cplx5_m_REVNo30,"ATP synthase (reversible) (No30)",Reaction
+cplx5_m_REVNo31,"ATP synthase (reversible) (No31)",Reaction
+cplx5_m_REVNo32,"ATP synthase (reversible) (No32)",Reaction
+cplx5_m_REVNo33,"ATP synthase (reversible) (No33)",Reaction
+cplx5_m_REVNo34,"ATP synthase (reversible) (No34)",Reaction
+cplx5_m_REVNo35,"ATP synthase (reversible) (No35)",Reaction
+cplx5_m_REVNo36,"ATP synthase (reversible) (No36)",Reaction
+cplx5_m_REVNo37,"ATP synthase (reversible) (No37)",Reaction
+cplx5_m_REVNo38,"ATP synthase (reversible) (No38)",Reaction
+cplx5_m_REVNo39,"ATP synthase (reversible) (No39)",Reaction
+cplx5_m_REVNo40,"ATP synthase (reversible) (No40)",Reaction
+cplx5_m_REVNo41,"ATP synthase (reversible) (No41)",Reaction
+cplx5_m_REVNo42,"ATP synthase (reversible) (No42)",Reaction
+cplx5_m_REVNo43,"ATP synthase (reversible) (No43)",Reaction
+cplx5_m_REVNo44,"ATP synthase (reversible) (No44)",Reaction
+cplx5_m_REVNo45,"ATP synthase (reversible) (No45)",Reaction
+cplx5_m_REVNo46,"ATP synthase (reversible) (No46)",Reaction
+cplx5_m_REVNo47,"ATP synthase (reversible) (No47)",Reaction
+cplx5_m_REVNo48,"ATP synthase (reversible) (No48)",Reaction
+arm_GlyHMT_m_REV,"Gly hydroxymethyltransferase (reversible) (arm)",Reaction
+GlyHMT_m_REVNo1,"Gly hydroxymethyltransferase (reversible) (No1)",Reaction
+GlyHMT_m_REVNo2,"Gly hydroxymethyltransferase (reversible) (No2)",Reaction
+arm_MalDH1_p_REV,"Mal dehydrogenase (reversible) (arm)",Reaction
+MalDH1_p_REVNo1,"Mal dehydrogenase (reversible) (No1)",Reaction
+MalDH1_p_REVNo2,"Mal dehydrogenase (reversible) (No2)",Reaction
+arm_6PGDHNAD_h_REV,"6PG dehydrogenase (reversible) (arm)",Reaction
+6PGDHNAD_h_REVNo1,"6PG dehydrogenase (reversible) (No1)",Reaction
+6PGDHNAD_h_REVNo2,"6PG dehydrogenase (reversible) (No2)",Reaction
+6PGDHNAD_h_REVNo3,"6PG dehydrogenase (reversible) (No3)",Reaction
+arm_6PGDHNADP_h_REV,"6PG dehydrogenase (reversible) (arm)",Reaction
+6PGDHNADP_h_REVNo1,"6PG dehydrogenase (reversible) (No1)",Reaction
+6PGDHNADP_h_REVNo2,"6PG dehydrogenase (reversible) (No2)",Reaction
+6PGDHNADP_h_REVNo3,"6PG dehydrogenase (reversible) (No3)",Reaction
+arm_TA_h_REV,"Transaldolase (reversible) (arm)",Reaction
+TA_h_REVNo1,"Transaldolase (reversible) (No1)",Reaction
+TA_h_REVNo2,"Transaldolase (reversible) (No2)",Reaction
+PyrPiDK_h_REVNo1,"Pyr phosphate dikinase (reversible) (No1)",Reaction
+arm_MalDH1_h_REV,"Mal dehydrogenase (reversible) (arm)",Reaction
+MalDH1_h_REVNo1,"Mal dehydrogenase (reversible) (No1)",Reaction
+MalDH1_h_REVNo2,"Mal dehydrogenase (reversible) (No2)",Reaction
+arm_PPIF6PK_c_REV,"PPi-dep.  Phosphofructokinase (reversible) (arm)",Reaction
+PPIF6PK_c_REVNo1,"PPi-dep.  Phosphofructokinase (reversible) (No1)",Reaction
+PPIF6PK_c_REVNo2,"PPi-dep.  Phosphofructokinase (reversible) (No2)",Reaction
+PPIF6PK_c_REVNo3,"PPi-dep.  Phosphofructokinase (reversible) (No3)",Reaction
+PPIF6PK_c_REVNo4,"PPi-dep.  Phosphofructokinase (reversible) (No4)",Reaction
+ForDH_h_REVNo1,"For dehydrogenase (reversible) (No1)",Reaction
+arm_NO3R2_c_REV,"NO3 reductase (reversible) (arm)",Reaction
+NO3R2_c_REVNo1,"NO3 reductase (reversible) (No1)",Reaction
+NO3R2_c_REVNo2,"NO3 reductase (reversible) (No2)",Reaction
+arm_AlaTA_m_REV,"Ala transaminase (reversible) (arm)",Reaction
+AlaTA_m_REVNo1,"Ala transaminase (reversible) (No1)",Reaction
+AlaTA_m_REVNo2,"Ala transaminase (reversible) (No2)",Reaction
+AlaTA_m_REVNo3,"Ala transaminase (reversible) (No3)",Reaction
+arm_AlaTA_p_REV,"Ala transaminase (reversible) (arm)",Reaction
+AlaTA_p_REVNo1,"Ala transaminase (reversible) (No1)",Reaction
+AlaTA_p_REVNo2,"Ala transaminase (reversible) (No2)",Reaction
+OrnCMT_h_REVNo1,"Orn carbamoyltransferase (reversible) (No1)",Reaction
+arm_AspAT_c_REV,"Asp aminotransferase (reversible) (arm)",Reaction
+AspAT_c_REVNo1,"Asp aminotransferase (reversible) (No1)",Reaction
+AspAT_c_REVNo2,"Asp aminotransferase (reversible) (No2)",Reaction
+AspAT_c_REVNo3,"Asp aminotransferase (reversible) (No3)",Reaction
+AspAT_c_REVNo4,"Asp aminotransferase (reversible) (No4)",Reaction
+arm_AspAT_h_REV,"Asp aminotransferase (reversible) (arm)",Reaction
+AspAT_h_REVNo1,"Asp aminotransferase (reversible) (No1)",Reaction
+AspAT_h_REVNo2,"Asp aminotransferase (reversible) (No2)",Reaction
+arm_AspAT_m_REV,"Asp aminotransferase (reversible) (arm)",Reaction
+AspAT_m_REVNo1,"Asp aminotransferase (reversible) (No1)",Reaction
+AspAT_m_REVNo2,"Asp aminotransferase (reversible) (No2)",Reaction
+AspAT_p_REVNo1,"Asp aminotransferase (reversible) (No1)",Reaction
+GluDH3NADP_c_REVNo1,"Glu dehydrogenase (reversible) (No1)",Reaction
+arm_GluDH1NADP_m_REV,"Glu dehydrogenase (reversible) (arm)",Reaction
+GluDH1NADP_m_REVNo1,"Glu dehydrogenase (reversible) (No1)",Reaction
+GluDH1NADP_m_REVNo2,"Glu dehydrogenase (reversible) (No2)",Reaction
+GluDH1NADP_m_REVNo3,"Glu dehydrogenase (reversible) (No3)",Reaction
+GABATA1_m_REVNo1,"GABA transaminase (reversible) (No1)",Reaction
+arm_BAATA1_h_REV,"B.-chain-aa transaminase (reversible) (arm)",Reaction
+BAATA1_h_REVNo1,"B.-chain-aa transaminase (reversible) (No1)",Reaction
+BAATA1_h_REVNo2,"B.-chain-aa transaminase (reversible) (No2)",Reaction
+BAATA1_h_REVNo3,"B.-chain-aa transaminase (reversible) (No3)",Reaction
+arm_BAATA2_h_REV,"B.-chain-aa transaminase (reversible) (arm)",Reaction
+BAATA2_h_REVNo1,"B.-chain-aa transaminase (reversible) (No1)",Reaction
+BAATA2_h_REVNo2,"B.-chain-aa transaminase (reversible) (No2)",Reaction
+BAATA2_h_REVNo3,"B.-chain-aa transaminase (reversible) (No3)",Reaction
+arm_GlyHMT_c_REV,"Gly hydroxymethyltransferase (reversible) (arm)",Reaction
+GlyHMT_c_REVNo1,"Gly hydroxymethyltransferase (reversible) (No1)",Reaction
+GlyHMT_c_REVNo2,"Gly hydroxymethyltransferase (reversible) (No2)",Reaction
+arm_Cysase_c_REV,"aH-Cysase (reversible) (arm)",Reaction
+Cysase_c_REVNo1,"aH-Cysase (reversible) (No1)",Reaction
+Cysase_c_REVNo2,"aH-Cysase (reversible) (No2)",Reaction
+GPAT_h_REVNo1,"Glu:PRE aminotransferase (reversible) (No1)",Reaction
+OrnAT_m_REVNo1,"Orn aminotransferase (reversible) (No1)",Reaction
+arm_PGADH_h_REV,"PGA dehydrogenase (reversible) (arm)",Reaction
+PGADH_h_REVNo1,"PGA dehydrogenase (reversible) (No1)",Reaction
+PGADH_h_REVNo2,"PGA dehydrogenase (reversible) (No2)",Reaction
+PGADH_h_REVNo3,"PGA dehydrogenase (reversible) (No3)",Reaction
+arm_BAATA3_h_REV,"B.-chain-aa transaminase (reversible) (arm)",Reaction
+BAATA3_h_REVNo1,"B.-chain-aa transaminase (reversible) (No1)",Reaction
+BAATA3_h_REVNo2,"B.-chain-aa transaminase (reversible) (No2)",Reaction
+BAATA3_h_REVNo3,"B.-chain-aa transaminase (reversible) (No3)",Reaction
+arm_AspAT2_c_REV,"Asp aminotransferase (reversible) (arm)",Reaction
+AspAT2_c_REVNo1,"Asp aminotransferase (reversible) (No1)",Reaction
+AspAT2_c_REVNo2,"Asp aminotransferase (reversible) (No2)",Reaction
+AspAT2_c_REVNo3,"Asp aminotransferase (reversible) (No3)",Reaction
+AspAT2_c_REVNo4,"Asp aminotransferase (reversible) (No4)",Reaction
+AspAT2_c_REVNo5,"Asp aminotransferase (reversible) (No5)",Reaction
+AspAT2_c_REVNo6,"Asp aminotransferase (reversible) (No6)",Reaction
+arm_AspAT2_h_REV,"Asp aminotransferase (reversible) (arm)",Reaction
+AspAT2_h_REVNo1,"Asp aminotransferase (reversible) (No1)",Reaction
+AspAT2_h_REVNo2,"Asp aminotransferase (reversible) (No2)",Reaction
+AspAT2_h_REVNo3,"Asp aminotransferase (reversible) (No3)",Reaction
+arm_AspAT2_m_REV,"Asp aminotransferase (reversible) (arm)",Reaction
+AspAT2_m_REVNo1,"Asp aminotransferase (reversible) (No1)",Reaction
+AspAT2_m_REVNo2,"Asp aminotransferase (reversible) (No2)",Reaction
+AspAT2_p_REVNo1,"Asp aminotransferase (reversible) (No1)",Reaction
+draw_prot_A0A178UD24,"draw_prot_A0A178UD24",Reaction
+draw_prot_A0A178VX82,"draw_prot_A0A178VX82",Reaction
+draw_prot_A0A178WJZ2,"draw_prot_A0A178WJZ2",Reaction
+draw_prot_A0A1P8ANY1,"draw_prot_A0A1P8ANY1",Reaction
+draw_prot_A0A1P8AW36,"draw_prot_A0A1P8AW36",Reaction
+draw_prot_A0A1P8B6F9,"draw_prot_A0A1P8B6F9",Reaction
+draw_prot_A0A384K8P2,"draw_prot_A0A384K8P2",Reaction
+draw_prot_A0A384KII3,"draw_prot_A0A384KII3",Reaction
+draw_prot_A0A384KLZ3,"draw_prot_A0A384KLZ3",Reaction
+draw_prot_A0A384L5D5,"draw_prot_A0A384L5D5",Reaction
+draw_prot_A0A5S9YI34,"draw_prot_A0A5S9YI34",Reaction
+draw_prot_A0A654EZT9,"draw_prot_A0A654EZT9",Reaction
+draw_prot_A0A654FAY0,"draw_prot_A0A654FAY0",Reaction
+draw_prot_A0A654FQL5,"draw_prot_A0A654FQL5",Reaction
+draw_prot_A1A6H3,"draw_prot_A1A6H3",Reaction
+draw_prot_A8MR07,"draw_prot_A8MR07",Reaction
+draw_prot_B5X574,"draw_prot_B5X574",Reaction
+draw_prot_B9DGD6,"draw_prot_B9DGD6",Reaction
+draw_prot_B9DHD3,"draw_prot_B9DHD3",Reaction
+draw_prot_F4HUC4,"draw_prot_F4HUC4",Reaction
+draw_prot_F4I1A6,"draw_prot_F4I1A6",Reaction
+draw_prot_F4I1L9,"draw_prot_F4I1L9",Reaction
+draw_prot_F4I6G9,"draw_prot_F4I6G9",Reaction
+draw_prot_F4I7I0,"draw_prot_F4I7I0",Reaction
+draw_prot_F4I8M8,"draw_prot_F4I8M8",Reaction
+draw_prot_F4I8U2,"draw_prot_F4I8U2",Reaction
+draw_prot_F4IAG2,"draw_prot_F4IAG2",Reaction
+draw_prot_F4IC59,"draw_prot_F4IC59",Reaction
+draw_prot_F4IHR4,"draw_prot_F4IHR4",Reaction
+draw_prot_F4IW47,"draw_prot_F4IW47",Reaction
+draw_prot_F4IWV2,"draw_prot_F4IWV2",Reaction
+draw_prot_F4JGR5,"draw_prot_F4JGR5",Reaction
+draw_prot_F4JIK2,"draw_prot_F4JIK2",Reaction
+draw_prot_F4JJJ3,"draw_prot_F4JJJ3",Reaction
+draw_prot_F4JWS8,"draw_prot_F4JWS8",Reaction
+draw_prot_F4KGQ0,"draw_prot_F4KGQ0",Reaction
+draw_prot_O03042,"draw_prot_O03042",Reaction
+draw_prot_O04130,"draw_prot_O04130",Reaction
+draw_prot_O04308,"draw_prot_O04308",Reaction
+draw_prot_O04499,"draw_prot_O04499",Reaction
+draw_prot_O04846,"draw_prot_O04846",Reaction
+draw_prot_O04904,"draw_prot_O04904",Reaction
+draw_prot_O04905,"draw_prot_O04905",Reaction
+draw_prot_O04983,"draw_prot_O04983",Reaction
+draw_prot_O22048,"draw_prot_O22048",Reaction
+draw_prot_O22049,"draw_prot_O22049",Reaction
+draw_prot_O22229,"draw_prot_O22229",Reaction
+draw_prot_O22241,"draw_prot_O22241",Reaction
+draw_prot_O22682,"draw_prot_O22682",Reaction
+draw_prot_O22718,"draw_prot_O22718",Reaction
+draw_prot_O22765,"draw_prot_O22765",Reaction
+draw_prot_O22769,"draw_prot_O22769",Reaction
+draw_prot_O22912,"draw_prot_O22912",Reaction
+draw_prot_O23254,"draw_prot_O23254",Reaction
+draw_prot_O23255,"draw_prot_O23255",Reaction
+draw_prot_O23324,"draw_prot_O23324",Reaction
+draw_prot_O23346,"draw_prot_O23346",Reaction
+draw_prot_O23404,"draw_prot_O23404",Reaction
+draw_prot_O23553,"draw_prot_O23553",Reaction
+draw_prot_O23653,"draw_prot_O23653",Reaction
+draw_prot_O23913,"draw_prot_O23913",Reaction
+draw_prot_O48946,"draw_prot_O48946",Reaction
+draw_prot_O48947,"draw_prot_O48947",Reaction
+draw_prot_O49299,"draw_prot_O49299",Reaction
+draw_prot_O49347,"draw_prot_O49347",Reaction
+draw_prot_O49485,"draw_prot_O49485",Reaction
+draw_prot_O49506,"draw_prot_O49506",Reaction
+draw_prot_O50008,"draw_prot_O50008",Reaction
+draw_prot_O50039,"draw_prot_O50039",Reaction
+draw_prot_O64753,"draw_prot_O64753",Reaction
+draw_prot_O64767,"draw_prot_O64767",Reaction
+draw_prot_O64888,"draw_prot_O64888",Reaction
+draw_prot_O64903,"draw_prot_O64903",Reaction
+draw_prot_O65258,"draw_prot_O65258",Reaction
+draw_prot_O65396,"draw_prot_O65396",Reaction
+draw_prot_O65581,"draw_prot_O65581",Reaction
+draw_prot_O80452,"draw_prot_O80452",Reaction
+draw_prot_O80526,"draw_prot_O80526",Reaction
+draw_prot_O80574,"draw_prot_O80574",Reaction
+draw_prot_O80585,"draw_prot_O80585",Reaction
+draw_prot_O80634,"draw_prot_O80634",Reaction
+draw_prot_O80738,"draw_prot_O80738",Reaction
+draw_prot_O80874,"draw_prot_O80874",Reaction
+draw_prot_O80988,"draw_prot_O80988",Reaction
+draw_prot_O81796,"draw_prot_O81796",Reaction
+draw_prot_O81852,"draw_prot_O81852",Reaction
+draw_prot_O82191,"draw_prot_O82191",Reaction
+draw_prot_O82399,"draw_prot_O82399",Reaction
+draw_prot_O82514,"draw_prot_O82514",Reaction
+draw_prot_O82662,"draw_prot_O82662",Reaction
+draw_prot_O82663,"draw_prot_O82663",Reaction
+draw_prot_O82768,"draw_prot_O82768",Reaction
+draw_prot_O82782,"draw_prot_O82782",Reaction
+draw_prot_O82793,"draw_prot_O82793",Reaction
+draw_prot_O82796,"draw_prot_O82796",Reaction
+draw_prot_P05466,"draw_prot_P05466",Reaction
+draw_prot_P09468,"draw_prot_P09468",Reaction
+draw_prot_P0CC32,"draw_prot_P0CC32",Reaction
+draw_prot_P0CC33,"draw_prot_P0CC33",Reaction
+draw_prot_P0DI07,"draw_prot_P0DI07",Reaction
+draw_prot_P0DKC3,"draw_prot_P0DKC3",Reaction
+draw_prot_P0DKC4,"draw_prot_P0DKC4",Reaction
+draw_prot_P0DKI0,"draw_prot_P0DKI0",Reaction
+draw_prot_P0DKI1,"draw_prot_P0DKI1",Reaction
+draw_prot_P10795,"draw_prot_P10795",Reaction
+draw_prot_P10796,"draw_prot_P10796",Reaction
+draw_prot_P10797,"draw_prot_P10797",Reaction
+draw_prot_P10798,"draw_prot_P10798",Reaction
+draw_prot_P11035,"draw_prot_P11035",Reaction
+draw_prot_P11832,"draw_prot_P11832",Reaction
+draw_prot_P14671,"draw_prot_P14671",Reaction
+draw_prot_P17562,"draw_prot_P17562",Reaction
+draw_prot_P17597,"draw_prot_P17597",Reaction
+draw_prot_P19366,"draw_prot_P19366",Reaction
+draw_prot_P20115,"draw_prot_P20115",Reaction
+draw_prot_P21216,"draw_prot_P21216",Reaction
+draw_prot_P22197,"draw_prot_P22197",Reaction
+draw_prot_P23321,"draw_prot_P23321",Reaction
+draw_prot_P23686,"draw_prot_P23686",Reaction
+draw_prot_P25269,"draw_prot_P25269",Reaction
+draw_prot_P25696,"draw_prot_P25696",Reaction
+draw_prot_P25697,"draw_prot_P25697",Reaction
+draw_prot_P25819,"draw_prot_P25819",Reaction
+draw_prot_P25851,"draw_prot_P25851",Reaction
+draw_prot_P25853,"draw_prot_P25853",Reaction
+draw_prot_P25856,"draw_prot_P25856",Reaction
+draw_prot_P25857,"draw_prot_P25857",Reaction
+draw_prot_P25858,"draw_prot_P25858",Reaction
+draw_prot_P26288,"draw_prot_P26288",Reaction
+draw_prot_P26289,"draw_prot_P26289",Reaction
+draw_prot_P27140,"draw_prot_P27140",Reaction
+draw_prot_P27202,"draw_prot_P27202",Reaction
+draw_prot_P28297,"draw_prot_P28297",Reaction
+draw_prot_P29976,"draw_prot_P29976",Reaction
+draw_prot_P31166,"draw_prot_P31166",Reaction
+draw_prot_P32068,"draw_prot_P32068",Reaction
+draw_prot_P32069,"draw_prot_P32069",Reaction
+draw_prot_P32746,"draw_prot_P32746",Reaction
+draw_prot_P34047,"draw_prot_P34047",Reaction
+draw_prot_P34795,"draw_prot_P34795",Reaction
+draw_prot_P38025,"draw_prot_P38025",Reaction
+draw_prot_P39207,"draw_prot_P39207",Reaction
+draw_prot_P42737,"draw_prot_P42737",Reaction
+draw_prot_P42738,"draw_prot_P42738",Reaction
+draw_prot_P42770,"draw_prot_P42770",Reaction
+draw_prot_P42792,"draw_prot_P42792",Reaction
+draw_prot_P46248,"draw_prot_P46248",Reaction
+draw_prot_P46283,"draw_prot_P46283",Reaction
+draw_prot_P46637,"draw_prot_P46637",Reaction
+draw_prot_P46643,"draw_prot_P46643",Reaction
+draw_prot_P46644,"draw_prot_P46644",Reaction
+draw_prot_P46645,"draw_prot_P46645",Reaction
+draw_prot_P46646,"draw_prot_P46646",Reaction
+draw_prot_P47996,"draw_prot_P47996",Reaction
+draw_prot_P47998,"draw_prot_P47998",Reaction
+draw_prot_P47999,"draw_prot_P47999",Reaction
+draw_prot_P48491,"draw_prot_P48491",Reaction
+draw_prot_P49040,"draw_prot_P49040",Reaction
+draw_prot_P49077,"draw_prot_P49077",Reaction
+draw_prot_P49078,"draw_prot_P49078",Reaction
+draw_prot_P49107,"draw_prot_P49107",Reaction
+draw_prot_P49572,"draw_prot_P49572",Reaction
+draw_prot_P50287,"draw_prot_P50287",Reaction
+draw_prot_P50318,"draw_prot_P50318",Reaction
+draw_prot_P50651,"draw_prot_P50651",Reaction
+draw_prot_P52420,"draw_prot_P52420",Reaction
+draw_prot_P52422,"draw_prot_P52422",Reaction
+draw_prot_P52901,"draw_prot_P52901",Reaction
+draw_prot_P53780,"draw_prot_P53780",Reaction
+draw_prot_P54887,"draw_prot_P54887",Reaction
+draw_prot_P54888,"draw_prot_P54888",Reaction
+draw_prot_P54904,"draw_prot_P54904",Reaction
+draw_prot_P55217,"draw_prot_P55217",Reaction
+draw_prot_P55228,"draw_prot_P55228",Reaction
+draw_prot_P55229,"draw_prot_P55229",Reaction
+draw_prot_P55230,"draw_prot_P55230",Reaction
+draw_prot_P55231,"draw_prot_P55231",Reaction
+draw_prot_P56751,"draw_prot_P56751",Reaction
+draw_prot_P56752,"draw_prot_P56752",Reaction
+draw_prot_P56753,"draw_prot_P56753",Reaction
+draw_prot_P56754,"draw_prot_P56754",Reaction
+draw_prot_P56755,"draw_prot_P56755",Reaction
+draw_prot_P56756,"draw_prot_P56756",Reaction
+draw_prot_P56757,"draw_prot_P56757",Reaction
+draw_prot_P56758,"draw_prot_P56758",Reaction
+draw_prot_P56759,"draw_prot_P56759",Reaction
+draw_prot_P56760,"draw_prot_P56760",Reaction
+draw_prot_P56761,"draw_prot_P56761",Reaction
+draw_prot_P56765,"draw_prot_P56765",Reaction
+draw_prot_P56766,"draw_prot_P56766",Reaction
+draw_prot_P56767,"draw_prot_P56767",Reaction
+draw_prot_P56768,"draw_prot_P56768",Reaction
+draw_prot_P56769,"draw_prot_P56769",Reaction
+draw_prot_P56771,"draw_prot_P56771",Reaction
+draw_prot_P56773,"draw_prot_P56773",Reaction
+draw_prot_P56774,"draw_prot_P56774",Reaction
+draw_prot_P56775,"draw_prot_P56775",Reaction
+draw_prot_P56776,"draw_prot_P56776",Reaction
+draw_prot_P56777,"draw_prot_P56777",Reaction
+draw_prot_P56778,"draw_prot_P56778",Reaction
+draw_prot_P56779,"draw_prot_P56779",Reaction
+draw_prot_P56780,"draw_prot_P56780",Reaction
+draw_prot_P56781,"draw_prot_P56781",Reaction
+draw_prot_P56782,"draw_prot_P56782",Reaction
+draw_prot_P56790,"draw_prot_P56790",Reaction
+draw_prot_P57106,"draw_prot_P57106",Reaction
+draw_prot_P57720,"draw_prot_P57720",Reaction
+draw_prot_P57751,"draw_prot_P57751",Reaction
+draw_prot_P60112,"draw_prot_P60112",Reaction
+draw_prot_P60129,"draw_prot_P60129",Reaction
+draw_prot_P60497,"draw_prot_P60497",Reaction
+draw_prot_P60620,"draw_prot_P60620",Reaction
+draw_prot_P61039,"draw_prot_P61039",Reaction
+draw_prot_P61839,"draw_prot_P61839",Reaction
+draw_prot_P62090,"draw_prot_P62090",Reaction
+draw_prot_P62095,"draw_prot_P62095",Reaction
+draw_prot_P62100,"draw_prot_P62100",Reaction
+draw_prot_P62109,"draw_prot_P62109",Reaction
+draw_prot_P62113,"draw_prot_P62113",Reaction
+draw_prot_P68209,"draw_prot_P68209",Reaction
+draw_prot_P83483,"draw_prot_P83483",Reaction
+draw_prot_P83484,"draw_prot_P83484",Reaction
+draw_prot_P83755,"draw_prot_P83755",Reaction
+draw_prot_P92533,"draw_prot_P92533",Reaction
+draw_prot_P92547,"draw_prot_P92547",Reaction
+draw_prot_P92549,"draw_prot_P92549",Reaction
+draw_prot_P92979,"draw_prot_P92979",Reaction
+draw_prot_P92980,"draw_prot_P92980",Reaction
+draw_prot_P92981,"draw_prot_P92981",Reaction
+draw_prot_P92983,"draw_prot_P92983",Reaction
+draw_prot_P93032,"draw_prot_P93032",Reaction
+draw_prot_P93033,"draw_prot_P93033",Reaction
+draw_prot_P93285,"draw_prot_P93285",Reaction
+draw_prot_P93306,"draw_prot_P93306",Reaction
+draw_prot_P93313,"draw_prot_P93313",Reaction
+draw_prot_P93757,"draw_prot_P93757",Reaction
+draw_prot_P93819,"draw_prot_P93819",Reaction
+draw_prot_P93832,"draw_prot_P93832",Reaction
+draw_prot_P93834,"draw_prot_P93834",Reaction
+draw_prot_Q00218,"draw_prot_Q00218",Reaction
+draw_prot_Q00917,"draw_prot_Q00917",Reaction
+draw_prot_Q01908,"draw_prot_Q01908",Reaction
+draw_prot_Q01909,"draw_prot_Q01909",Reaction
+draw_prot_Q02166,"draw_prot_Q02166",Reaction
+draw_prot_Q04613,"draw_prot_Q04613",Reaction
+draw_prot_Q04614,"draw_prot_Q04614",Reaction
+draw_prot_Q05728,"draw_prot_Q05728",Reaction
+draw_prot_Q05758,"draw_prot_Q05758",Reaction
+draw_prot_Q05762,"draw_prot_Q05762",Reaction
+draw_prot_Q0WNZ5,"draw_prot_Q0WNZ5",Reaction
+draw_prot_Q0WQF7,"draw_prot_Q0WQF7",Reaction
+draw_prot_Q0WRY1,"draw_prot_Q0WRY1",Reaction
+draw_prot_Q0WSF1,"draw_prot_Q0WSF1",Reaction
+draw_prot_Q0WVX5,"draw_prot_Q0WVX5",Reaction
+draw_prot_Q0WW55,"draw_prot_Q0WW55",Reaction
+draw_prot_Q0WWE3,"draw_prot_Q0WWE3",Reaction
+draw_prot_Q1JPL4,"draw_prot_Q1JPL4",Reaction
+draw_prot_Q1WIQ6,"draw_prot_Q1WIQ6",Reaction
+draw_prot_Q24JJ8,"draw_prot_Q24JJ8",Reaction
+draw_prot_Q2PGG3,"draw_prot_Q2PGG3",Reaction
+draw_prot_Q2V2S7,"draw_prot_Q2V2S7",Reaction
+draw_prot_Q37165,"draw_prot_Q37165",Reaction
+draw_prot_Q38799,"draw_prot_Q38799",Reaction
+draw_prot_Q38946,"draw_prot_Q38946",Reaction
+draw_prot_Q39161,"draw_prot_Q39161",Reaction
+draw_prot_Q39194,"draw_prot_Q39194",Reaction
+draw_prot_Q39195,"draw_prot_Q39195",Reaction
+draw_prot_Q39218,"draw_prot_Q39218",Reaction
+draw_prot_Q39219,"draw_prot_Q39219",Reaction
+draw_prot_Q39242,"draw_prot_Q39242",Reaction
+draw_prot_Q39243,"draw_prot_Q39243",Reaction
+draw_prot_Q3E870,"draw_prot_Q3E870",Reaction
+draw_prot_Q41932,"draw_prot_Q41932",Reaction
+draw_prot_Q42029,"draw_prot_Q42029",Reaction
+draw_prot_Q42290,"draw_prot_Q42290",Reaction
+draw_prot_Q42440,"draw_prot_Q42440",Reaction
+draw_prot_Q42472,"draw_prot_Q42472",Reaction
+draw_prot_Q42521,"draw_prot_Q42521",Reaction
+draw_prot_Q42527,"draw_prot_Q42527",Reaction
+draw_prot_Q42529,"draw_prot_Q42529",Reaction
+draw_prot_Q42533,"draw_prot_Q42533",Reaction
+draw_prot_Q42538,"draw_prot_Q42538",Reaction
+draw_prot_Q42547,"draw_prot_Q42547",Reaction
+draw_prot_Q42560,"draw_prot_Q42560",Reaction
+draw_prot_Q42563,"draw_prot_Q42563",Reaction
+draw_prot_Q42577,"draw_prot_Q42577",Reaction
+draw_prot_Q42581,"draw_prot_Q42581",Reaction
+draw_prot_Q42583,"draw_prot_Q42583",Reaction
+draw_prot_Q42586,"draw_prot_Q42586",Reaction
+draw_prot_Q42588,"draw_prot_Q42588",Reaction
+draw_prot_Q42599,"draw_prot_Q42599",Reaction
+draw_prot_Q42601,"draw_prot_Q42601",Reaction
+draw_prot_Q43127,"draw_prot_Q43127",Reaction
+draw_prot_Q43314,"draw_prot_Q43314",Reaction
+draw_prot_Q43727,"draw_prot_Q43727",Reaction
+draw_prot_Q43870,"draw_prot_Q43870",Reaction
+draw_prot_Q56WN1,"draw_prot_Q56WN1",Reaction
+draw_prot_Q56X52,"draw_prot_Q56X52",Reaction
+draw_prot_Q56YA5,"draw_prot_Q56YA5",Reaction
+draw_prot_Q56YU0,"draw_prot_Q56YU0",Reaction
+draw_prot_Q5E924,"draw_prot_Q5E924",Reaction
+draw_prot_Q5GM68,"draw_prot_Q5GM68",Reaction
+draw_prot_Q5HZ05,"draw_prot_Q5HZ05",Reaction
+draw_prot_Q5M729,"draw_prot_Q5M729",Reaction
+draw_prot_Q67X99,"draw_prot_Q67X99",Reaction
+draw_prot_Q67XC9,"draw_prot_Q67XC9",Reaction
+draw_prot_Q67XD9,"draw_prot_Q67XD9",Reaction
+draw_prot_Q6NKX1,"draw_prot_Q6NKX1",Reaction
+draw_prot_Q6NPM8,"draw_prot_Q6NPM8",Reaction
+draw_prot_Q70DU8,"draw_prot_Q70DU8",Reaction
+draw_prot_Q70E96,"draw_prot_Q70E96",Reaction
+draw_prot_Q84JA6,"draw_prot_Q84JA6",Reaction
+draw_prot_Q84TI2,"draw_prot_Q84TI2",Reaction
+draw_prot_Q84VQ4,"draw_prot_Q84VQ4",Reaction
+draw_prot_Q84VW9,"draw_prot_Q84VW9",Reaction
+draw_prot_Q84WW2,"draw_prot_Q84WW2",Reaction
+draw_prot_Q8GSJ1,"draw_prot_Q8GSJ1",Reaction
+draw_prot_Q8GVE8,"draw_prot_Q8GVE8",Reaction
+draw_prot_Q8GWA1,"draw_prot_Q8GWA1",Reaction
+draw_prot_Q8GWG2,"draw_prot_Q8GWG2",Reaction
+draw_prot_Q8GWU0,"draw_prot_Q8GWU0",Reaction
+draw_prot_Q8GXG1,"draw_prot_Q8GXG1",Reaction
+draw_prot_Q8GXR9,"draw_prot_Q8GXR9",Reaction
+draw_prot_Q8GXW5,"draw_prot_Q8GXW5",Reaction
+draw_prot_Q8GY88,"draw_prot_Q8GY88",Reaction
+draw_prot_Q8GYY0,"draw_prot_Q8GYY0",Reaction
+draw_prot_Q8H103,"draw_prot_Q8H103",Reaction
+draw_prot_Q8H107,"draw_prot_Q8H107",Reaction
+draw_prot_Q8H1E2,"draw_prot_Q8H1E2",Reaction
+draw_prot_Q8L743,"draw_prot_Q8L743",Reaction
+draw_prot_Q8L762,"draw_prot_Q8L762",Reaction
+draw_prot_Q8L778,"draw_prot_Q8L778",Reaction
+draw_prot_Q8L7R2,"draw_prot_Q8L7R2",Reaction
+draw_prot_Q8L817,"draw_prot_Q8L817",Reaction
+draw_prot_Q8LAD0,"draw_prot_Q8LAD0",Reaction
+draw_prot_Q8LAD2,"draw_prot_Q8LAD2",Reaction
+draw_prot_Q8LAX0,"draw_prot_Q8LAX0",Reaction
+draw_prot_Q8LB01,"draw_prot_Q8LB01",Reaction
+draw_prot_Q8LB02,"draw_prot_Q8LB02",Reaction
+draw_prot_Q8LBZ7,"draw_prot_Q8LBZ7",Reaction
+draw_prot_Q8LCA1,"draw_prot_Q8LCA1",Reaction
+draw_prot_Q8LCE1,"draw_prot_Q8LCE1",Reaction
+draw_prot_Q8LEE7,"draw_prot_Q8LEE7",Reaction
+draw_prot_Q8LEV7,"draw_prot_Q8LEV7",Reaction
+draw_prot_Q8LFC0,"draw_prot_Q8LFC0",Reaction
+draw_prot_Q8LG70,"draw_prot_Q8LG70",Reaction
+draw_prot_Q8LG77,"draw_prot_Q8LG77",Reaction
+draw_prot_Q8LPI9,"draw_prot_Q8LPI9",Reaction
+draw_prot_Q8LPJ5,"draw_prot_Q8LPJ5",Reaction
+draw_prot_Q8LPK5,"draw_prot_Q8LPK5",Reaction
+draw_prot_Q8RU07,"draw_prot_Q8RU07",Reaction
+draw_prot_Q8RWN9,"draw_prot_Q8RWN9",Reaction
+draw_prot_Q8RWV0,"draw_prot_Q8RWV0",Reaction
+draw_prot_Q8RXD9,"draw_prot_Q8RXD9",Reaction
+draw_prot_Q8RXS1,"draw_prot_Q8RXS1",Reaction
+draw_prot_Q8RXU4,"draw_prot_Q8RXU4",Reaction
+draw_prot_Q8RY94,"draw_prot_Q8RY94",Reaction
+draw_prot_Q8S895,"draw_prot_Q8S895",Reaction
+draw_prot_Q8VYL1,"draw_prot_Q8VYL1",Reaction
+draw_prot_Q8VYN6,"draw_prot_Q8VYN6",Reaction
+draw_prot_Q8VYV7,"draw_prot_Q8VYV7",Reaction
+draw_prot_Q8VYW2,"draw_prot_Q8VYW2",Reaction
+draw_prot_Q8VZC3,"draw_prot_Q8VZC3",Reaction
+draw_prot_Q8W2B8,"draw_prot_Q8W2B8",Reaction
+draw_prot_Q8W493,"draw_prot_Q8W493",Reaction
+draw_prot_Q8W4M5,"draw_prot_Q8W4M5",Reaction
+draw_prot_Q93V56,"draw_prot_Q93V56",Reaction
+draw_prot_Q93XN8,"draw_prot_Q93XN8",Reaction
+draw_prot_Q93Z53,"draw_prot_Q93Z53",Reaction
+draw_prot_Q93Z66,"draw_prot_Q93Z66",Reaction
+draw_prot_Q93Z70,"draw_prot_Q93Z70",Reaction
+draw_prot_Q93ZN9,"draw_prot_Q93ZN9",Reaction
+draw_prot_Q93ZW0,"draw_prot_Q93ZW0",Reaction
+draw_prot_Q941A0,"draw_prot_Q941A0",Reaction
+draw_prot_Q941A6,"draw_prot_Q941A6",Reaction
+draw_prot_Q941L0,"draw_prot_Q941L0",Reaction
+draw_prot_Q944G9,"draw_prot_Q944G9",Reaction
+draw_prot_Q944I4,"draw_prot_Q944I4",Reaction
+draw_prot_Q945K7,"draw_prot_Q945K7",Reaction
+draw_prot_Q945L0,"draw_prot_Q945L0",Reaction
+draw_prot_Q949Q5,"draw_prot_Q949Q5",Reaction
+draw_prot_Q949X7,"draw_prot_Q949X7",Reaction
+draw_prot_Q94A28,"draw_prot_Q94A28",Reaction
+draw_prot_Q94A41,"draw_prot_Q94A41",Reaction
+draw_prot_Q94A94,"draw_prot_Q94A94",Reaction
+draw_prot_Q94AA4,"draw_prot_Q94AA4",Reaction
+draw_prot_Q94AR8,"draw_prot_Q94AR8",Reaction
+draw_prot_Q94B78,"draw_prot_Q94B78",Reaction
+draw_prot_Q94BT0,"draw_prot_Q94BT0",Reaction
+draw_prot_Q94BV7,"draw_prot_Q94BV7",Reaction
+draw_prot_Q94C74,"draw_prot_Q94C74",Reaction
+draw_prot_Q94CE3,"draw_prot_Q94CE3",Reaction
+draw_prot_Q94CE4,"draw_prot_Q94CE4",Reaction
+draw_prot_Q94CE5,"draw_prot_Q94CE5",Reaction
+draw_prot_Q94JQ6,"draw_prot_Q94JQ6",Reaction
+draw_prot_Q94JS0,"draw_prot_Q94JS0",Reaction
+draw_prot_Q95695,"draw_prot_Q95695",Reaction
+draw_prot_Q95748,"draw_prot_Q95748",Reaction
+draw_prot_Q96250,"draw_prot_Q96250",Reaction
+draw_prot_Q96251,"draw_prot_Q96251",Reaction
+draw_prot_Q96252,"draw_prot_Q96252",Reaction
+draw_prot_Q96253,"draw_prot_Q96253",Reaction
+draw_prot_Q96255,"draw_prot_Q96255",Reaction
+draw_prot_Q96528,"draw_prot_Q96528",Reaction
+draw_prot_Q96529,"draw_prot_Q96529",Reaction
+draw_prot_Q9ASS6,"draw_prot_Q9ASS6",Reaction
+draw_prot_Q9C522,"draw_prot_Q9C522",Reaction
+draw_prot_Q9C544,"draw_prot_Q9C544",Reaction
+draw_prot_Q9C550,"draw_prot_Q9C550",Reaction
+draw_prot_Q9C5A9,"draw_prot_Q9C5A9",Reaction
+draw_prot_Q9C5E8,"draw_prot_Q9C5E8",Reaction
+draw_prot_Q9C5J7,"draw_prot_Q9C5J7",Reaction
+draw_prot_Q9C5U8,"draw_prot_Q9C5U8",Reaction
+draw_prot_Q9C6F5,"draw_prot_Q9C6F5",Reaction
+draw_prot_Q9C9C4,"draw_prot_Q9C9C4",Reaction
+draw_prot_Q9C9K3,"draw_prot_Q9C9K3",Reaction
+draw_prot_Q9C9W5,"draw_prot_Q9C9W5",Reaction
+draw_prot_Q9CA83,"draw_prot_Q9CA83",Reaction
+draw_prot_Q9CA90,"draw_prot_Q9CA90",Reaction
+draw_prot_Q9CAC5,"draw_prot_Q9CAC5",Reaction
+draw_prot_Q9CAD1,"draw_prot_Q9CAD1",Reaction
+draw_prot_Q9FFP6,"draw_prot_Q9FFP6",Reaction
+draw_prot_Q9FFR3,"draw_prot_Q9FFR3",Reaction
+draw_prot_Q9FG89,"draw_prot_Q9FG89",Reaction
+draw_prot_Q9FGI6,"draw_prot_Q9FGI6",Reaction
+draw_prot_Q9FGX1,"draw_prot_Q9FGX1",Reaction
+draw_prot_Q9FI53,"draw_prot_Q9FI53",Reaction
+draw_prot_Q9FIJ7,"draw_prot_Q9FIJ7",Reaction
+draw_prot_Q9FIK0,"draw_prot_Q9FIK0",Reaction
+draw_prot_Q9FIN1,"draw_prot_Q9FIN1",Reaction
+draw_prot_Q9FJ82,"draw_prot_Q9FJ82",Reaction
+draw_prot_Q9FJP9,"draw_prot_Q9FJP9",Reaction
+draw_prot_Q9FJU0,"draw_prot_Q9FJU0",Reaction
+draw_prot_Q9FK35,"draw_prot_Q9FK35",Reaction
+draw_prot_Q9FKG3,"draw_prot_Q9FKG3",Reaction
+draw_prot_Q9FKS5,"draw_prot_Q9FKS5",Reaction
+draw_prot_Q9FKW6,"draw_prot_Q9FKW6",Reaction
+draw_prot_Q9FLB7,"draw_prot_Q9FLB7",Reaction
+draw_prot_Q9FLH2,"draw_prot_Q9FLH2",Reaction
+draw_prot_Q9FLK2,"draw_prot_Q9FLK2",Reaction
+draw_prot_Q9FLQ4,"draw_prot_Q9FLQ4",Reaction
+draw_prot_Q9FLW9,"draw_prot_Q9FLW9",Reaction
+draw_prot_Q9FMD9,"draw_prot_Q9FMD9",Reaction
+draw_prot_Q9FMT1,"draw_prot_Q9FMT1",Reaction
+draw_prot_Q9FNF2,"draw_prot_Q9FNF2",Reaction
+draw_prot_Q9FNJ8,"draw_prot_Q9FNJ8",Reaction
+draw_prot_Q9FNK4,"draw_prot_Q9FNK4",Reaction
+draw_prot_Q9FNN1,"draw_prot_Q9FNN1",Reaction
+draw_prot_Q9FNN5,"draw_prot_Q9FNN5",Reaction
+draw_prot_Q9FT52,"draw_prot_Q9FT52",Reaction
+draw_prot_Q9FVC8,"draw_prot_Q9FVC8",Reaction
+draw_prot_Q9FWA3,"draw_prot_Q9FWA3",Reaction
+draw_prot_Q9FX54,"draw_prot_Q9FX54",Reaction
+draw_prot_Q9FX83,"draw_prot_Q9FX83",Reaction
+draw_prot_Q9FY99,"draw_prot_Q9FY99",Reaction
+draw_prot_Q9FYA6,"draw_prot_Q9FYA6",Reaction
+draw_prot_Q9FYE3,"draw_prot_Q9FYE3",Reaction
+draw_prot_Q9FZ57,"draw_prot_Q9FZ57",Reaction
+draw_prot_Q9LD43,"draw_prot_Q9LD43",Reaction
+draw_prot_Q9LD57,"draw_prot_Q9LD57",Reaction
+draw_prot_Q9LDV4,"draw_prot_Q9LDV4",Reaction
+draw_prot_Q9LE33,"draw_prot_Q9LE33",Reaction
+draw_prot_Q9LEU8,"draw_prot_Q9LEU8",Reaction
+draw_prot_Q9LF98,"draw_prot_Q9LF98",Reaction
+draw_prot_Q9LFF9,"draw_prot_Q9LFF9",Reaction
+draw_prot_Q9LFG2,"draw_prot_Q9LFG2",Reaction
+draw_prot_Q9LFP0,"draw_prot_Q9LFP0",Reaction
+draw_prot_Q9LFU1,"draw_prot_Q9LFU1",Reaction
+draw_prot_Q9LIK0,"draw_prot_Q9LIK0",Reaction
+draw_prot_Q9LIK9,"draw_prot_Q9LIK9",Reaction
+draw_prot_Q9LIR4,"draw_prot_Q9LIR4",Reaction
+draw_prot_Q9LIR6,"draw_prot_Q9LIR6",Reaction
+draw_prot_Q9LJA0,"draw_prot_Q9LJA0",Reaction
+draw_prot_Q9LK23,"draw_prot_Q9LK23",Reaction
+draw_prot_Q9LK29,"draw_prot_Q9LK29",Reaction
+draw_prot_Q9LK36,"draw_prot_Q9LK36",Reaction
+draw_prot_Q9LKA3,"draw_prot_Q9LKA3",Reaction
+draw_prot_Q9LLC1,"draw_prot_Q9LLC1",Reaction
+draw_prot_Q9LM13,"draw_prot_Q9LM13",Reaction
+draw_prot_Q9LMI0,"draw_prot_Q9LMI0",Reaction
+draw_prot_Q9LMR3,"draw_prot_Q9LMR3",Reaction
+draw_prot_Q9LMX8,"draw_prot_Q9LMX8",Reaction
+draw_prot_Q9LPR4,"draw_prot_Q9LPR4",Reaction
+draw_prot_Q9LPW0,"draw_prot_Q9LPW0",Reaction
+draw_prot_Q9LQ10,"draw_prot_Q9LQ10",Reaction
+draw_prot_Q9LQF2,"draw_prot_Q9LQF2",Reaction
+draw_prot_Q9LQK9,"draw_prot_Q9LQK9",Reaction
+draw_prot_Q9LR30,"draw_prot_Q9LR30",Reaction
+draw_prot_Q9LRR9,"draw_prot_Q9LRR9",Reaction
+draw_prot_Q9LRS0,"draw_prot_Q9LRS0",Reaction
+draw_prot_Q9LSD0,"draw_prot_Q9LSD0",Reaction
+draw_prot_Q9LSH2,"draw_prot_Q9LSH2",Reaction
+draw_prot_Q9LT69,"draw_prot_Q9LT69",Reaction
+draw_prot_Q9LTW8,"draw_prot_Q9LTW8",Reaction
+draw_prot_Q9LU21,"draw_prot_Q9LU21",Reaction
+draw_prot_Q9LU95,"draw_prot_Q9LU95",Reaction
+draw_prot_Q9LUT2,"draw_prot_Q9LUT2",Reaction
+draw_prot_Q9LV03,"draw_prot_Q9LV03",Reaction
+draw_prot_Q9LV77,"draw_prot_Q9LV77",Reaction
+draw_prot_Q9LV91,"draw_prot_Q9LV91",Reaction
+draw_prot_Q9LVI8,"draw_prot_Q9LVI8",Reaction
+draw_prot_Q9LVM2,"draw_prot_Q9LVM2",Reaction
+draw_prot_Q9LVW7,"draw_prot_Q9LVW7",Reaction
+draw_prot_Q9LW15,"draw_prot_Q9LW15",Reaction
+draw_prot_Q9LXC9,"draw_prot_Q9LXC9",Reaction
+draw_prot_Q9LXJ2,"draw_prot_Q9LXJ2",Reaction
+draw_prot_Q9LXL5,"draw_prot_Q9LXL5",Reaction
+draw_prot_Q9LXS6,"draw_prot_Q9LXS6",Reaction
+draw_prot_Q9LYG3,"draw_prot_Q9LYG3",Reaction
+draw_prot_Q9LYR2,"draw_prot_Q9LYR2",Reaction
+draw_prot_Q9LYR4,"draw_prot_Q9LYR4",Reaction
+draw_prot_Q9LYT7,"draw_prot_Q9LYT7",Reaction
+draw_prot_Q9LYU8,"draw_prot_Q9LYU8",Reaction
+draw_prot_Q9LZ66,"draw_prot_Q9LZ66",Reaction
+draw_prot_Q9LZC3,"draw_prot_Q9LZC3",Reaction
+draw_prot_Q9LZG0,"draw_prot_Q9LZG0",Reaction
+draw_prot_Q9LZQ0,"draw_prot_Q9LZQ0",Reaction
+draw_prot_Q9LZX6,"draw_prot_Q9LZX6",Reaction
+draw_prot_Q9M044,"draw_prot_Q9M044",Reaction
+draw_prot_Q9M057,"draw_prot_Q9M057",Reaction
+draw_prot_Q9M076,"draw_prot_Q9M076",Reaction
+draw_prot_Q9M0F9,"draw_prot_Q9M0F9",Reaction
+draw_prot_Q9M1B9,"draw_prot_Q9M1B9",Reaction
+draw_prot_Q9M1D3,"draw_prot_Q9M1D3",Reaction
+draw_prot_Q9M1W4,"draw_prot_Q9M1W4",Reaction
+draw_prot_Q9M394,"draw_prot_Q9M394",Reaction
+draw_prot_Q9M401,"draw_prot_Q9M401",Reaction
+draw_prot_Q9M439,"draw_prot_Q9M439",Reaction
+draw_prot_Q9M5K2,"draw_prot_Q9M5K2",Reaction
+draw_prot_Q9M5K3,"draw_prot_Q9M5K3",Reaction
+draw_prot_Q9M682,"draw_prot_Q9M682",Reaction
+draw_prot_Q9M8D3,"draw_prot_Q9M8D3",Reaction
+draw_prot_Q9M8M7,"draw_prot_Q9M8M7",Reaction
+draw_prot_Q9M9K1,"draw_prot_Q9M9K1",Reaction
+draw_prot_Q9M9P3,"draw_prot_Q9M9P3",Reaction
+draw_prot_Q9MA79,"draw_prot_Q9MA79",Reaction
+draw_prot_Q9MAC8,"draw_prot_Q9MAC8",Reaction
+draw_prot_Q9MAH0,"draw_prot_Q9MAH0",Reaction
+draw_prot_Q9MB58,"draw_prot_Q9MB58",Reaction
+draw_prot_Q9S702,"draw_prot_Q9S702",Reaction
+draw_prot_Q9S714,"draw_prot_Q9S714",Reaction
+draw_prot_Q9S726,"draw_prot_Q9S726",Reaction
+draw_prot_Q9S757,"draw_prot_Q9S757",Reaction
+draw_prot_Q9S762,"draw_prot_Q9S762",Reaction
+draw_prot_Q9S7A0,"draw_prot_Q9S7A0",Reaction
+draw_prot_Q9S7B5,"draw_prot_Q9S7B5",Reaction
+draw_prot_Q9S7D8,"draw_prot_Q9S7D8",Reaction
+draw_prot_Q9S7E4,"draw_prot_Q9S7E4",Reaction
+draw_prot_Q9S7E9,"draw_prot_Q9S7E9",Reaction
+draw_prot_Q9S7H1,"draw_prot_Q9S7H1",Reaction
+draw_prot_Q9S7H4,"draw_prot_Q9S7H4",Reaction
+draw_prot_Q9S7L9,"draw_prot_Q9S7L9",Reaction
+draw_prot_Q9S7N7,"draw_prot_Q9S7N7",Reaction
+draw_prot_Q9S829,"draw_prot_Q9S829",Reaction
+draw_prot_Q9S831,"draw_prot_Q9S831",Reaction
+draw_prot_Q9S841,"draw_prot_Q9S841",Reaction
+draw_prot_Q9S9N6,"draw_prot_Q9S9N6",Reaction
+draw_prot_Q9SA14,"draw_prot_Q9SA14",Reaction
+draw_prot_Q9SA18,"draw_prot_Q9SA18",Reaction
+draw_prot_Q9SA34,"draw_prot_Q9SA34",Reaction
+draw_prot_Q9SA56,"draw_prot_Q9SA56",Reaction
+draw_prot_Q9SA96,"draw_prot_Q9SA96",Reaction
+draw_prot_Q9SAJ4,"draw_prot_Q9SAJ4",Reaction
+draw_prot_Q9SAJ6,"draw_prot_Q9SAJ6",Reaction
+draw_prot_Q9SAK4,"draw_prot_Q9SAK4",Reaction
+draw_prot_Q9SAU2,"draw_prot_Q9SAU2",Reaction
+draw_prot_Q9SCL7,"draw_prot_Q9SCL7",Reaction
+draw_prot_Q9SCS3,"draw_prot_Q9SCS3",Reaction
+draw_prot_Q9SCY0,"draw_prot_Q9SCY0",Reaction
+draw_prot_Q9SCY3,"draw_prot_Q9SCY3",Reaction
+draw_prot_Q9SD76,"draw_prot_Q9SD76",Reaction
+draw_prot_Q9SDL7,"draw_prot_Q9SDL7",Reaction
+draw_prot_Q9SE60,"draw_prot_Q9SE60",Reaction
+draw_prot_Q9SF85,"draw_prot_Q9SF85",Reaction
+draw_prot_Q9SG91,"draw_prot_Q9SG91",Reaction
+draw_prot_Q9SGC1,"draw_prot_Q9SGC1",Reaction
+draw_prot_Q9SGD6,"draw_prot_Q9SGD6",Reaction
+draw_prot_Q9SGH4,"draw_prot_Q9SGH4",Reaction
+draw_prot_Q9SGY2,"draw_prot_Q9SGY2",Reaction
+draw_prot_Q9SH69,"draw_prot_Q9SH69",Reaction
+draw_prot_Q9SHE8,"draw_prot_Q9SHE8",Reaction
+draw_prot_Q9SHG0,"draw_prot_Q9SHG0",Reaction
+draw_prot_Q9SHP0,"draw_prot_Q9SHP0",Reaction
+draw_prot_Q9SI61,"draw_prot_Q9SI61",Reaction
+draw_prot_Q9SIB9,"draw_prot_Q9SIB9",Reaction
+draw_prot_Q9SID0,"draw_prot_Q9SID0",Reaction
+draw_prot_Q9SIE1,"draw_prot_Q9SIE1",Reaction
+draw_prot_Q9SIK1,"draw_prot_Q9SIK1",Reaction
+draw_prot_Q9SIU0,"draw_prot_Q9SIU0",Reaction
+draw_prot_Q9SJ05,"draw_prot_Q9SJ05",Reaction
+draw_prot_Q9SJ20,"draw_prot_Q9SJ20",Reaction
+draw_prot_Q9SJ22,"draw_prot_Q9SJ22",Reaction
+draw_prot_Q9SJ66,"draw_prot_Q9SJ66",Reaction
+draw_prot_Q9SJH7,"draw_prot_Q9SJH7",Reaction
+draw_prot_Q9SJL8,"draw_prot_Q9SJL8",Reaction
+draw_prot_Q9SJM7,"draw_prot_Q9SJM7",Reaction
+draw_prot_Q9SJQ0,"draw_prot_Q9SJQ0",Reaction
+draw_prot_Q9SJQ9,"draw_prot_Q9SJQ9",Reaction
+draw_prot_Q9SJU4,"draw_prot_Q9SJU4",Reaction
+draw_prot_Q9SJV7,"draw_prot_Q9SJV7",Reaction
+draw_prot_Q9SKE0,"draw_prot_Q9SKE0",Reaction
+draw_prot_Q9SKJ5,"draw_prot_Q9SKJ5",Reaction
+draw_prot_Q9SKP6,"draw_prot_Q9SKP6",Reaction
+draw_prot_Q9SKT7,"draw_prot_Q9SKT7",Reaction
+draw_prot_Q9SLK0,"draw_prot_Q9SLK0",Reaction
+draw_prot_Q9SMS0,"draw_prot_Q9SMS0",Reaction
+draw_prot_Q9SN86,"draw_prot_Q9SN86",Reaction
+draw_prot_Q9SPK5,"draw_prot_Q9SPK5",Reaction
+draw_prot_Q9SQG2,"draw_prot_Q9SQG2",Reaction
+draw_prot_Q9SQQ7,"draw_prot_Q9SQQ7",Reaction
+draw_prot_Q9SQT8,"draw_prot_Q9SQT8",Reaction
+draw_prot_Q9SR52,"draw_prot_Q9SR52",Reaction
+draw_prot_Q9SR86,"draw_prot_Q9SR86",Reaction
+draw_prot_Q9SRV5,"draw_prot_Q9SRV5",Reaction
+draw_prot_Q9SRZ6,"draw_prot_Q9SRZ6",Reaction
+draw_prot_Q9SSB8,"draw_prot_Q9SSB8",Reaction
+draw_prot_Q9SSE7,"draw_prot_Q9SSE7",Reaction
+draw_prot_Q9SSP5,"draw_prot_Q9SSP5",Reaction
+draw_prot_Q9SSS9,"draw_prot_Q9SSS9",Reaction
+draw_prot_Q9STG6,"draw_prot_Q9STG6",Reaction
+draw_prot_Q9STG9,"draw_prot_Q9STG9",Reaction
+draw_prot_Q9SU38,"draw_prot_Q9SU38",Reaction
+draw_prot_Q9SU39,"draw_prot_Q9SU39",Reaction
+draw_prot_Q9SUB4,"draw_prot_Q9SUB4",Reaction
+draw_prot_Q9SUD3,"draw_prot_Q9SUD3",Reaction
+draw_prot_Q9SUI4,"draw_prot_Q9SUI4",Reaction
+draw_prot_Q9SUI5,"draw_prot_Q9SUI5",Reaction
+draw_prot_Q9SUI6,"draw_prot_Q9SUI6",Reaction
+draw_prot_Q9SUI7,"draw_prot_Q9SUI7",Reaction
+draw_prot_Q9SUU5,"draw_prot_Q9SUU5",Reaction
+draw_prot_Q9SUW0,"draw_prot_Q9SUW0",Reaction
+draw_prot_Q9SUW2,"draw_prot_Q9SUW2",Reaction
+draw_prot_Q9SVM4,"draw_prot_Q9SVM4",Reaction
+draw_prot_Q9SWW6,"draw_prot_Q9SWW6",Reaction
+draw_prot_Q9SX77,"draw_prot_Q9SX77",Reaction
+draw_prot_Q9SXS7,"draw_prot_Q9SXS7",Reaction
+draw_prot_Q9SYG7,"draw_prot_Q9SYG7",Reaction
+draw_prot_Q9SYM4,"draw_prot_Q9SYM4",Reaction
+draw_prot_Q9SYP2,"draw_prot_Q9SYP2",Reaction
+draw_prot_Q9SZ30,"draw_prot_Q9SZ30",Reaction
+draw_prot_Q9SZJ5,"draw_prot_Q9SZJ5",Reaction
+draw_prot_Q9SZT8,"draw_prot_Q9SZT8",Reaction
+draw_prot_Q9SZX3,"draw_prot_Q9SZX3",Reaction
+draw_prot_Q9T074,"draw_prot_Q9T074",Reaction
+draw_prot_Q9T0A4,"draw_prot_Q9T0A4",Reaction
+draw_prot_Q9T0J5,"draw_prot_Q9T0J5",Reaction
+draw_prot_Q9T0P4,"draw_prot_Q9T0P4",Reaction
+draw_prot_Q9XF91,"draw_prot_Q9XF91",Reaction
+draw_prot_Q9XFT3,"draw_prot_Q9XFT3",Reaction
+draw_prot_Q9XGZ0,"draw_prot_Q9XGZ0",Reaction
+draw_prot_Q9XI73,"draw_prot_Q9XI73",Reaction
+draw_prot_Q9ZNZ7,"draw_prot_Q9ZNZ7",Reaction
+draw_prot_Q9ZP05,"draw_prot_Q9ZP05",Reaction
+draw_prot_Q9ZP06,"draw_prot_Q9ZP06",Reaction
+draw_prot_Q9ZPF5,"draw_prot_Q9ZPF5",Reaction
+draw_prot_Q9ZPS3,"draw_prot_Q9ZPS3",Reaction
+draw_prot_Q9ZPS4,"draw_prot_Q9ZPS4",Reaction
+draw_prot_Q9ZPX5,"draw_prot_Q9ZPX5",Reaction
+draw_prot_Q9ZR03,"draw_prot_Q9ZR03",Reaction
+draw_prot_Q9ZSS6,"draw_prot_Q9ZSS6",Reaction
+draw_prot_Q9ZU25,"draw_prot_Q9ZU25",Reaction
+draw_prot_Q9ZU52,"draw_prot_Q9ZU52",Reaction
+draw_prot_Q9ZUC2,"draw_prot_Q9ZUC2",Reaction
+draw_prot_Q9ZUR7,"draw_prot_Q9ZUR7",Reaction
+draw_prot_Q9ZUU1,"draw_prot_Q9ZUU1",Reaction
+draw_prot_Q9ZUY3,"draw_prot_Q9ZUY3",Reaction
+draw_prot_Q9ZV48,"draw_prot_Q9ZV48",Reaction
+draw_prot_Q9ZW34,"draw_prot_Q9ZW34",Reaction
+draw_prot_Q9ZW84,"draw_prot_Q9ZW84",Reaction
+draw_prot_Q9ZW85,"draw_prot_Q9ZW85",Reaction
+draw_prot_O48717,"draw_prot_O48717",Reaction
+prot_pool_exchange,"prot_pool_exchange",Reaction
+A0A178UD24,"-",EnzymeDraw
+A0A178VX82,"-",EnzymeDraw
+A0A178WJZ2,"-",EnzymeDraw
+A0A1P8ANY1,"-",EnzymeDraw
+A0A1P8AW36,"-",EnzymeDraw
+A0A1P8B6F9,"-",EnzymeDraw
+A0A384K8P2,"-",EnzymeDraw
+A0A384KII3,"-",EnzymeDraw
+A0A384KLZ3,"-",EnzymeDraw
+A0A384L5D5,"-",EnzymeDraw
+A0A5S9YI34,"-",EnzymeDraw
+A0A654EZT9,"-",EnzymeDraw
+A0A654FAY0,"-",EnzymeDraw
+A0A654FQL5,"-",EnzymeDraw
+A1A6H3,"RBSK",EnzymeDraw
+A8MR07,"-",EnzymeDraw
+B5X574,"PCK2",EnzymeDraw
+B9DGD6,"ACS",EnzymeDraw
+B9DHD3,"HISN6A",EnzymeDraw
+F4HUC4,"ACA5",EnzymeDraw
+F4I1A6,"TPPC",EnzymeDraw
+F4I1L9,"-",EnzymeDraw
+F4I6G9,"-",EnzymeDraw
+F4I7I0,"ALAAT1",EnzymeDraw
+F4I8M8,"gpmA2",EnzymeDraw
+F4I8U2,"APS2",EnzymeDraw
+F4IAG2,"SS3",EnzymeDraw
+F4IC59,"-",EnzymeDraw
+F4IHR4,"ACA2",EnzymeDraw
+F4IW47,"TKL-2",EnzymeDraw
+F4IWV2,"-",EnzymeDraw
+F4JGR5,"PFP-BETA2",EnzymeDraw
+F4JIK2,"ACA4",EnzymeDraw
+F4JJJ3,"NDB3",EnzymeDraw
+F4JWS8,"QCR7-2",EnzymeDraw
+F4KGQ0,"FBA4",EnzymeDraw
+O03042,"rbcL",EnzymeDraw
+O04130,"PGDH2",EnzymeDraw
+O04308,"MPPalpha2",EnzymeDraw
+O04499,"PGM1",EnzymeDraw
+O04846,"ACA1",EnzymeDraw
+O04904,"PYR4",EnzymeDraw
+O04905,"UMK3",EnzymeDraw
+O04983,"CAC2",EnzymeDraw
+O22048,"AOX1C",EnzymeDraw
+O22049,"AOX2",EnzymeDraw
+O22229,"NTRC",EnzymeDraw
+O22241,"ADT4",EnzymeDraw
+O22682,"CS26",EnzymeDraw
+O22718,"ACLA-2",EnzymeDraw
+O22765,"TRPA1",EnzymeDraw
+O22769,"At4g02580",EnzymeDraw
+O22912,"At2g47380",EnzymeDraw
+O23254,"SHM4",EnzymeDraw
+O23255,"SAHH1",EnzymeDraw
+O23324,"APS3",EnzymeDraw
+O23346,"HISN5B",EnzymeDraw
+O23404,"PPDK",EnzymeDraw
+O23553,"BAM3",EnzymeDraw
+O23653,"AK2",EnzymeDraw
+O23913,"AOX1B",EnzymeDraw
+O48946,"CESA1",EnzymeDraw
+O48947,"CESA2",EnzymeDraw
+O49299,"At1g23190",EnzymeDraw
+O49347,"PSBY",EnzymeDraw
+O49485,"PGDH1",EnzymeDraw
+O49506,"GLO5",EnzymeDraw
+O50008,"MS1",EnzymeDraw
+O50039,"OTC",EnzymeDraw
+O64753,"-",EnzymeDraw
+O64767,"-",EnzymeDraw
+O64888,"PRS5",EnzymeDraw
+O64903,"NDPK2",EnzymeDraw
+O65258,"BAM2",EnzymeDraw
+O65396,"GDCST",EnzymeDraw
+O65581,"FBA5",EnzymeDraw
+O80452,"AMPD",EnzymeDraw
+O80526,"ACLA-3",EnzymeDraw
+O80574,"DAPB1",EnzymeDraw
+O80585,"MTHFR2",EnzymeDraw
+O80634,"PNSL1",EnzymeDraw
+O80738,"TPS10",EnzymeDraw
+O80874,"NDA2",EnzymeDraw
+O80988,"GLDP2",EnzymeDraw
+O81796,"IDH3",EnzymeDraw
+O81852,"AKHSDH2",EnzymeDraw
+O82191,"NADP-ME1",EnzymeDraw
+O82399,"PMDH1",EnzymeDraw
+O82514,"ADK1",EnzymeDraw
+O82662,"At2g20420",EnzymeDraw
+O82663,"SDH1-1",EnzymeDraw
+O82768,"HISN2",EnzymeDraw
+O82782,"HISN3",EnzymeDraw
+O82793,"PPA3",EnzymeDraw
+O82796,"PSP",EnzymeDraw
+P05466,"At2g45300",EnzymeDraw
+P09468,"atpE",EnzymeDraw
+P0CC32,"ndhB1",EnzymeDraw
+P0CC33,"ndhB2",EnzymeDraw
+P0DI07,"HISN6B",EnzymeDraw
+P0DKC3,"PGLP1A",EnzymeDraw
+P0DKC4,"PGLP1B",EnzymeDraw
+P0DKI0,"SDH3-1",EnzymeDraw
+P0DKI1,"SDH3-2",EnzymeDraw
+P10795,"RBCS-1A",EnzymeDraw
+P10796,"RBCS-1B",EnzymeDraw
+P10797,"RBCS-2B",EnzymeDraw
+P10798,"RBCS-3B",EnzymeDraw
+P11035,"NIA2",EnzymeDraw
+P11832,"NIA1",EnzymeDraw
+P14671,"TSB1",EnzymeDraw
+P17562,"SAM2",EnzymeDraw
+P17597,"ALS",EnzymeDraw
+P19366,"atpB",EnzymeDraw
+P20115,"CSY4",EnzymeDraw
+P21216,"PPA2",EnzymeDraw
+P22197,"FBA7",EnzymeDraw
+P23321,"PSBO1",EnzymeDraw
+P23686,"SAM1",EnzymeDraw
+P25269,"TSB2",EnzymeDraw
+P25696,"ENO2",EnzymeDraw
+P25697,"At1g32060",EnzymeDraw
+P25819,"CAT2",EnzymeDraw
+P25851,"CFBP1",EnzymeDraw
+P25853,"BAM5",EnzymeDraw
+P25856,"GAPA1",EnzymeDraw
+P25857,"GAPB",EnzymeDraw
+P25858,"GAPC1",EnzymeDraw
+P26288,"ndhD",EnzymeDraw
+P26289,"ndhE",EnzymeDraw
+P27140,"BCA1",EnzymeDraw
+P27202,"PSBR",EnzymeDraw
+P28297,"ICL",EnzymeDraw
+P29976,"DHS1",EnzymeDraw
+P31166,"APT1",EnzymeDraw
+P32068,"ASA1",EnzymeDraw
+P32069,"ASA2",EnzymeDraw
+P32746,"PYRD",EnzymeDraw
+P34047,"HISN5A",EnzymeDraw
+P34795,"PGIC",EnzymeDraw
+P38025,"PUR7",EnzymeDraw
+P39207,"NDK1",EnzymeDraw
+P42737,"BCA2",EnzymeDraw
+P42738,"CM1",EnzymeDraw
+P42770,"EMB2360",EnzymeDraw
+P42792,"MT-CYB",EnzymeDraw
+P46248,"ASP5",EnzymeDraw
+P46283,"At3g55800",EnzymeDraw
+P46637,"ARGAH1",EnzymeDraw
+P46643,"ASP1",EnzymeDraw
+P46644,"ASP3",EnzymeDraw
+P46645,"ASP2",EnzymeDraw
+P46646,"ASP4",EnzymeDraw
+P47996,"IMPDH",EnzymeDraw
+P47998,"OASA1",EnzymeDraw
+P47999,"OASB",EnzymeDraw
+P48491,"CTIMC",EnzymeDraw
+P49040,"SUS1",EnzymeDraw
+P49077,"PYRB",EnzymeDraw
+P49078,"ASN1",EnzymeDraw
+P49107,"PSAN",EnzymeDraw
+P49572,"IGPS",EnzymeDraw
+P50287,"At5g08100",EnzymeDraw
+P50318,"At1g56190",EnzymeDraw
+P50651,"RNR2A",EnzymeDraw
+P52420,"PUR2",EnzymeDraw
+P52422,"PUR3",EnzymeDraw
+P52901,"E1",EnzymeDraw
+P53780,"At3g57050",EnzymeDraw
+P54887,"P5CSA",EnzymeDraw
+P54888,"P5CSB",EnzymeDraw
+P54904,"PROC1",EnzymeDraw
+P55217,"CGS1",EnzymeDraw
+P55228,"APS1",EnzymeDraw
+P55229,"ADG2",EnzymeDraw
+P55230,"APL2",EnzymeDraw
+P55231,"APL3",EnzymeDraw
+P56751,"ndhC",EnzymeDraw
+P56752,"ndhF",EnzymeDraw
+P56753,"ndhH",EnzymeDraw
+P56754,"ndhJ",EnzymeDraw
+P56755,"ndhI",EnzymeDraw
+P56756,"ndhK",EnzymeDraw
+P56757,"atpA",EnzymeDraw
+P56758,"atpI",EnzymeDraw
+P56759,"atpF",EnzymeDraw
+P56760,"atpH",EnzymeDraw
+P56761,"psbD",EnzymeDraw
+P56765,"accD",EnzymeDraw
+P56766,"psaA",EnzymeDraw
+P56767,"psaB",EnzymeDraw
+P56768,"psaI",EnzymeDraw
+P56769,"psaJ",EnzymeDraw
+P56771,"petA",EnzymeDraw
+P56773,"petB",EnzymeDraw
+P56774,"petD",EnzymeDraw
+P56775,"petG",EnzymeDraw
+P56776,"petL",EnzymeDraw
+P56777,"psbB",EnzymeDraw
+P56778,"psbC",EnzymeDraw
+P56779,"psbE",EnzymeDraw
+P56780,"psbH",EnzymeDraw
+P56781,"psbJ",EnzymeDraw
+P56782,"psbK",EnzymeDraw
+P56790,"psbZ",EnzymeDraw
+P57106,"MDH2",EnzymeDraw
+P57720,"EMB1144",EnzymeDraw
+P57751,"UGP1",EnzymeDraw
+P60112,"ATP9",EnzymeDraw
+P60129,"psbL",EnzymeDraw
+P60497,"ND6",EnzymeDraw
+P60620,"COX1",EnzymeDraw
+P61039,"petN",EnzymeDraw
+P61839,"psbT",EnzymeDraw
+P62090,"psaC",EnzymeDraw
+P62095,"psbF",EnzymeDraw
+P62100,"psbI",EnzymeDraw
+P62109,"psbM",EnzymeDraw
+P62113,"psbN",EnzymeDraw
+P68209,"At5g08300",EnzymeDraw
+P83483,"At5g08670",EnzymeDraw
+P83484,"At5g08690",EnzymeDraw
+P83755,"psbA",EnzymeDraw
+P92533,"ND3",EnzymeDraw
+P92547,"ATP6-2",EnzymeDraw
+P92549,"ATPA",EnzymeDraw
+P92979,"APR1",EnzymeDraw
+P92980,"APR3",EnzymeDraw
+P92981,"APR2",EnzymeDraw
+P92983,"POX1",EnzymeDraw
+P93032,"IDH2",EnzymeDraw
+P93033,"FUM1",EnzymeDraw
+P93285,"COX2",EnzymeDraw
+P93306,"NAD7",EnzymeDraw
+P93313,"ND4",EnzymeDraw
+P93757,"GK-1",EnzymeDraw
+P93819,"MDH1",EnzymeDraw
+P93832,"IMDH2",EnzymeDraw
+P93834,"HXK2",EnzymeDraw
+Q00218,"DHS2",EnzymeDraw
+Q00917,"SUS2",EnzymeDraw
+Q01908,"ATPC1",EnzymeDraw
+Q01909,"ATPC2",EnzymeDraw
+Q02166,"PAT1",EnzymeDraw
+Q04613,"AtMg00640",EnzymeDraw
+Q04614,"ND4L",EnzymeDraw
+Q05728,"PUR5",EnzymeDraw
+Q05758,"At3g58610",EnzymeDraw
+Q05762,"THY-1",EnzymeDraw
+Q0WNZ5,"MS3",EnzymeDraw
+Q0WQF7,"LTA3",EnzymeDraw
+Q0WRY1,"-",EnzymeDraw
+Q0WSF1,"ALDH22A1",EnzymeDraw
+Q0WVX5,"SS4",EnzymeDraw
+Q0WW55,"ZEU1",EnzymeDraw
+Q0WWE3,"QCR6-1",EnzymeDraw
+Q1JPL4,"NDB1",EnzymeDraw
+Q1WIQ6,"ALDH11A3",EnzymeDraw
+Q24JJ8,"GLO3",EnzymeDraw
+Q2PGG3,"SR",EnzymeDraw
+Q2V2S7,"ndhM",EnzymeDraw
+Q37165,"ndhA",EnzymeDraw
+Q38799,"PDH2",EnzymeDraw
+Q38946,"GDH2",EnzymeDraw
+Q39161,"NIR1",EnzymeDraw
+Q39194,"PSBW",EnzymeDraw
+Q39195,"PSBT",EnzymeDraw
+Q39218,"SAT3",EnzymeDraw
+Q39219,"AOX1A",EnzymeDraw
+Q39242,"NTR2",EnzymeDraw
+Q39243,"NTR1",EnzymeDraw
+Q3E870,"SDH7B",EnzymeDraw
+Q41932,"PSBQ2",EnzymeDraw
+Q42029,"PSBP1",EnzymeDraw
+Q42290,"MPPbeta",EnzymeDraw
+Q42440,"PAI1",EnzymeDraw
+Q42472,"GAD2",EnzymeDraw
+Q42521,"GAD1",EnzymeDraw
+Q42527,"PAI2",EnzymeDraw
+Q42529,"TSA1",EnzymeDraw
+Q42533,"BCCP1",EnzymeDraw
+Q42538,"SAT5",EnzymeDraw
+Q42547,"CAT3",EnzymeDraw
+Q42560,"ACO1",EnzymeDraw
+Q42563,"APT2",EnzymeDraw
+Q42577,"At5g11770",EnzymeDraw
+Q42581,"PRS1",EnzymeDraw
+Q42583,"PRS2",EnzymeDraw
+Q42586,"PYRE-F",EnzymeDraw
+Q42588,"SAT1",EnzymeDraw
+Q42599,"At1g79010",EnzymeDraw
+Q42601,"CARB",EnzymeDraw
+Q43127,"GLN2",EnzymeDraw
+Q43314,"GDH1",EnzymeDraw
+Q43727,"G6PD1",EnzymeDraw
+Q43870,"APS2",EnzymeDraw
+Q56WN1,"GLN1-1",EnzymeDraw
+Q56X52,"AOX4",EnzymeDraw
+Q56YA5,"AGT1",EnzymeDraw
+Q56YU0,"ALDH2C4",EnzymeDraw
+Q5E924,"GAPCP2",EnzymeDraw
+Q5GM68,"PPC2",EnzymeDraw
+Q5HZ05,"TPPJ",EnzymeDraw
+Q5M729,"At1g54220",EnzymeDraw
+Q67X99,"TPPE",EnzymeDraw
+Q67XC9,"TPPD",EnzymeDraw
+Q67XD9,"CINV2",EnzymeDraw
+Q6NKX1,"POX2",EnzymeDraw
+Q6NPM8,"HISN7",EnzymeDraw
+Q70DU8,"ALDH3H1",EnzymeDraw
+Q70E96,"ALDH3F1",EnzymeDraw
+Q84JA6,"CESA4",EnzymeDraw
+Q84TI2,"-",EnzymeDraw
+Q84VQ4,"ndhU",EnzymeDraw
+Q84VW9,"PPC3",EnzymeDraw
+Q84WW2,"PGL3",EnzymeDraw
+Q8GSJ1,"HISN1B",EnzymeDraw
+Q8GVE8,"PPC4",EnzymeDraw
+Q8GWA1,"NDA1",EnzymeDraw
+Q8GWG2,"TPPH",EnzymeDraw
+Q8GWU0,"PGLP2",EnzymeDraw
+Q8GXG1,"At3g16150",EnzymeDraw
+Q8GXR9,"NDC1",EnzymeDraw
+Q8GXW5,"GLN1-5",EnzymeDraw
+Q8GY88,"SK2",EnzymeDraw
+Q8GYY0,"ACS12",EnzymeDraw
+Q8H103,"PGI1",EnzymeDraw
+Q8H107,"At4g26910",EnzymeDraw
+Q8H1E2,"At5g58330",EnzymeDraw
+Q8L743,"G6PD3",EnzymeDraw
+Q8L762,"BAM6",EnzymeDraw
+Q8L778,"CESA5",EnzymeDraw
+Q8L7R2,"HSK",EnzymeDraw
+Q8L817,"ACA7",EnzymeDraw
+Q8LAD0,"PDX2",EnzymeDraw
+Q8LAD2,"At5g23250",EnzymeDraw
+Q8LAX0,"HMT3",EnzymeDraw
+Q8LB01,"DAPB2",EnzymeDraw
+Q8LB02,"SDH2-2",EnzymeDraw
+Q8LBZ7,"SDH2-1",EnzymeDraw
+Q8LCA1,"CURT1B",EnzymeDraw
+Q8LCE1,"GLN1-2",EnzymeDraw
+Q8LEE7,"AOX3",EnzymeDraw
+Q8LEV7,"PGL5",EnzymeDraw
+Q8LFC0,"IDH1",EnzymeDraw
+Q8LG70,"PGL2",EnzymeDraw
+Q8LG77,"IDH6",EnzymeDraw
+Q8LPI9,"PAI3",EnzymeDraw
+Q8LPJ5,"At5g14590",EnzymeDraw
+Q8LPK5,"CESA8",EnzymeDraw
+Q8RU07,"-",EnzymeDraw
+Q8RWN9,"At3g13930",EnzymeDraw
+Q8RWV0,"TKL-1",EnzymeDraw
+Q8RXD9,"DPE2",EnzymeDraw
+Q8RXS1,"PNSB4",EnzymeDraw
+Q8RXU4,"THA1",EnzymeDraw
+Q8RY94,"-",EnzymeDraw
+Q8S895,"SAT2",EnzymeDraw
+Q8VYL1,"At5g35170",EnzymeDraw
+Q8VYN6,"PFK5",EnzymeDraw
+Q8VYV7,"DHQS",EnzymeDraw
+Q8VYW2,"BAM9",EnzymeDraw
+Q8VZC3,"ALDH12A1",EnzymeDraw
+Q8W2B8,"SAT4",EnzymeDraw
+Q8W493,"LFNR2",EnzymeDraw
+Q8W4M5,"PFP-BETA1",EnzymeDraw
+Q93V56,"PPA1",EnzymeDraw
+Q93XN8,"SPP3B",EnzymeDraw
+Q93Z53,"PKP3",EnzymeDraw
+Q93Z66,"PRS3",EnzymeDraw
+Q93Z70,"At2g19940",EnzymeDraw
+Q93ZN9,"DAP",EnzymeDraw
+Q93ZW0,"G6PD4",EnzymeDraw
+Q941A0,"SDH4",EnzymeDraw
+Q941A6,"SDH6",EnzymeDraw
+Q941L0,"CESA3",EnzymeDraw
+Q944G9,"FBA2",EnzymeDraw
+Q944I4,"GLYK",EnzymeDraw
+Q945K7,"IDH5",EnzymeDraw
+Q945L0,"COX6B-2",EnzymeDraw
+Q949Q5,"PSAO",EnzymeDraw
+Q949X7,"LYSA1",EnzymeDraw
+Q94A28,"ACO2",EnzymeDraw
+Q94A41,"AMY3",EnzymeDraw
+Q94A94,"LYSA2",EnzymeDraw
+Q94AA4,"PFK3",EnzymeDraw
+Q94AR8,"IIL1",EnzymeDraw
+Q94B78,"GLDP1",EnzymeDraw
+Q94BT0,"SPS1",EnzymeDraw
+Q94BV7,"NDB2",EnzymeDraw
+Q94C74,"SHM2",EnzymeDraw
+Q94CE3,"BCA5",EnzymeDraw
+Q94CE4,"BCA4",EnzymeDraw
+Q94CE5,"POP2",EnzymeDraw
+Q94JQ6,"CESA6",EnzymeDraw
+Q94JS0,"UCR1-1",EnzymeDraw
+Q95695,"ndhG",EnzymeDraw
+Q95748,"NAD9",EnzymeDraw
+Q96250,"ATPC",EnzymeDraw
+Q96251,"At5g13450",EnzymeDraw
+Q96252,"At5g47030",EnzymeDraw
+Q96253,"At1g51650",EnzymeDraw
+Q96255,"PSAT1",EnzymeDraw
+Q96528,"CAT1",EnzymeDraw
+Q96529,"PURA",EnzymeDraw
+Q9ASS6,"PNSL5",EnzymeDraw
+Q9C522,"ACLB-1",EnzymeDraw
+Q9C544,"CM3",EnzymeDraw
+Q9C550,"IPMS2",EnzymeDraw
+Q9C5A9,"At5g08680",EnzymeDraw
+Q9C5E8,"SDH7A",EnzymeDraw
+Q9C5J7,"PFK7",EnzymeDraw
+Q9C5U8,"HISN8",EnzymeDraw
+Q9C6F5,"BCA6",EnzymeDraw
+Q9C9C4,"ENO1",EnzymeDraw
+Q9C9K3,"PFP-ALPHA2",EnzymeDraw
+Q9C9W5,"HPR",EnzymeDraw
+Q9CA83,"NADP-ME4",EnzymeDraw
+Q9CA90,"HPR2",EnzymeDraw
+Q9CAC5,"ndhL",EnzymeDraw
+Q9CAD1,"-",EnzymeDraw
+Q9FFP6,"-",EnzymeDraw
+Q9FFR3,"PGD3",EnzymeDraw
+Q9FG89,"PNSB5",EnzymeDraw
+Q9FGI6,"EMB1467",EnzymeDraw
+Q9FGX1,"ACLB-2",EnzymeDraw
+Q9FI53,"FUM2",EnzymeDraw
+Q9FIJ7,"At5g47840",EnzymeDraw
+Q9FIK0,"PFK2",EnzymeDraw
+Q9FIN1,"PGL4",EnzymeDraw
+Q9FJ82,"DAPB3",EnzymeDraw
+Q9FJP9,"SDH2-3",EnzymeDraw
+Q9FJU0,"MDH3",EnzymeDraw
+Q9FK35,"ADK2",EnzymeDraw
+Q9FKG3,"PFK4",EnzymeDraw
+Q9FKS5,"CYC1-2",EnzymeDraw
+Q9FKW6,"LFNR1",EnzymeDraw
+Q9FLB7,"UCRQ-2",EnzymeDraw
+Q9FLH2,"-",EnzymeDraw
+Q9FLK2,"At5g61310",EnzymeDraw
+Q9FLQ4,"At5g55070",EnzymeDraw
+Q9FLW9,"PKP2",EnzymeDraw
+Q9FMD9,"GLN1-4",EnzymeDraw
+Q9FMT1,"IMDH1",EnzymeDraw
+Q9FNF2,"SS1",EnzymeDraw
+Q9FNJ8,"ADT5",EnzymeDraw
+Q9FNK4,"DELTA-OAT",EnzymeDraw
+Q9FNN1,"-",EnzymeDraw
+Q9FNN5,"At5g08530",EnzymeDraw
+Q9FT52,"At3g52300",EnzymeDraw
+Q9FVC8,"DHDPS2",EnzymeDraw
+Q9FWA3,"PGD2",EnzymeDraw
+Q9FX54,"GAPC2",EnzymeDraw
+Q9FX83,"At1g16700",EnzymeDraw
+Q9FY99,"G6PD2",EnzymeDraw
+Q9FYA6,"BCAT5",EnzymeDraw
+Q9FYE3,"ACA3",EnzymeDraw
+Q9FZ57,"TPS2",EnzymeDraw
+Q9LD43,"CAC3",EnzymeDraw
+Q9LD57,"PGK1",EnzymeDraw
+Q9LDV4,"ALAAT2",EnzymeDraw
+Q9LE33,"HPR3",EnzymeDraw
+Q9LEU8,"At5g10920",EnzymeDraw
+Q9LF98,"FBA8",EnzymeDraw
+Q9LFF9,"PPA4",EnzymeDraw
+Q9LFG2,"DAPF",EnzymeDraw
+Q9LFP0,"APT5",EnzymeDraw
+Q9LFU1,"ASN3",EnzymeDraw
+Q9LIK0,"PKP1",EnzymeDraw
+Q9LIK9,"APS1",EnzymeDraw
+Q9LIR4,"DHAD",EnzymeDraw
+Q9LIR6,"BAM1",EnzymeDraw
+Q9LJA0,"OASA2",EnzymeDraw
+Q9LK23,"G6PD5",EnzymeDraw
+Q9LK29,"CYC1-1",EnzymeDraw
+Q9LK36,"SAHH2",EnzymeDraw
+Q9LKA3,"At3g15020",EnzymeDraw
+Q9LLC1,"BCCP2",EnzymeDraw
+Q9LM13,"gpmA1",EnzymeDraw
+Q9LMI0,"TPS7",EnzymeDraw
+Q9LMR3,"TYRAAT2",EnzymeDraw
+Q9LMX8,"PGL1",EnzymeDraw
+Q9LPR4,"IPMS1",EnzymeDraw
+Q9LPW0,"GAPA2",EnzymeDraw
+Q9LQ10,"ACS10",EnzymeDraw
+Q9LQF2,"CINV1",EnzymeDraw
+Q9LQK9,"IDH4",EnzymeDraw
+Q9LR30,"GGAT1",EnzymeDraw
+Q9LRR9,"GLO1",EnzymeDraw
+Q9LRS0,"GLO2",EnzymeDraw
+Q9LSD0,"TSO2",EnzymeDraw
+Q9LSH2,"GAD5",EnzymeDraw
+Q9LT69,"PGDH3",EnzymeDraw
+Q9LTW8,"-",EnzymeDraw
+Q9LU21,"PNSB3",EnzymeDraw
+Q9LU95,"-",EnzymeDraw
+Q9LUT2,"METK4",EnzymeDraw
+Q9LV03,"GLT1",EnzymeDraw
+Q9LV77,"ASN2",EnzymeDraw
+Q9LV91,"DPE1",EnzymeDraw
+Q9LVI8,"GLN1-3",EnzymeDraw
+Q9LVM2,"ndhN",EnzymeDraw
+Q9LVW7,"CARA",EnzymeDraw
+Q9LW15,"COX5B-1",EnzymeDraw
+Q9LXC9,"PPA6",EnzymeDraw
+Q9LXJ2,"QCR9",EnzymeDraw
+Q9LXL5,"SUS4",EnzymeDraw
+Q9LXS6,"CSY2",EnzymeDraw
+Q9LYG3,"NADP-ME2",EnzymeDraw
+Q9LYR2,"UCR1-2",EnzymeDraw
+Q9LYR4,"-",EnzymeDraw
+Q9LYT7,"SSU3",EnzymeDraw
+Q9LYU8,"AK1",EnzymeDraw
+Q9LZ66,"SIR",EnzymeDraw
+Q9LZC3,"MLS",EnzymeDraw
+Q9LZG0,"ADK2",EnzymeDraw
+Q9LZQ0,"At3g62400",EnzymeDraw
+Q9LZX6,"DHDPS1",EnzymeDraw
+Q9M044,"-",EnzymeDraw
+Q9M057,"-",EnzymeDraw
+Q9M076,"PFK6",EnzymeDraw
+Q9M0F9,"PFK1",EnzymeDraw
+Q9M1B9,"At3g59480",EnzymeDraw
+Q9M1D3,"CSY5",EnzymeDraw
+Q9M1W4,"HMT-2",EnzymeDraw
+Q9M394,"FLN1",EnzymeDraw
+Q9M401,"BCAT3",EnzymeDraw
+Q9M439,"BCAT2",EnzymeDraw
+Q9M5K2,"LPD2",EnzymeDraw
+Q9M5K3,"LPD1",EnzymeDraw
+Q9M682,"GK-2",EnzymeDraw
+Q9M8D3,"At1g74260",EnzymeDraw
+Q9M8M7,"WIN1",EnzymeDraw
+Q9M9K1,"PGM2",EnzymeDraw
+Q9M9P3,"UGP2",EnzymeDraw
+Q9MA79,"CYFBP",EnzymeDraw
+Q9MAC8,"SS2",EnzymeDraw
+Q9MAH0,"PPC1",EnzymeDraw
+Q9MB58,"FKFBP",EnzymeDraw
+Q9S702,"AK3",EnzymeDraw
+Q9S714,"PSAE2",EnzymeDraw
+Q9S726,"RPI3",EnzymeDraw
+Q9S757,"CYSC1",EnzymeDraw
+Q9S762,"HISN1A",EnzymeDraw
+Q9S7A0,"GSH3",EnzymeDraw
+Q9S7B5,"TS1",EnzymeDraw
+Q9S7D8,"APS4",EnzymeDraw
+Q9S7E4,"FDH1",EnzymeDraw
+Q9S7E9,"GGAT2",EnzymeDraw
+Q9S7H1,"psaD1",EnzymeDraw
+Q9S7H4,"CM2",EnzymeDraw
+Q9S7L9,"COX6B-1",EnzymeDraw
+Q9S7N7,"PSAG",EnzymeDraw
+Q9S829,"ndhO",EnzymeDraw
+Q9S831,"PSAE1",EnzymeDraw
+Q9S841,"PSBO2",EnzymeDraw
+Q9S9N6,"PNSB1",EnzymeDraw
+Q9SA14,"IMDH3",EnzymeDraw
+Q9SA18,"AKHSDH1",EnzymeDraw
+Q9SA34,"At1g16350",EnzymeDraw
+Q9SA56,"PSAD2",EnzymeDraw
+Q9SA96,"ADT1",EnzymeDraw
+Q9SAJ4,"PGK3",EnzymeDraw
+Q9SAJ6,"GAPCP1",EnzymeDraw
+Q9SAK4,"ALDH5F1",EnzymeDraw
+Q9SAU2,"RPE",EnzymeDraw
+Q9SCL7,"NAGK",EnzymeDraw
+Q9SCS3,"At3g50520",EnzymeDraw
+Q9SCY0,"PGMP",EnzymeDraw
+Q9SCY3,"PNSL4",EnzymeDraw
+Q9SD76,"PHS2",EnzymeDraw
+Q9SDL7,"HMT-1",EnzymeDraw
+Q9SE60,"MTHFR1",EnzymeDraw
+Q9SF85,"ADK1",EnzymeDraw
+Q9SG91,"UCRQ-1",EnzymeDraw
+Q9SGC1,"At1g70730",EnzymeDraw
+Q9SGD6,"ADT6",EnzymeDraw
+Q9SGH4,"PNSL3",EnzymeDraw
+Q9SGY2,"ACLA-1",EnzymeDraw
+Q9SH69,"PGD1",EnzymeDraw
+Q9SHE8,"PSAF",EnzymeDraw
+Q9SHG0,"TPS3",EnzymeDraw
+Q9SHP0,"PSAT2",EnzymeDraw
+Q9SI61,"ASE1",EnzymeDraw
+Q9SIB9,"ACO3",EnzymeDraw
+Q9SID0,"At2g31390",EnzymeDraw
+Q9SIE1,"PAT",EnzymeDraw
+Q9SIK1,"At2g21590",EnzymeDraw
+Q9SIU0,"NAD-ME1",EnzymeDraw
+Q9SJ05,"SK1",EnzymeDraw
+Q9SJ20,"RNR1",EnzymeDraw
+Q9SJ22,"CESA9",EnzymeDraw
+Q9SJ66,"SPP2",EnzymeDraw
+Q9SJH7,"CSY3",EnzymeDraw
+Q9SJL8,"METK3",EnzymeDraw
+Q9SJM7,"URH1",EnzymeDraw
+Q9SJQ0,"-",EnzymeDraw
+Q9SJQ9,"FBA6",EnzymeDraw
+Q9SJU4,"FBA1",EnzymeDraw
+Q9SJV7,"QCR6-2",EnzymeDraw
+Q9SKE0,"SDH8",EnzymeDraw
+Q9SKJ5,"CESA10",EnzymeDraw
+Q9SKP6,"TIM",EnzymeDraw
+Q9SKT7,"NDB4",EnzymeDraw
+Q9SLK0,"ICDH",EnzymeDraw
+Q9SMS0,"ndhT",EnzymeDraw
+Q9SN86,"At3g47520",EnzymeDraw
+Q9SPK5,"THFS",EnzymeDraw
+Q9SQG2,"APY1",EnzymeDraw
+Q9SQQ7,"-",EnzymeDraw
+Q9SQT8,"EMB3004",EnzymeDraw
+Q9SR52,"URE",EnzymeDraw
+Q9SR86,"At3g08860",EnzymeDraw
+Q9SRV5,"MS2",EnzymeDraw
+Q9SRZ6,"CICDH",EnzymeDraw
+Q9SSB8,"COX5B-2",EnzymeDraw
+Q9SSE7,"ADT2",EnzymeDraw
+Q9SSP5,"TS2",EnzymeDraw
+Q9SSS9,"ATPD",EnzymeDraw
+Q9STG6,"DUT",EnzymeDraw
+Q9STG9,"ASE2",EnzymeDraw
+Q9SU38,"APT4",EnzymeDraw
+Q9SU39,"TPPF",EnzymeDraw
+Q9SUB4,"ACA6",EnzymeDraw
+Q9SUD3,"COX6B-3",EnzymeDraw
+Q9SUI4,"PSAL",EnzymeDraw
+Q9SUI5,"PSAK",EnzymeDraw
+Q9SUI6,"PSAH2",EnzymeDraw
+Q9SUI7,"PSAH1",EnzymeDraw
+Q9SUU5,"QCR7-1",EnzymeDraw
+Q9SUW0,"TPPG",EnzymeDraw
+Q9SUW2,"APT3",EnzymeDraw
+Q9SVM4,"SHM5",EnzymeDraw
+Q9SWW6,"CESA7",EnzymeDraw
+Q9SX77,"SDH5",EnzymeDraw
+Q9SXS7,"CYSD2",EnzymeDraw
+Q9SYG7,"ALDH7B4",EnzymeDraw
+Q9SYM4,"TPS1",EnzymeDraw
+Q9SYP2,"PFP-ALPHA1",EnzymeDraw
+Q9SZ30,"HISN4",EnzymeDraw
+Q9SZJ5,"SHM1",EnzymeDraw
+Q9SZT8,"ELI1",EnzymeDraw
+Q9SZX3,"At4g24830",EnzymeDraw
+Q9T074,"PCK1",EnzymeDraw
+Q9T0A4,"ndhS",EnzymeDraw
+Q9T0J5,"ASE3",EnzymeDraw
+Q9T0P4,"GLU2",EnzymeDraw
+Q9XF91,"PSBS",EnzymeDraw
+Q9XFT3,"PSBQ1",EnzymeDraw
+Q9XGZ0,"NADP-ME3",EnzymeDraw
+Q9XI73,"PNSL2",EnzymeDraw
+Q9ZNZ7,"GLU1",EnzymeDraw
+Q9ZP05,"PMDH2",EnzymeDraw
+Q9ZP06,"At1g53240",EnzymeDraw
+Q9ZPF5,"ARGAH2",EnzymeDraw
+Q9ZPS3,"GAD4",EnzymeDraw
+Q9ZPS4,"GAD3",EnzymeDraw
+Q9ZPX5,"SDH1-2",EnzymeDraw
+Q9ZR03,"petC",EnzymeDraw
+Q9ZSS6,"OMR1",EnzymeDraw
+Q9ZU25,"MPPalpha1",EnzymeDraw
+Q9ZU52,"FBA3",EnzymeDraw
+Q9ZUC2,"BCA3",EnzymeDraw
+Q9ZUR7,"At2g37500",EnzymeDraw
+Q9ZUU1,"ADK",EnzymeDraw
+Q9ZUY3,"ADT3",EnzymeDraw
+Q9ZV48,"TPS11",EnzymeDraw
+Q9ZW34,"ENO3",EnzymeDraw
+Q9ZW84,"SSU2",EnzymeDraw
+Q9ZW85,"SSU1",EnzymeDraw
+O48717,"-",EnzymeDraw
