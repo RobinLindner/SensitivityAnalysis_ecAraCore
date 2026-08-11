@@ -1,8 +1,7 @@
 import sys, os
 import pandas as pd
 from pathlib import Path
-root_dir = Path(__file__).resolve().parents[3]
-
+root_dir = Path(__file__).resolve().parents[2]
 sys.path.append(str(root_dir))
 from source import FLUX_SAMP_DIR
 
