@@ -17,7 +17,8 @@ def main():
                 continue
             temp = file.replace(f"fluxes_nsamples.{n}_vbio.0.95_","").replace(".csv","")
             temp_samples = pd.read_csv(str(sample_dir)+"/"+file,index_col=0)
-            info_cols = pd.DataFrame({"SampleID": temp_samples.index + "_" + temp})
+            info_cols = pd.DataFrame({"SampleID": [i for i in temp_samples.index],
+                                      "Temperature": temp})
             temp_samples = pd.concat([info_cols,temp_samples],axis=1)
             sample_dfs.append(temp_samples)
         flux_sampling_df = pd.concat(sample_dfs,axis=0).sort_values(["Temperature","SampleID"])
