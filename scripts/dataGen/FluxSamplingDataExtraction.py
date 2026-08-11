@@ -22,7 +22,7 @@ def main():
             temp_samples = pd.concat([info_cols,temp_samples],axis=1)
             sample_dfs.append(temp_samples)
         flux_sampling_df = pd.concat(sample_dfs,axis=0).sort_values(["Temperature","SampleID"])
-        flux_sampling_df.to_csv(FLUX_SAMP_DIR / f"/flux_sampling_n.{n}_a.95_T.10_40.csv")
+        flux_sampling_df.to_csv(FLUX_SAMP_DIR / f"flux_sampling_n.{n}_a.95_T.10_40.csv")
 
 if __name__ == "__main__":
     main()
