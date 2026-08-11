@@ -28,7 +28,7 @@ def main():
             if file.startswith("."):
                 continue
             temp = file.replace(f"fluxes_nsamples.{n}_vbio.0.95_","").replace(".csv","")
-            temp_samples = pd.read_csv(str(FLUX_SAMP_DIR)+"/"+file,index_col=0)
+            temp_samples = pd.read_csv(str(FLUX_SAMP_DIR)+f"/n{n}/"+file,index_col=0)
             info_cols = pd.DataFrame({"SampleID": temp_samples.index})
             info_cols["Temperature"] = int(temp)
             temp_samples = pd.concat([info_cols,temp_samples],axis=1)
