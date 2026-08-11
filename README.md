@@ -4,16 +4,16 @@ Github repository accompanying the study of enzyme sensitivity coefficients in t
 All scripts/data to reproduce results of the study can be found in this repository.
 
 ## /data
-Contains all of the necessary data sets / lookup tables used by other scripts.
+* Contains all of the necessary data sets / lookup tables used by other scripts.
 
 ## /models
-Contains temperature-adjusted ecAraCore models for the temperature range 10°C-40°C
+* Contains temperature-adjusted ecAraCore models for the temperature range 10°C-40°C
 
 ## /results
-Output directory for datasets/tables (/tables) and figures (/figures)
+* Output directory for datasets/tables (/tables) and figures (/figures)
 
 ## /scripts
-Contains all scripts to generate and preprocess data sets (/dataGen) and to generate results (/resultGen)
+* Contains all scripts to generate and preprocess data sets (/dataGen) and to generate results (/resultGen)
 
 ## /source
 Contains python classes:
