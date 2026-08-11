@@ -42,7 +42,7 @@ def main():
             dicti["Coverage"].append(coverage(temp,fva_data,flux_sampling_df))
         coverage_df = pd.DataFrame(dicti).set_index("Temperature")
         print(f"Sample size: {n}")
-        print(f"Average coverage across temperatures: {np.mean(coverage_df["Coverage"])}±{np.std(coverage_df["Coverage"])}")
+        print(f"Average coverage across temperatures: {np.round(np.mean(coverage_df["Coverage"]),4)}({np.round(np.median(coverage_df["Coverage"]),4)})±{np.round(np.std(coverage_df["Coverage"]),4)}")
         table_df.append(coverage_df)
     table=pd.concat(table_df,axis=1)
     table.columns = ["$n=100$","$n=1000$","$n=10000$"]
