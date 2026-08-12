@@ -27,5 +27,9 @@ Contains python classes:
 ### SensitvityAnalyis(GEM)
 * Class to compute all sensitivity coefficients (flux capacity, enzyme capacity, proteome capacity, enzyme) for general GECKO-style ecGEMs/pcGEMS.
 
+### createTGEMs.m (MATLAB)
+* script to create the temperature adjusted models of ecAraCore, using the baseline TGEM model (Wendering et al. 2025)
+* This script uses functions from the git repository of https://doi.org/10.1111/nph.20420.
+
 ### __init__
 * Collection of constants for file paths to all files used by two or more scripts.
