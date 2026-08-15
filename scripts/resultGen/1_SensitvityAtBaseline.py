@@ -62,8 +62,8 @@ def main():
     print(f"\t{len(model.genes)} genes")
     print(f"\t{len(im_ex_rxns)} / {len(rxns)} reactions are import or exchange reactions.")
     print(f"\t{len(cat_rxns)} / {n_spont} ({np.round(len(cat_rxns)/n_spont*100,3)}%) reactions in the model are catalyzed by enzymes.")
-    print(f"\t{len(np.unique(enz_pmet_map.loc[:,"Isorxns"]))} / {n_spont} ({np.round(len(np.unique(enz_pmet_map.loc[:,"Isorxns"])) / n_spont * 100,3)}) reactions are isoreactions contained within;")
-    print(f"\t{len(arm_rxns)} arm reactions / complex reaction systems.")
+    print(f"\t{len(np.unique(enz_pmet_map.loc[:,"Isorxns"]))} / {cat_rxns} ({np.round(len(np.unique(enz_pmet_map.loc[:,"Isorxns"])) / cat_rxns * 100,3)}) reactions are isoreactions contained within;")
+    print(f"\t{len(arm_rxns)} arm reactions / isoreaction systems.")
     
 
     print("\n")
@@ -83,6 +83,7 @@ def main():
     
     print(f"Enzymes with an ESC of at least 0.01 at 20°C: {sum(sensitivity_20>0.01)}/671.")
 
+    print(sensitivity_20.sort_values(ascending=False).head(n=13))
 
 if __name__ == "__main__":
     main()

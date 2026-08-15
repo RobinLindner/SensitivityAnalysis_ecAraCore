@@ -5,7 +5,7 @@ from pathlib import Path
 
 root_dir = Path(__file__).resolve().parents[3]
 sys.path.append(str(root_dir))
-from source import RESULT_DIR , DATA_DIR, PERT_OUT_DIR, PERT_ESC_WIDE, PERT_FLUX_WIDE, PERT_CHANGES_WIDE
+from source import PERT_OUT_DIR, PERT_ESC_WIDE, PERT_FLUX_WIDE, PERT_CHANGES_WIDE
 
 
 

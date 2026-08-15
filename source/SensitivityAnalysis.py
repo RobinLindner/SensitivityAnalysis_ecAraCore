@@ -5,7 +5,6 @@ import scipy as sp
 from gurobipy import GRB
 
 from source import RESULT_DIR
-from source import OptimizationProblem
 
 class SensitivityAnalysis:
 
@@ -35,163 +34,6 @@ class SensitivityAnalysis:
         self.primal = None
         self.dual = None
         self.enz_ub_set = False
-
-    
-    def SetUpperEnzymeboundsByFVA(self,alpha,ptot=None,verbose=True):
-        if(ptot is not None):
-            self.gem.ub[self.prot_pool_ex_idx] = ptot # g/gDW
-        print("Total proteome pool size set to:", self.gem.ub[self.prot_pool_ex_idx])
-        opt = OptimizationProblem(self.gem)
-        enz_ids = [rxn for rxn in self.gem.rxns if "draw_prot" in rxn]
-        df_fva = opt.run_fva(target_vars=enz_ids,alpha = alpha,verbose=verbose) # degree of suboptimality vbio ≥ vbio_opt * alpha
-        enz_idx = df_fva['var'].str.contains("draw_prot")
-        enz_df = df_fva.loc[enz_idx,]
-        enz_max = enz_df['max']
-        self.gem.ub[self.enz_idx] = np.array(enz_max).reshape(-1,1)
-        self.enz_ub_set = True
-        
-    def SetUpperEnzymebounds(self,enz_ub,ptot=None):
-        """sets the upper bounds of the enzymes to the given values"""
-        if(ptot is not None):
-            self.gem.ub[self.prot_pool_ex_idx] = ptot # g/gDW
-        print("Total proteome pool size set to:", self.gem.ub[self.prot_pool_ex_idx])
-        self.gem.ub[self.enz_idx] = enz_ub
-        self.enz_ub_set = True
-
-    def SetUpperEnzymeboundsByPFBA(self,delta, epsilon):
-        """sets the upper bounds of the enzymes to the values obtained by pfba"""
-        opt = OptimizationProblem(self.gem)
-        opt.create_pfba_problem(alpha=1)
-        opt.pfba.setParam('NumericFocus', 3)  # not really needed, but removes numerical stability as the potential issue
-        
-        opt.pfba.optimize()
-        
-        # Index of each enzyme draw reaction in the model
-        enz_idx = [self.gem.get_rxn_by_id(f"{self.prot_rxn_pfx}{enz}") for enz in self.gem.enzymes]
-
-        '''Debug
-        Enzyme mapping might be problematic, No flux with imposed bounds.
-        '''
-        enz_name = self.gem.enzymes
-        enz_rxn = self.gem.rxns[enz_idx]
-        
-        # Value of the draw variable for each enzyme in the model
-        enz_max = np.array([opt.pfba.getVarByName(f"{self.prot_rxn_pfx}{enz}").X for enz in self.gem.enzymes])
-
-        # 
-        old_bounds = self.gem.ub[enz_idx].reshape(-1,)
-        self.gem.ub[enz_idx] = enz_max.reshape(-1,1)
-        self.gem.ub[enz_idx] *= (1 + (delta)) 
-        self.gem.ub[enz_idx] += epsilon 
-        
-        self.gem.ub[self.prot_pool_ex_idx] = 1000
-        self.enz_ub_set = True
-        return(pd.DataFrame({"Enzyme":enz_name,"AffectedRxn":enz_rxn,"OldBounds":old_bounds,"New Bounds before correction":enz_max.reshape(-1,),"New Bounds":self.gem.ub[enz_idx].reshape(-1,)}))
-
-
-    def SetUpperEnzymeboundsByPFBA_binary(self):
-        """
-        Sets the upper bounds of the enzymes to either 1000 or 0 depending 
-        if theyre active in the flux distribution obtained by pfba.
-
-        The total protein constraint is also updated to its pfba flux value.
-        
-        Rationale: 
-        If the minimal flux solution (the expected flux under assumption of metabolic efficiency) 
-        in the condition under investigation uses less protein content than allowed, the bounds 
-        should reflect this.
-        
-        Returns: Dataframe with new and old enzyme bounds 
-        """
-        opt = OptimizationProblem(self.gem)
-        opt.create_pfba_problem(alpha=1)
-        opt.pfba.setParam('NumericFocus', 3)  # not really needed, but removes numerical stability as the potential issue
-        
-        opt.pfba.optimize()
-        
-        # Index of each enzyme draw reaction in the model
-        enz_idx = [self.gem.get_rxn_by_id(f"{self.prot_rxn_pfx}{enz}") for enz in self.gem.enzymes]
-
-        '''Debug
-        Enzyme mapping might be problematic, No flux with imposed bounds.
-        '''
-        enz_name = self.gem.enzymes
-        enz_rxn = self.gem.rxns[enz_idx]
-        
-        # Value of the draw variable for each enzyme in the model
-        enz_max = np.array([opt.pfba.getVarByName(f"{self.prot_rxn_pfx}{enz}").X for enz in self.gem.enzymes])
-
-        ptot_flux = opt.pfba.getVarByName("prot_pool_exchange").X
-
-        # 
-        old_bounds = self.gem.ub[enz_idx].reshape(-1,)
-        new_bounds = self.gem.ub[enz_idx]
-        new_bounds[enz_max==0] = 0
-        new_bounds[enz_max>0] = 1000
-        self.gem.ub[enz_idx] = new_bounds
-        
-        self.gem.ub[self.prot_pool_ex_idx] = ptot_flux
-        self.enz_ub_set = True
-        return(pd.DataFrame({"Enzyme":enz_name,"AffectedRxn":enz_rxn,"OldBounds":old_bounds,"New Bounds before correction":enz_max.reshape(-1,),"New Bounds":self.gem.ub[enz_idx].reshape(-1,)}))
-
-
-    def SetUpperEnzymeboundsByPrimal(self,delta, epsilon):
-        self.SolvePrimal()
-        """sets the upper bounds of the enzymes to the values obtained by primal solution"""
-        # Index of each enzyme draw reaction in the model
-        enz_idx = [self.gem.get_rxn_by_id(f"{self.prot_rxn_pfx}{enz}") for enz in self.gem.enzymes]
-
-        '''Debug
-        Enzyme mapping might be problematic, No flux with imposed bounds.
-        '''
-        enz_name = self.gem.enzymes
-        enz_rxn = self.gem.rxns[enz_idx]
-        
-        # Value of the draw variable for each enzyme in the model
-        enz_max = np.array(self.primal_flux_sol[enz_idx])
-
-        # 
-        old_bounds = self.gem.ub[enz_idx].reshape(-1,)
-        self.gem.ub[enz_idx] = enz_max.reshape(-1,1)
-        self.gem.ub[enz_idx] *= (1 + (delta)) 
-        self.gem.ub[enz_idx] += epsilon 
-        
-        self.gem.ub[self.prot_pool_ex_idx] = 1000
-        self.enz_ub_set = True
-        self.primal = None
-        return(pd.DataFrame({"Enzyme":enz_name,"AffectedRxn":enz_rxn,"OldBounds":old_bounds,"New Bounds before correction":enz_max.reshape(-1,),"New Bounds":self.gem.ub[enz_idx].reshape(-1,)}))
-
-        
-    def DEBUG_SetUpperEnzymeboundsToPFBAmax(self, delta, epsilon):
-        """sets the upper bounds of the enzymes to the values obtained by pfba"""
-        opt = OptimizationProblem(self.gem)
-        opt.create_pfba_problem()
-        opt.pfba.setParam('NumericFocus', 3)  # not really needed, but removes numerical stability as the potential issue
-        opt.pfba.optimize()
-        print("=== pFBA status")
-        print(opt.pfba.status)
-        '''Debug
-        Enzyme mapping might be problematic, No flux with imposed bounds.
-
-        '''
-        enz_idx = [self.gem.get_rxn_by_id(f"{self.prot_rxn_pfx}{enz}") for enz in self.gem.enzymes]
-        enz_max = np.array([opt.pfba.getVarByName(f"{self.prot_rxn_pfx}{enz}").X for enz in self.gem.enzymes])
-        old_bounds = self.gem.ub[enz_idx].reshape(-1,)
-        self.gem.ub[enz_idx] = np.max(enz_max)
-        self.gem.ub[enz_idx] *= (1 + (delta)) 
-        self.gem.ub[enz_idx] += epsilon 
-        self.enz_ub_set = True
-        return(pd.DataFrame({"OldBounds":old_bounds,"New Bounds before correction":enz_max.reshape(-1,),"New Bounds":self.gem.ub[enz_idx].reshape(-1,)}))
-
-
-    def GetEnyzmeAbundance(self):
-        """solves pFBA problem and returns the abundances as a data framee"""
-        
-        opt = OptimizationProblem(self.gem)
-        opt.create_pfba_problem()
-        opt.pfba.optimize()
-        d = {'Enzyme':[enz for enz in self.gem.enzymes],'Abundance': [opt.pfba.getVarByName(f"{self.prot_rxn_pfx}{enz}").X for enz in self.gem.enzymes]}
-        return pd.DataFrame(d)
 
     def GetTurnoverNumbersMode(self):
         """returns the kcat mode for each enzyme as a data frame"""
@@ -407,6 +249,54 @@ class SensitivityAnalysis:
             print("==== GUROBI status ====\n")
             print("Model not optimal, Status:", dual_model.status)
             print("====  ====\n")
+
+    def solvePFBA(self,alpha=0.95,variable_selection = 0):
+        if self.primal is None:
+            self.SolvePrimal()
+        self.pfba = self.primal.copy()
+        # get objective value from solved FBA
+        z_star = self.primal.ObjVal
+        obj_fun = self.primal.Obj
+        sense = self.primal.sense
+
+        # add FBA objective as constraint
+        vars = self.pfba.getVars()
+        expr = gp.LinExpr(obj_fun, vars)
+        if sense == 1:
+            self.pfba.addLConstr(expr, GRB.LESS_EQUAL, z_star*(2-alpha), 'prev_objective')
+        else:
+            self.pfba.addLConstr(expr, GRB.GREATER_EQUAL, z_star*alpha, 'prev_objective')
+
+        # add auxiliary absolute value variables
+        if variable_selection == 1:
+            vars = self.pfba.getVars()
+        elif variable_selection == 0:
+            vars = [v for v in self.pfba.getVars() if not (("draw_prot_" in v.VarName) | ("prot_pool_" in v.VarName))]
+        else:
+            vars = [v for v in self.pfba.getVars() if "draw_prot_" in v.VarName]
+
+
+        n_vars = len(vars)
+        abs_vars = self.pfba.addVars(n_vars, lb=0, name="abs_aux")
+        self.pfba.update()
+
+        for i, var in enumerate(vars):
+            self.pfba.addConstr(abs_vars[i] >= var,  f"abs_pos_{i}")
+            self.pfba.addConstr(abs_vars[i] >= -var, f"abs_neg_{i}")
+
+        print(f"Optimal baseline biomass flux: {z_star}")
+        print(f"pFBA minimal biomass bound: {z_star*alpha}")
+        print(f"Fluxes being minimized: {n_vars}")
+
+        # minimize sum of absolute fluxes using aux variables
+        expr = gp.LinExpr(np.ones((n_vars,)), [abs_vars[i] for i in range(n_vars)])
+        self.pfba.setObjective(expr, GRB.MINIMIZE)
+        self.pfba.optimize()
+
+        fluxes = pd.Series({v.VarName: v.X for v in self.pfba.getVars() if "abs_aux" not in v.VarName})
+
+        return fluxes
+
 
 
     def GetShadowPrices(self):

@@ -60,8 +60,11 @@ def main():
     data = Flux_sampling_data.groupby("Temperature").median().drop(columns="SampleID")
     data = data.drop(columns=isorxn_map["Isorxns"].unique()) # Remove isoreactions, as changes in catalyzing enzyme do not necessitate changes in metabolic flux distribution. 
     data = data.drop(columns = data.columns[data.columns.str.contains("prot_")]) # drop enzyme abundances, same reason as above.
-    cor_mat = data.transpose().corr(method="spearman").to_numpy()
-    print(f"Avg. spearman correlation of fluxes across temperatures: {np.mean(cor_mat[np.triu_indices(31)])}±{sp.sem(cor_mat[np.triu_indices(31)])}, std: {np.std(cor_mat[np.triu_indices(31)])}")
+    cor_mat_spear = data.transpose().corr(method="spearman").to_numpy()
+    cor_mat_pear = data.transpose().corr(method="pearson").to_numpy()
+    print("Sampling data:")
+    print(f"Avg. pearson correlation of fluxes between temperatures: {np.mean(cor_mat_pear[np.triu_indices(31)])}±{sp.sem(cor_mat_pear[np.triu_indices(31)])}, std: {np.std(cor_mat_pear[np.triu_indices(31)])}")
+    print(f"Avg. spearman correlation of fluxes between temperatures: {np.mean(cor_mat_spear[np.triu_indices(31)])}±{sp.sem(cor_mat_spear[np.triu_indices(31)])}, std: {np.std(cor_mat_spear[np.triu_indices(31)])}")
     print()
 
     # Correlation between the pFBA flux solution at each temperature
@@ -69,8 +72,11 @@ def main():
     data = pFBA_df.pivot(columns="Temperature",index="Variable",values="Flux").transpose()
     data = data.drop(columns=isorxn_map["Isorxns"].unique())
     data = data.drop(columns = data.columns[data.columns.str.contains("prot_")])
-    cor_mat = data.transpose().corr(method="spearman").to_numpy()
-    print(f"Avg. correlation of fluxes between temperatures: {np.mean(cor_mat[np.triu_indices(31)])}±{sp.sem(cor_mat[np.triu_indices(31)])}, std: {np.std(cor_mat[np.triu_indices(31)])}")
+    cor_mat_spear = data.transpose().corr(method="spearman").to_numpy()
+    cor_mat_pear = data.transpose().corr(method="pearson").to_numpy()
+    print("pFBA data:")
+    print(f"Avg. pearson correlation of fluxes between temperatures: {np.mean(cor_mat_pear[np.triu_indices(31)])}±{sp.sem(cor_mat_pear[np.triu_indices(31)])}, std: {np.std(cor_mat_pear[np.triu_indices(31)])}")
+    print(f"Avg. spearman correlation of fluxes between temperatures: {np.mean(cor_mat_spear[np.triu_indices(31)])}±{sp.sem(cor_mat_spear[np.triu_indices(31)])}, std: {np.std(cor_mat_spear[np.triu_indices(31)])}")
     print()
 
     print("H2: Are observed changes in number of LE solely due to isoenzyme substitutions")
@@ -99,18 +105,36 @@ def main():
     rxns[rxns.isna()] = temp.loc[rxns.isna(),"Reaction"]
     temp.loc[:,"MapRxn"] = rxns
 
+    
+    print(f"These catalyze {len(temp["Reaction"].unique())} reactions")
+    print(f"These catalyze {len(temp["ArmRxn"].unique())} arm reactions")
+
     # Use the median of the flux sampling as a proxy for flux at each temperature. 
     #   Fluxes carrying less than 100th of their maximum flux across temperatures are deemed inactive (=100).
     data = Flux_sampling_data.groupby("Temperature").median().drop(columns="SampleID").loc[:,rxns].transpose().reset_index(names="MapRxn")
-    arm_df = temp.merge(data,on="MapRxn",how="inner").drop_duplicates()
-    df = arm_df.drop(columns="ArmRxn")
-    MapRxn_df = df.drop(columns=["Enzyme","Reaction"]).drop_duplicates().set_index("MapRxn")
-    Enz_df = df.drop(columns=["MapRxn","Reaction"]).set_index("Enzyme")
-    persistent_arm = np.sum(MapRxn_df.min(axis=1) > (MapRxn_df.max(axis=1)/100))
-    non_persisten_OLE = np.sum(Enz_df.min(axis=1) <= (Enz_df.max(axis=1)/100))
+    # enzyme | reaction | arm reaction | map rxn | sampling data 
+    arm_df = temp.merge(data,on="MapRxn",how="left").drop_duplicates()
+
     
-    print(f"{persistent_arm} arm reactions carry flux at every temperature")
-    print(f"{non_persisten_OLE} OLE have arm reactions that dont carry flux at every temperature")
+   
+    # enzyme | reaction | map rxn | sampling data 
+    df = arm_df.drop(columns="ArmRxn")
+    # map rxn | sampling data 
+    MapRxn_df = df.drop(columns=["Enzyme","Reaction"]).drop_duplicates().set_index("MapRxn")
+    # Enzyme | sampling data 
+    #Enz_df = df.drop(columns=["MapRxn","Reaction"]).drop_duplicates().set_index("Enzyme")
+
+
+    persistent_arm = MapRxn_df.index[(MapRxn_df.min(axis=1) > (MapRxn_df.max(axis=1)/100))]
+    non_persistent_arm =  MapRxn_df.index[(MapRxn_df.min(axis=1) <= (MapRxn_df.max(axis=1)/100))]
+    #persistent_OLE =  Enz_df.index[(Enz_df.min(axis=1) > (Enz_df.max(axis=1)/100))]
+    #non_persisten_OLE = Enz_df.index[(Enz_df.min(axis=1) <= (Enz_df.max(axis=1)/100))]
+    
+    print(f"{len(persistent_arm)} arm reactions carry flux at every temperature")
+    print(f"{len(non_persistent_arm)} arm reactions do not carry flux at every temperature")
+
+    per_arm_OLE = temp.loc[temp["ArmRxn"].isin(persistent_arm),"Enzyme"].unique()
+    print(f"{len(per_arm_OLE)} OLE have arm reactions that carry flux at every temperature")
     print()
 
     print("== SUBSYSTEM ENRICHMENT ==")
@@ -123,9 +147,15 @@ def main():
     # K = enzymes in subsystem
     # n = enzymes in group
     # k = enzymes in group and subsystem
+    print(len(inactive_enzyme))
+    print(len(active_enzyme))
+    
     removed_subsystems = []
     dicti = {"Group":[],"Subsystem":[],"Statistic":[],"P-value":[]}
-    for key,enz_oi in {"Active":active_enzyme,"Inactive":inactive_enzyme,"PLE":PLE,"OLE":OLE,"tdOLE":df["Enzyme"].unique()}.items():
+    for key, enz_oi in {"Active":active_enzyme,
+                        "PLE":PLE,
+                        "OLE":OLE,
+                        "tdOLE":df["Enzyme"].unique()}.items():
             for sub in subs_map["Subsystem"].unique():
                     enz_in_sub = subs_map.loc[subs_map["Subsystem"]==sub,"Enzyme"].unique()
                     N = 671
@@ -137,7 +167,7 @@ def main():
                     k = len(np.intersect1d(enz_in_sub,enz_oi))
                     ctab = [[k , n-k],
                             [K-k, N-K-n+k]]
-                    res = sp.fisher_exact(ctab)
+                    res = sp.fisher_exact(ctab, alternative='greater')
                     dicti["Group"].append(key)
                     dicti["Subsystem"].append(sub)
                     dicti["Statistic"].append(res.statistic)
@@ -180,6 +210,8 @@ def main():
     dist_df.to_csv(SUPP_RES_DIR / "LE_set_jaccard_per_distance.csv")
     print(f"LE set Jaccard by temperature distance data is saved at:")
     print(f"{str(SUPP_RES_DIR) + "/LE_set_jaccard_per_distance.csv"}")
+    print(f"Jaccard similarity at $\\Delta$T = 1 : {dist_df.iloc[0,1]}±{dist_df.iloc[0,2]}")
+    print(f"Jaccard similarity at $\\Delta$T = 29 : {dist_df.iloc[28,1]}±{dist_df.iloc[28,2]}")
     print()
 
     diff_vec = np.diag(jac_mat,k=1)
@@ -187,7 +219,7 @@ def main():
     changes = temps[:-1].astype(str) + " to " + temps[1:].astype(str) 
     jac_sim_df= pd.DataFrame({"Change":changes,
                             "Jaccard similarity":diff_vec})
-    threshold = 0.97 
+    threshold = 0.97
     print(f"Consecutive temperatures with a jaccard similarity above {threshold}:")
     print(jac_sim_df.loc[jac_sim_df["Jaccard similarity"]>threshold,"Change"])
     print()
@@ -199,10 +231,10 @@ def main():
 
     # Block intersections
     
-    blocks = {"A":[10,15],
+    blocks = {"A":[12,15],
             "B":[16,19],
             "C":[20,23],
-            "D":[24,27]}
+            "D":[24,26]}
     print("Blocks of consecutive temperatures with high jaccard distance:")
     for id, temp in blocks.items():
          print(f"{id}: {temp[0]}°C to {temp[1]}°C")
@@ -271,6 +303,8 @@ def main():
     sns.heatmap(pd.DataFrame(jac_mat,columns=np.arange(10,41),index = np.arange(10,41)),ax=ax[0])
     ax[0].set_xlabel("Temperature [°C]")
     ax[0].set_ylabel("Temperature [°C]")
+    fig.text(0.1,0.9,s="A",fontdict={"weight":"bold","size":14})
+    fig.text(0.5,0.9,s="B",fontdict={"weight":"bold","size":14})
     fig.savefig(SUPP_FIG_DIR / "Jaccard_similarity_between_temperatures.png",dpi=300,bbox_inches="tight")
 
     print(f"A heatmap of the jaccard distances of LE sets at different temperatures was generated at:")

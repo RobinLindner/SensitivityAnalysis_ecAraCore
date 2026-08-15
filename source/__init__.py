@@ -56,7 +56,7 @@ FVA_DATA_LONG = RESULT_DIR / 'tables/FluxVariabilityAnalysis/fva_95_foo.csv'
 
 ## flux sampling 
 FLUX_SAMP_DIR = RESULT_DIR / "tables/FluxSampling/"
-FLUX_SAMP_WIDE = RESULT_DIR / "tables/FluxSampling/flux_sampling_n.1000_a.95_T.10_40.csv"
+FLUX_SAMP_WIDE = RESULT_DIR / "tables/FluxSampling/flux_sampling_n.100_a.95_T.10_40.csv"
 
 ## pFBA data
 PFBA_DATA = RESULT_DIR / "tables/pFBA/pFBA_across_temp.csv"

@@ -3,9 +3,9 @@ import pandas as pd
 import sys, io
 from pathlib import Path
 
-root_dir = Path(__file__).resolve().parents[3]
+root_dir = Path(__file__).resolve().parents[2]
 sys.path.append(str(root_dir))
-from source import MODEL_DIR, DATA_DIR, ESC_DATA_WIDE, FVCB_PHI_TABLE
+from source import MODEL_DIR, ESC_DATA_WIDE, FVCB_PHI_TABLE
 from source.GEM import GEM
 from source.SensitivityAnalysis import SensitivityAnalysis
 

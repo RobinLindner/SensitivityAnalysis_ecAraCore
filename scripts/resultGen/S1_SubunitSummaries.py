@@ -44,26 +44,29 @@ model_path = MODEL_DIR / "TGEMAdj_20.mat"
 
 
 # Switches for replotting
-switches = {"RuBisCO":True,
-            "TrpS":True,
-            "Cytb6":True,
-            "bCA":True,
-            "CA":True,
-            "ATPS":True}
+switches = {"RuBisCO":False,
+            "TrpS":False,
+            "Cytb6":False,
+            "bCA":False,
+            "CA":False,
+            "ATPS":False,
+            "AMPD":True}
 
-log_scale_eta = {"RuBisCO":False,
+log_scale_eta = {"RuBisCO":True,
             "TrpS":True,
             "Cytb6":False,
             "bCA":False,
             "CA":False,
-            "ATPS":False}
+            "ATPS":False,
+            "AMPD":False}
 
 log_scale_abu = {"RuBisCO":False,
             "TrpS":True,
             "Cytb6":False,
             "bCA":False,
             "CA":False,
-            "ATPS":False}
+            "ATPS":False,
+            "AMPD":False}
 
 subunits = {"RuBisCO":["O03042",
                     "P10795",
@@ -98,7 +101,8 @@ subunits = {"RuBisCO":["O03042",
                     'P56760', # c
                     'Q01908', # c
                     'Q9SSS9', # c
-                    'Q01909'] # c
+                    'Q01909'], # c
+            "AMPD":["O80452"]
                         }
 
 complex_names = {"RuBisCO":"RuBisCO",
@@ -106,7 +110,8 @@ complex_names = {"RuBisCO":"RuBisCO",
                  "Cytb6":"Cytochrome b6-f",
                  "bCA":"Beta carbonic anhydrases",
                  "CA":"Carbonic anhydrases",
-                 "ATPS": "ATP synthase"}
+                 "ATPS": "ATP synthase",
+                 "AMPD": "AMP deaminase"}
 
 def main():
 
@@ -319,7 +324,7 @@ def plot_subunit_properties(subunits,log_abu,log_eta):
 
     gene_name = pd.read_csv(GENE_SHORT_NAMES,index_col=0).squeeze().to_dict()
     gpr_rules = []
-    text=""
+    text="GPR-rules: \n"
     for rxn in reactions:
         gr_rule = get_gpr_for_rxn(rxn,model,gene_name)
         gpr_rules.append(f"{rxn}: " + gr_rule)
@@ -331,8 +336,8 @@ def plot_subunit_properties(subunits,log_abu,log_eta):
     fig.text(1.01,0,text,fontsize=10, va = "bottom",
          bbox=dict(boxstyle="round", facecolor="white", edgecolor="black"))
 
-    return fig, plot_rxnflux, plot_abundance, plot_efficiency, plot_esc , rxn_eq_df
-    
+    return fig, plot_rxnflux, plot_abundance,plot_esc, plot_efficiency , rxn_eq_df
+
 def get_gpr_for_rxn(rxn_id,model,geneID_map):
     rule = model.get_grRule(rxn_id)[0]
     #print(rule)

@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 
-root_dir = Path(__file__).resolve().parents[3]
+root_dir = Path(__file__).resolve().parents[2]
 
 sys.path.append(str(root_dir))
 
@@ -11,7 +11,7 @@ from source import RESULT_DIR, MODEL_ENZYME_2_SUBSYSTEM, MODEL_ENZYME_2_SUBSYSTE
 
 
 ## Output paths
-SFILE1_EXCEL = RESULT_DIR / "tables/SensitivityAnalysis/SFile1.xlsx"
+SFILE1_EXCEL = RESULT_DIR / "tables/SFile1.xlsx"
 
 ## These corrections were manually curated from MapMan and UniProt annotations using the file saved under PATHWAY_MAPPING_DF
 corrections = {"F4JJJ3" : ["oxidative phosphorylation"], # External alternative NAD(P)H-ubiquinone oxidoreductase B3, mitochondrial
