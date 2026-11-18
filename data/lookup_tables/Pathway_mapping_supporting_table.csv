@@ -1,0 +1,791 @@
+,Enzyme,Gene,Ontology
+0,A0A178UD24,AT5G13420,OPP.non-reductive PP.transaldolase
+1,A0A178VX82,AT2G36580,glycolysis.cytosolic branch.pyruvate kinase (PK)
+2,A0A178VX82,AT2G36580,transport.amino acids
+3,A0A178WJZ2,AT1G30820,nucleotide metabolism.synthesis.pyrimidine.CTP synthetase
+4,A0A1P8ANY1,AT1G14810,amino acid metabolism.synthesis.aspartate family.misc.homoserine.aspartate semialdehyde dehydrogenase
+5,A0A1P8ANY1,AT1G14810,not assigned.unknown
+6,A0A1P8AW36,AT1G51720,N-metabolism.N-degradation.glutamate dehydrogenase
+7,A0A1P8AW36,AT1G51720,not assigned.no ontology
+8,A0A1P8B6F9,AT4G02120,nucleotide metabolism.synthesis.pyrimidine.CTP synthetase
+9,A0A384K8P2,AT3G12670,nucleotide metabolism.synthesis.pyrimidine.CTP synthetase
+10,A0A384KII3,AT5G63680,glycolysis.cytosolic branch.pyruvate kinase (PK)
+11,A0A384KLZ3,AT3G55410,TCA / org transformation.TCA.2-oxoglutarate dehydrogenase
+12,A0A384L5D5,AT5G08570,glycolysis.cytosolic branch.pyruvate kinase (PK)
+13,A0A5S9YI34,AT5G65750,TCA / org transformation.TCA.2-oxoglutarate dehydrogenase
+14,A0A654EZT9,AT2G37690,nucleotide metabolism.synthesis.purine.AIR carboxylase
+15,A0A654FAY0,AT3G25960,glycolysis.cytosolic branch.pyruvate kinase (PK)
+16,A0A654FQL5,AT4G18440,nucleotide metabolism.synthesis.purine.SAICAR lyase
+17,A1A6H3,AT1G17160,minor CHO metabolism.others
+18,A8MR07,AT3G52990,glycolysis.cytosolic branch.pyruvate kinase (PK)
+19,B5X574,AT5G65690,gluconeogenesis / glyoxylate cycle.PEPCK
+20,B9DGD6,AT5G36880,lipid metabolism.FA synthesis and FA elongation.acyl coa ligase
+21,B9DHD3,AT1G71920,amino acid metabolism.synthesis.histidine.histidinol-phosphate aminotransferase
+22,F4HUC4,AT1G08065,TCA / org transformation.carbonic anhydrases
+23,F4I1A6,AT1G22210,minor CHO metabolism.trehalose.TPP
+24,F4I1L9,AT1G36280,nucleotide metabolism.synthesis.purine.SAICAR lyase
+25,F4I6G9,AT1G30820,nucleotide metabolism.synthesis.pyrimidine.CTP synthetase
+26,F4I7I0,AT1G17290,amino acid metabolism.synthesis.central amino acid metabolism.alanine.alanine aminotransferase
+27,F4I8M8,AT1G78050,glycolysis.unclear/dually targeted.phosphoglycerate mutase
+28,F4I8M8,AT1G78050,cell wall.degradation.mannan-xylose-arabinose-fucose
+29,F4I8U2,AT1G05610,major CHO metabolism.synthesis.starch.AGPase
+30,F4IAG2,AT1G11720,major CHO metabolism.synthesis.starch.starch synthase
+31,F4IC59,AT1G12230,OPP.non-reductive PP.transaldolase
+32,F4IHR4,unknown_1,
+33,F4IW47,AT2G45290,PS.calvin cycle.transketolase
+34,F4IW47,AT2G45290,OPP.non-reductive PP.transketolase
+35,F4IWV2,AT3G55410,TCA / org transformation.TCA.2-oxoglutarate dehydrogenase
+36,F4JGR5,AT4G04040,glycolysis.cytosolic branch.pyrophosphate-fructose-6-P phosphotransferase
+37,F4JIK2,AT4G20990,TCA / org transformation.carbonic anhydrases
+38,F4JJJ3,AT4G21490,mitochondrial electron transport / ATP synthesis.NADH-DH.type II.external
+39,F4JWS8,AT5G25450,mitochondrial electron transport / ATP synthesis.cytochrome c reductase
+40,F4KGQ0,AT5G03690,glycolysis.cytosolic branch.aldolase
+41,O03042,ArthCp030,
+42,O04130,AT1G17745,amino acid metabolism.synthesis.serine-glycine-cysteine group.serine.phosphoglycerate dehydrogenase
+43,O04130,AT1G17745,not assigned.unknown
+44,O04308,AT3G16480,protein.targeting.mitochondria
+45,O04499,AT1G09780,glycolysis.cytosolic branch.phosphoglycerate mutase
+46,O04846,AT3G52720,TCA / org transformation.carbonic anhydrases
+47,O04904,AT4G22930,nucleotide metabolism.synthesis.pyrimidine.dihydroorotase
+48,O04905,AT5G26667,nucleotide metabolism.phosphotransfer and pyrophosphatases.uridylate kinase
+49,O04983,AT5G35360,lipid metabolism.FA synthesis and FA elongation.Acetyl CoA Carboxylation.heteromeric Complex.Biotin Carboxylase
+50,O04983,AT5G35360,protein.postranslational modification
+51,O22048,AT3G27620,mitochondrial electron transport / ATP synthesis.alternative oxidase
+52,O22049,AT5G64210,mitochondrial electron transport / ATP synthesis.alternative oxidase
+53,O22229,AT2G41680,redox.thioredoxin
+54,O22229,AT2G41680,signalling.G-proteins
+55,O22241,AT3G44720,amino acid metabolism.synthesis.aromatic aa.phenylalanine.arogenate dehydratase / prephenate dehydratase
+56,O22682,AT3G03630,amino acid metabolism.synthesis.serine-glycine-cysteine group.cysteine.OASTL
+57,O22718,AT1G60810,TCA / org transformation.other organic acid transformatons.atp-citrate lyase
+58,O22765,AT4G02610,amino acid metabolism.synthesis.aromatic aa.tryptophan.tryptophan synthase
+59,O22765,AT4G02610,transport.p- and v-ATPases.H+-transporting two-sector ATPase
+60,O22769,AT4G02580,mitochondrial electron transport / ATP synthesis.NADH-DH.localisation not clear
+61,O22912,AT2G47380,mitochondrial electron transport / ATP synthesis.cytochrome c oxidase
+62,O22912,AT2G47380,not assigned.unknown
+63,O23254,AT4G13930,C1-metabolism.glycine hydroxymethyltransferase
+64,O23255,AT4G13940,amino acid metabolism.degradation.aspartate family.methionine
+65,O23324,AT4G14680,S-assimilation.ATPS
+66,O23346,AT4G14910,amino acid metabolism.synthesis.histidine.imidazoleglycerol-phosphate dehydratase
+67,O23404,AT4G15530,gluconeogenesis / glyoxylate cycle.pyruvate dikinase
+68,O23553,AT4G17090,major CHO metabolism.degradation.starch.starch cleavage.beta amylase
+69,O23553,AT4G17090,not assigned.no ontology
+70,O23653,AT5G14060,amino acid metabolism.synthesis.aspartate family.misc.homoserine.aspartate kinase
+71,O23913,AT3G22360,mitochondrial electron transport / ATP synthesis.alternative oxidase
+72,O48946,AT4G32410,cell wall.cellulose synthesis.cellulose synthase
+73,O48947,AT4G39350,cell wall.cellulose synthesis.cellulose synthase
+74,O49299,AT1G23190,glycolysis.cytosolic branch.phosphoglucomutase (PGM)
+75,O49347,AT1G67740,PS.lightreaction.photosystem II.PSII polypeptide subunits
+76,O49485,AT4G34200,amino acid metabolism.synthesis.serine-glycine-cysteine group.serine.phosphoglycerate dehydrogenase
+77,O49506,AT4G18360,PS.photorespiration.glycolate oxydase
+78,O50008,AT5G17920,amino acid metabolism.synthesis.aspartate family.methionine
+79,O50039,AT1G75330,amino acid metabolism.synthesis.glutamate family.arginine.ornithine carbamoyltransferase
+80,O64753,AT2G34890,nucleotide metabolism.synthesis.pyrimidine.CTP synthetase
+81,O64767,AT2G35040,nucleotide metabolism.synthesis.purine.AICAR transformylase
+82,O64888,AT2G44530,nucleotide metabolism.synthesis.PRS-PP
+83,O64903,AT5G63310,nucleotide metabolism.phosphotransfer and pyrophosphatases.nucleoside diphosphate kinase
+84,O64903,AT5G63310,protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S21
+85,O65258,AT4G00490,major CHO metabolism.degradation.starch.starch cleavage.beta amylase
+86,O65258,AT4G00490,signalling.calcium
+87,O65396,AT1G11860,PS.photorespiration.glycine cleavage.T subunit
+88,O65396,AT1G11860,amino acid metabolism.degradation.serine-glycine-cysteine group.glycine
+89,O65581,AT4G26530,PS.calvin cycle.aldolase
+90,O80452,AT2G38280,nucleotide metabolism.degradation
+91,O80526,AT1G09430,TCA / org transformation.other organic acid transformatons.atp-citrate lyase
+92,O80574,AT2G44040,amino acid metabolism.synthesis.aspartate family.lysine.dihydrodipicolinate reductase
+93,O80585,AT2G44160,C1-metabolism.methylenetetrahydrofolate reductase
+94,O80634,AT2G39470,PS.lightreaction.photosystem II.PSII polypeptide subunits
+95,O80738,AT1G60140,minor CHO metabolism.trehalose.potential TPS/TPP
+96,O80874,AT2G29990,mitochondrial electron transport / ATP synthesis.NADH-DH.type II.internal matrix
+97,O80988,AT2G26080,PS.photorespiration.glycine cleavage.P subunit
+98,O80988,AT2G26080,C1-metabolism
+99,O81796,AT4G35650,TCA / org transformation.other organic acid transformatons.IDH
+100,O81852,AT4G19710,amino acid metabolism.synthesis.aspartate family.misc.homoserine.bifunctional aspartate kinase/homoserine dehydrogenase
+101,O82191,AT2G19900,TCA / org transformation.other organic acid transformatons.malic
+102,O82399,AT2G22780,gluconeogenesis / glyoxylate cycle.Malate DH
+103,O82514,AT5G63400,nucleotide metabolism.phosphotransfer and pyrophosphatases.adenylate kinase
+104,O82662,AT2G20420,TCA / org transformation.TCA.succinyl-CoA ligase
+105,O82663,AT5G66760,TCA / org transformation.TCA.succinate dehydrogenase
+106,O82768,AT1G31860,amino acid metabolism.synthesis.histidine.bifunctional phosphoribosyl-ATP diphosphatase and phosphoribosyl-AMP cyclohydrolase
+107,O82782,AT2G36230,amino acid metabolism.synthesis.histidine.phosphoribosyl-AMP cyclohydrolase
+108,O82793,AT2G46860,nucleotide metabolism.phosphotransfer and pyrophosphatases.misc
+109,O82796,AT1G18640,amino acid metabolism.synthesis.serine-glycine-cysteine group.serine.phosphoserine phosphatase
+110,O82796,AT1G18640,RNA.RNA binding
+111,P05466,AT2G45300,amino acid metabolism.synthesis.aromatic aa.chorismate.5-enolpyruvylshikimate-3-phosphate synthase
+112,P09468,ArthCp028,
+113,P0CC32,ArthCp068,
+114,P0CC33,ArthCp086,
+115,P0DI07,AT1G71920,amino acid metabolism.synthesis.histidine.histidinol-phosphate aminotransferase
+116,P0DKC3,AT5G36700,PS.photorespiration.phosphoglycolate phosphatase
+117,P0DKC4,AT5G36700,PS.photorespiration.phosphoglycolate phosphatase
+118,P0DKI0,AT4G32210,DNA.synthesis/chromatin structure
+119,P0DKI1,AT4G32210,DNA.synthesis/chromatin structure
+120,P10795,AT1G67090,PS.calvin cycle.rubisco small subunit
+121,P10796,AT5G38430,PS.calvin cycle.rubisco small subunit
+122,P10797,AT5G38420,PS.calvin cycle.rubisco small subunit
+123,P10798,AT5G38410,PS.calvin cycle.rubisco small subunit
+124,P11035,AT1G37130,N-metabolism.nitrate metabolism.NR
+125,P11832,AT1G77760,N-metabolism.nitrate metabolism.NR
+126,P14671,AT5G54810,amino acid metabolism.synthesis.aromatic aa.tryptophan.tryptophan synthase
+127,P17562,AT4G01850,amino acid metabolism.synthesis.aspartate family.methionine.S-adenosylmethionine synthetase
+128,P17597,AT3G48560,amino acid metabolism.synthesis.branched chain group.common.acetolactate synthase
+129,P19366,ArthCp029,
+130,P20115,AT2G44350,TCA / org transformation.TCA.CS
+131,P20115,AT2G44350,not assigned.unknown
+132,P21216,AT2G18230,nucleotide metabolism.phosphotransfer and pyrophosphatases.misc
+133,P22197,AT4G26520,glycolysis.cytosolic branch.aldolase
+134,P23321,AT5G66570,PS.lightreaction.photosystem II.PSII polypeptide subunits
+135,P23686,AT1G02500,amino acid metabolism.synthesis.aspartate family.methionine.S-adenosylmethionine synthetase
+136,P25269,AT4G27070,amino acid metabolism.synthesis.aromatic aa.tryptophan.tryptophan synthase
+137,P25696,AT2G36530,glycolysis.cytosolic branch.enolase
+138,P25697,AT1G32060,PS.calvin cycle.PRK
+139,P25819,AT4G35090,redox.dismutases and catalases
+140,P25851,AT3G54050,PS.calvin cycle.FBPase
+141,P25851,AT3G54050,not assigned.no ontology
+142,P25853,AT4G15210,major CHO metabolism.degradation.starch.starch cleavage.beta amylase
+143,P25856,AT3G26650,PS.calvin cycle.GAP
+144,P25857,AT1G42970,PS.calvin cycle.GAP
+145,P25858,AT3G04120,glycolysis.cytosolic branch.glyceraldehyde 3-phosphate dehydrogenase (GAP-DH)
+146,P26288,ArthCp074,
+147,P26289,ArthCp076,
+148,P27140,AT3G01500,TCA / org transformation.carbonic anhydrases
+149,P27202,AT1G79040,PS.lightreaction.photosystem II.PSII polypeptide subunits
+150,P27202,AT1G79040,DNA.repair
+151,P28297,AT3G21720,gluconeogenesis / glyoxylate cycle.isocitrate lyase
+152,P29976,AT4G39980,amino acid metabolism.synthesis.aromatic aa.chorismate.3-deoxy-D-arabino-heptulosonate 7-phosphate synthase
+153,P31166,AT1G27450,nucleotide metabolism.salvage.phosphoribosyltransferases.aprt
+154,P32068,AT5G05730,amino acid metabolism.synthesis.aromatic aa.tryptophan.anthranilate synthase
+155,P32069,AT2G29690,amino acid metabolism.synthesis.aromatic aa.tryptophan.anthranilate synthase
+156,P32746,AT5G23300,nucleotide metabolism.synthesis.pyrimidine.dihydroorotate dehydrogenase
+157,P32746,AT5G23300,RNA.regulation of transcription.unclassified
+158,P34047,AT3G22425,amino acid metabolism.synthesis.histidine.imidazoleglycerol-phosphate dehydratase
+159,P34795,AT5G42740,glycolysis.cytosolic branch.glucose-6-phosphate isomerase
+160,P38025,AT3G21110,nucleotide metabolism.synthesis.purine.SAICAR synthetase
+161,P39207,AT4G09320,nucleotide metabolism.phosphotransfer and pyrophosphatases.nucleoside diphosphate kinase
+162,P42737,AT5G14740,TCA / org transformation.carbonic anhydrases
+163,P42738,AT3G29200,amino acid metabolism.synthesis.aromatic aa.phenylalanine and tyrosine.chorismate mutase
+164,P42770,AT3G54660,redox.ascorbate and glutathione.glutathione
+165,P42792,AT2G07727,mitochondrial electron transport / ATP synthesis.cytochrome c reductase
+166,P46248,AT4G31990,amino acid metabolism.synthesis.central amino acid metabolism.aspartate.aspartate aminotransferase
+167,P46283,AT3G55800,PS.calvin cycle.seduheptulose bisphosphatase
+168,P46637,AT4G08900,amino acid metabolism.degradation.glutamate family.arginine
+169,P46643,AT2G30970,amino acid metabolism.synthesis.central amino acid metabolism.aspartate.aspartate aminotransferase
+170,P46644,AT5G11520,amino acid metabolism.synthesis.central amino acid metabolism.aspartate.aspartate aminotransferase
+171,P46645,AT5G19550,amino acid metabolism.synthesis.central amino acid metabolism.aspartate.aspartate aminotransferase
+172,P46646,AT1G62800,amino acid metabolism.synthesis.central amino acid metabolism.aspartate.aspartate aminotransferase
+173,P46646,AT1G62800,misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+174,P47996,AT1G79470,nucleotide metabolism.synthesis.purine.IMP dehydrogenase
+175,P47998,AT4G14880,amino acid metabolism.synthesis.serine-glycine-cysteine group.cysteine.OASTL
+176,P47999,AT2G43750,amino acid metabolism.synthesis.serine-glycine-cysteine group.cysteine.OASTL
+177,P47999,AT2G43750,not assigned.unknown
+178,P48491,AT3G55440,glycolysis.cytosolic branch.triosephosphate isomerase (TPI)
+179,P49040,AT5G20830,major CHO metabolism.degradation.sucrose.Susy
+180,P49077,AT3G20330,nucleotide metabolism.synthesis.pyrimidine.aspartate transcarbamoylase
+181,P49078,AT3G47340,amino acid metabolism.synthesis.aspartate family.asparagine.asparagine synthetase
+182,P49107,AT5G64040,PS.lightreaction.photosystem I.PSI polypeptide subunits
+183,P49572,AT2G04400,amino acid metabolism.synthesis.aromatic aa.tryptophan.indole-3-glycerol phosphate synthase
+184,P49572,AT2G04400,not assigned.unknown
+185,P50287,AT5G08100,amino acid metabolism.degradation.aspartate family.asparagine.L-asparaginase
+186,P50318,AT1G56190,PS.calvin cycle.phosphoglycerate kinase
+187,P50651,AT3G23580,nucleotide metabolism.deoxynucleotide metabolism.ribonucleoside-diphosphate reductase
+188,P52420,AT1G09830,nucleotide metabolism.synthesis.purine.GAR Synthetase
+189,P52422,AT1G31220,amino acid metabolism.synthesis.aspartate family.misc.homoserine.aspartate kinase
+190,P52422,AT1G31220,nucleotide metabolism.synthesis.purine.GAR transformylase
+191,P52901,AT1G59900,TCA / org transformation.TCA.pyruvate DH.E1
+192,P53780,AT3G57050,amino acid metabolism.synthesis.aspartate family.methionine.cystathionine beta-lyase
+193,P54887,AT2G39800,amino acid metabolism.synthesis.glutamate family.proline.delta 1-pyrroline-5-carboxylate synthetase
+194,P54887,AT2G39800,not assigned.no ontology
+195,P54888,AT3G55610,amino acid metabolism.synthesis.glutamate family.proline.delta 1-pyrroline-5-carboxylate synthetase
+196,P54904,AT5G14800,amino acid metabolism.degradation.glutamate family.arginine
+197,P55217,AT3G01120,amino acid metabolism.synthesis.aspartate family.methionine.cystathionine gamma-synthase
+198,P55228,AT5G48300,major CHO metabolism.synthesis.starch.AGPase
+199,P55229,AT5G19220,major CHO metabolism.synthesis.starch.AGPase
+200,P55229,AT5G19220,protein.synthesis.initiation
+201,P55229,AT5G19220,"micro RNA, natural antisense etc"
+202,P55230,AT1G27680,major CHO metabolism.synthesis.starch.AGPase
+203,P55231,AT4G39210,major CHO metabolism.synthesis.starch.AGPase
+204,P56751,ArthCp027,
+205,P56752,ArthCp071,
+206,P56753,ArthCp080,
+207,P56754,ArthCp025,
+208,P56755,ArthCp078,
+209,P56756,ArthCp026,
+210,P56757,ArthCp007,
+211,P56758,ArthCp010,
+212,P56759,ArthCp008,
+213,P56760,ArthCp009,
+214,P56761,ArthCp017,
+215,P56765,ArthCp031,
+216,P56766,ArthCp022,
+217,P56767,ArthCp021,
+218,P56768,ArthCp032,
+219,P56769,ArthCp042,
+220,P56771,ArthCp035,
+221,P56773,ArthCp053,
+222,P56774,ArthCp054,
+223,P56775,ArthCp041,
+224,P56776,ArthCp040,
+225,P56777,ArthCp049,
+226,P56778,ArthCp018,
+227,P56779,ArthCp039,
+228,P56780,ArthCp052,
+229,P56781,ArthCp036,
+230,P56782,ArthCp005,
+231,P56790,ArthCp019,
+232,P57106,AT5G43330,TCA / org transformation.other organic acid transformatons.cyt MDH
+233,P57720,AT1G48850,amino acid metabolism.synthesis.aromatic aa.chorismate.chorismate synthase
+234,P57720,AT1G48850,not assigned.unknown
+235,P57751,AT5G17310,glycolysis.cytosolic branch.UGPase
+236,P60112,AT2G07671,transport.p- and v-ATPases.H+-transporting two-sector ATPase.subunit C
+237,P60129,ArthCp037,
+238,P60497,unknown_2,
+239,P60620,unknown_3,
+240,P61039,ArthCp015,
+241,P61839,ArthCp050,
+242,P62090,ArthCp075,
+243,P62095,ArthCp038,
+244,P62100,ArthCp006,
+245,P62109,ArthCp016,
+246,P62113,ArthCp051,
+247,P68209,AT5G08300,TCA / org transformation.TCA.succinyl-CoA ligase
+248,P83483,AT5G08670,mitochondrial electron transport / ATP synthesis.F1-ATPase
+249,P83484,AT5G08690,mitochondrial electron transport / ATP synthesis.F1-ATPase
+250,P83755,ArthCp002,
+251,P92533,unknown_4,
+252,P92547,unknown_5,
+253,P92549,unknown_6,
+254,P92979,AT4G04610,S-assimilation.APR
+255,P92980,AT4G21990,S-assimilation.APR
+256,P92980,AT4G21990,protein.degradation.autophagy
+257,P92981,AT1G62180,S-assimilation.APR
+258,P92981,AT1G62180,protein.degradation.serine protease
+259,P92983,AT3G30775,amino acid metabolism.degradation.glutamate family.proline
+260,P93032,AT2G17130,TCA / org transformation.TCA.IDH
+261,P93033,AT2G47510,TCA / org transformation.TCA.fumarase
+262,P93285,unknown_7,
+263,P93306,unknown_8,
+264,P93313,unknown_9,
+265,P93757,AT2G41880,nucleotide metabolism.phosphotransfer and pyrophosphatases.guanylate kinase
+266,P93819,AT1G04410,TCA / org transformation.other organic acid transformatons.cyt MDH
+267,P93832,AT1G80560,amino acid metabolism.synthesis.branched chain group.leucine specific.3-isopropylmalate dehydrogenase
+268,P93832,AT1G80560,secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.methylthioalkylmalate dehydrogenase (MAM-D)
+269,P93834,AT2G19860,major CHO metabolism.degradation.sucrose.hexokinase
+270,Q00218,AT4G33510,amino acid metabolism.synthesis.aromatic aa.chorismate.3-deoxy-D-arabino-heptulosonate 7-phosphate synthase
+271,Q00917,AT5G49190,major CHO metabolism.degradation.sucrose.Susy
+272,Q01908,AT4G04640,PS.lightreaction.ATP synthase.gamma chain
+273,Q01909,AT1G15700,PS.lightreaction.ATP synthase.gamma chain
+274,Q01909,AT1G15700,transport.H+ transporting pyrophosphatase
+275,Q02166,AT5G17990,amino acid metabolism.synthesis.aromatic aa.tryptophan.anthranilate phosphoribosyltransferase
+276,Q04613,unknown_10,
+277,Q04614,unknown_11,
+278,Q05728,AT3G55010,nucleotide metabolism.synthesis.purine.AIR synthase
+279,Q05758,AT3G58610,amino acid metabolism.synthesis.branched chain group.common.ketol-acid reductoisomerase
+280,Q05762,AT2G16370,C1-metabolism
+281,Q0WNZ5,AT5G20980,amino acid metabolism.synthesis.aspartate family.methionine.methionine synthase
+282,Q0WNZ5,AT5G20980,stress.abiotic.heat
+283,Q0WQF7,AT3G52200,TCA / org transformation.TCA.pyruvate DH.E2
+284,Q0WRY1,AT4G20320,nucleotide metabolism.synthesis.pyrimidine.CTP synthetase
+285,Q0WSF1,AT3G66658,secondary metabolism.N misc.betaine.betaine-aldehyde dehydrogenase
+286,Q0WVX5,AT4G18240,major CHO metabolism.synthesis.starch.starch synthase
+287,Q0WW55,AT5G59440,nucleotide metabolism.phosphotransfer and pyrophosphatases.thymidylate kinase
+288,Q0WWE3,AT1G15120,mitochondrial electron transport / ATP synthesis.cytochrome c reductase
+289,Q1JPL4,AT4G28220,mitochondrial electron transport / ATP synthesis.NADH-DH.type II.external
+290,Q1JPL4,AT4G28220,not assigned.unknown
+291,Q1WIQ6,AT2G24270,glycolysis.cytosolic branch.non-phosphorylating glyceraldehyde 3-phosphate dehydrogenase (NPGAP-DH)
+292,Q24JJ8,AT3G14150,PS.photorespiration.glycolate oxydase
+293,Q2PGG3,AT4G11640,amino acid metabolism.synthesis.branched chain group.isoleucine specific
+294,Q2V2S7,AT4G37925,PS.lightreaction.NADH DH
+295,Q37165,ArthCp079,
+296,Q38799,AT5G50850,TCA / org transformation.TCA.pyruvate DH.E1
+297,Q38946,AT5G07440,N-metabolism.N-degradation.glutamate dehydrogenase
+298,Q39161,AT2G15620,N-metabolism.nitrate metabolism.nitrite reductase
+299,Q39194,AT2G30570,PS.lightreaction.photosystem II.PSII polypeptide subunits
+300,Q39195,AT3G21055,PS.lightreaction.photosystem II.PSII polypeptide subunits
+301,Q39218,AT3G13110,amino acid metabolism.synthesis.serine-glycine-cysteine group.cysteine.SAT
+302,Q39219,AT3G22370,mitochondrial electron transport / ATP synthesis.alternative oxidase
+303,Q39242,AT2G17420,redox.thioredoxin
+304,Q39243,AT4G35460,redox.thioredoxin
+305,Q3E870,AT5G62575,not assigned.unknown
+306,Q41932,AT4G05180,PS.lightreaction.photosystem II.PSII polypeptide subunits
+307,Q42029,AT1G06680,PS.lightreaction.photosystem II.PSII polypeptide subunits
+308,Q42290,AT3G02090,misc.UDP glucosyl and glucoronyl transferases
+309,Q42290,AT3G02090,protein.targeting.mitochondria
+310,Q42440,AT1G07780,amino acid metabolism.synthesis.aromatic aa.tryptophan.phosphoribosyanthranilate isomerase
+311,Q42472,AT1G65960,amino acid metabolism.synthesis.central amino acid metabolism.GABA.Glutamate decarboxylase
+312,Q42472,AT1G65960,redox.peroxiredoxin
+313,Q42521,AT5G17330,amino acid metabolism.synthesis.central amino acid metabolism.GABA.Glutamate decarboxylase
+314,Q42527,AT5G05590,lipid metabolism.FA desaturation.omega 3 desaturase
+315,Q42527,AT5G05590,amino acid metabolism.synthesis.aromatic aa.tryptophan.phosphoribosyanthranilate isomerase
+316,Q42529,AT3G54640,amino acid metabolism.synthesis.aromatic aa.tryptophan.tryptophan synthase
+317,Q42533,AT5G16390,lipid metabolism.FA synthesis and FA elongation.Acetyl CoA Carboxylation.heteromeric Complex.Biotin Carboxyl Carrier Protein
+318,Q42538,AT5G56760,amino acid metabolism.synthesis.serine-glycine-cysteine group.cysteine.SAT
+319,Q42547,AT1G20620,redox.dismutases and catalases
+320,Q42560,AT4G35830,TCA / org transformation.TCA.aconitase
+321,Q42563,AT1G80050,nucleotide metabolism.salvage.phosphoribosyltransferases.aprt
+322,Q42577,AT5G11770,mitochondrial electron transport / ATP synthesis.NADH-DH.localisation not clear
+323,Q42581,AT2G35390,nucleotide metabolism.synthesis.PRS-PP
+324,Q42583,AT1G32380,nucleotide metabolism.synthesis.PRS-PP
+325,Q42586,AT3G54470,nucleotide metabolism.synthesis.pyrimidine.orotate phosphoribosyltransferase
+326,Q42588,AT1G55920,"metal handling.binding, chelation and storage"
+327,Q42599,AT1G79010,mitochondrial electron transport / ATP synthesis.NADH-DH.localisation not clear
+328,Q42601,AT1G29900,nucleotide metabolism.synthesis.pyrimidine.carbamoyl phosphate synthetase
+329,Q43127,AT5G35630,N-metabolism.ammonia metabolism.glutamine synthetase
+330,Q43314,AT5G18170,N-metabolism.N-degradation.glutamate dehydrogenase
+331,Q43727,AT5G35790,OPP.oxidative PP.G6PD
+332,Q43870,AT1G19920,S-assimilation.ATPS
+333,Q56WN1,AT5G37600,N-metabolism.ammonia metabolism.glutamine synthetase
+334,Q56X52,AT4G22260,PS.lightreaction.cyclic electron flow-chlororespiration
+335,Q56YA5,AT2G13360,PS.photorespiration.aminotransferases peroxisomal
+336,Q56YA5,AT2G13360,amino acid metabolism.synthesis.central amino acid metabolism.alanine.alanine-glyoxylate aminotransferase
+337,Q56YA5,AT2G13360,amino acid metabolism.synthesis.serine-glycine-cysteine group.glycine.serine glyoxylate aminotransferase
+338,Q56YU0,AT3G24503,fermentation.aldehyde dehydrogenase
+339,Q56YU0,AT3G24503,hormone metabolism.ethylene.induced-regulated-responsive-activated
+340,Q5E924,AT1G16300,glycolysis.plastid branch.glyceraldehyde 3-phosphate dehydrogenase (GAP-DH)
+341,Q5GM68,AT2G42600,glycolysis.cytosolic branch.phospho-enol-pyruvate carboxylase (PEPC)
+342,Q5HZ05,AT5G65140,minor CHO metabolism.trehalose.TPP
+343,Q5M729,AT1G54220,TCA / org transformation.TCA.pyruvate DH.E2
+344,Q67X99,AT2G22190,minor CHO metabolism.trehalose.TPP
+345,Q67XC9,AT1G35910,minor CHO metabolism.trehalose.TPP
+346,Q67XD9,AT4G09510,major CHO metabolism.degradation.sucrose.invertases.neutral
+347,Q6NKX1,AT5G38710,amino acid metabolism.degradation.glutamate family.proline
+348,Q6NPM8,AT4G39120,minor CHO metabolism.myo-inositol.inositol phosphatase
+349,Q6NPM8,AT4G39120,signalling.receptor kinases.Catharanthus roseus-like RLK1
+350,Q70DU8,AT1G44170,fermentation.aldehyde dehydrogenase
+351,Q70DU8,AT1G44170,stress.abiotic.heat
+352,Q70E96,AT4G36250,fermentation.aldehyde dehydrogenase
+353,Q84JA6,AT5G44030,cell wall.cellulose synthesis.cellulose synthase
+354,Q84JA6,AT5G44030,not assigned.unknown
+355,Q84TI2,AT2G37690,nucleotide metabolism.synthesis.purine.AIR carboxylase
+356,Q84VQ4,AT5G21430,stress.abiotic.heat
+357,Q84VW9,AT3G14940,glycolysis.cytosolic branch.phospho-enol-pyruvate carboxylase (PEPC)
+358,Q84WW2,AT5G24400,OPP.oxidative PP.6-phosphogluconolactonase
+359,Q8GSJ1,AT1G09795,amino acid metabolism.synthesis.histidine.ATP phosphoribosyl transferase
+360,Q8GVE8,AT1G68750,glycolysis.cytosolic branch.phospho-enol-pyruvate carboxylase (PEPC)
+361,Q8GWA1,AT1G07180,mitochondrial electron transport / ATP synthesis.NADH-DH.type II.internal matrix
+362,Q8GWG2,AT4G39770,minor CHO metabolism.trehalose.TPP
+363,Q8GWU0,AT5G47760,not assigned.no ontology
+364,Q8GXG1,AT3G16150,amino acid metabolism.degradation.aspartate family.asparagine.L-asparaginase
+365,Q8GXR9,AT5G08740,mitochondrial electron transport / ATP synthesis.NADH-DH.type II.mitochondrial
+366,Q8GXW5,AT1G48470,N-metabolism.ammonia metabolism.glutamine synthetase
+367,Q8GY88,AT4G39540,amino acid metabolism.synthesis.aromatic aa.chorismate.shikimate kinase
+368,Q8GYY0,AT5G51690,cell wall.cell wall proteins.HRGP
+369,Q8GYY0,AT5G51690,hormone metabolism.ethylene.synthesis-degradation.1-aminocyclopropane-1-carboxylate synthase
+370,Q8H103,AT4G24620,glycolysis.plastid branch.glucose-6-phosphate isomerase
+371,Q8H107,AT4G26910,not assigned.no ontology
+372,Q8H1E2,AT5G58330,TCA / org transformation.other organic acid transformatons.cyt MDH
+373,Q8H1E2,AT5G58330,protein.postranslational modification
+374,Q8L743,AT1G24280,OPP.oxidative PP.G6PD
+375,Q8L743,AT1G24280,signalling.G-proteins
+376,Q8L762,AT2G32290,major CHO metabolism.degradation.starch.starch cleavage.beta amylase
+377,Q8L778,AT5G09870,cell wall.cellulose synthesis.cellulose synthase
+378,Q8L7R2,AT2G17265,amino acid metabolism.synthesis.aspartate family.misc.homoserine.homoserine kinase
+379,Q8L817,AT1G08080,TCA / org transformation.carbonic anhydrases
+380,Q8LAD0,AT5G60540,Co-factor and vitamine metabolism
+381,Q8LAD2,AT5G23250,TCA / org transformation.TCA.succinyl-CoA ligase
+382,Q8LAX0,AT3G22740,amino acid metabolism.synthesis.aspartate family.methionine.homocysteine S-methyltransferase
+383,Q8LB01,AT3G59890,amino acid metabolism.synthesis.aspartate family.lysine.dihydrodipicolinate reductase
+384,Q8LB02,AT5G40650,TCA / org transformation.TCA.succinate dehydrogenase
+385,Q8LB02,AT5G40650,RNA.regulation of transcription.unclassified
+386,Q8LBZ7,AT3G27380,TCA / org transformation.TCA.succinate dehydrogenase
+387,Q8LBZ7,AT3G27380,DNA.synthesis/chromatin structure.histone.core.H3
+388,Q8LCA1,AT2G46820,PS.lightreaction.photosystem I.PSI polypeptide subunits
+389,Q8LCE1,AT1G66200,N-metabolism.ammonia metabolism.glutamine synthetase
+390,Q8LEE7,AT1G32350,mitochondrial electron transport / ATP synthesis.alternative oxidase
+391,Q8LEV7,AT5G24420,OPP.oxidative PP.6-phosphogluconolactonase
+392,Q8LFC0,AT4G35260,TCA / org transformation.TCA.IDH
+393,Q8LG70,AT3G49360,OPP.oxidative PP.6-phosphogluconolactonase
+394,Q8LG77,AT3G09810,TCA / org transformation.other organic acid transformatons.IDH
+395,Q8LPI9,AT1G29410,amino acid metabolism.synthesis.aromatic aa.tryptophan.phosphoribosyanthranilate isomerase
+396,Q8LPJ5,AT5G14590,TCA / org transformation.TCA.IDH
+397,Q8LPK5,AT4G18780,cell wall.cellulose synthesis.cellulose synthase
+398,Q8LPK5,AT4G18780,RNA.regulation of transcription.MYB domain transcription factor family
+399,Q8RU07,AT2G30200,lipid metabolism.FA synthesis and FA elongation.Acetyl CoA Transacylase
+400,Q8RWN9,AT3G13930,TCA / org transformation.TCA.pyruvate DH.E2
+401,Q8RWV0,AT3G60750,PS.calvin cycle.transketolase
+402,Q8RWV0,AT3G60750,OPP.non-reductive PP.transketolase
+403,Q8RXD9,AT2G40840,major CHO metabolism.degradation.starch.D enzyme
+404,Q8RXS1,AT1G18730,"micro RNA, natural antisense etc"
+405,Q8RXS1,AT1G18730,not assigned.unknown
+406,Q8RXU4,AT1G08630,amino acid metabolism.degradation.serine-glycine-cysteine group.glycine
+407,Q8RY94,AT4G18440,nucleotide metabolism.synthesis.purine.SAICAR lyase
+408,Q8S895,AT2G17640,amino acid metabolism.synthesis.serine-glycine-cysteine group.cysteine.SAT
+409,Q8VYL1,AT5G35170,nucleotide metabolism.phosphotransfer and pyrophosphatases.adenylate kinase
+410,Q8VYN6,AT2G22480,glycolysis.plastid branch.phosphofructokinase (PFK)
+411,Q8VYV7,AT5G66120,amino acid metabolism.synthesis.aromatic aa.chorismate.3-dehydroquinate synthase
+412,Q8VYV7,AT5G66120,Co-factor and vitamine metabolism.folate & vitamine K
+413,Q8VYW2,AT5G18670,major CHO metabolism.degradation.starch.starch cleavage.beta amylase
+414,Q8VZC3,AT5G62530,amino acid metabolism.degradation.glutamate family.proline
+415,Q8VZC3,AT5G62530,stress.abiotic.drought/salt
+416,Q8W2B8,AT4G35640,amino acid metabolism.synthesis.serine-glycine-cysteine group.serine.phosphoserine aminotransferase
+417,Q8W2B8,AT4G35640,amino acid metabolism.synthesis.serine-glycine-cysteine group.cysteine.SAT
+418,Q8W493,AT1G20020,PS.lightreaction.other electron carrier (ox/red).ferredoxin reductase
+419,Q8W4M5,AT1G12000,glycolysis.cytosolic branch.pyrophosphate-fructose-6-P phosphotransferase
+420,Q93V56,AT1G01050,nucleotide metabolism.phosphotransfer and pyrophosphatases.misc
+421,Q93V56,AT1G01050,RNA.processing.degradation dicer
+422,Q93XN8,AT3G52340,major CHO metabolism.synthesis.sucrose.SPP
+423,Q93XN8,AT3G52340,protein.synthesis.transfer RNA.nucleus.tRNA-Cys
+424,Q93Z53,AT1G32440,glycolysis.plastid branch.pyruvate kinase (PK)
+425,Q93Z53,AT1G32440,lipid metabolism.FA synthesis and FA elongation.pyruvate kinase
+426,Q93Z66,AT1G10700,nucleotide metabolism.synthesis.PRS-PP
+427,Q93Z70,AT2G19940,amino acid metabolism.synthesis.glutamate family.arginine.N-Acetylglutamate-5-P reductase
+428,Q93ZN9,AT4G33680,amino acid metabolism.synthesis.aspartate family.lysine.LL-diaminopimelic acid aminotransferase
+429,Q93ZW0,AT1G09420,OPP.oxidative PP.G6PD
+430,Q93ZW0,AT1G09420,"micro RNA, natural antisense etc"
+431,Q941A0,AT2G46505,TCA / org transformation.TCA.succinate dehydrogenase
+432,Q941A6,AT1G08480,not assigned.unknown
+433,Q941L0,AT5G05170,cell wall.cellulose synthesis.cellulose synthase
+434,Q944G9,AT4G38970,PS.calvin cycle.aldolase
+435,Q944I4,AT1G80380,PS.photorespiration.glycerate kinase
+436,Q945K7,AT5G03290,TCA / org transformation.other organic acid transformatons.IDH
+437,Q945L0,AT5G57815,mitochondrial electron transport / ATP synthesis.cytochrome c oxidase
+438,Q949Q5,AT1G08380,PS.lightreaction.photosystem I.PSI polypeptide subunits
+439,Q949X7,AT3G14390,amino acid metabolism.synthesis.aspartate family.lysine.diaminopimelate decarboxylase
+440,Q94A28,AT4G26970,TCA / org transformation.TCA.aconitase
+441,Q94A28,AT4G26970,not assigned.unknown
+442,Q94A41,AT1G69830,major CHO metabolism.degradation.starch.starch cleavage.alpha amylase
+443,Q94A94,AT5G11880,amino acid metabolism.synthesis.aspartate family.lysine.diaminopimelate decarboxylase
+444,Q94AA4,AT4G26270,glycolysis.cytosolic branch.phosphofructokinase (PFK)
+445,Q94AR8,AT4G13430,TCA / org transformation.other organic acid transformatons.aconitase
+446,Q94AR8,AT4G13430,secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.methylthioalkylmalate isomerase large subunit (MAM-IL)
+447,Q94B78,AT4G33010,PS.photorespiration.glycine cleavage.P subunit
+448,Q94B78,AT4G33010,C1-metabolism
+449,Q94BT0,AT5G20280,major CHO metabolism.synthesis.sucrose.SPS
+450,Q94BV7,AT4G05020,mitochondrial electron transport / ATP synthesis.NADH-DH.type II.external
+451,Q94C74,AT5G26780,C1-metabolism.glycine hydroxymethyltransferase
+452,Q94CE3,AT4G33580,TCA / org transformation.carbonic anhydrases
+453,Q94CE3,AT4G33580,not assigned.no ontology
+454,Q94CE4,AT1G70410,TCA / org transformation.carbonic anhydrases
+455,Q94CE5,AT3G22200,amino acid metabolism.synthesis.central amino acid metabolism.GABA.GABA transaminase
+456,Q94CE5,AT3G22200,not assigned.unknown
+457,Q94JQ6,AT5G64740,cell wall.cellulose synthesis.cellulose synthase
+458,Q94JS0,AT5G13430,mitochondrial electron transport / ATP synthesis.cytochrome c reductase
+459,Q95695,ArthCp077,
+460,Q95748,unknown_12,
+461,Q96250,AT2G33040,mitochondrial electron transport / ATP synthesis.F1-ATPase
+462,Q96251,AT5G13450,mitochondrial electron transport / ATP synthesis.F1-ATPase
+463,Q96252,AT5G47030,mitochondrial electron transport / ATP synthesis.F1-ATPase
+464,Q96253,AT1G51650,mitochondrial electron transport / ATP synthesis.F1-ATPase
+465,Q96255,AT4G35630,amino acid metabolism.synthesis.serine-glycine-cysteine group.serine.phosphoserine aminotransferase
+466,Q96255,AT4G35630,amino acid metabolism.synthesis.serine-glycine-cysteine group.cysteine.SAT
+467,Q96528,AT1G20630,redox.dismutases and catalases
+468,Q96529,AT3G57610,nucleotide metabolism.synthesis.purine.adenylosuccinate synthase
+469,Q9ASS6,AT5G13120,cell.cycle.peptidylprolyl isomerase
+470,Q9C522,AT3G06650,TCA / org transformation.other organic acid transformatons.atp-citrate lyase
+471,Q9C544,AT1G69370,amino acid metabolism.synthesis.aromatic aa.phenylalanine and tyrosine.chorismate mutase
+472,Q9C544,AT1G69370,not assigned.unknown
+473,Q9C550,AT1G74040,amino acid metabolism.synthesis.branched chain group.leucine specific.2-isopropylmalate synthase
+474,Q9C5A9,AT5G08680,mitochondrial electron transport / ATP synthesis.F1-ATPase
+475,Q9C5E8,AT3G47833,not assigned.unknown
+476,Q9C5J7,AT5G56630,glycolysis.unclear/dually targeted.phosphofructokinase (PFK)
+477,Q9C5U8,AT5G63890,amino acid metabolism.synthesis.histidine.histidinol dehydrogenase
+478,Q9C5U8,AT5G63890,RNA.regulation of transcription.SNF7
+479,Q9C6F5,AT1G58180,TCA / org transformation.carbonic anhydrases
+480,Q9C9C4,AT1G74030,glycolysis.cytosolic branch.enolase
+481,Q9C9K3,AT1G76550,glycolysis.cytosolic branch.pyrophosphate-fructose-6-P phosphotransferase
+482,Q9C9W5,AT1G68010,PS.photorespiration.hydroxypyruvate reductase
+483,Q9C9W5,AT1G68010,amino acid metabolism.degradation.serine-glycine-cysteine group.glycine
+484,Q9CA83,AT1G79750,TCA / org transformation.other organic acid transformatons.malic
+485,Q9CA90,AT1G79870,PS.photorespiration.hydroxypyruvate reductase
+486,Q9CAC5,AT1G70760,PS.lightreaction.NADH DH
+487,Q9CAC5,AT1G70760,not assigned.unknown
+488,Q9CAD1,AT1G63660,nucleotide metabolism.synthesis.purine.GMP synthetase
+489,Q9FFP6,AT5G63680,glycolysis.cytosolic branch.pyruvate kinase (PK)
+490,Q9FFR3,AT5G41670,OPP.oxidative PP.6-phosphogluconate dehydrogenase
+491,Q9FG89,AT5G43750,not assigned.unknown
+492,Q9FGI6,AT5G37510,mitochondrial electron transport / ATP synthesis.NADH-DH.localisation not clear
+493,Q9FGX1,AT5G49460,TCA / org transformation.other organic acid transformatons.atp-citrate lyase
+494,Q9FI53,AT5G50950,TCA / org transformation.TCA.fumarase
+495,Q9FIJ7,AT5G47840,nucleotide metabolism.phosphotransfer and pyrophosphatases.adenylate kinase
+496,Q9FIK0,AT5G47810,glycolysis.cytosolic branch.phosphofructokinase (PFK)
+497,Q9FIN1,AT5G24410,OPP.oxidative PP.6-phosphogluconolactonase
+498,Q9FJ82,AT5G52100,amino acid metabolism.synthesis.aspartate family.lysine.dihydrodipicolinate reductase
+499,Q9FJ82,AT5G52100,not assigned.unknown
+500,Q9FJP9,AT5G65165,TCA / org transformation.TCA.succinate dehydrogenase
+501,Q9FJU0,unknown_13,
+502,Q9FK35,AT5G50370,nucleotide metabolism.phosphotransfer and pyrophosphatases.adenylate kinase
+503,Q9FKG3,AT5G61580,glycolysis.plastid branch.phosphofructokinase (PFK)
+504,Q9FKS5,AT5G40810,mitochondrial electron transport / ATP synthesis.cytochrome c
+505,Q9FKW6,AT5G66190,PS.lightreaction.other electron carrier (ox/red).ferredoxin reductase
+506,Q9FKW6,AT5G66190,not assigned.unknown
+507,Q9FLB7,AT5G05370,mitochondrial electron transport / ATP synthesis.cytochrome c reductase
+508,Q9FLB7,AT5G05370,not assigned.no ontology
+509,Q9FLH2,AT5G65750,TCA / org transformation.TCA.2-oxoglutarate dehydrogenase
+510,Q9FLK2,AT5G61310,mitochondrial electron transport / ATP synthesis.cytochrome c oxidase
+511,Q9FLQ4,AT5G55070,TCA / org transformation.TCA.2-oxoglutarate dehydrogenase
+512,Q9FLW9,AT5G52920,glycolysis.plastid branch.pyruvate kinase (PK)
+513,Q9FLW9,AT5G52920,lipid metabolism.FA synthesis and FA elongation.pyruvate kinase
+514,Q9FMD9,AT5G16570,N-metabolism.ammonia metabolism.glutamine synthetase
+515,Q9FMT1,AT5G14200,amino acid metabolism.synthesis.branched chain group.leucine specific.3-isopropylmalate dehydrogenase
+516,Q9FMT1,AT5G14200,signalling.receptor kinases.leucine rich repeat VI
+517,Q9FNF2,AT5G24300,major CHO metabolism.synthesis.starch.starch synthase
+518,Q9FNJ8,AT5G22630,amino acid metabolism.synthesis.aromatic aa.phenylalanine.arogenate dehydratase / prephenate dehydratase
+519,Q9FNK4,AT5G46180,amino acid metabolism.degradation.glutamate family.arginine
+520,Q9FNN1,AT5G08570,glycolysis.cytosolic branch.pyruvate kinase (PK)
+521,Q9FNN5,AT5G08530,mitochondrial electron transport / ATP synthesis.NADH-DH.localisation not clear
+522,Q9FT52,AT3G52300,mitochondrial electron transport / ATP synthesis.F1-ATPase
+523,Q9FVC8,AT2G45440,amino acid metabolism.synthesis.aspartate family.lysine.dihydrodipicolinate synthase
+524,Q9FWA3,AT3G02360,OPP.oxidative PP.6-phosphogluconate dehydrogenase
+525,Q9FX54,AT1G13440,glycolysis.cytosolic branch.glyceraldehyde 3-phosphate dehydrogenase (GAP-DH)
+526,Q9FX83,AT1G16700,mitochondrial electron transport / ATP synthesis.NADH-DH.localisation not clear
+527,Q9FY99,AT5G13110,OPP.oxidative PP.G6PD
+528,Q9FYA6,AT5G65780,amino acid metabolism.synthesis.branched chain group.common.branched-chain amino acid aminotransferase
+529,Q9FYA6,AT5G65780,Co-factor and vitamine metabolism.pantothenate.branched-chain amino acid aminotransferase
+530,Q9FYA6,AT5G65780,not assigned.no ontology
+531,Q9FYE3,AT5G04180,TCA / org transformation.carbonic anhydrases
+532,Q9FYE3,AT5G04180,signalling.calcium
+533,Q9FZ57,AT1G16980,minor CHO metabolism.trehalose.TPS
+534,Q9LD43,AT2G38040,lipid metabolism.FA synthesis and FA elongation.Acetyl CoA Carboxylation.heteromeric Complex.alpha Carboxyltransferase
+535,Q9LD43,AT2G38040,hormone metabolism.brassinosteroid.synthesis-degradation.BRs.DET2
+536,Q9LD57,AT3G12780,PS.calvin cycle.phosphoglycerate kinase
+537,Q9LDV4,AT1G72330,amino acid metabolism.synthesis.central amino acid metabolism.alanine.alanine aminotransferase
+538,Q9LE33,AT1G12550,PS.photorespiration.hydroxypyruvate reductase
+539,Q9LEU8,AT5G10920,amino acid metabolism.synthesis.glutamate family.arginine.argininosuccinate lyase
+540,Q9LF98,AT3G52930,glycolysis.unclear/dually targeted.aldolase
+541,Q9LFF9,AT3G53620,nucleotide metabolism.phosphotransfer and pyrophosphatases.misc
+542,Q9LFG2,AT3G53580,amino acid metabolism.synthesis.aspartate family.lysine.diaminopimelate epimerase
+543,Q9LFP0,AT5G11160,nucleotide metabolism.salvage.phosphoribosyltransferases.aprt
+544,Q9LFU1,AT5G10240,amino acid metabolism.synthesis.aspartate family.asparagine.asparagine synthetase
+545,Q9LIK0,AT3G22960,glycolysis.plastid branch.pyruvate kinase (PK)
+546,Q9LIK9,AT3G22890,S-assimilation.ATPS
+547,Q9LIR4,AT3G23940,not assigned.no ontology
+548,Q9LIR6,AT3G23920,major CHO metabolism.degradation.starch.starch cleavage.beta amylase
+549,Q9LJA0,AT3G22460,amino acid metabolism.synthesis.serine-glycine-cysteine group.cysteine.OASTL
+550,Q9LK23,AT3G27300,OPP.oxidative PP.G6PD
+551,Q9LK29,AT3G27240,mitochondrial electron transport / ATP synthesis.cytochrome c
+552,Q9LK36,AT3G23810,amino acid metabolism.degradation.aspartate family.methionine
+553,Q9LKA3,AT3G15020,TCA / org transformation.TCA.malate DH
+554,Q9LLC1,AT5G15530,lipid metabolism.FA synthesis and FA elongation.Acetyl CoA Carboxylation.heteromeric Complex.Biotin Carboxyl Carrier Protein
+555,Q9LM13,AT1G22170,glycolysis.plastid branch.phosphoglycerate mutase
+556,Q9LMI0,AT1G06410,minor CHO metabolism.trehalose.potential TPS/TPP
+557,Q9LMR3,AT1G15710,amino acid metabolism.synthesis.aromatic aa.tyrosine.prephenate dehydrogenase
+558,Q9LMX8,AT1G13700,OPP.oxidative PP.6-phosphogluconolactonase
+559,Q9LMX8,AT1G13700,not assigned.no ontology
+560,Q9LPR4,AT1G18500,amino acid metabolism.synthesis.branched chain group.leucine specific.2-isopropylmalate synthase
+561,Q9LPW0,AT1G12900,PS.calvin cycle.GAP
+562,Q9LQ10,AT1G62960,hormone metabolism.ethylene.synthesis-degradation.1-aminocyclopropane-1-carboxylate synthase
+563,Q9LQ10,AT1G62960,signalling.receptor kinases.leucine rich repeat VII
+564,Q9LQF2,AT1G35580,major CHO metabolism.degradation.sucrose.invertases.neutral
+565,Q9LQK9,AT1G32480,TCA / org transformation.TCA.IDH
+566,Q9LR30,AT1G23310,amino acid metabolism.synthesis.central amino acid metabolism.alanine.alanine aminotransferase
+567,Q9LRR9,AT3G14420,PS.photorespiration.glycolate oxydase
+568,Q9LRS0,AT3G14415,PS.photorespiration.glycolate oxydase
+569,Q9LSD0,AT3G27060,nucleotide metabolism.deoxynucleotide metabolism.ribonucleoside-diphosphate reductase
+570,Q9LSH2,AT3G17760,amino acid metabolism.synthesis.central amino acid metabolism.GABA.Glutamate decarboxylase
+571,Q9LT69,AT3G19480,amino acid metabolism.synthesis.serine-glycine-cysteine group.serine.phosphoglycerate dehydrogenase
+572,Q9LT69,AT3G19480,transport.metal
+573,Q9LTW8,AT3G12670,nucleotide metabolism.synthesis.pyrimidine.CTP synthetase
+574,Q9LU21,AT3G16250,PS.lightreaction.other electron carrier (ox/red).ferredoxin
+575,Q9LU21,AT3G16250,transport.Major Intrinsic Proteins.TIP
+576,Q9LU95,AT3G25960,glycolysis.cytosolic branch.pyruvate kinase (PK)
+577,Q9LUT2,AT3G17390,"metal handling.binding, chelation and storage"
+578,Q9LUT2,AT3G17390,not assigned.no ontology
+579,Q9LV03,AT5G53460,N-metabolism.ammonia metabolism.glutamate synthase.NADH dependent
+580,Q9LV77,AT5G65010,amino acid metabolism.synthesis.aspartate family.asparagine.asparagine synthetase
+581,Q9LV91,AT5G64860,major CHO metabolism.degradation.starch.D enzyme
+582,Q9LVI8,AT3G17820,N-metabolism.ammonia metabolism.glutamine synthetase
+583,Q9LVM2,AT5G58260,PS.lightreaction.NADH DH
+584,Q9LVW7,AT3G27740,nucleotide metabolism.synthesis.pyrimidine.carbamoyl phosphate synthetase
+585,Q9LW15,AT3G15640,mitochondrial electron transport / ATP synthesis.cytochrome c oxidase
+586,Q9LXC9,AT5G09650,nucleotide metabolism.phosphotransfer and pyrophosphatases.misc
+587,Q9LXJ2,AT3G52730,mitochondrial electron transport / ATP synthesis.cytochrome c reductase
+588,Q9LXL5,AT3G43190,major CHO metabolism.degradation.sucrose.Susy
+589,Q9LXS6,AT3G58750,gluconeogenesis / glyoxylate cycle.citrate synthase
+590,Q9LYG3,AT5G11670,TCA / org transformation.other organic acid transformatons.malic
+591,Q9LYR2,AT5G13440,mitochondrial electron transport / ATP synthesis.cytochrome c reductase
+592,Q9LYR4,AT5G13420,OPP.non-reductive PP.transaldolase
+593,Q9LYT7,AT3G58990,secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.methylthioalkylmalate isomerase small subunit (MAM-IS)
+594,Q9LYU8,AT5G13280,amino acid metabolism.synthesis.aspartate family.misc.homoserine.aspartate kinase
+595,Q9LZ66,AT5G04590,S-assimilation.sulfite redox
+596,Q9LZC3,AT5G03860,gluconeogenesis / glyoxylate cycle.malate synthase
+597,Q9LZG0,AT5G03300,nucleotide metabolism.salvage.nucleoside kinases.adenosine kinase
+598,Q9LZQ0,AT3G62400,mitochondrial electron transport / ATP synthesis.cytochrome c oxidase
+599,Q9LZX6,AT3G60880,amino acid metabolism.synthesis.aspartate family.lysine.dihydrodipicolinate synthase
+600,Q9M044,AT3G55810,glycolysis.cytosolic branch.pyruvate kinase (PK)
+601,Q9M057,AT3G55650,glycolysis.cytosolic branch.pyruvate kinase (PK)
+602,Q9M076,AT4G32840,glycolysis.cytosolic branch.phosphofructokinase (PFK)
+603,Q9M0F9,AT4G29220,glycolysis.plastid branch.phosphofructokinase (PFK)
+604,Q9M0F9,AT4G29220,redox.ascorbate and glutathione.glutathione
+605,Q9M1B9,AT3G59480,major CHO metabolism.degradation.sucrose.fructokinase
+606,Q9M1D3,AT3G60100,TCA / org transformation.TCA.CS
+607,Q9M1W4,AT3G63250,amino acid metabolism.synthesis.aspartate family.methionine.homocysteine S-methyltransferase
+608,Q9M394,AT3G54090,major CHO metabolism.degradation.sucrose.fructokinase
+609,Q9M401,AT3G49680,amino acid metabolism.synthesis.branched chain group.common.branched-chain amino acid aminotransferase
+610,Q9M401,AT3G49680,secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.branched-chain amino acid aminotransferase  (BCAT/MAAT)
+611,Q9M401,AT3G49680,Co-factor and vitamine metabolism.pantothenate.branched-chain amino acid aminotransferase
+612,Q9M439,AT1G10070,amino acid metabolism.synthesis.branched chain group.common.branched-chain amino acid aminotransferase
+613,Q9M439,AT1G10070,Co-factor and vitamine metabolism.pantothenate.branched-chain amino acid aminotransferase
+614,Q9M439,AT1G10070,not assigned.unknown
+615,Q9M5K2,AT3G17240,TCA / org transformation.TCA.pyruvate DH.E3
+616,Q9M5K3,AT1G48030,TCA / org transformation.TCA.pyruvate DH.E3
+617,Q9M682,AT3G57550,nucleotide metabolism.phosphotransfer and pyrophosphatases.guanylate kinase
+618,Q9M8D3,AT1G74260,nucleotide metabolism.synthesis.purine.FGAR amidotransferase
+619,Q9M8M7,AT1G80600,amino acid metabolism.synthesis.glutamate family.arginine.acetylornithine aminotransferase
+620,Q9M9K1,AT3G08590,glycolysis.cytosolic branch.phosphoglycerate mutase
+621,Q9M9P3,AT3G03250,glycolysis.cytosolic branch.UGPase
+622,Q9MA79,AT1G43670,major CHO metabolism.synthesis.sucrose.FBPase
+623,Q9MAC8,AT3G01180,major CHO metabolism.synthesis.starch.starch synthase
+624,Q9MAH0,AT1G53310,glycolysis.cytosolic branch.phospho-enol-pyruvate carboxylase (PEPC)
+625,Q9MB58,AT1G07110,"glycolysis.cytosolic branch.fructose-2,6-bisphosphatase (Fru2,6BisPase)"
+626,Q9S702,AT3G02020,amino acid metabolism.synthesis.aspartate family.misc.homoserine.aspartate kinase
+627,Q9S714,AT2G20260,PS.lightreaction.photosystem I.PSI polypeptide subunits
+628,Q9S714,AT2G20260,redox.glutaredoxins
+629,Q9S726,AT3G04790,PS.calvin cycle.Rib5P Isomerase
+630,Q9S726,AT3G04790,OPP.non-reductive PP.ribose 5-phosphate isomerase
+631,Q9S726,AT3G04790,protein.targeting.mitochondria
+632,Q9S757,AT3G61440,amino acid metabolism.synthesis.serine-glycine-cysteine group.cysteine.OASTL
+633,Q9S762,AT1G58080,amino acid metabolism.synthesis.histidine.ATP phosphoribosyl transferase
+634,Q9S7A0,AT3G03910,N-metabolism.N-degradation.glutamate dehydrogenase
+635,Q9S7B5,AT4G29840,amino acid metabolism.synthesis.aspartate family.threonine.threonine synthase
+636,Q9S7B5,AT4G29840,signalling.G-proteins
+637,Q9S7D8,AT5G43780,S-assimilation.ATPS
+638,Q9S7D8,AT5G43780,not assigned.no ontology.proline rich family
+639,Q9S7E4,AT5G14780,C1-metabolism.formate dehydrogenase
+640,Q9S7E9,AT1G70580,PS.photorespiration.aminotransferases peroxisomal
+641,Q9S7E9,AT1G70580,amino acid metabolism.synthesis.central amino acid metabolism.alanine.alanine aminotransferase
+642,Q9S7E9,AT1G70580,amino acid metabolism.synthesis.serine-glycine-cysteine group.glycine.glycine transaminase
+643,Q9S7H1,AT4G02770,PS.lightreaction.photosystem I.PSI polypeptide subunits
+644,Q9S7H4,AT5G10870,amino acid metabolism.synthesis.aromatic aa.phenylalanine and tyrosine.chorismate mutase
+645,Q9S7L9,AT1G22450,mitochondrial electron transport / ATP synthesis.cytochrome c oxidase
+646,Q9S7N7,AT1G55670,PS.lightreaction.photosystem I.PSI polypeptide subunits
+647,Q9S829,AT1G74880,PS.lightreaction.NADH DH
+648,Q9S831,AT4G28750,PS.lightreaction.photosystem I.PSI polypeptide subunits
+649,Q9S841,AT3G50820,PS.lightreaction.photosystem II.PSII polypeptide subunits
+650,Q9S9N6,AT1G15980,transport.cyclic nucleotide or calcium regulated channels
+651,Q9S9N6,AT1G15980,not assigned.unknown
+652,Q9SA14,AT1G31180,amino acid metabolism.synthesis.branched chain group.leucine specific.3-isopropylmalate dehydrogenase
+653,Q9SA14,AT1G31180,secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.methylthioalkylmalate dehydrogenase (MAM-D)
+654,Q9SA18,AT1G31230,amino acid metabolism.synthesis.aspartate family.misc.homoserine.aspartate kinase
+655,Q9SA18,AT1G31230,nucleotide metabolism.synthesis.purine.GAR transformylase
+656,Q9SA34,AT1G16350,nucleotide metabolism.synthesis.purine.IMP dehydrogenase
+657,Q9SA56,AT1G03130,PS.lightreaction.photosystem I.PSI polypeptide subunits
+658,Q9SA96,AT1G11790,amino acid metabolism.synthesis.aromatic aa.phenylalanine.arogenate dehydratase / prephenate dehydratase
+659,Q9SAJ4,AT1G79550,glycolysis.cytosolic branch.3-phosphoglycerate kinase (PGK)
+660,Q9SAJ6,AT1G79530,glycolysis.plastid branch.glyceraldehyde 3-phosphate dehydrogenase (GAP-DH)
+661,Q9SAJ6,AT1G79530,"micro RNA, natural antisense etc"
+662,Q9SAK4,AT1G79440,TCA / org transformation.other organic acid transformatons.misc
+663,Q9SAU2,AT5G61410,PS.calvin cycle.RPE
+664,Q9SCL7,AT3G57560,nucleotide metabolism.phosphotransfer and pyrophosphatases.misc
+665,Q9SCS3,AT3G50520,glycolysis.unclear/dually targeted.phosphoglycerate mutase
+666,Q9SCY0,AT5G51820,glycolysis.plastid branch.phosphoglucomutase (PGM)
+667,Q9SCY3,AT4G39710,protein.folding
+668,Q9SD76,AT3G46970,major CHO metabolism.degradation.starch.starch phosphorylase
+669,Q9SDL7,AT3G25900,amino acid metabolism.synthesis.aspartate family.methionine.homocysteine S-methyltransferase
+670,Q9SE60,AT3G59970,C1-metabolism.methylenetetrahydrofolate reductase
+671,Q9SE60,AT3G59970,RNA.RNA binding
+672,Q9SF85,AT3G09820,nucleotide metabolism.salvage.nucleoside kinases.adenosine kinase
+673,Q9SG91,AT3G10860,mitochondrial electron transport / ATP synthesis.cytochrome c reductase
+674,Q9SGC1,AT1G70730,glycolysis.cytosolic branch.phosphoglucomutase (PGM)
+675,Q9SGD6,AT1G08250,amino acid metabolism.synthesis.aromatic aa.phenylalanine.arogenate dehydratase / prephenate dehydratase
+676,Q9SGH4,AT3G01440,PS.lightreaction.photosystem II.PSII polypeptide subunits
+677,Q9SGY2,AT1G10670,TCA / org transformation.other organic acid transformatons.atp-citrate lyase
+678,Q9SH69,AT1G64190,OPP.oxidative PP.6-phosphogluconate dehydrogenase
+679,Q9SH69,AT1G64190,Biodegradation of Xenobiotics.lactoylglutathione lyase
+680,Q9SHE8,AT1G31330,PS.lightreaction.photosystem I.PSI polypeptide subunits
+681,Q9SHG0,AT1G17000,minor CHO metabolism.trehalose.TPS
+682,Q9SHP0,AT2G17630,amino acid metabolism.synthesis.serine-glycine-cysteine group.serine.phosphoserine aminotransferase
+683,Q9SI61,AT2G16570,nucleotide metabolism.synthesis.purine.amidophosphoribosyltransferase
+684,Q9SIB9,AT2G05710,TCA / org transformation.TCA.aconitase
+685,Q9SID0,AT2G31390,major CHO metabolism.degradation.sucrose.fructokinase
+686,Q9SID0,AT2G31390,"RNA.regulation of transcription.C2C2(Zn) CO-like, Constans-like zinc finger family"
+687,Q9SIE1,AT2G22250,amino acid metabolism.synthesis.central amino acid metabolism.aspartate.aspartate aminotransferase
+688,Q9SIK1,AT2G21590,major CHO metabolism.synthesis.starch.AGPase
+689,Q9SIU0,AT2G13560,TCA / org transformation.other organic acid transformatons.malic
+690,Q9SJ05,AT2G21940,amino acid metabolism.synthesis.aromatic aa.chorismate.shikimate kinase
+691,Q9SJ05,AT2G21940,cell.organisation
+692,Q9SJ20,AT2G21790,nucleotide metabolism.deoxynucleotide metabolism.ribonucleoside-diphosphate reductase
+693,Q9SJ22,AT2G21770,cell wall.cellulose synthesis.cellulose synthase
+694,Q9SJ66,AT2G35840,major CHO metabolism.synthesis.sucrose.SPP
+695,Q9SJ66,AT2G35840,not assigned.unknown
+696,Q9SJH7,AT2G42790,gluconeogenesis / glyoxylate cycle.citrate synthase
+697,Q9SJH7,AT2G42790,not assigned.unknown
+698,Q9SJL8,AT2G36880,amino acid metabolism.synthesis.aspartate family.methionine
+699,Q9SJL8,AT2G36880,"metal handling.binding, chelation and storage"
+700,Q9SJM7,AT2G36310,nucleotide metabolism.degradation.pyrimidine.uridine nucleosidase
+701,Q9SJQ0,AT2G36580,glycolysis.cytosolic branch.pyruvate kinase (PK)
+702,Q9SJQ0,AT2G36580,transport.amino acids
+703,Q9SJQ9,AT2G36460,glycolysis.cytosolic branch.aldolase
+704,Q9SJU4,AT2G21330,PS.calvin cycle.aldolase
+705,Q9SJV7,AT2G01090,mitochondrial electron transport / ATP synthesis.cytochrome c reductase
+706,Q9SJV7,AT2G01090,protein.targeting.chloroplast
+707,Q9SJV7,AT2G01090,not assigned.unknown
+708,Q9SKE0,AT2G46390,not assigned.no ontology
+709,Q9SKE0,AT2G46390,not assigned.unknown
+710,Q9SKJ5,unknown_14,
+711,Q9SKP6,AT2G21170,PS.calvin cycle.TPI
+712,Q9SKT7,AT2G20800,mitochondrial electron transport / ATP synthesis.NADH-DH.type II.external
+713,Q9SLK0,AT1G54340,TCA / org transformation.TCA.IDH
+714,Q9SMS0,AT4G09350,stress.abiotic.heat
+715,Q9SN86,AT3G47520,TCA / org transformation.other organic acid transformatons.cyt MDH
+716,Q9SPK5,AT1G50480,C1-metabolism.formate-tetrahydrofolate ligase
+717,Q9SPK5,AT1G50480,protein.degradation.ubiquitin.E2
+718,Q9SQG2,AT3G04080,nucleotide metabolism.degradation
+719,Q9SQQ7,AT3G04050,glycolysis.unclear/dually targeted.pyruvate kinase (PK)
+720,Q9SQT8,AT3G06350,amino acid metabolism.synthesis.aromatic aa.chorismate.dehydroquinate/shikimate dehydrogenase
+721,Q9SR52,AT1G67550,amino acid metabolism.degradation.glutamate family.arginine
+722,Q9SR86,AT3G08860,amino acid metabolism.degradation.branched chain group.shared
+723,Q9SRV5,AT3G03780,amino acid metabolism.synthesis.aspartate family.methionine.methionine synthase
+724,Q9SRZ6,AT1G65930,TCA / org transformation.TCA.IDH
+725,Q9SSB8,AT1G80230,mitochondrial electron transport / ATP synthesis.cytochrome c oxidase
+726,Q9SSE7,AT3G07630,amino acid metabolism.synthesis.aromatic aa.phenylalanine.arogenate dehydratase / prephenate dehydratase
+727,Q9SSP5,AT1G72810,amino acid metabolism.synthesis.aspartate family.threonine.threonine synthase
+728,Q9SSS9,AT4G09650,PS.lightreaction.ATP synthase.delta chain
+729,Q9STG6,AT3G46940,nucleotide metabolism.deoxynucleotide metabolism.dUTP diphosphatase
+730,Q9STG9,AT4G34740,nucleotide metabolism.synthesis.purine.amidophosphoribosyltransferase
+731,Q9SU38,AT4G12440,nucleotide metabolism.salvage.phosphoribosyltransferases.aprt
+732,Q9SU39,AT4G12430,minor CHO metabolism.trehalose.TPP
+733,Q9SU39,AT4G12430,not assigned.unknown
+734,Q9SUB4,AT4G21000,TCA / org transformation.carbonic anhydrases
+735,Q9SUD3,AT4G28060,mitochondrial electron transport / ATP synthesis.cytochrome c oxidase
+736,Q9SUD3,AT4G28060,not assigned.unknown
+737,Q9SUI4,AT4G12800,PS.lightreaction.photosystem I.PSI polypeptide subunits
+738,Q9SUI5,AT1G30380,PS.lightreaction.photosystem I.PSI polypeptide subunits
+739,Q9SUI6,AT1G52230,PS.lightreaction.photosystem I.PSI polypeptide subunits
+740,Q9SUI7,AT3G16140,PS.lightreaction.photosystem I.PSI polypeptide subunits
+741,Q9SUI7,AT3G16140,signalling.G-proteins
+742,Q9SUU5,AT4G32470,mitochondrial electron transport / ATP synthesis.cytochrome c reductase
+743,Q9SUW0,AT4G22590,minor CHO metabolism.trehalose.TPP
+744,Q9SUW0,AT4G22590,not assigned.unknown
+745,Q9SUW2,AT4G22570,nucleotide metabolism.salvage.phosphoribosyltransferases.aprt
+746,Q9SVM4,AT4G13890,C1-metabolism.glycine hydroxymethyltransferase
+747,Q9SWW6,AT5G17420,cell wall.cellulose synthesis.cellulose synthase
+748,Q9SWW6,AT5G17420,cell.organisation
+749,Q9SX77,AT1G47420,not assigned.unknown
+750,Q9SXS7,AT5G28020,amino acid metabolism.synthesis.serine-glycine-cysteine group.cysteine.OASTL
+751,Q9SYG7,AT1G54100,fermentation.aldehyde dehydrogenase
+752,Q9SYM4,AT1G78580,minor CHO metabolism.trehalose.TPS
+753,Q9SYM4,AT1G78580,"cell wall.precursor synthesis.UDP-glucose 4,6-dehydratase"
+754,Q9SYP2,AT1G20950,glycolysis.cytosolic branch.pyrophosphate-fructose-6-P phosphotransferase
+755,Q9SZ30,AT4G26900,amino acid metabolism.synthesis.histidine.N'-5'-phosphoribosyl-formimino-5-aminoimidazole-4-carboxamide ribonucleotide isomerase
+756,Q9SZJ5,AT4G37930,C1-metabolism.glycine hydroxymethyltransferase
+757,Q9SZT8,AT4G37380,not assigned.no ontology.pentatricopeptide (PPR) repeat-containing protein
+758,Q9SZX3,AT4G24830,amino acid metabolism.synthesis.glutamate family.arginine.arginosuccinate synthase
+759,Q9T074,AT4G37870,gluconeogenesis / glyoxylate cycle.PEPCK
+760,Q9T0A4,AT4G23890,not assigned.unknown
+761,Q9T0J5,AT4G38880,nucleotide metabolism.synthesis.purine.amidophosphoribosyltransferase
+762,Q9T0P4,AT2G41220,N-metabolism.ammonia metabolism.glutamate synthase.ferredoxin dependent
+763,Q9XF91,AT1G44575,PS.lightreaction.photosystem II.PSII polypeptide subunits
+764,Q9XFT3,AT4G21280,PS.lightreaction.photosystem II.PSII polypeptide subunits
+765,Q9XGZ0,AT5G25880,TCA / org transformation.other organic acid transformatons.malic
+766,Q9XI73,AT1G14150,PS.lightreaction.photosystem II.PSII polypeptide subunits
+767,Q9XI73,AT1G14150,not assigned.no ontology
+768,Q9ZNZ7,AT5G04140,N-metabolism.ammonia metabolism.glutamate synthase.ferredoxin dependent
+769,Q9ZP05,AT5G09660,gluconeogenesis / glyoxylate cycle.Malate DH
+770,Q9ZP06,AT1G53240,TCA / org transformation.TCA.malate DH
+771,Q9ZPF5,AT4G08870,amino acid metabolism.degradation.glutamate family.arginine
+772,Q9ZPS3,AT2G02010,amino acid metabolism.synthesis.central amino acid metabolism.GABA.Glutamate decarboxylase
+773,Q9ZPS4,AT2G02000,amino acid metabolism.synthesis.central amino acid metabolism.GABA.Glutamate decarboxylase
+774,Q9ZPX5,AT2G18450,TCA / org transformation.TCA.succinate dehydrogenase
+775,Q9ZR03,AT4G03280,PS.lightreaction.cytochrome b6/f
+776,Q9ZSS6,AT3G10050,amino acid metabolism.synthesis.branched chain group.isoleucine specific.threonine ammonia-lyase
+777,Q9ZU25,AT1G51980,protein.targeting.mitochondria
+778,Q9ZU52,AT2G01140,PS.calvin cycle.aldolase
+779,Q9ZUC2,AT1G23730,TCA / org transformation.carbonic anhydrases
+780,Q9ZUC2,AT1G23730,"misc.oxidases - copper, flavone etc"
+781,Q9ZUR7,AT2G37500,amino acid metabolism.synthesis.glutamate family.arginine.acetylglutamate kinase
+782,Q9ZUR7,AT2G37500,not assigned.unknown
+783,Q9ZUU1,AT2G37250,nucleotide metabolism.phosphotransfer and pyrophosphatases.adenylate kinase
+784,Q9ZUY3,AT2G27820,amino acid metabolism.synthesis.aromatic aa.phenylalanine.arogenate dehydratase / prephenate dehydratase
+785,Q9ZV48,AT2G18700,minor CHO metabolism.trehalose.potential TPS/TPP
+786,Q9ZW34,AT2G29560,glycolysis.cytosolic branch.enolase
+787,Q9ZW84,AT2G43100,secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.methylthioalkylmalate isomerase small subunit (MAM-IS)
+788,Q9ZW85,AT2G43090,not assigned.no ontology.aconitase C-terminal domain-containing protein
+789,O48717,unknown_15,

@@ -35,6 +35,14 @@ class SensitivityAnalysis:
         self.dual = None
         self.enz_ub_set = False
 
+    def SetUpperEnzymebounds(self,enz_ub,ptot=None):
+        """sets the upper bounds of the enzymes to the given values"""
+        if(ptot is not None):
+            self.gem.ub[self.prot_pool_ex_idx] = ptot # g/gDW
+        print("Total proteome pool size set to:", self.gem.ub[self.prot_pool_ex_idx])
+        self.gem.ub[self.enz_idx] = enz_ub
+        self.enz_ub_set = True
+
     def GetTurnoverNumbersMode(self):
         """returns the kcat mode for each enzyme as a data frame"""
         d = {"Enzyme":[],"kcat":[]}
@@ -356,7 +364,7 @@ class SensitivityAnalysis:
     def ReturnProblems(self):
         return([self.primal,self.dual])
 
-    def ComputeSensitivityCoefficients(self,outpath = None):
+    def ComputeSensitivityCoefficients_alt(self,outpath = None):
         if(self.primal is None):
             print("Recomputing primal.")
             self.SolvePrimal()
@@ -420,76 +428,147 @@ class SensitivityAnalysis:
         
         return sol_df   
 
-    def ComputeSensitivityCoefficients_alt(self,outpath = None):
-            if(self.primal is None):
-                print("Recomputing primal.")
-                self.SolvePrimal()
+    def ComputeSensitivityCoefficients(self,outpath = None):
+        if(self.primal is None):
+            print("Recomputing primal.")
+            self.SolvePrimal()
 
-            if(self.primal.Status != GRB.OPTIMAL):
-                print("Error: Primal problem not optimal. Cannot compute sensitivity coefficients.")
-                df = pd.DataFrame({'Type': ["Infeasible"],'SensitivityCoefficient': ["Infeasible"], 'ModelID':["Infeasible"]})
-                return df
-            
-            dicti = {'Type': [],'SensitivityCoefficient': [], 'ModelID':[]}
-            vars = np.array([v for v in self.primal.getVars()])
-            constrs = np.array([c for c in self.primal.getConstrs()])
-            vs = self.primal_flux_sol[self.rxn_idx]
-            rxns = self.gem.rxns[self.rxn_idx]
+        if(self.primal.Status != GRB.OPTIMAL):
+            print("Error: Primal problem not optimal. Cannot compute sensitivity coefficients.")
+            df = pd.DataFrame({'Type': ["Infeasible"],'SensitivityCoefficient': ["Infeasible"], 'ModelID':["Infeasible"]})
+            return df
+        
+        dicti = {'Type': [],'SensitivityCoefficient': [], 'ModelID':[]}
+        vars = np.array([v for v in self.primal.getVars()])
+        constrs = np.array([c for c in self.primal.getConstrs()])
+        vs = self.primal_flux_sol[self.rxn_idx]
+        rxns = self.gem.rxns[self.rxn_idx]
 
-            fvars = vars[self.rxn_idx]
-            '''
-            assert len(self.mu_max_sol) == len(self.mu_min_sol) and len(self.mu_max_sol) == len(vs), \
-                f'ALARM: {len(self.mu_max_sol)}, {len(self.mu_min_sol)}, {len(self.primal_sol)}'
-            '''
+        fvars = vars[self.rxn_idx]
+        '''
+        assert len(self.mu_max_sol) == len(self.mu_min_sol) and len(self.mu_max_sol) == len(vs), \
+            f'ALARM: {len(self.mu_max_sol)}, {len(self.mu_min_sol)}, {len(self.primal_sol)}'
+        '''
+        
+        
+        #fCSC = np.zeros(len(self.mu_max_sol))
+        for i in range(len(vs)):
+            dicti['Type'].append("FluxCapacity")
+            dicti['SensitivityCoefficient'].append(vs[i] / self.primal_obj_val * (fvars[i].RC))
+            dicti['ModelID'].append(rxns[i])
             
-            
-            #fCSC = np.zeros(len(self.mu_max_sol))
-            for i in range(len(vs)):
-                dicti['Type'].append("FluxCapacity")
-                dicti['SensitivityCoefficient'].append(vs[i] / self.primal_obj_val * (fvars[i].RC))
-                dicti['ModelID'].append(rxns[i])
-                
-    
-            # enzyme CSCs
-            es = self.primal_flux_sol[self.enz_idx]
-            enzymes = self.gem.rxns[self.enz_idx]
-            evars = vars[self.enz_idx]
-            '''
-            assert len(self.epsilon_max_sol) == len(self.epsilon_min_sol) and len(self.epsilon_max_sol) == len(es), \
-                f'ALARM: {len(self.epsilon_max_sol)}, {len(self.epsilon_min_sol)}, {len(es)}'
-            '''
-            #eCSC = np.zeros(len(self.mu_max_sol))
-            for i in range(len(es)):
-                #eCSC[i] = es[i]/self.dual_obj_val * (self.epsilon_max_sol[i] - self.epsilon_min_sol[i])
-                dicti['Type'].append("EnzymeCapacity")
-                dicti['SensitivityCoefficient'].append(es[i]/self.primal_obj_val * (evars[i].RC))
-                dicti['ModelID'].append(enzymes[i])
-            
-            # proteome CSC
-            # WENN DU ETOT EXPLIZIT IMPLEMENTIERT HAST IST DAS JETZT VLLT ANDERS
-            pcvar= vars[self.prot_pool_ex_idx]
-            dicti['Type'].append("ProteomeCapacity")
-            dicti['SensitivityCoefficient'].append(((self.gem.ub[self.prot_pool_ex_idx] / self.primal_obj_val) * pcvar.RC).flatten()[0])
-            dicti['ModelID'].append("prot_pool_exchange")
-            
-            # ESC
-            '''
-            assert len(es) == len(self.Xi_sol), \
-                f'ALARM: {len(self.epsilon_max_sol)}, {len(self.epsilon_min_sol)}, {len(es)}'
-            '''
-            econsts = constrs[self.prot_idx]
-            for i in range(len(es)):
-                dicti['Type'].append("ESC")
-                dicti['SensitivityCoefficient'].append(es[i] / self.primal_obj_val * (econsts[i].Pi * (-1)))
-                dicti['ModelID'].append(enzymes[i])
-            
-    
-            sol_df = pd.DataFrame(dicti)
-            if outpath is not None:
-                if not outpath.endswith('.tsv'):
-                    outpath += '.tsv'
-                sol_df.to_csv(RESULT_DIR/ outpath,sep="\t", index=False)
-            
-            return sol_df
 
+        # enzyme CSCs
+        es = self.primal_flux_sol[self.enz_idx]
+        enzymes = self.gem.rxns[self.enz_idx]
+        evars = vars[self.enz_idx]
+        '''
+        assert len(self.epsilon_max_sol) == len(self.epsilon_min_sol) and len(self.epsilon_max_sol) == len(es), \
+            f'ALARM: {len(self.epsilon_max_sol)}, {len(self.epsilon_min_sol)}, {len(es)}'
+        '''
+        #eCSC = np.zeros(len(self.mu_max_sol))
+        for i in range(len(es)):
+            #eCSC[i] = es[i]/self.dual_obj_val * (self.epsilon_max_sol[i] - self.epsilon_min_sol[i])
+            dicti['Type'].append("EnzymeCapacity")
+            dicti['SensitivityCoefficient'].append(es[i]/self.primal_obj_val * (evars[i].RC))
+            dicti['ModelID'].append(enzymes[i])
+        
+        # proteome CSC
+        # WENN DU ETOT EXPLIZIT IMPLEMENTIERT HAST IST DAS JETZT VLLT ANDERS
+        pcvar= vars[self.prot_pool_ex_idx]
+        dicti['Type'].append("ProteomeCapacity")
+        dicti['SensitivityCoefficient'].append(((self.gem.ub[self.prot_pool_ex_idx] / self.primal_obj_val) * pcvar.RC).flatten()[0])
+        dicti['ModelID'].append("prot_pool_exchange")
+        
+        # ESC
+        '''
+        assert len(es) == len(self.Xi_sol), \
+            f'ALARM: {len(self.epsilon_max_sol)}, {len(self.epsilon_min_sol)}, {len(es)}'
+        '''
+        econsts = constrs[self.prot_idx]
+        for i in range(len(es)):
+            dicti['Type'].append("ESC")
+            dicti['SensitivityCoefficient'].append(es[i] / self.primal_obj_val * (econsts[i].Pi * (-1)))
+            dicti['ModelID'].append(enzymes[i])
+        
+
+        sol_df = pd.DataFrame(dicti)
+        if outpath is not None:
+            if not outpath.endswith('.tsv'):
+                outpath += '.tsv'
+            sol_df.to_csv(RESULT_DIR/ outpath,sep="\t", index=False)
+        
+        return sol_df
+
+    def ComputeNonNormalizedSC(self,outpath=None):
+        if(self.primal is None):
+            print("Recomputing primal.")
+            self.SolvePrimal()
+
+        if(self.primal.Status != GRB.OPTIMAL):
+            print("Error: Primal problem not optimal. Cannot compute sensitivity coefficients.")
+            df = pd.DataFrame({'Type': ["Infeasible"],'NN_SensitivityCoefficient': ["Infeasible"], 'ModelID':["Infeasible"]})
+            return df
+        
+        dicti = {'Type': [],'NN_SensitivityCoefficient': [], 'ModelID':[]}
+        vars = np.array([v for v in self.primal.getVars()])
+        constrs = np.array([c for c in self.primal.getConstrs()])
+        vs = self.primal_flux_sol[self.rxn_idx]
+        rxns = self.gem.rxns[self.rxn_idx]
+
+        fvars = vars[self.rxn_idx]
+        '''
+        assert len(self.mu_max_sol) == len(self.mu_min_sol) and len(self.mu_max_sol) == len(vs), \
+            f'ALARM: {len(self.mu_max_sol)}, {len(self.mu_min_sol)}, {len(self.primal_sol)}'
+        '''
+        
+        
+        #fCSC = np.zeros(len(self.mu_max_sol))
+        for i in range(len(vs)):
+            dicti['Type'].append("FluxCapacity")
+            dicti['NN_SensitivityCoefficient'].append(vs[i] * (fvars[i].RC))
+            dicti['ModelID'].append(rxns[i])
+            
+
+        # enzyme CSCs
+        es = self.primal_flux_sol[self.enz_idx]
+        enzymes = self.gem.rxns[self.enz_idx]
+        evars = vars[self.enz_idx]
+        '''
+        assert len(self.epsilon_max_sol) == len(self.epsilon_min_sol) and len(self.epsilon_max_sol) == len(es), \
+            f'ALARM: {len(self.epsilon_max_sol)}, {len(self.epsilon_min_sol)}, {len(es)}'
+        '''
+        #eCSC = np.zeros(len(self.mu_max_sol))
+        for i in range(len(es)):
+            #eCSC[i] = es[i]/self.dual_obj_val * (self.epsilon_max_sol[i] - self.epsilon_min_sol[i])
+            dicti['Type'].append("EnzymeCapacity")
+            dicti['NN_SensitivityCoefficient'].append(es[i] * (evars[i].RC))
+            dicti['ModelID'].append(enzymes[i])
+        
+        # proteome CSC
+        # WENN DU ETOT EXPLIZIT IMPLEMENTIERT HAST IST DAS JETZT VLLT ANDERS
+        pcvar= vars[self.prot_pool_ex_idx]
+        dicti['Type'].append("ProteomeCapacity")
+        dicti['NN_SensitivityCoefficient'].append((self.gem.ub[self.prot_pool_ex_idx]  * pcvar.RC).flatten()[0])
+        dicti['ModelID'].append("prot_pool_exchange")
+        
+        # ESC
+        '''
+        assert len(es) == len(self.Xi_sol), \
+            f'ALARM: {len(self.epsilon_max_sol)}, {len(self.epsilon_min_sol)}, {len(es)}'
+        '''
+        econsts = constrs[self.prot_idx]
+        for i in range(len(es)):
+            dicti['Type'].append("ESC")
+            dicti['NN_SensitivityCoefficient'].append(es[i] * (econsts[i].Pi * (-1)))
+            dicti['ModelID'].append(enzymes[i])
+        
+
+        sol_df = pd.DataFrame(dicti)
+        if outpath is not None:
+            if not outpath.endswith('.tsv'):
+                outpath += '.tsv'
+            sol_df.to_csv(RESULT_DIR/ outpath,sep="\t", index=False)
+        
+        return sol_df
     

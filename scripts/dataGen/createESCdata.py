@@ -39,7 +39,7 @@ def main():
         with silence():
             SA = SensitivityAnalysis(model,inequality_idx= [m-2,m-1])
             SA.SolvePrimal()
-            ESCs = SA.ComputeSensitivityCoefficients_alt()
+            ESCs = SA.ComputeSensitivityCoefficients()
             ESCs = ESCs.loc[ESCs["Type"]=="ESC", ["SensitivityCoefficient","ModelID"]].set_index("ModelID").squeeze()
             ESCs.index = ESCs.index.str.removeprefix("draw_prot_")
         columns.append(ESCs)

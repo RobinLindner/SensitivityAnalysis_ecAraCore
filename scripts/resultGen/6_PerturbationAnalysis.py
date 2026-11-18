@@ -10,7 +10,7 @@ root_dir = Path(__file__).resolve().parents[2]
 sys.path.append(str(root_dir))
 
 
-from source import RESULT_DIR, MODEL_DIR, PERT_ESC_WIDE, PERT_FLUX_WIDE, PERT_CHANGES_WIDE, UNIPROT_ID_2_DATA, MODEL_ENZYME_2_PMET, ESC_DATA_WIDE, SUPP_FIG_DIR
+from source import RESULT_DIR, MODEL_DIR, PERT_ESC_WIDE, UNIPROT_ID_2_DATA, MODEL_ENZYME_2_PMET, ESC_DATA_WIDE, SUPP_FIG_DIR
 from source.GEM import GEM
 
 ### OUTPUT PATHS

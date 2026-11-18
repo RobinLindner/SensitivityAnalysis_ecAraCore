@@ -1,0 +1,2507 @@
+AlaTA_h	alanine synthesis
+GGAT_h	glycine synthesis
+IPODC_h	leucine synthesis
+GluSeADA_c	proline synthesis
+GluSeADA_h	proline synthesis
+GluSeADA_m	proline synthesis
+Tr_SO4	transport
+Tr_NO2	transport
+Tr_NTT	transport
+Tr_AAC	transport
+Tr_BT11	transport
+Tr_BT12	transport
+Tr_BT13	transport
+Tr_NDT1	transport
+Tr_NDT2	transport
+Tr_TPT1	transport
+Tr_TPT2	transport
+Tr_TPT3	transport
+Tr_PPT	transport
+Tr_GCA1	transport
+Tr_GCEA1	transport
+Tr_GPT1	transport
+Tr_pGlc	transport
+Tr_Mex1	transport
+Tr_PLT5	transport
+Tr_DIC1	transport
+Tr_DIC2	transport
+Tr_DIT1	transport
+Tr_DIT2	transport
+Tr_DTC1A	transport
+Tr_DTC1B	transport
+Tr_DTC1C	transport
+Tr_DTC2A	transport
+Tr_DTC2B	transport
+Tr_DTC2C	transport
+Tr_DTC3A	transport
+Tr_DTC3B	transport
+Tr_DTC3C	transport
+Tr_DTC4A	transport
+Tr_DTC4B	transport
+Tr_DTC4C	transport
+Tr_SFC	transport
+Tr_BAT11	transport
+Tr_BAT12	transport
+Tr_BAT13	transport
+Tr_BAT14	transport
+Tr_BAT15	transport
+Tr_BAC1	transport
+Tr_BAC2	transport
+Tr_ProU	transport
+Tr_ProA	transport
+Tr_P5C1	transport
+Tr_P5C2	transport
+Tr_PRPP	transport
+Tr_Fum	transport
+Tr_HCys	transport
+Tr_ORO	transport
+Tr_DHO1	transport
+Tr_DHO2	transport
+Tr_GlySer	transport
+Tr_O2h	transport
+Tr_O2m	transport
+Tr_O2p	transport
+Tr_CO2h	transport
+Tr_CO2m	transport
+Tr_H2Oh	transport
+Tr_H2Om	transport
+Tr_H2Op	transport
+Tr_Hp	transport
+Tr_NH41	transport
+Tr_NH42	transport
+Tr_H2S1	transport
+Tr_H2S2	transport
+Tr_AC1	transport
+Tr_AC2	transport
+Tr_Pyr1	transport
+Tr_Pyr2	transport
+Tr_Pyr3	transport
+Tr_GCA2	transport
+Tr_GCEA2	transport
+Tr_Mal	transport
+Tr_OAA	transport
+Tr_KG	transport
+Tr_Ala1	transport
+Tr_Arg1	transport
+Tr_Asn1	transport
+Tr_Asp	transport
+Tr_Cys	transport
+Tr_Glu1	transport
+Tr_Gln	transport
+Tr_Gly	transport
+Tr_His1	transport
+Tr_Ile1	transport
+Tr_Leu1	transport
+Tr_Lys1	transport
+Tr_Met1	transport
+Tr_Phe1	transport
+Tr_Pro1	transport
+Tr_Ser1	transport
+Tr_Thr1	transport
+Tr_Trp1	transport
+Tr_Tyr1	transport
+Tr_Val1	transport
+Tr_Ala2	transport
+Tr_Arg2	transport
+Tr_Asn2	transport
+Tr_Asn3	transport
+Tr_Glu2	transport
+Tr_His2	transport
+Tr_His3	transport
+Tr_Ile2	transport
+Tr_Ile3	transport
+Tr_Leu2	transport
+Tr_Leu3	transport
+Tr_Lys2	transport
+Tr_Met2	transport
+Tr_Met3	transport
+Tr_Phe2	transport
+Tr_Phe3	transport
+Tr_Pro2	transport
+Tr_Ser2	transport
+Tr_Ser3	transport
+Tr_Thr2	transport
+Tr_Thr3	transport
+Tr_Trp2	transport
+Tr_Trp3	transport
+Tr_Tyr2	transport
+Tr_Tyr3	transport
+Tr_Val2	transport
+Tr_Val3	transport
+Im_hnu	import
+Im_CO2	import
+Im_H2O	import
+Im_Pi	import
+Im_NO3	import
+Im_NH4	import
+Im_SO4	import
+Im_H2S	import
+Ex_O2	export
+Ex_Ala_c	export
+Ex_Ala_h	export
+Ex_Ala_m	export
+Ex_Ala_p	export
+Ex_Arg_c	export
+Ex_Arg_h	export
+Ex_Arg_m	export
+Ex_Arg_p	export
+Ex_Asn_c	export
+Ex_Asn_h	export
+Ex_Asn_m	export
+Ex_Asn_p	export
+Ex_Asp_c	export
+Ex_Asp_h	export
+Ex_Asp_m	export
+Ex_Asp_p	export
+Ex_Cys_c	export
+Ex_Cys_h	export
+Ex_Cys_m	export
+Ex_Cys_p	export
+Ex_Gln_c	export
+Ex_Gln_h	export
+Ex_Gln_m	export
+Ex_Gln_p	export
+Ex_Glu_c	export
+Ex_Glu_h	export
+Ex_Glu_m	export
+Ex_Glu_p	export
+Ex_Gly_c	export
+Ex_Gly_h	export
+Ex_Gly_m	export
+Ex_Gly_p	export
+Ex_His_c	export
+Ex_His_h	export
+Ex_His_m	export
+Ex_His_p	export
+Ex_Ile_c	export
+Ex_Ile_h	export
+Ex_Ile_m	export
+Ex_Ile_p	export
+Ex_Leu_c	export
+Ex_Leu_h	export
+Ex_Leu_m	export
+Ex_Leu_p	export
+Ex_Lys_c	export
+Ex_Lys_h	export
+Ex_Lys_m	export
+Ex_Lys_p	export
+Ex_Met_c	export
+Ex_Met_h	export
+Ex_Met_m	export
+Ex_Met_p	export
+Ex_Phe_c	export
+Ex_Phe_h	export
+Ex_Phe_m	export
+Ex_Phe_p	export
+Ex_Pro_c	export
+Ex_Pro_h	export
+Ex_Pro_m	export
+Ex_Pro_p	export
+Ex_Ser_c	export
+Ex_Ser_h	export
+Ex_Ser_m	export
+Ex_Ser_p	export
+Ex_Thr_c	export
+Ex_Thr_h	export
+Ex_Thr_m	export
+Ex_Thr_p	export
+Ex_Trp_c	export
+Ex_Trp_h	export
+Ex_Trp_m	export
+Ex_Trp_p	export
+Ex_Tyr_c	export
+Ex_Tyr_h	export
+Ex_Tyr_m	export
+Ex_Tyr_p	export
+Ex_Val_c	export
+Ex_Val_h	export
+Ex_Val_m	export
+Ex_Val_p	export
+Ex_starch	export
+Ex_Glc	export
+Ex_Frc	export
+Ex_Suc	export
+Ex_cellulose	export
+Ex_Mas	export
+Ex_MACP	export
+Ex_Tre	export
+NGAM_c	maintenance
+NGAM_h	maintenance
+NGAM_m	maintenance
+Bio_AA	biomass reaction
+Bio_CLim	biomass reaction
+Bio_NLim	biomass reaction
+Bio_opt	biomass reaction
+Tr_HPR1	
+Tr_Asp_OAA_h	
+Tr_DIT1_OAA_h	
+Tr_H_Na_h	
+Tr_Pi_h	
+Tr_Pyr_H_h	
+Tr_Pyr_Mal_h	
+Tr_Pyr_Na_h	
+Tr_THF_h	
+Tr_Asp_Glu_m	
+Tr_Asp_m	
+Tr_Cit_iCit_m	
+Tr_DIC4_m	
+Tr_KG_Mal_m	
+Tr_PIC_m	
+Tr_DTC5_m	
+Tr_UCP_m	
+Tr_PXN3_p	
+Tr_SCA_p	
+Tr_iCit_p	
+Si_H_c	
+Si_H_h	
+Si_H_m	
+Si_H_p	
+PGR5PGRL11_h	
+PGR5PGRL12_h	
+protein	
+DNA	
+RNA	
+carbohydrate	
+lipid	
+AlaTA_h_REV	alanine synthesis
+Tr_SO4_REV	transport
+Tr_NDT1_REV	transport
+Tr_NDT2_REV	transport
+Tr_TPT1_REV	transport
+Tr_TPT2_REV	transport
+Tr_TPT3_REV	transport
+Tr_DIC1_REV	transport
+Tr_DIC2_REV	transport
+Tr_DTC1A_REV	transport
+Tr_DTC1B_REV	transport
+Tr_DTC1C_REV	transport
+Tr_DTC2A_REV	transport
+Tr_DTC2B_REV	transport
+Tr_DTC2C_REV	transport
+Tr_DTC3A_REV	transport
+Tr_DTC3B_REV	transport
+Tr_DTC3C_REV	transport
+Tr_DTC4A_REV	transport
+Tr_DTC4B_REV	transport
+Tr_DTC4C_REV	transport
+Tr_BAT11_REV	transport
+Tr_BAT12_REV	transport
+Tr_BAT13_REV	transport
+Tr_BAT14_REV	transport
+Tr_BAT15_REV	transport
+Tr_O2h_REV	transport
+Tr_O2m_REV	transport
+Tr_O2p_REV	transport
+Tr_CO2h_REV	transport
+Tr_CO2m_REV	transport
+Tr_H2Oh_REV	transport
+Tr_H2Om_REV	transport
+Tr_H2Op_REV	transport
+Tr_Hp_REV	transport
+Tr_NH41_REV	transport
+Tr_NH42_REV	transport
+Tr_H2S1_REV	transport
+Tr_H2S2_REV	transport
+Tr_AC1_REV	transport
+Tr_AC2_REV	transport
+Tr_Pyr1_REV	transport
+Tr_Pyr2_REV	transport
+Tr_Pyr3_REV	transport
+Tr_GCA2_REV	transport
+Tr_GCEA2_REV	transport
+Tr_Mal_REV	transport
+Tr_OAA_REV	transport
+Tr_KG_REV	transport
+Tr_Ala1_REV	transport
+Tr_Arg1_REV	transport
+Tr_Asn1_REV	transport
+Tr_Asp_REV	transport
+Tr_Cys_REV	transport
+Tr_Glu1_REV	transport
+Tr_Gln_REV	transport
+Tr_Gly_REV	transport
+Tr_His1_REV	transport
+Tr_Ile1_REV	transport
+Tr_Leu1_REV	transport
+Tr_Lys1_REV	transport
+Tr_Met1_REV	transport
+Tr_Phe1_REV	transport
+Tr_Pro1_REV	transport
+Tr_Ser1_REV	transport
+Tr_Thr1_REV	transport
+Tr_Trp1_REV	transport
+Tr_Tyr1_REV	transport
+Tr_Val1_REV	transport
+Im_hnu_REV	import
+Im_CO2_REV	import
+Im_H2O_REV	import
+Im_NH4_REV	import
+Im_H2S_REV	import
+Ex_O2_REV	export
+Ex_Ala_c_REV	export
+Ex_Ala_h_REV	export
+Ex_Ala_m_REV	export
+Ex_Ala_p_REV	export
+Ex_Arg_c_REV	export
+Ex_Arg_h_REV	export
+Ex_Arg_m_REV	export
+Ex_Arg_p_REV	export
+Ex_Asn_c_REV	export
+Ex_Asn_h_REV	export
+Ex_Asn_m_REV	export
+Ex_Asn_p_REV	export
+Ex_Asp_c_REV	export
+Ex_Asp_h_REV	export
+Ex_Asp_m_REV	export
+Ex_Asp_p_REV	export
+Ex_Cys_c_REV	export
+Ex_Cys_h_REV	export
+Ex_Cys_m_REV	export
+Ex_Cys_p_REV	export
+Ex_Gln_c_REV	export
+Ex_Gln_h_REV	export
+Ex_Gln_m_REV	export
+Ex_Gln_p_REV	export
+Ex_Glu_c_REV	export
+Ex_Glu_h_REV	export
+Ex_Glu_m_REV	export
+Ex_Glu_p_REV	export
+Ex_Gly_c_REV	export
+Ex_Gly_h_REV	export
+Ex_Gly_m_REV	export
+Ex_Gly_p_REV	export
+Ex_His_c_REV	export
+Ex_His_h_REV	export
+Ex_His_m_REV	export
+Ex_His_p_REV	export
+Ex_Ile_c_REV	export
+Ex_Ile_h_REV	export
+Ex_Ile_m_REV	export
+Ex_Ile_p_REV	export
+Ex_Leu_c_REV	export
+Ex_Leu_h_REV	export
+Ex_Leu_m_REV	export
+Ex_Leu_p_REV	export
+Ex_Lys_c_REV	export
+Ex_Lys_h_REV	export
+Ex_Lys_m_REV	export
+Ex_Lys_p_REV	export
+Ex_Met_c_REV	export
+Ex_Met_h_REV	export
+Ex_Met_m_REV	export
+Ex_Met_p_REV	export
+Ex_Phe_c_REV	export
+Ex_Phe_h_REV	export
+Ex_Phe_m_REV	export
+Ex_Phe_p_REV	export
+Ex_Pro_c_REV	export
+Ex_Pro_h_REV	export
+Ex_Pro_m_REV	export
+Ex_Pro_p_REV	export
+Ex_Ser_c_REV	export
+Ex_Ser_h_REV	export
+Ex_Ser_m_REV	export
+Ex_Ser_p_REV	export
+Ex_Thr_c_REV	export
+Ex_Thr_h_REV	export
+Ex_Thr_m_REV	export
+Ex_Thr_p_REV	export
+Ex_Trp_c_REV	export
+Ex_Trp_h_REV	export
+Ex_Trp_m_REV	export
+Ex_Trp_p_REV	export
+Ex_Tyr_c_REV	export
+Ex_Tyr_h_REV	export
+Ex_Tyr_m_REV	export
+Ex_Tyr_p_REV	export
+Ex_Val_c_REV	export
+Ex_Val_h_REV	export
+Ex_Val_m_REV	export
+Ex_Val_p_REV	export
+Ex_starch_REV	export
+Ex_Glc_REV	export
+Ex_Frc_REV	export
+Ex_Suc_REV	export
+Ex_cellulose_REV	export
+Ex_Mas_REV	export
+Ex_Tre_REV	export
+Tr_HPR1_REV	
+Tr_Asp_OAA_h_REV	
+Tr_DIT1_OAA_h_REV	
+Tr_H_Na_h_REV	
+Tr_Pi_h_REV	
+Tr_Pyr_H_h_REV	
+Tr_Pyr_Mal_h_REV	
+Tr_Pyr_Na_h_REV	
+Tr_THF_h_REV	
+Tr_Asp_Glu_m_REV	
+Tr_Asp_m_REV	
+Tr_Cit_iCit_m_REV	
+Tr_DIC4_m_REV	
+Tr_KG_Mal_m_REV	
+Tr_PIC_m_REV	
+Tr_DTC5_m_REV	
+Tr_UCP_m_REV	
+Tr_PXN3_p_REV	
+Tr_SCA_p_REV	
+Tr_iCit_p_REV	
+Si_H_c_REV	
+Si_H_h_REV	
+Si_H_m_REV	
+Si_H_p_REV	
+arm_PSII_h	light reactions
+PSII_hNo1	light reactions
+PSII_hNo2	light reactions
+PSII_hNo3	light reactions
+PSII_hNo4	light reactions
+arm_PSI_h	light reactions
+PSI_hNo1	light reactions
+PSI_hNo2	light reactions
+PSI_hNo3	light reactions
+PSI_hNo4	light reactions
+PSI_hNo5	light reactions
+PSI_hNo6	light reactions
+PSI_hNo7	light reactions
+PSI_hNo8	light reactions
+Fd-NADPR_hNo1	light reactions
+arm_ATPase_h	
+ATPase_hNo1	
+ATPase_hNo2	
+arm_RBC_h	Calvin-Benson cycle
+RBC_hNo1	Calvin-Benson cycle
+RBC_hNo2	Calvin-Benson cycle
+RBC_hNo3	Calvin-Benson cycle
+RBC_hNo4	Calvin-Benson cycle
+arm_PGAK_h	Calvin-Benson cycle, glycolysis
+PGAK_hNo1	Calvin-Benson cycle, glycolysis
+PGAK_hNo2	Calvin-Benson cycle, glycolysis
+arm_GAPDH1_h	Calvin-Benson cycle
+GAPDH1_hNo1	Calvin-Benson cycle
+GAPDH1_hNo2	Calvin-Benson cycle
+GAPDH1_hNo3	Calvin-Benson cycle
+GAPDH1_hNo4	Calvin-Benson cycle
+arm_TPI_h	Calvin-Benson cycle, glycolysis
+TPI_hNo1	Calvin-Benson cycle, glycolysis
+TPI_hNo2	Calvin-Benson cycle, glycolysis
+arm_FBPA_h	Calvin-Benson cycle, glycolysis
+FBPA_hNo1	Calvin-Benson cycle, glycolysis
+FBPA_hNo2	Calvin-Benson cycle, glycolysis
+FBPA_hNo3	Calvin-Benson cycle, glycolysis
+FBPA_hNo4	Calvin-Benson cycle, glycolysis
+FBPA_hNo5	Calvin-Benson cycle, glycolysis
+FBPA_hNo6	Calvin-Benson cycle, glycolysis
+FBPase_hNo1	Calvin-Benson cycle, glycolysis
+arm_FTK_h	Calvin-Benson cycle, pentose phosphate pathway
+FTK_hNo1	Calvin-Benson cycle, pentose phosphate pathway
+FTK_hNo2	Calvin-Benson cycle, pentose phosphate pathway
+arm_SBPA_h	Calvin-Benson cycle
+SBPA_hNo1	Calvin-Benson cycle
+SBPA_hNo2	Calvin-Benson cycle
+SBPA_hNo3	Calvin-Benson cycle
+SBPA_hNo4	Calvin-Benson cycle
+SBPA_hNo5	Calvin-Benson cycle
+SBPA_hNo6	Calvin-Benson cycle
+SBPase_hNo1	Calvin-Benson cycle
+arm_STK_h	Calvin-Benson cycle, pentose phosphate pathway
+STK_hNo1	Calvin-Benson cycle, pentose phosphate pathway
+STK_hNo2	Calvin-Benson cycle, pentose phosphate pathway
+Ru5PE_hNo1	Calvin-Benson cycle, pentose phosphate pathway
+R5PI_hNo1	Calvin-Benson cycle, pentose phosphate pathway
+Ru5PK_hNo1	Calvin-Benson cycle
+PGI_hNo1	starch synthesis
+arm_PGM_h	starch synthesis
+PGM_hNo1	starch synthesis
+PGM_hNo2	starch synthesis
+PGM_hNo3	starch synthesis
+arm_AGPase_h	starch synthesis
+AGPase_hNo1	starch synthesis
+AGPase_hNo2	starch synthesis
+AGPase_hNo3	starch synthesis
+AGPase_hNo4	starch synthesis
+AGPase_hNo5	starch synthesis
+AGPase_hNo6	starch synthesis
+AGPase_hNo7	starch synthesis
+AGPase_hNo8	starch synthesis
+arm_StS_h1	starch synthesis
+StS_h1No1	starch synthesis
+StS_h1No2	starch synthesis
+StS_h1No3	starch synthesis
+StS_h1No4	starch synthesis
+arm_StS_h2	starch synthesis
+StS_h2No1	starch synthesis
+StS_h2No2	starch synthesis
+StS_h2No3	starch synthesis
+StS_h2No4	starch synthesis
+arm_StS_h3	starch synthesis
+StS_h3No1	starch synthesis
+StS_h3No2	starch synthesis
+StS_h3No3	starch synthesis
+StS_h3No4	starch synthesis
+arm_bAMY1_h	starch degradation
+bAMY1_hNo1	starch degradation
+bAMY1_hNo2	starch degradation
+bAMY1_hNo3	starch degradation
+bAMY1_hNo4	starch degradation
+bAMY1_hNo5	starch degradation
+bAMY1_hNo6	starch degradation
+arm_bAMY2_h	starch degradation
+bAMY2_hNo1	starch degradation
+bAMY2_hNo2	starch degradation
+bAMY2_hNo3	starch degradation
+bAMY2_hNo4	starch degradation
+bAMY2_hNo5	starch degradation
+bAMY2_hNo6	starch degradation
+arm_DPE11_h	starch degradation
+DPE11_hNo1	starch degradation
+DPE11_hNo2	starch degradation
+arm_DPE12_h	starch degradation
+DPE12_hNo1	starch degradation
+DPE12_hNo2	starch degradation
+arm_DPE13_h	starch degradation
+DPE13_hNo1	starch degradation
+DPE13_hNo2	starch degradation
+arm_DPE2_c	starch degradation
+DPE2_cNo1	starch degradation
+DPE2_cNo2	starch degradation
+HEXK_cNo1	starch degradation, sucrose degradation
+StP1_hNo1	starch degradation
+StP21_cNo1	starch degradation
+arm_TPI_c	sucrose synthesis, gluconeogenesis, glycolysis
+TPI_cNo1	sucrose synthesis, gluconeogenesis, glycolysis
+TPI_cNo2	sucrose synthesis, gluconeogenesis, glycolysis
+arm_FBPA_c	sucrose synthesis, gluconeogenesis, glycolysis
+FBPA_cNo1	sucrose synthesis, gluconeogenesis, glycolysis
+FBPA_cNo2	sucrose synthesis, gluconeogenesis, glycolysis
+FBPA_cNo3	sucrose synthesis, gluconeogenesis, glycolysis
+FBPA_cNo4	sucrose synthesis, gluconeogenesis, glycolysis
+FBPA_cNo5	sucrose synthesis, gluconeogenesis, glycolysis
+FBPase_cNo1	sucrose synthesis, gluconeogenesis, glycolysis
+F6PK2_cNo1	sucrose synthesis
+F26BPPh_cNo1	sucrose synthesis
+arm_PGI_c	sucrose synthesis, sucrose degradation, gluconeogenesis
+PGI_cNo1	sucrose synthesis, sucrose degradation, gluconeogenesis
+PGI_cNo2	sucrose synthesis, sucrose degradation, gluconeogenesis
+arm_PGM_c	sucrose synthesis, sucrose degradation
+PGM_cNo1	sucrose synthesis, sucrose degradation
+PGM_cNo2	sucrose synthesis, sucrose degradation
+PGM_cNo3	sucrose synthesis, sucrose degradation
+arm_UGPase_c	sucrose synthesis, sucrose degradation, pyrophosphate recycling
+UGPase_cNo1	sucrose synthesis, sucrose degradation, pyrophosphate recycling
+UGPase_cNo2	sucrose synthesis, sucrose degradation, pyrophosphate recycling
+S6PS_cNo1	sucrose synthesis
+arm_S6PPh_c	sucrose synthesis
+S6PPh_cNo1	sucrose synthesis
+S6PPh_cNo2	sucrose synthesis
+arm_SucS_c	sucrose degradation
+SucS_cNo1	sucrose degradation
+SucS_cNo2	sucrose degradation
+SucS_cNo3	sucrose degradation
+arm_FrcFD_c	sucrose degradation
+FrcFD_cNo1	sucrose degradation
+FrcFD_cNo2	sucrose degradation
+arm_FrcK_c	sucrose degradation
+FrcK_cNo1	sucrose degradation
+FrcK_cNo2	sucrose degradation
+FrcK_cNo3	sucrose degradation
+FrcK_cNo4	sucrose degradation
+arm_TPS_c	trehalose synthesis
+TPS_cNo1	trehalose synthesis
+TPS_cNo2	trehalose synthesis
+TPS_cNo3	trehalose synthesis
+TPS_cNo4	trehalose synthesis
+TPS_cNo5	trehalose synthesis
+TPS_cNo6	trehalose synthesis
+arm_TPP_c	trehalose synthesis
+TPP_cNo1	trehalose synthesis
+TPP_cNo2	trehalose synthesis
+TPP_cNo3	trehalose synthesis
+TPP_cNo4	trehalose synthesis
+TPP_cNo5	trehalose synthesis
+TPP_cNo6	trehalose synthesis
+TPP_cNo7	trehalose synthesis
+arm_CeS_c1	cellulose synthesis
+CeS_c1No1	cellulose synthesis
+CeS_c1No2	cellulose synthesis
+CeS_c1No3	cellulose synthesis
+CeS_c1No4	cellulose synthesis
+CeS_c1No5	cellulose synthesis
+CeS_c1No6	cellulose synthesis
+CeS_c1No7	cellulose synthesis
+CeS_c1No8	cellulose synthesis
+CeS_c1No9	cellulose synthesis
+CeS_c1No10	cellulose synthesis
+arm_CeS_c2	cellulose synthesis
+CeS_c2No1	cellulose synthesis
+CeS_c2No2	cellulose synthesis
+CeS_c2No3	cellulose synthesis
+CeS_c2No4	cellulose synthesis
+CeS_c2No5	cellulose synthesis
+CeS_c2No6	cellulose synthesis
+CeS_c2No7	cellulose synthesis
+CeS_c2No8	cellulose synthesis
+CeS_c2No9	cellulose synthesis
+CeS_c2No10	cellulose synthesis
+arm_CeS_c3	cellulose synthesis
+CeS_c3No1	cellulose synthesis
+CeS_c3No2	cellulose synthesis
+CeS_c3No3	cellulose synthesis
+CeS_c3No4	cellulose synthesis
+CeS_c3No5	cellulose synthesis
+CeS_c3No6	cellulose synthesis
+CeS_c3No7	cellulose synthesis
+CeS_c3No8	cellulose synthesis
+CeS_c3No9	cellulose synthesis
+CeS_c3No10	cellulose synthesis
+arm_MalDH1_c	gluconeogenesis
+MalDH1_cNo1	gluconeogenesis
+MalDH1_cNo2	gluconeogenesis
+MalDH1_cNo3	gluconeogenesis
+arm_PEPC1_c	gluconeogenesis
+PEPC1_cNo1	gluconeogenesis
+PEPC1_cNo2	gluconeogenesis
+arm_PEPC2_c	gluconeogenesis
+PEPC2_cNo1	gluconeogenesis
+PEPC2_cNo2	gluconeogenesis
+PEPC2_cNo3	gluconeogenesis
+PEPC2_cNo4	gluconeogenesis
+arm_Enol_c	gluconeogenesis, glycolysis
+Enol_cNo1	gluconeogenesis, glycolysis
+Enol_cNo2	gluconeogenesis, glycolysis
+arm_PGAM_c	gluconeogenesis, glycolysis
+PGAM_cNo1	gluconeogenesis, glycolysis
+PGAM_cNo2	gluconeogenesis, glycolysis
+PGAM_cNo3	gluconeogenesis, glycolysis
+arm_PGAK_c	gluconeogenesis, glycolysis
+PGAK_cNo1	gluconeogenesis, glycolysis
+PGAK_cNo2	gluconeogenesis, glycolysis
+arm_GAPDH2_c	gluconeogenesis, glycolysis
+GAPDH2_cNo1	gluconeogenesis, glycolysis
+GAPDH2_cNo2	gluconeogenesis, glycolysis
+GAPDH3_cNo1	glycolysis
+arm_F6PK1_c	glycolysis
+F6PK1_cNo1	glycolysis
+F6PK1_cNo2	glycolysis
+F6PK1_cNo3	glycolysis
+F6PK1_cNo4	glycolysis
+F6PK1_cNo5	glycolysis
+arm_F6PK1_h	glycolysis
+F6PK1_hNo1	glycolysis
+F6PK1_hNo2	glycolysis
+arm_GAPDH2_h	glycolysis
+GAPDH2_hNo1	glycolysis
+GAPDH2_hNo2	glycolysis
+arm_PGAM_h	glycolysis
+PGAM_hNo1	glycolysis
+PGAM_hNo2	glycolysis
+arm_Enol_h	glycolysis
+Enol_hNo1	glycolysis
+Enol_hNo2	glycolysis
+arm_PyrK_c	glycolysis
+PyrK_cNo1	glycolysis
+PyrK_cNo2	glycolysis
+PyrK_cNo3	glycolysis
+PyrK_cNo4	glycolysis
+PyrK_cNo5	glycolysis
+PyrK_cNo6	glycolysis
+PyrK_cNo7	glycolysis
+PyrK_cNo8	glycolysis
+arm_PyrK_h	glycolysis
+PyrK_hNo1	glycolysis
+PyrK_hNo2	glycolysis
+PyrDH1_mNo1	pyruvate decarboxylation
+PyrDH2_mNo1	pyruvate decarboxylation
+arm_DHLAcT_m	pyruvate decarboxylation
+DHLAcT_mNo1	pyruvate decarboxylation
+DHLAcT_mNo2	pyruvate decarboxylation
+DHLAcT_mNo3	pyruvate decarboxylation
+arm_DHLDH2_m	pyruvate decarboxylation, tricarboxylic acid cycle
+DHLDH2_mNo1	pyruvate decarboxylation, tricarboxylic acid cycle
+DHLDH2_mNo2	pyruvate decarboxylation, tricarboxylic acid cycle
+arm_CitS_m	tricarboxylic acid cycle, glyoxylate cycle
+CitS_mNo1	tricarboxylic acid cycle, glyoxylate cycle
+CitS_mNo2	tricarboxylic acid cycle, glyoxylate cycle
+arm_cACNDHA_m	tricarboxylic acid cycle, glyoxylate cycle
+cACNDHA_mNo1	tricarboxylic acid cycle, glyoxylate cycle
+cACNDHA_mNo2	tricarboxylic acid cycle, glyoxylate cycle
+cACNDHA_mNo3	tricarboxylic acid cycle, glyoxylate cycle
+arm_cACNHA_m	tricarboxylic acid cycle, glyoxylate cycle
+cACNHA_mNo1	tricarboxylic acid cycle, glyoxylate cycle
+cACNHA_mNo2	tricarboxylic acid cycle, glyoxylate cycle
+cACNHA_mNo3	tricarboxylic acid cycle, glyoxylate cycle
+arm_iCitDHNAD_m	tricarboxylic acid cycle
+iCitDHNAD_mNo1	tricarboxylic acid cycle
+iCitDHNAD_mNo2	tricarboxylic acid cycle
+iCitDHNAD_mNo3	tricarboxylic acid cycle
+iCitDHNAD_mNo4	tricarboxylic acid cycle
+iCitDHNAD_mNo5	tricarboxylic acid cycle
+iCitDHNAD_mNo6	tricarboxylic acid cycle
+arm_KGDH_m	tricarboxylic acid cycle
+KGDH_mNo1	tricarboxylic acid cycle
+KGDH_mNo2	tricarboxylic acid cycle
+arm_DHLST_m	tricarboxylic acid cycle
+DHLST_mNo1	tricarboxylic acid cycle
+DHLST_mNo2	tricarboxylic acid cycle
+arm_SCACoAL_m	tricarboxylic acid cycle
+SCACoAL_mNo1	tricarboxylic acid cycle
+SCACoAL_mNo2	tricarboxylic acid cycle
+arm_cplx2_m	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo1	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo2	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo3	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo4	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo5	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo6	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo7	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo8	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo9	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo10	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo11	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo12	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo13	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo14	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo15	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo16	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo17	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo18	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo19	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo20	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo21	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo22	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo23	tricarboxylic acid cycle, oxidative phosphorylation
+cplx2_mNo24	tricarboxylic acid cycle, oxidative phosphorylation
+arm_FumHA_m	tricarboxylic acid cycle
+FumHA_mNo1	tricarboxylic acid cycle
+FumHA_mNo2	tricarboxylic acid cycle
+arm_MalDH1_m	tricarboxylic acid cycle, glyoxylate cycle
+MalDH1_mNo1	tricarboxylic acid cycle, glyoxylate cycle
+MalDH1_mNo2	tricarboxylic acid cycle, glyoxylate cycle
+arm_cplx1_m	oxidative phosphorylation
+cplx1_mNo1	oxidative phosphorylation
+cplx1_mNo2	oxidative phosphorylation
+cplx1_mNo3	oxidative phosphorylation
+cplx1_mNo4	oxidative phosphorylation
+arm_cplx3_m	oxidative phosphorylation
+cplx3_mNo1	oxidative phosphorylation
+cplx3_mNo2	oxidative phosphorylation
+cplx3_mNo3	oxidative phosphorylation
+cplx3_mNo4	oxidative phosphorylation
+cplx3_mNo5	oxidative phosphorylation
+cplx3_mNo6	oxidative phosphorylation
+cplx3_mNo7	oxidative phosphorylation
+cplx3_mNo8	oxidative phosphorylation
+cplx3_mNo9	oxidative phosphorylation
+cplx3_mNo10	oxidative phosphorylation
+cplx3_mNo11	oxidative phosphorylation
+cplx3_mNo12	oxidative phosphorylation
+cplx3_mNo13	oxidative phosphorylation
+cplx3_mNo14	oxidative phosphorylation
+cplx3_mNo15	oxidative phosphorylation
+cplx3_mNo16	oxidative phosphorylation
+cplx3_mNo17	oxidative phosphorylation
+cplx3_mNo18	oxidative phosphorylation
+cplx3_mNo19	oxidative phosphorylation
+cplx3_mNo20	oxidative phosphorylation
+cplx3_mNo21	oxidative phosphorylation
+cplx3_mNo22	oxidative phosphorylation
+cplx3_mNo23	oxidative phosphorylation
+cplx3_mNo24	oxidative phosphorylation
+cplx3_mNo25	oxidative phosphorylation
+cplx3_mNo26	oxidative phosphorylation
+cplx3_mNo27	oxidative phosphorylation
+cplx3_mNo28	oxidative phosphorylation
+cplx3_mNo29	oxidative phosphorylation
+cplx3_mNo30	oxidative phosphorylation
+cplx3_mNo31	oxidative phosphorylation
+cplx3_mNo32	oxidative phosphorylation
+cplx3_mNo33	oxidative phosphorylation
+cplx3_mNo34	oxidative phosphorylation
+cplx3_mNo35	oxidative phosphorylation
+cplx3_mNo36	oxidative phosphorylation
+cplx3_mNo37	oxidative phosphorylation
+cplx3_mNo38	oxidative phosphorylation
+cplx3_mNo39	oxidative phosphorylation
+cplx3_mNo40	oxidative phosphorylation
+cplx3_mNo41	oxidative phosphorylation
+cplx3_mNo42	oxidative phosphorylation
+cplx3_mNo43	oxidative phosphorylation
+cplx3_mNo44	oxidative phosphorylation
+cplx3_mNo45	oxidative phosphorylation
+cplx3_mNo46	oxidative phosphorylation
+cplx3_mNo47	oxidative phosphorylation
+cplx3_mNo48	oxidative phosphorylation
+cplx3_mNo49	oxidative phosphorylation
+cplx3_mNo50	oxidative phosphorylation
+cplx3_mNo51	oxidative phosphorylation
+cplx3_mNo52	oxidative phosphorylation
+cplx3_mNo53	oxidative phosphorylation
+cplx3_mNo54	oxidative phosphorylation
+cplx3_mNo55	oxidative phosphorylation
+cplx3_mNo56	oxidative phosphorylation
+cplx3_mNo57	oxidative phosphorylation
+cplx3_mNo58	oxidative phosphorylation
+cplx3_mNo59	oxidative phosphorylation
+cplx3_mNo60	oxidative phosphorylation
+cplx3_mNo61	oxidative phosphorylation
+cplx3_mNo62	oxidative phosphorylation
+cplx3_mNo63	oxidative phosphorylation
+cplx3_mNo64	oxidative phosphorylation
+cplx3_mNo65	oxidative phosphorylation
+cplx3_mNo66	oxidative phosphorylation
+cplx3_mNo67	oxidative phosphorylation
+cplx3_mNo68	oxidative phosphorylation
+cplx3_mNo69	oxidative phosphorylation
+cplx3_mNo70	oxidative phosphorylation
+cplx3_mNo71	oxidative phosphorylation
+cplx3_mNo72	oxidative phosphorylation
+cplx3_mNo73	oxidative phosphorylation
+cplx3_mNo74	oxidative phosphorylation
+cplx3_mNo75	oxidative phosphorylation
+cplx3_mNo76	oxidative phosphorylation
+cplx3_mNo77	oxidative phosphorylation
+cplx3_mNo78	oxidative phosphorylation
+cplx3_mNo79	oxidative phosphorylation
+cplx3_mNo80	oxidative phosphorylation
+cplx3_mNo81	oxidative phosphorylation
+cplx3_mNo82	oxidative phosphorylation
+cplx3_mNo83	oxidative phosphorylation
+cplx3_mNo84	oxidative phosphorylation
+cplx3_mNo85	oxidative phosphorylation
+cplx3_mNo86	oxidative phosphorylation
+cplx3_mNo87	oxidative phosphorylation
+cplx3_mNo88	oxidative phosphorylation
+cplx3_mNo89	oxidative phosphorylation
+cplx3_mNo90	oxidative phosphorylation
+cplx3_mNo91	oxidative phosphorylation
+cplx3_mNo92	oxidative phosphorylation
+cplx3_mNo93	oxidative phosphorylation
+cplx3_mNo94	oxidative phosphorylation
+cplx3_mNo95	oxidative phosphorylation
+cplx3_mNo96	oxidative phosphorylation
+cplx3_mNo97	oxidative phosphorylation
+cplx3_mNo98	oxidative phosphorylation
+cplx3_mNo99	oxidative phosphorylation
+cplx3_mNo100	oxidative phosphorylation
+cplx3_mNo101	oxidative phosphorylation
+cplx3_mNo102	oxidative phosphorylation
+cplx3_mNo103	oxidative phosphorylation
+cplx3_mNo104	oxidative phosphorylation
+cplx3_mNo105	oxidative phosphorylation
+cplx3_mNo106	oxidative phosphorylation
+cplx3_mNo107	oxidative phosphorylation
+cplx3_mNo108	oxidative phosphorylation
+cplx3_mNo109	oxidative phosphorylation
+cplx3_mNo110	oxidative phosphorylation
+cplx3_mNo111	oxidative phosphorylation
+cplx3_mNo112	oxidative phosphorylation
+cplx3_mNo113	oxidative phosphorylation
+cplx3_mNo114	oxidative phosphorylation
+cplx3_mNo115	oxidative phosphorylation
+cplx3_mNo116	oxidative phosphorylation
+cplx3_mNo117	oxidative phosphorylation
+cplx3_mNo118	oxidative phosphorylation
+cplx3_mNo119	oxidative phosphorylation
+cplx3_mNo120	oxidative phosphorylation
+cplx3_mNo121	oxidative phosphorylation
+cplx3_mNo122	oxidative phosphorylation
+cplx3_mNo123	oxidative phosphorylation
+cplx3_mNo124	oxidative phosphorylation
+cplx3_mNo125	oxidative phosphorylation
+cplx3_mNo126	oxidative phosphorylation
+cplx3_mNo127	oxidative phosphorylation
+cplx3_mNo128	oxidative phosphorylation
+arm_cplx4_m	oxidative phosphorylation
+cplx4_mNo1	oxidative phosphorylation
+cplx4_mNo2	oxidative phosphorylation
+cplx4_mNo3	oxidative phosphorylation
+cplx4_mNo4	oxidative phosphorylation
+cplx4_mNo5	oxidative phosphorylation
+cplx4_mNo6	oxidative phosphorylation
+cplx4_mNo7	oxidative phosphorylation
+cplx4_mNo8	oxidative phosphorylation
+cplx4_mNo9	oxidative phosphorylation
+cplx4_mNo10	oxidative phosphorylation
+cplx4_mNo11	oxidative phosphorylation
+cplx4_mNo12	oxidative phosphorylation
+cplx4_mNo13	oxidative phosphorylation
+cplx4_mNo14	oxidative phosphorylation
+cplx4_mNo15	oxidative phosphorylation
+cplx4_mNo16	oxidative phosphorylation
+cplx4_mNo17	oxidative phosphorylation
+cplx4_mNo18	oxidative phosphorylation
+arm_cplx5_m	
+cplx5_mNo1	
+cplx5_mNo2	
+cplx5_mNo3	
+cplx5_mNo4	
+cplx5_mNo5	
+cplx5_mNo6	
+cplx5_mNo7	
+cplx5_mNo8	
+cplx5_mNo9	
+cplx5_mNo10	
+cplx5_mNo11	
+cplx5_mNo12	
+cplx5_mNo13	
+cplx5_mNo14	
+cplx5_mNo15	
+cplx5_mNo16	
+cplx5_mNo17	
+cplx5_mNo18	
+cplx5_mNo19	
+cplx5_mNo20	
+cplx5_mNo21	
+cplx5_mNo22	
+cplx5_mNo23	
+cplx5_mNo24	
+cplx5_mNo25	
+cplx5_mNo26	
+cplx5_mNo27	
+cplx5_mNo28	
+cplx5_mNo29	
+cplx5_mNo30	
+cplx5_mNo31	
+cplx5_mNo32	
+cplx5_mNo33	
+cplx5_mNo34	
+cplx5_mNo35	
+cplx5_mNo36	
+cplx5_mNo37	
+cplx5_mNo38	
+cplx5_mNo39	
+cplx5_mNo40	
+cplx5_mNo41	
+cplx5_mNo42	
+cplx5_mNo43	
+cplx5_mNo44	
+cplx5_mNo45	
+cplx5_mNo46	
+cplx5_mNo47	
+cplx5_mNo48	
+arm_RBO_h	photorespiration
+RBO_hNo1	photorespiration
+RBO_hNo2	photorespiration
+RBO_hNo3	photorespiration
+RBO_hNo4	photorespiration
+arm_PGP_h	photorespiration
+PGP_hNo1	photorespiration
+PGP_hNo2	photorespiration
+PGP_hNo3	photorespiration
+arm_GCAO_p	photorespiration
+GCAO_pNo1	photorespiration
+GCAO_pNo2	photorespiration
+GCAO_pNo3	photorespiration
+GCAO_pNo4	photorespiration
+arm_CAT_p	photorespiration
+CAT_pNo1	photorespiration
+CAT_pNo2	photorespiration
+CAT_pNo3	photorespiration
+arm_GGAT_p	photorespiration, glycine synthesis
+GGAT_pNo1	photorespiration, glycine synthesis
+GGAT_pNo2	photorespiration, glycine synthesis
+arm_GlyDH_m	photorespiration
+GlyDH_mNo1	photorespiration
+GlyDH_mNo2	photorespiration
+AMT_mNo1	photorespiration
+arm_DHLDH1_m	photorespiration
+DHLDH1_mNo1	photorespiration
+DHLDH1_mNo2	photorespiration
+arm_GlyHMT_m	photorespiration
+GlyHMT_mNo1	photorespiration
+GlyHMT_mNo2	photorespiration
+SGAT_pNo1	photorespiration, glycine synthesis
+GCEADH_pNo1	photorespiration
+arm_MalDH1_p	photorespiration
+MalDH1_pNo1	photorespiration
+MalDH1_pNo2	photorespiration
+GCEAK_hNo1	photorespiration
+arm_G6PDH_h	pentose phosphate pathway
+G6PDH_hNo1	pentose phosphate pathway
+G6PDH_hNo2	pentose phosphate pathway
+G6PDH_hNo3	pentose phosphate pathway
+G6PDH_hNo4	pentose phosphate pathway
+G6PDH_hNo5	pentose phosphate pathway
+arm_6PGL_h	pentose phosphate pathway
+6PGL_hNo1	pentose phosphate pathway
+6PGL_hNo2	pentose phosphate pathway
+6PGL_hNo3	pentose phosphate pathway
+6PGL_hNo4	pentose phosphate pathway
+6PGL_hNo5	pentose phosphate pathway
+arm_6PGDHNAD_h	pentose phosphate pathway
+6PGDHNAD_hNo1	pentose phosphate pathway
+6PGDHNAD_hNo2	pentose phosphate pathway
+6PGDHNAD_hNo3	pentose phosphate pathway
+arm_6PGDHNADP_h	pentose phosphate pathway
+6PGDHNADP_hNo1	pentose phosphate pathway
+6PGDHNADP_hNo2	pentose phosphate pathway
+6PGDHNADP_hNo3	pentose phosphate pathway
+arm_TA_h	pentose phosphate pathway
+TA_hNo1	pentose phosphate pathway
+TA_hNo2	pentose phosphate pathway
+arm_DAHPS_h	Shikimate pathway
+DAHPS_hNo1	Shikimate pathway
+DAHPS_hNo2	Shikimate pathway
+DHQS_hNo1	Shikimate pathway
+DHQDH_hNo1	Shikimate pathway
+SADH_hNo1	Shikimate pathway
+arm_SAK_h	Shikimate pathway
+SAK_hNo1	Shikimate pathway
+SAK_hNo2	Shikimate pathway
+EPSPS_hNo1	Shikimate pathway
+CHRS_hNo1	Shikimate pathway
+arm_R5PDPK_h	PRPP synthesis
+R5PDPK_hNo1	PRPP synthesis
+R5PDPK_hNo2	PRPP synthesis
+R5PDPK_hNo3	PRPP synthesis
+R5PDPK_hNo4	PRPP synthesis
+PyrPiDK_hNo1	pyruvate metabolism
+arm_MalDH2NADP_c	pyruvate metabolism
+MalDH2NADP_cNo1	pyruvate metabolism
+MalDH2NADP_cNo2	pyruvate metabolism
+MalDH2NADP_cNo3	pyruvate metabolism
+arm_MalDH1_h	pyruvate metabolism
+MalDH1_hNo1	pyruvate metabolism
+MalDH1_hNo2	pyruvate metabolism
+MalDH3_hNo1	pyruvate metabolism
+arm_CitS_c	pyruvate metabolism
+CitS_cNo1	pyruvate metabolism
+CitS_cNo2	pyruvate metabolism
+CitS_hNo1	pyruvate metabolism
+arm_cACNDHA_c	pyruvate metabolism
+cACNDHA_cNo1	pyruvate metabolism
+cACNDHA_cNo2	pyruvate metabolism
+cACNDHA_cNo3	pyruvate metabolism
+arm_cACNDHA_h	pyruvate metabolism
+cACNDHA_hNo1	pyruvate metabolism
+cACNDHA_hNo2	pyruvate metabolism
+arm_cACNHA_c	pyruvate metabolism
+cACNHA_cNo1	pyruvate metabolism
+cACNHA_cNo2	pyruvate metabolism
+cACNHA_cNo3	pyruvate metabolism
+arm_cACNHA_h	pyruvate metabolism
+cACNHA_hNo1	pyruvate metabolism
+cACNHA_hNo2	pyruvate metabolism
+iCitDHNAD_cNo1	pyruvate metabolism
+iCitDHNADP_cNo1	pyruvate metabolism
+arm_iCitDHNADP_h	pyruvate metabolism
+iCitDHNADP_hNo1	pyruvate metabolism
+iCitDHNADP_hNo2	pyruvate metabolism
+iCitDHNADP_hNo3	pyruvate metabolism
+iCitDHNADP_mNo1	pyruvate metabolism
+MalS_cNo1	pyruvate metabolism
+arm_ATPCitL_c	actyl-coenzyme A synthesis
+ATPCitL_cNo1	actyl-coenzyme A synthesis
+ATPCitL_cNo2	actyl-coenzyme A synthesis
+ATPCitL_cNo3	actyl-coenzyme A synthesis
+ATPCitL_cNo4	actyl-coenzyme A synthesis
+ATPCitL_cNo5	actyl-coenzyme A synthesis
+ATPCitL_cNo6	actyl-coenzyme A synthesis
+ACoAS_hNo1	actyl-coenzyme A synthesis
+arm_ACoAC_h	fatty acid synthesis
+ACoAC_hNo1	fatty acid synthesis
+ACoAC_hNo2	fatty acid synthesis
+ACPM_hNo1	fatty acid synthesis
+PPiase_hNo1	pyrophosphate recycling
+arm_PPIase_c	pyrophosphate recycling
+PPIase_cNo1	pyrophosphate recycling
+PPIase_cNo2	pyrophosphate recycling
+PPIase_cNo3	pyrophosphate recycling
+PPIase_cNo4	pyrophosphate recycling
+arm_PPIF6PK_c	pyrophosphate recycling
+PPIF6PK_cNo1	pyrophosphate recycling
+PPIF6PK_cNo2	pyrophosphate recycling
+PPIF6PK_cNo3	pyrophosphate recycling
+PPIF6PK_cNo4	pyrophosphate recycling
+ForDH_hNo1	THF recycling
+ForTHFL_hNo1	THF recycling
+DHFR_cNo1	THF recycling
+arm_TRXR_c	TRX recycling
+TRXR_cNo1	TRX recycling
+TRXR_cNo2	TRX recycling
+TRXR_cNo3	TRX recycling
+arm_ADNK_c	ADN salvage
+ADNK_cNo1	ADN salvage
+ADNK_cNo2	ADN salvage
+ADNN_cNo1	ADN salvage
+arm_ADPRPPT_c	ADN salvage
+ADPRPPT_cNo1	ADN salvage
+ADPRPPT_cNo2	ADN salvage
+ADPRPPT_cNo3	ADN salvage
+ADPRPPT_cNo4	ADN salvage
+ADPRPPT_cNo5	ADN salvage
+RibK_hNo1	ADN salvage
+arm_NO3R1_c	nitrate assimilation
+NO3R1_cNo1	nitrate assimilation
+NO3R1_cNo2	nitrate assimilation
+arm_NO3R2_c	nitrate assimilation
+NO3R2_cNo1	nitrate assimilation
+NO3R2_cNo2	nitrate assimilation
+NO2R_hNo1	nitrate assimilation
+arm_ATPSL_h	sulfur assimilation
+ATPSL_hNo1	sulfur assimilation
+ATPSL_hNo2	sulfur assimilation
+ATPSL_hNo3	sulfur assimilation
+ATPSL_hNo4	sulfur assimilation
+arm_APSR_h	sulfur assimilation
+APSR_hNo1	sulfur assimilation
+APSR_hNo2	sulfur assimilation
+APSR_hNo3	sulfur assimilation
+GSSGR_hNo1	sulfur assimilation
+SO3R_hNo1	sulfur assimilation
+arm_HCO3DHA_c	carbon fixation
+HCO3DHA_cNo1	carbon fixation
+HCO3DHA_cNo2	carbon fixation
+HCO3DHA_cNo3	carbon fixation
+HCO3DHA_cNo4	carbon fixation
+HCO3DHA_cNo5	carbon fixation
+HCO3DHA_cNo6	carbon fixation
+HCO3DHA_cNo7	carbon fixation
+HCO3DHA_cNo8	carbon fixation
+arm_HCO3DHA_h	carbon fixation
+HCO3DHA_hNo1	carbon fixation
+HCO3DHA_hNo2	carbon fixation
+HCO3DHA_hNo3	carbon fixation
+HCO3DHA_hNo4	carbon fixation
+HCO3DHA_hNo5	carbon fixation
+HCO3DHA_hNo6	carbon fixation
+HCO3DHA_hNo7	carbon fixation
+HCO3DHA_hNo8	carbon fixation
+HCO3DHA_hNo9	carbon fixation
+arm_AlaTA_m	alanine synthesis
+AlaTA_mNo1	alanine synthesis
+AlaTA_mNo2	alanine synthesis
+AlaTA_mNo3	alanine synthesis
+arm_AlaTA_p	alanine synthesis
+AlaTA_pNo1	alanine synthesis
+AlaTA_pNo2	alanine synthesis
+AGluKNo1	arginine synthesis
+AGluPR_hNo1	arginine synthesis
+AOrnTA_hNo1	arginine synthesis
+AOrnAGluAcT_hNo1	arginine synthesis
+CBPS_hNo1	arginine synthesis, UMP synthesis
+OrnCMT_hNo1	arginine synthesis
+ArgSCAS_hNo1	arginine synthesis
+ArgSCAL_hNo1	arginine synthesis
+FumHA_cNo1	arginine synthesis, IMP synthesis, AMP synthesis
+arm_AsnS_c	asparagine synthesis, lysine synthesis, methionine synthesis
+AsnS_cNo1	asparagine synthesis, lysine synthesis, methionine synthesis
+AsnS_cNo2	asparagine synthesis, lysine synthesis, methionine synthesis
+AsnS_cNo3	asparagine synthesis, lysine synthesis, methionine synthesis
+arm_AspAT_c	aspartate synthesis
+AspAT_cNo1	aspartate synthesis
+AspAT_cNo2	aspartate synthesis
+AspAT_cNo3	aspartate synthesis
+AspAT_cNo4	aspartate synthesis
+arm_AspAT_h	aspartate synthesis
+AspAT_hNo1	aspartate synthesis
+AspAT_hNo2	aspartate synthesis
+arm_AspAT_m	aspartate synthesis
+AspAT_mNo1	aspartate synthesis
+AspAT_mNo2	aspartate synthesis
+AspAT_pNo1	aspartate synthesis
+Asnase_cNo1	aspartate synthesis
+arm_SerAcT_c	cysteine synthesis
+SerAcT_cNo1	cysteine synthesis
+SerAcT_cNo2	cysteine synthesis
+SerAcT_cNo3	cysteine synthesis
+SerAcT_cNo4	cysteine synthesis
+SerAcT_cNo5	cysteine synthesis
+arm_SerAcT_h	cysteine synthesis
+SerAcT_hNo1	cysteine synthesis
+SerAcT_hNo2	cysteine synthesis
+arm_SerAcT_m	cysteine synthesis
+SerAcT_mNo1	cysteine synthesis
+SerAcT_mNo2	cysteine synthesis
+arm_CysS_c	cysteine synthesis
+CysS_cNo1	cysteine synthesis
+CysS_cNo2	cysteine synthesis
+arm_CysS_h	cysteine synthesis
+CysS_hNo1	cysteine synthesis
+CysS_hNo2	cysteine synthesis
+CysS_hNo3	cysteine synthesis
+CysS_hNo4	cysteine synthesis
+arm_CysS_m	cysteine synthesis
+CysS_mNo1	cysteine synthesis
+CysS_mNo2	cysteine synthesis
+CysS_mNo3	cysteine synthesis
+CysS_mNo4	cysteine synthesis
+GluDH3NADP_cNo1	glutamate synthesis
+Glnase_cNo1	glutamate synthesis
+GluSNAD_hNo1	glutamate synthesis
+arm_GluSFd_h	glutamate synthesis
+GluSFd_hNo1	glutamate synthesis
+GluSFd_hNo2	glutamate synthesis
+arm_GluDH1NAD_m	glutamate synthesis
+GluDH1NAD_mNo1	glutamate synthesis
+GluDH1NAD_mNo2	glutamate synthesis
+GluDH1NAD_mNo3	glutamate synthesis
+arm_GluDH1NADP_m	glutamate synthesis
+GluDH1NADP_mNo1	glutamate synthesis
+GluDH1NADP_mNo2	glutamate synthesis
+GluDH1NADP_mNo3	glutamate synthesis
+arm_GluDH2NAD_m	glutamate degradation
+GluDH2NAD_mNo1	glutamate degradation
+GluDH2NAD_mNo2	glutamate degradation
+arm_GluDC_c	glutamate degradation
+GluDC_cNo1	glutamate degradation
+GluDC_cNo2	glutamate degradation
+GluDC_cNo3	glutamate degradation
+GluDC_cNo4	glutamate degradation
+GluDC_cNo5	glutamate degradation
+GABATA1_mNo1	glutamate degradation
+GABATA2_mNo1	glutamate degradation
+SCASeADH_mNo1	glutamate degradation
+arm_GlnS_c	glutamine synthesis
+GlnS_cNo1	glutamine synthesis
+GlnS_cNo2	glutamine synthesis
+GlnS_cNo3	glutamine synthesis
+GlnS_cNo4	glutamine synthesis
+arm_GlnS_h	glutamine synthesis
+GlnS_hNo1	glutamine synthesis
+GlnS_hNo2	glutamine synthesis
+GlnS_hNo3	glutamine synthesis
+GlnS_mNo1	glutamine synthesis
+ThrA_cNo1	glycine synthesis
+arm_ACDOxRed_c	glycine synthesis
+ACDOxRed_cNo1	glycine synthesis
+ACDOxRed_cNo2	glycine synthesis
+ACDOxRed_cNo3	glycine synthesis
+ACDOxRed_cNo4	glycine synthesis
+ACDOxRed_cNo5	glycine synthesis
+arm_GCAO_h	glycine synthesis
+GCAO_hNo1	glycine synthesis
+GCAO_hNo2	glycine synthesis
+arm_CAT_h	glycine synthesis
+CAT_hNo1	glycine synthesis
+CAT_hNo2	glycine synthesis
+CAT_hNo3	glycine synthesis
+SGAT_hNo1	glycine synthesis
+GCEADH_hNo1	glycine synthesis
+arm_ATPPRT_h	histidine synthesis
+ATPPRT_hNo1	histidine synthesis
+ATPPRT_hNo2	histidine synthesis
+PrATPDP_hNo1	histidine synthesis
+PrAMPCy_hNo1	histidine synthesis
+PAICARPI_hNo1	histidine synthesis
+IGPS_hNo1	histidine synthesis
+arm_IGPDA_h	histidine synthesis
+IGPDA_hNo1	histidine synthesis
+IGPDA_hNo2	histidine synthesis
+arm_HisolPTA_h	histidine synthesis
+HisolPTA_hNo1	histidine synthesis
+HisolPTA_hNo2	histidine synthesis
+HisolPP_hNo1	histidine synthesis
+HisolPDH_hNo1	histidine synthesis
+HisalPDH_hNo1	histidine synthesis
+ThrDA_hNo1	isoleucine synthesis
+ALS1_hNo1	isoleucine synthesis, leucine synthesis, valine synthesis
+ALS2_hNo1	isoleucine synthesis
+DHADA1_hNo1	isoleucine synthesis
+arm_BAATA1_h	isoleucine synthesis
+BAATA1_hNo1	isoleucine synthesis
+BAATA1_hNo2	isoleucine synthesis
+BAATA1_hNo3	isoleucine synthesis
+ALS3_hNo1	leucine synthesis, valine synthesis
+DHADA2_hNo1	leucine synthesis, valine synthesis
+arm_2IPMS_h	leucine synthesis
+2IPMS_hNo1	leucine synthesis
+2IPMS_hNo2	leucine synthesis
+arm_3IPMDA1_h	leucine synthesis
+3IPMDA1_hNo1	leucine synthesis
+3IPMDA1_hNo2	leucine synthesis
+3IPMDA1_hNo3	leucine synthesis
+arm_3IPMDA2_h	leucine synthesis
+3IPMDA2_hNo1	leucine synthesis
+3IPMDA2_hNo2	leucine synthesis
+3IPMDA2_hNo3	leucine synthesis
+arm_3IPMDH_h	leucine synthesis
+3IPMDH_hNo1	leucine synthesis
+3IPMDH_hNo2	leucine synthesis
+3IPMDH_hNo3	leucine synthesis
+arm_BAATA2_h	leucine synthesis
+BAATA2_hNo1	leucine synthesis
+BAATA2_hNo2	leucine synthesis
+BAATA2_hNo3	leucine synthesis
+arm_AspK_h	lysine synthesis, methionine synthesis, threonine synthesis
+AspK_hNo1	lysine synthesis, methionine synthesis, threonine synthesis
+AspK_hNo2	lysine synthesis, methionine synthesis, threonine synthesis
+AspK_hNo3	lysine synthesis, methionine synthesis, threonine synthesis
+AspK_hNo4	lysine synthesis, methionine synthesis, threonine synthesis
+AspK_hNo5	lysine synthesis, methionine synthesis, threonine synthesis
+Asp-SeADH_hNo1	lysine synthesis
+arm_DHDS_h	lysine synthesis
+DHDS_hNo1	lysine synthesis
+DHDS_hNo2	lysine synthesis
+arm_DHDRNAD_h	lysine synthesis
+DHDRNAD_hNo1	lysine synthesis
+DHDRNAD_hNo2	lysine synthesis
+DHDRNAD_hNo3	lysine synthesis
+arm_DHDRNADP_h	lysine synthesis
+DHDRNADP_hNo1	lysine synthesis
+DHDRNADP_hNo2	lysine synthesis
+DHDRNADP_hNo3	lysine synthesis
+DAPAT_hNo1	lysine synthesis
+DAPE_hNo1	lysine synthesis
+arm_DAPDC_h	lysine synthesis
+DAPDC_hNo1	lysine synthesis
+DAPDC_hNo2	lysine synthesis
+arm_HSerDHNADP_h	methionine synthesis, threonine synthesis
+HSerDHNADP_hNo1	methionine synthesis, threonine synthesis
+HSerDHNADP_hNo2	methionine synthesis, threonine synthesis
+HSerDHNADP_hNo3	methionine synthesis, threonine synthesis
+arm_HSerDHNAD_h	methionine synthesis, threonine synthesis
+HSerDHNAD_hNo1	methionine synthesis, threonine synthesis
+HSerDHNAD_hNo2	methionine synthesis, threonine synthesis
+HSerDHNAD_hNo3	methionine synthesis, threonine synthesis
+HSerK_hNo1	methionine synthesis, threonine synthesis
+CTHS_hNo1	methionine synthesis
+CTHL_hNo1	methionine synthesis
+arm_5M-THFOR_c	methionine synthesis, THF recycling
+5M-THFOR_cNo1	methionine synthesis, THF recycling
+5M-THFOR_cNo2	methionine synthesis, THF recycling
+arm_MetS_c	methionine synthesis
+MetS_cNo1	methionine synthesis
+MetS_cNo2	methionine synthesis
+MetS_cNo3	methionine synthesis
+arm_GlyHMT_c	methionine synthesis, THF recycling
+GlyHMT_cNo1	methionine synthesis, THF recycling
+GlyHMT_cNo2	methionine synthesis, THF recycling
+arm_HCysMT_c	methionine synthesis
+HCysMT_cNo1	methionine synthesis
+HCysMT_cNo2	methionine synthesis
+HCysMT_cNo3	methionine synthesis
+arm_Cysase_c	methionine synthesis
+Cysase_cNo1	methionine synthesis
+Cysase_cNo2	methionine synthesis
+CHRM_cNo1	phenylalanine synthesis, tyrosine synthesis
+GPAT_hNo1	phenylalanine synthesis, tyrosine synthesis
+arm_AGNDA_h	phenylalanine synthesis
+AGNDA_hNo1	phenylalanine synthesis
+AGNDA_hNo2	phenylalanine synthesis
+AGNDA_hNo3	phenylalanine synthesis
+AGNDA_hNo4	phenylalanine synthesis
+AGNDA_hNo5	phenylalanine synthesis
+AGNDA_hNo6	phenylalanine synthesis
+arm_Arginase_m	proline synthesis
+Arginase_mNo1	proline synthesis
+Arginase_mNo2	proline synthesis
+Urease_mNo1	proline synthesis
+OrnAT_mNo1	proline synthesis
+arm_GluK_c	proline synthesis
+GluK_cNo1	proline synthesis
+GluK_cNo2	proline synthesis
+arm_GluK_h	proline synthesis
+GluK_hNo1	proline synthesis
+GluK_hNo2	proline synthesis
+arm_GluK_m	proline synthesis
+GluK_mNo1	proline synthesis
+GluK_mNo2	proline synthesis
+arm_GluSeADH_c	proline synthesis
+GluSeADH_cNo1	proline synthesis
+GluSeADH_cNo2	proline synthesis
+arm_GluSeADH_h	proline synthesis
+GluSeADH_hNo1	proline synthesis
+GluSeADH_hNo2	proline synthesis
+arm_GluSeADH_m	proline synthesis
+GluSeADH_mNo1	proline synthesis
+GluSeADH_mNo2	proline synthesis
+P5CRNAD_cNo1	proline synthesis
+arm_ProDHNAD_m	proline degradation
+ProDHNAD_mNo1	proline degradation
+ProDHNAD_mNo2	proline degradation
+arm_ProDHNADP_m	proline degradation
+ProDHNADP_mNo1	proline degradation
+ProDHNADP_mNo2	proline degradation
+P5CDHNAD_hNo1	proline degradation
+P5CDHNAD_mNo1	proline degradation
+P5CDHNADP_mNo1	proline degradation
+arm_PGADH_h	serine synthesis
+PGADH_hNo1	serine synthesis
+PGADH_hNo2	serine synthesis
+PGADH_hNo3	serine synthesis
+arm_PSerAT_h	serine synthesis
+PSerAT_hNo1	serine synthesis
+PSerAT_hNo2	serine synthesis
+PSerP_hNo1	serine synthesis
+SerRM_cNo1	serine racemization
+arm_ThrS_h	threonine synthesis
+ThrS_hNo1	threonine synthesis
+ThrS_hNo2	threonine synthesis
+arm_ANTS_h	tryptophan synthesis
+ANTS_hNo1	tryptophan synthesis
+ANTS_hNo2	tryptophan synthesis
+ANTPRT_hNo1	tryptophan synthesis
+arm_PRANTI_h	tryptophan synthesis
+PRANTI_hNo1	tryptophan synthesis
+PRANTI_hNo2	tryptophan synthesis
+PRANTI_hNo3	tryptophan synthesis
+IndGPS_hNo1	tryptophan synthesis
+arm_IndGPL_h	tryptophan synthesis
+IndGPL_hNo1	tryptophan synthesis
+IndGPL_hNo2	tryptophan synthesis
+arm_TrpS_h	tryptophan synthesis
+TrpS_hNo1	tryptophan synthesis
+TrpS_hNo2	tryptophan synthesis
+AGNDH_hNo1	tyrosine synthesis
+arm_BAATA3_h	valine synthesis
+BAATA3_hNo1	valine synthesis
+BAATA3_hNo2	valine synthesis
+BAATA3_hNo3	valine synthesis
+arm_ATase_h	IMP synthesis
+ATase_hNo1	IMP synthesis
+ATase_hNo2	IMP synthesis
+ATase_hNo3	IMP synthesis
+PRAGlyL_hNo1	IMP synthesis
+GARFT_hNo1	IMP synthesis
+FGAMS_hNo1	IMP synthesis
+FGAMCL_hNo1	IMP synthesis
+AIRC_hNo1	IMP synthesis
+SAICARS_hNo1	IMP synthesis
+arm_DCAMPL1_h	IMP synthesis
+DCAMPL1_hNo1	IMP synthesis
+DCAMPL1_hNo2	IMP synthesis
+AICARFT_hNo1	IMP synthesis
+IMPCH_hNo1	IMP synthesis
+AMPDA_cNo1	GMP synthesis
+arm_IMPDH_c	GMP synthesis
+IMPDH_cNo1	GMP synthesis
+IMPDH_cNo2	GMP synthesis
+GMPS_cNo1	GMP synthesis
+DCAMPS_hNo1	AMP synthesis
+arm_DCAMPL2_h	AMP synthesis
+DCAMPL2_hNo1	AMP synthesis
+DCAMPL2_hNo2	AMP synthesis
+AspCT_hNo1	UMP synthesis
+DHOase_hNo1	UMP synthesis
+DHODH_mNo1	UMP synthesis
+OROPRT_cNo1	UMP synthesis
+OMPDC_cNo1	UMP synthesis
+arm_CTPS_c	CTP synthesis
+CTPS_cNo1	CTP synthesis
+CTPS_cNo2	CTP synthesis
+CTPS_cNo3	CTP synthesis
+CTPS_cNo4	CTP synthesis
+CTPS_cNo5	CTP synthesis
+arm_AMPK_c	nucleotide metabolism
+AMPK_cNo1	nucleotide metabolism
+AMPK_cNo2	nucleotide metabolism
+AMPK_cNo3	nucleotide metabolism
+arm_AMPK_h	nucleotide metabolism
+AMPK_hNo1	nucleotide metabolism
+AMPK_hNo2	nucleotide metabolism
+AMPK_hNo3	nucleotide metabolism
+arm_GMPK_c	nucleotide metabolism
+GMPK_cNo1	nucleotide metabolism
+GMPK_cNo2	nucleotide metabolism
+NMPK_cNo1	nucleotide metabolism
+CTPP_cNo1	nucleotide metabolism
+arm_ADPR_c	nucleotide metabolism
+ADPR_cNo1	nucleotide metabolism
+ADPR_cNo2	nucleotide metabolism
+arm_CDPR_c	nucleotide metabolism
+CDPR_cNo1	nucleotide metabolism
+CDPR_cNo2	nucleotide metabolism
+arm_GDPR_c	nucleotide metabolism
+GDPR_cNo1	nucleotide metabolism
+GDPR_cNo2	nucleotide metabolism
+arm_UDPR_c	nucleotide metabolism
+UDPR_cNo1	nucleotide metabolism
+UDPR_cNo2	nucleotide metabolism
+dUTPP_cNo1	nucleotide metabolism
+dTMPS_cNo1	nucleotide metabolism
+dTMPK_cNo1	nucleotide metabolism
+arm_GDPK_c	nucleotide metabolism
+GDPK_cNo1	nucleotide metabolism
+GDPK_cNo2	nucleotide metabolism
+arm_GDPK_h	nucleotide metabolism
+GDPK_hNo1	nucleotide metabolism
+GDPK_hNo2	nucleotide metabolism
+arm_UDPK_c	nucleotide metabolism
+UDPK_cNo1	nucleotide metabolism
+UDPK_cNo2	nucleotide metabolism
+arm_dADPK_c	nucleotide metabolism
+dADPK_cNo1	nucleotide metabolism
+dADPK_cNo2	nucleotide metabolism
+arm_dCDPK_c	nucleotide metabolism
+dCDPK_cNo1	nucleotide metabolism
+dCDPK_cNo2	nucleotide metabolism
+arm_dGDPK_c	nucleotide metabolism
+dGDPK_cNo1	nucleotide metabolism
+dGDPK_cNo2	nucleotide metabolism
+arm_dTDPK_c	nucleotide metabolism
+dTDPK_cNo1	nucleotide metabolism
+dTDPK_cNo2	nucleotide metabolism
+arm_dUDPK_c	nucleotide metabolism
+dUDPK_cNo1	nucleotide metabolism
+dUDPK_cNo2	nucleotide metabolism
+GCEADH_cNo1	
+MalDH2_mNo1	
+MalDH4_hNo1	
+NDC1_1_hNo1	
+NDC1_2_hNo1	
+NDH1_hNo1	
+NDH2_hNo1	
+Cytb6f1_hNo1	
+Cytb6f2_hNo1	
+arm_AOX1A_m	
+AOX1A_mNo1	
+AOX1A_mNo2	
+AOX1A_mNo3	
+AOX1A_mNo4	
+AOX1A_mNo5	
+AOX4_hNo1	
+arm_AspAT2_c	
+AspAT2_cNo1	
+AspAT2_cNo2	
+AspAT2_cNo3	
+AspAT2_cNo4	
+AspAT2_cNo5	
+AspAT2_cNo6	
+arm_AspAT2_h	
+AspAT2_hNo1	
+AspAT2_hNo2	
+AspAT2_hNo3	
+arm_AspAT2_m	
+AspAT2_mNo1	
+AspAT2_mNo2	
+AspAT2_pNo1	
+arm_CHRM_h	
+CHRM_hNo1	
+CHRM_hNo2	
+KARI12_hNo1	
+KARI34_hNo1	
+arm_MetAdT_c	
+MetAdT_cNo1	
+MetAdT_cNo2	
+MetAdT_cNo3	
+MetAdT_cNo4	
+arm_NDA2_1_m	
+NDA2_1_mNo1	
+NDA2_1_mNo2	
+NDA2_1_mNo3	
+NDA2_1_mNo4	
+NDA2_1_mNo5	
+NDA2_1_mNo6	
+NDA2_1_mNo7	
+arm_NDA2_2_m	
+NDA2_2_mNo1	
+NDA2_2_mNo2	
+NDA2_2_mNo3	
+NDA2_2_mNo4	
+NDA2_2_mNo5	
+NDA2_2_mNo6	
+NDA2_2_mNo7	
+iCitL_pNo1	
+arm_ATPase_h_REV	
+ATPase_h_REVNo1	
+ATPase_h_REVNo2	
+arm_PGAK_h_REV	Calvin-Benson cycle, glycolysis
+PGAK_h_REVNo1	Calvin-Benson cycle, glycolysis
+PGAK_h_REVNo2	Calvin-Benson cycle, glycolysis
+arm_TPI_h_REV	Calvin-Benson cycle, glycolysis
+TPI_h_REVNo1	Calvin-Benson cycle, glycolysis
+TPI_h_REVNo2	Calvin-Benson cycle, glycolysis
+arm_FBPA_h_REV	Calvin-Benson cycle, glycolysis
+FBPA_h_REVNo1	Calvin-Benson cycle, glycolysis
+FBPA_h_REVNo2	Calvin-Benson cycle, glycolysis
+FBPA_h_REVNo3	Calvin-Benson cycle, glycolysis
+FBPA_h_REVNo4	Calvin-Benson cycle, glycolysis
+FBPA_h_REVNo5	Calvin-Benson cycle, glycolysis
+FBPA_h_REVNo6	Calvin-Benson cycle, glycolysis
+arm_FTK_h_REV	Calvin-Benson cycle, pentose phosphate pathway
+FTK_h_REVNo1	Calvin-Benson cycle, pentose phosphate pathway
+FTK_h_REVNo2	Calvin-Benson cycle, pentose phosphate pathway
+arm_STK_h_REV	Calvin-Benson cycle, pentose phosphate pathway
+STK_h_REVNo1	Calvin-Benson cycle, pentose phosphate pathway
+STK_h_REVNo2	Calvin-Benson cycle, pentose phosphate pathway
+Ru5PE_h_REVNo1	Calvin-Benson cycle, pentose phosphate pathway
+R5PI_h_REVNo1	Calvin-Benson cycle, pentose phosphate pathway
+PGI_h_REVNo1	starch synthesis
+arm_PGM_h_REV	starch synthesis
+PGM_h_REVNo1	starch synthesis
+PGM_h_REVNo2	starch synthesis
+PGM_h_REVNo3	starch synthesis
+arm_TPI_c_REV	sucrose synthesis, gluconeogenesis, glycolysis
+TPI_c_REVNo1	sucrose synthesis, gluconeogenesis, glycolysis
+TPI_c_REVNo2	sucrose synthesis, gluconeogenesis, glycolysis
+arm_FBPA_c_REV	sucrose synthesis, gluconeogenesis, glycolysis
+FBPA_c_REVNo1	sucrose synthesis, gluconeogenesis, glycolysis
+FBPA_c_REVNo2	sucrose synthesis, gluconeogenesis, glycolysis
+FBPA_c_REVNo3	sucrose synthesis, gluconeogenesis, glycolysis
+FBPA_c_REVNo4	sucrose synthesis, gluconeogenesis, glycolysis
+FBPA_c_REVNo5	sucrose synthesis, gluconeogenesis, glycolysis
+F26BPPh_c_REVNo1	sucrose synthesis
+arm_PGI_c_REV	sucrose synthesis, sucrose degradation, gluconeogenesis
+PGI_c_REVNo1	sucrose synthesis, sucrose degradation, gluconeogenesis
+PGI_c_REVNo2	sucrose synthesis, sucrose degradation, gluconeogenesis
+arm_PGM_c_REV	sucrose synthesis, sucrose degradation
+PGM_c_REVNo1	sucrose synthesis, sucrose degradation
+PGM_c_REVNo2	sucrose synthesis, sucrose degradation
+PGM_c_REVNo3	sucrose synthesis, sucrose degradation
+arm_UGPase_c_REV	sucrose synthesis, sucrose degradation, pyrophosphate recycling
+UGPase_c_REVNo1	sucrose synthesis, sucrose degradation, pyrophosphate recycling
+UGPase_c_REVNo2	sucrose synthesis, sucrose degradation, pyrophosphate recycling
+arm_SucS_c_REV	sucrose degradation
+SucS_c_REVNo1	sucrose degradation
+SucS_c_REVNo2	sucrose degradation
+SucS_c_REVNo3	sucrose degradation
+arm_MalDH1_c_REV	gluconeogenesis
+MalDH1_c_REVNo1	gluconeogenesis
+MalDH1_c_REVNo2	gluconeogenesis
+MalDH1_c_REVNo3	gluconeogenesis
+arm_PEPC2_c_REV	gluconeogenesis
+PEPC2_c_REVNo1	gluconeogenesis
+PEPC2_c_REVNo2	gluconeogenesis
+PEPC2_c_REVNo3	gluconeogenesis
+PEPC2_c_REVNo4	gluconeogenesis
+arm_Enol_c_REV	gluconeogenesis, glycolysis
+Enol_c_REVNo1	gluconeogenesis, glycolysis
+Enol_c_REVNo2	gluconeogenesis, glycolysis
+arm_PGAM_c_REV	gluconeogenesis, glycolysis
+PGAM_c_REVNo1	gluconeogenesis, glycolysis
+PGAM_c_REVNo2	gluconeogenesis, glycolysis
+PGAM_c_REVNo3	gluconeogenesis, glycolysis
+arm_PGAK_c_REV	gluconeogenesis, glycolysis
+PGAK_c_REVNo1	gluconeogenesis, glycolysis
+PGAK_c_REVNo2	gluconeogenesis, glycolysis
+arm_GAPDH2_c_REV	gluconeogenesis, glycolysis
+GAPDH2_c_REVNo1	gluconeogenesis, glycolysis
+GAPDH2_c_REVNo2	gluconeogenesis, glycolysis
+arm_GAPDH2_h_REV	glycolysis
+GAPDH2_h_REVNo1	glycolysis
+GAPDH2_h_REVNo2	glycolysis
+arm_PGAM_h_REV	glycolysis
+PGAM_h_REVNo1	glycolysis
+PGAM_h_REVNo2	glycolysis
+arm_Enol_h_REV	glycolysis
+Enol_h_REVNo1	glycolysis
+Enol_h_REVNo2	glycolysis
+arm_cACNDHA_m_REV	tricarboxylic acid cycle, glyoxylate cycle
+cACNDHA_m_REVNo1	tricarboxylic acid cycle, glyoxylate cycle
+cACNDHA_m_REVNo2	tricarboxylic acid cycle, glyoxylate cycle
+cACNDHA_m_REVNo3	tricarboxylic acid cycle, glyoxylate cycle
+arm_cACNHA_m_REV	tricarboxylic acid cycle, glyoxylate cycle
+cACNHA_m_REVNo1	tricarboxylic acid cycle, glyoxylate cycle
+cACNHA_m_REVNo2	tricarboxylic acid cycle, glyoxylate cycle
+cACNHA_m_REVNo3	tricarboxylic acid cycle, glyoxylate cycle
+arm_FumHA_m_REV	tricarboxylic acid cycle
+FumHA_m_REVNo1	tricarboxylic acid cycle
+FumHA_m_REVNo2	tricarboxylic acid cycle
+arm_MalDH1_m_REV	tricarboxylic acid cycle, glyoxylate cycle
+MalDH1_m_REVNo1	tricarboxylic acid cycle, glyoxylate cycle
+MalDH1_m_REVNo2	tricarboxylic acid cycle, glyoxylate cycle
+arm_cplx5_m_REV	
+cplx5_m_REVNo1	
+cplx5_m_REVNo2	
+cplx5_m_REVNo3	
+cplx5_m_REVNo4	
+cplx5_m_REVNo5	
+cplx5_m_REVNo6	
+cplx5_m_REVNo7	
+cplx5_m_REVNo8	
+cplx5_m_REVNo9	
+cplx5_m_REVNo10	
+cplx5_m_REVNo11	
+cplx5_m_REVNo12	
+cplx5_m_REVNo13	
+cplx5_m_REVNo14	
+cplx5_m_REVNo15	
+cplx5_m_REVNo16	
+cplx5_m_REVNo17	
+cplx5_m_REVNo18	
+cplx5_m_REVNo19	
+cplx5_m_REVNo20	
+cplx5_m_REVNo21	
+cplx5_m_REVNo22	
+cplx5_m_REVNo23	
+cplx5_m_REVNo24	
+cplx5_m_REVNo25	
+cplx5_m_REVNo26	
+cplx5_m_REVNo27	
+cplx5_m_REVNo28	
+cplx5_m_REVNo29	
+cplx5_m_REVNo30	
+cplx5_m_REVNo31	
+cplx5_m_REVNo32	
+cplx5_m_REVNo33	
+cplx5_m_REVNo34	
+cplx5_m_REVNo35	
+cplx5_m_REVNo36	
+cplx5_m_REVNo37	
+cplx5_m_REVNo38	
+cplx5_m_REVNo39	
+cplx5_m_REVNo40	
+cplx5_m_REVNo41	
+cplx5_m_REVNo42	
+cplx5_m_REVNo43	
+cplx5_m_REVNo44	
+cplx5_m_REVNo45	
+cplx5_m_REVNo46	
+cplx5_m_REVNo47	
+cplx5_m_REVNo48	
+arm_GlyHMT_m_REV	photorespiration
+GlyHMT_m_REVNo1	photorespiration
+GlyHMT_m_REVNo2	photorespiration
+arm_MalDH1_p_REV	photorespiration
+MalDH1_p_REVNo1	photorespiration
+MalDH1_p_REVNo2	photorespiration
+arm_6PGDHNAD_h_REV	pentose phosphate pathway
+6PGDHNAD_h_REVNo1	pentose phosphate pathway
+6PGDHNAD_h_REVNo2	pentose phosphate pathway
+6PGDHNAD_h_REVNo3	pentose phosphate pathway
+arm_6PGDHNADP_h_REV	pentose phosphate pathway
+6PGDHNADP_h_REVNo1	pentose phosphate pathway
+6PGDHNADP_h_REVNo2	pentose phosphate pathway
+6PGDHNADP_h_REVNo3	pentose phosphate pathway
+arm_TA_h_REV	pentose phosphate pathway
+TA_h_REVNo1	pentose phosphate pathway
+TA_h_REVNo2	pentose phosphate pathway
+PyrPiDK_h_REVNo1	pyruvate metabolism
+arm_MalDH1_h_REV	pyruvate metabolism
+MalDH1_h_REVNo1	pyruvate metabolism
+MalDH1_h_REVNo2	pyruvate metabolism
+arm_PPIF6PK_c_REV	pyrophosphate recycling
+PPIF6PK_c_REVNo1	pyrophosphate recycling
+PPIF6PK_c_REVNo2	pyrophosphate recycling
+PPIF6PK_c_REVNo3	pyrophosphate recycling
+PPIF6PK_c_REVNo4	pyrophosphate recycling
+ForDH_h_REVNo1	THF recycling
+arm_NO3R2_c_REV	nitrate assimilation
+NO3R2_c_REVNo1	nitrate assimilation
+NO3R2_c_REVNo2	nitrate assimilation
+arm_AlaTA_m_REV	alanine synthesis
+AlaTA_m_REVNo1	alanine synthesis
+AlaTA_m_REVNo2	alanine synthesis
+AlaTA_m_REVNo3	alanine synthesis
+arm_AlaTA_p_REV	alanine synthesis
+AlaTA_p_REVNo1	alanine synthesis
+AlaTA_p_REVNo2	alanine synthesis
+OrnCMT_h_REVNo1	arginine synthesis
+arm_AspAT_c_REV	aspartate synthesis
+AspAT_c_REVNo1	aspartate synthesis
+AspAT_c_REVNo2	aspartate synthesis
+AspAT_c_REVNo3	aspartate synthesis
+AspAT_c_REVNo4	aspartate synthesis
+arm_AspAT_h_REV	aspartate synthesis
+AspAT_h_REVNo1	aspartate synthesis
+AspAT_h_REVNo2	aspartate synthesis
+arm_AspAT_m_REV	aspartate synthesis
+AspAT_m_REVNo1	aspartate synthesis
+AspAT_m_REVNo2	aspartate synthesis
+AspAT_p_REVNo1	aspartate synthesis
+GluDH3NADP_c_REVNo1	glutamate synthesis
+arm_GluDH1NADP_m_REV	glutamate synthesis
+GluDH1NADP_m_REVNo1	glutamate synthesis
+GluDH1NADP_m_REVNo2	glutamate synthesis
+GluDH1NADP_m_REVNo3	glutamate synthesis
+GABATA1_m_REVNo1	glutamate degradation
+arm_BAATA1_h_REV	isoleucine synthesis
+BAATA1_h_REVNo1	isoleucine synthesis
+BAATA1_h_REVNo2	isoleucine synthesis
+BAATA1_h_REVNo3	isoleucine synthesis
+arm_BAATA2_h_REV	leucine synthesis
+BAATA2_h_REVNo1	leucine synthesis
+BAATA2_h_REVNo2	leucine synthesis
+BAATA2_h_REVNo3	leucine synthesis
+arm_GlyHMT_c_REV	methionine synthesis, THF recycling
+GlyHMT_c_REVNo1	methionine synthesis, THF recycling
+GlyHMT_c_REVNo2	methionine synthesis, THF recycling
+arm_Cysase_c_REV	methionine synthesis
+Cysase_c_REVNo1	methionine synthesis
+Cysase_c_REVNo2	methionine synthesis
+GPAT_h_REVNo1	phenylalanine synthesis, tyrosine synthesis
+OrnAT_m_REVNo1	proline synthesis
+arm_PGADH_h_REV	serine synthesis
+PGADH_h_REVNo1	serine synthesis
+PGADH_h_REVNo2	serine synthesis
+PGADH_h_REVNo3	serine synthesis
+arm_BAATA3_h_REV	valine synthesis
+BAATA3_h_REVNo1	valine synthesis
+BAATA3_h_REVNo2	valine synthesis
+BAATA3_h_REVNo3	valine synthesis
+arm_AspAT2_c_REV	
+AspAT2_c_REVNo1	
+AspAT2_c_REVNo2	
+AspAT2_c_REVNo3	
+AspAT2_c_REVNo4	
+AspAT2_c_REVNo5	
+AspAT2_c_REVNo6	
+arm_AspAT2_h_REV	
+AspAT2_h_REVNo1	
+AspAT2_h_REVNo2	
+AspAT2_h_REVNo3	
+arm_AspAT2_m_REV	
+AspAT2_m_REVNo1	
+AspAT2_m_REVNo2	
+AspAT2_p_REVNo1	
+draw_prot_A0A178UD24	
+draw_prot_A0A178VX82	
+draw_prot_A0A178WJZ2	
+draw_prot_A0A1P8ANY1	
+draw_prot_A0A1P8AW36	
+draw_prot_A0A1P8B6F9	
+draw_prot_A0A384K8P2	
+draw_prot_A0A384KII3	
+draw_prot_A0A384KLZ3	
+draw_prot_A0A384L5D5	
+draw_prot_A0A5S9YI34	
+draw_prot_A0A654EZT9	
+draw_prot_A0A654FAY0	
+draw_prot_A0A654FQL5	
+draw_prot_A1A6H3	
+draw_prot_A8MR07	
+draw_prot_B5X574	
+draw_prot_B9DGD6	
+draw_prot_B9DHD3	
+draw_prot_F4HUC4	
+draw_prot_F4I1A6	
+draw_prot_F4I1L9	
+draw_prot_F4I6G9	
+draw_prot_F4I7I0	
+draw_prot_F4I8M8	
+draw_prot_F4I8U2	
+draw_prot_F4IAG2	
+draw_prot_F4IC59	
+draw_prot_F4IHR4	
+draw_prot_F4IW47	
+draw_prot_F4IWV2	
+draw_prot_F4JGR5	
+draw_prot_F4JIK2	
+draw_prot_F4JJJ3	
+draw_prot_F4JWS8	
+draw_prot_F4KGQ0	
+draw_prot_O03042	
+draw_prot_O04130	
+draw_prot_O04308	
+draw_prot_O04499	
+draw_prot_O04846	
+draw_prot_O04904	
+draw_prot_O04905	
+draw_prot_O04983	
+draw_prot_O22048	
+draw_prot_O22049	
+draw_prot_O22229	
+draw_prot_O22241	
+draw_prot_O22682	
+draw_prot_O22718	
+draw_prot_O22765	
+draw_prot_O22769	
+draw_prot_O22912	
+draw_prot_O23254	
+draw_prot_O23255	
+draw_prot_O23324	
+draw_prot_O23346	
+draw_prot_O23404	
+draw_prot_O23553	
+draw_prot_O23653	
+draw_prot_O23913	
+draw_prot_O48946	
+draw_prot_O48947	
+draw_prot_O49299	
+draw_prot_O49347	
+draw_prot_O49485	
+draw_prot_O49506	
+draw_prot_O50008	
+draw_prot_O50039	
+draw_prot_O64753	
+draw_prot_O64767	
+draw_prot_O64888	
+draw_prot_O64903	
+draw_prot_O65258	
+draw_prot_O65396	
+draw_prot_O65581	
+draw_prot_O80452	
+draw_prot_O80526	
+draw_prot_O80574	
+draw_prot_O80585	
+draw_prot_O80634	
+draw_prot_O80738	
+draw_prot_O80874	
+draw_prot_O80988	
+draw_prot_O81796	
+draw_prot_O81852	
+draw_prot_O82191	
+draw_prot_O82399	
+draw_prot_O82514	
+draw_prot_O82662	
+draw_prot_O82663	
+draw_prot_O82768	
+draw_prot_O82782	
+draw_prot_O82793	
+draw_prot_O82796	
+draw_prot_P05466	
+draw_prot_P09468	
+draw_prot_P0CC32	
+draw_prot_P0CC33	
+draw_prot_P0DI07	
+draw_prot_P0DKC3	
+draw_prot_P0DKC4	
+draw_prot_P0DKI0	
+draw_prot_P0DKI1	
+draw_prot_P10795	
+draw_prot_P10796	
+draw_prot_P10797	
+draw_prot_P10798	
+draw_prot_P11035	
+draw_prot_P11832	
+draw_prot_P14671	
+draw_prot_P17562	
+draw_prot_P17597	
+draw_prot_P19366	
+draw_prot_P20115	
+draw_prot_P21216	
+draw_prot_P22197	
+draw_prot_P23321	
+draw_prot_P23686	
+draw_prot_P25269	
+draw_prot_P25696	
+draw_prot_P25697	
+draw_prot_P25819	
+draw_prot_P25851	
+draw_prot_P25853	
+draw_prot_P25856	
+draw_prot_P25857	
+draw_prot_P25858	
+draw_prot_P26288	
+draw_prot_P26289	
+draw_prot_P27140	
+draw_prot_P27202	
+draw_prot_P28297	
+draw_prot_P29976	
+draw_prot_P31166	
+draw_prot_P32068	
+draw_prot_P32069	
+draw_prot_P32746	
+draw_prot_P34047	
+draw_prot_P34795	
+draw_prot_P38025	
+draw_prot_P39207	
+draw_prot_P42737	
+draw_prot_P42738	
+draw_prot_P42770	
+draw_prot_P42792	
+draw_prot_P46248	
+draw_prot_P46283	
+draw_prot_P46637	
+draw_prot_P46643	
+draw_prot_P46644	
+draw_prot_P46645	
+draw_prot_P46646	
+draw_prot_P47996	
+draw_prot_P47998	
+draw_prot_P47999	
+draw_prot_P48491	
+draw_prot_P49040	
+draw_prot_P49077	
+draw_prot_P49078	
+draw_prot_P49107	
+draw_prot_P49572	
+draw_prot_P50287	
+draw_prot_P50318	
+draw_prot_P50651	
+draw_prot_P52420	
+draw_prot_P52422	
+draw_prot_P52901	
+draw_prot_P53780	
+draw_prot_P54887	
+draw_prot_P54888	
+draw_prot_P54904	
+draw_prot_P55217	
+draw_prot_P55228	
+draw_prot_P55229	
+draw_prot_P55230	
+draw_prot_P55231	
+draw_prot_P56751	
+draw_prot_P56752	
+draw_prot_P56753	
+draw_prot_P56754	
+draw_prot_P56755	
+draw_prot_P56756	
+draw_prot_P56757	
+draw_prot_P56758	
+draw_prot_P56759	
+draw_prot_P56760	
+draw_prot_P56761	
+draw_prot_P56765	
+draw_prot_P56766	
+draw_prot_P56767	
+draw_prot_P56768	
+draw_prot_P56769	
+draw_prot_P56771	
+draw_prot_P56773	
+draw_prot_P56774	
+draw_prot_P56775	
+draw_prot_P56776	
+draw_prot_P56777	
+draw_prot_P56778	
+draw_prot_P56779	
+draw_prot_P56780	
+draw_prot_P56781	
+draw_prot_P56782	
+draw_prot_P56790	
+draw_prot_P57106	
+draw_prot_P57720	
+draw_prot_P57751	
+draw_prot_P60112	
+draw_prot_P60129	
+draw_prot_P60497	
+draw_prot_P60620	
+draw_prot_P61039	
+draw_prot_P61839	
+draw_prot_P62090	
+draw_prot_P62095	
+draw_prot_P62100	
+draw_prot_P62109	
+draw_prot_P62113	
+draw_prot_P68209	
+draw_prot_P83483	
+draw_prot_P83484	
+draw_prot_P83755	
+draw_prot_P92533	
+draw_prot_P92547	
+draw_prot_P92549	
+draw_prot_P92979	
+draw_prot_P92980	
+draw_prot_P92981	
+draw_prot_P92983	
+draw_prot_P93032	
+draw_prot_P93033	
+draw_prot_P93285	
+draw_prot_P93306	
+draw_prot_P93313	
+draw_prot_P93757	
+draw_prot_P93819	
+draw_prot_P93832	
+draw_prot_P93834	
+draw_prot_Q00218	
+draw_prot_Q00917	
+draw_prot_Q01908	
+draw_prot_Q01909	
+draw_prot_Q02166	
+draw_prot_Q04613	
+draw_prot_Q04614	
+draw_prot_Q05728	
+draw_prot_Q05758	
+draw_prot_Q05762	
+draw_prot_Q0WNZ5	
+draw_prot_Q0WQF7	
+draw_prot_Q0WRY1	
+draw_prot_Q0WSF1	
+draw_prot_Q0WVX5	
+draw_prot_Q0WW55	
+draw_prot_Q0WWE3	
+draw_prot_Q1JPL4	
+draw_prot_Q1WIQ6	
+draw_prot_Q24JJ8	
+draw_prot_Q2PGG3	
+draw_prot_Q2V2S7	
+draw_prot_Q37165	
+draw_prot_Q38799	
+draw_prot_Q38946	
+draw_prot_Q39161	
+draw_prot_Q39194	
+draw_prot_Q39195	
+draw_prot_Q39218	
+draw_prot_Q39219	
+draw_prot_Q39242	
+draw_prot_Q39243	
+draw_prot_Q3E870	
+draw_prot_Q41932	
+draw_prot_Q42029	
+draw_prot_Q42290	
+draw_prot_Q42440	
+draw_prot_Q42472	
+draw_prot_Q42521	
+draw_prot_Q42527	
+draw_prot_Q42529	
+draw_prot_Q42533	
+draw_prot_Q42538	
+draw_prot_Q42547	
+draw_prot_Q42560	
+draw_prot_Q42563	
+draw_prot_Q42577	
+draw_prot_Q42581	
+draw_prot_Q42583	
+draw_prot_Q42586	
+draw_prot_Q42588	
+draw_prot_Q42599	
+draw_prot_Q42601	
+draw_prot_Q43127	
+draw_prot_Q43314	
+draw_prot_Q43727	
+draw_prot_Q43870	
+draw_prot_Q56WN1	
+draw_prot_Q56X52	
+draw_prot_Q56YA5	
+draw_prot_Q56YU0	
+draw_prot_Q5E924	
+draw_prot_Q5GM68	
+draw_prot_Q5HZ05	
+draw_prot_Q5M729	
+draw_prot_Q67X99	
+draw_prot_Q67XC9	
+draw_prot_Q67XD9	
+draw_prot_Q6NKX1	
+draw_prot_Q6NPM8	
+draw_prot_Q70DU8	
+draw_prot_Q70E96	
+draw_prot_Q84JA6	
+draw_prot_Q84TI2	
+draw_prot_Q84VQ4	
+draw_prot_Q84VW9	
+draw_prot_Q84WW2	
+draw_prot_Q8GSJ1	
+draw_prot_Q8GVE8	
+draw_prot_Q8GWA1	
+draw_prot_Q8GWG2	
+draw_prot_Q8GWU0	
+draw_prot_Q8GXG1	
+draw_prot_Q8GXR9	
+draw_prot_Q8GXW5	
+draw_prot_Q8GY88	
+draw_prot_Q8GYY0	
+draw_prot_Q8H103	
+draw_prot_Q8H107	
+draw_prot_Q8H1E2	
+draw_prot_Q8L743	
+draw_prot_Q8L762	
+draw_prot_Q8L778	
+draw_prot_Q8L7R2	
+draw_prot_Q8L817	
+draw_prot_Q8LAD0	
+draw_prot_Q8LAD2	
+draw_prot_Q8LAX0	
+draw_prot_Q8LB01	
+draw_prot_Q8LB02	
+draw_prot_Q8LBZ7	
+draw_prot_Q8LCA1	
+draw_prot_Q8LCE1	
+draw_prot_Q8LEE7	
+draw_prot_Q8LEV7	
+draw_prot_Q8LFC0	
+draw_prot_Q8LG70	
+draw_prot_Q8LG77	
+draw_prot_Q8LPI9	
+draw_prot_Q8LPJ5	
+draw_prot_Q8LPK5	
+draw_prot_Q8RU07	
+draw_prot_Q8RWN9	
+draw_prot_Q8RWV0	
+draw_prot_Q8RXD9	
+draw_prot_Q8RXS1	
+draw_prot_Q8RXU4	
+draw_prot_Q8RY94	
+draw_prot_Q8S895	
+draw_prot_Q8VYL1	
+draw_prot_Q8VYN6	
+draw_prot_Q8VYV7	
+draw_prot_Q8VYW2	
+draw_prot_Q8VZC3	
+draw_prot_Q8W2B8	
+draw_prot_Q8W493	
+draw_prot_Q8W4M5	
+draw_prot_Q93V56	
+draw_prot_Q93XN8	
+draw_prot_Q93Z53	
+draw_prot_Q93Z66	
+draw_prot_Q93Z70	
+draw_prot_Q93ZN9	
+draw_prot_Q93ZW0	
+draw_prot_Q941A0	
+draw_prot_Q941A6	
+draw_prot_Q941L0	
+draw_prot_Q944G9	
+draw_prot_Q944I4	
+draw_prot_Q945K7	
+draw_prot_Q945L0	
+draw_prot_Q949Q5	
+draw_prot_Q949X7	
+draw_prot_Q94A28	
+draw_prot_Q94A41	
+draw_prot_Q94A94	
+draw_prot_Q94AA4	
+draw_prot_Q94AR8	
+draw_prot_Q94B78	
+draw_prot_Q94BT0	
+draw_prot_Q94BV7	
+draw_prot_Q94C74	
+draw_prot_Q94CE3	
+draw_prot_Q94CE4	
+draw_prot_Q94CE5	
+draw_prot_Q94JQ6	
+draw_prot_Q94JS0	
+draw_prot_Q95695	
+draw_prot_Q95748	
+draw_prot_Q96250	
+draw_prot_Q96251	
+draw_prot_Q96252	
+draw_prot_Q96253	
+draw_prot_Q96255	
+draw_prot_Q96528	
+draw_prot_Q96529	
+draw_prot_Q9ASS6	
+draw_prot_Q9C522	
+draw_prot_Q9C544	
+draw_prot_Q9C550	
+draw_prot_Q9C5A9	
+draw_prot_Q9C5E8	
+draw_prot_Q9C5J7	
+draw_prot_Q9C5U8	
+draw_prot_Q9C6F5	
+draw_prot_Q9C9C4	
+draw_prot_Q9C9K3	
+draw_prot_Q9C9W5	
+draw_prot_Q9CA83	
+draw_prot_Q9CA90	
+draw_prot_Q9CAC5	
+draw_prot_Q9CAD1	
+draw_prot_Q9FFP6	
+draw_prot_Q9FFR3	
+draw_prot_Q9FG89	
+draw_prot_Q9FGI6	
+draw_prot_Q9FGX1	
+draw_prot_Q9FI53	
+draw_prot_Q9FIJ7	
+draw_prot_Q9FIK0	
+draw_prot_Q9FIN1	
+draw_prot_Q9FJ82	
+draw_prot_Q9FJP9	
+draw_prot_Q9FJU0	
+draw_prot_Q9FK35	
+draw_prot_Q9FKG3	
+draw_prot_Q9FKS5	
+draw_prot_Q9FKW6	
+draw_prot_Q9FLB7	
+draw_prot_Q9FLH2	
+draw_prot_Q9FLK2	
+draw_prot_Q9FLQ4	
+draw_prot_Q9FLW9	
+draw_prot_Q9FMD9	
+draw_prot_Q9FMT1	
+draw_prot_Q9FNF2	
+draw_prot_Q9FNJ8	
+draw_prot_Q9FNK4	
+draw_prot_Q9FNN1	
+draw_prot_Q9FNN5	
+draw_prot_Q9FT52	
+draw_prot_Q9FVC8	
+draw_prot_Q9FWA3	
+draw_prot_Q9FX54	
+draw_prot_Q9FX83	
+draw_prot_Q9FY99	
+draw_prot_Q9FYA6	
+draw_prot_Q9FYE3	
+draw_prot_Q9FZ57	
+draw_prot_Q9LD43	
+draw_prot_Q9LD57	
+draw_prot_Q9LDV4	
+draw_prot_Q9LE33	
+draw_prot_Q9LEU8	
+draw_prot_Q9LF98	
+draw_prot_Q9LFF9	
+draw_prot_Q9LFG2	
+draw_prot_Q9LFP0	
+draw_prot_Q9LFU1	
+draw_prot_Q9LIK0	
+draw_prot_Q9LIK9	
+draw_prot_Q9LIR4	
+draw_prot_Q9LIR6	
+draw_prot_Q9LJA0	
+draw_prot_Q9LK23	
+draw_prot_Q9LK29	
+draw_prot_Q9LK36	
+draw_prot_Q9LKA3	
+draw_prot_Q9LLC1	
+draw_prot_Q9LM13	
+draw_prot_Q9LMI0	
+draw_prot_Q9LMR3	
+draw_prot_Q9LMX8	
+draw_prot_Q9LPR4	
+draw_prot_Q9LPW0	
+draw_prot_Q9LQ10	
+draw_prot_Q9LQF2	
+draw_prot_Q9LQK9	
+draw_prot_Q9LR30	
+draw_prot_Q9LRR9	
+draw_prot_Q9LRS0	
+draw_prot_Q9LSD0	
+draw_prot_Q9LSH2	
+draw_prot_Q9LT69	
+draw_prot_Q9LTW8	
+draw_prot_Q9LU21	
+draw_prot_Q9LU95	
+draw_prot_Q9LUT2	
+draw_prot_Q9LV03	
+draw_prot_Q9LV77	
+draw_prot_Q9LV91	
+draw_prot_Q9LVI8	
+draw_prot_Q9LVM2	
+draw_prot_Q9LVW7	
+draw_prot_Q9LW15	
+draw_prot_Q9LXC9	
+draw_prot_Q9LXJ2	
+draw_prot_Q9LXL5	
+draw_prot_Q9LXS6	
+draw_prot_Q9LYG3	
+draw_prot_Q9LYR2	
+draw_prot_Q9LYR4	
+draw_prot_Q9LYT7	
+draw_prot_Q9LYU8	
+draw_prot_Q9LZ66	
+draw_prot_Q9LZC3	
+draw_prot_Q9LZG0	
+draw_prot_Q9LZQ0	
+draw_prot_Q9LZX6	
+draw_prot_Q9M044	
+draw_prot_Q9M057	
+draw_prot_Q9M076	
+draw_prot_Q9M0F9	
+draw_prot_Q9M1B9	
+draw_prot_Q9M1D3	
+draw_prot_Q9M1W4	
+draw_prot_Q9M394	
+draw_prot_Q9M401	
+draw_prot_Q9M439	
+draw_prot_Q9M5K2	
+draw_prot_Q9M5K3	
+draw_prot_Q9M682	
+draw_prot_Q9M8D3	
+draw_prot_Q9M8M7	
+draw_prot_Q9M9K1	
+draw_prot_Q9M9P3	
+draw_prot_Q9MA79	
+draw_prot_Q9MAC8	
+draw_prot_Q9MAH0	
+draw_prot_Q9MB58	
+draw_prot_Q9S702	
+draw_prot_Q9S714	
+draw_prot_Q9S726	
+draw_prot_Q9S757	
+draw_prot_Q9S762	
+draw_prot_Q9S7A0	
+draw_prot_Q9S7B5	
+draw_prot_Q9S7D8	
+draw_prot_Q9S7E4	
+draw_prot_Q9S7E9	
+draw_prot_Q9S7H1	
+draw_prot_Q9S7H4	
+draw_prot_Q9S7L9	
+draw_prot_Q9S7N7	
+draw_prot_Q9S829	
+draw_prot_Q9S831	
+draw_prot_Q9S841	
+draw_prot_Q9S9N6	
+draw_prot_Q9SA14	
+draw_prot_Q9SA18	
+draw_prot_Q9SA34	
+draw_prot_Q9SA56	
+draw_prot_Q9SA96	
+draw_prot_Q9SAJ4	
+draw_prot_Q9SAJ6	
+draw_prot_Q9SAK4	
+draw_prot_Q9SAU2	
+draw_prot_Q9SCL7	
+draw_prot_Q9SCS3	
+draw_prot_Q9SCY0	
+draw_prot_Q9SCY3	
+draw_prot_Q9SD76	
+draw_prot_Q9SDL7	
+draw_prot_Q9SE60	
+draw_prot_Q9SF85	
+draw_prot_Q9SG91	
+draw_prot_Q9SGC1	
+draw_prot_Q9SGD6	
+draw_prot_Q9SGH4	
+draw_prot_Q9SGY2	
+draw_prot_Q9SH69	
+draw_prot_Q9SHE8	
+draw_prot_Q9SHG0	
+draw_prot_Q9SHP0	
+draw_prot_Q9SI61	
+draw_prot_Q9SIB9	
+draw_prot_Q9SID0	
+draw_prot_Q9SIE1	
+draw_prot_Q9SIK1	
+draw_prot_Q9SIU0	
+draw_prot_Q9SJ05	
+draw_prot_Q9SJ20	
+draw_prot_Q9SJ22	
+draw_prot_Q9SJ66	
+draw_prot_Q9SJH7	
+draw_prot_Q9SJL8	
+draw_prot_Q9SJM7	
+draw_prot_Q9SJQ0	
+draw_prot_Q9SJQ9	
+draw_prot_Q9SJU4	
+draw_prot_Q9SJV7	
+draw_prot_Q9SKE0	
+draw_prot_Q9SKJ5	
+draw_prot_Q9SKP6	
+draw_prot_Q9SKT7	
+draw_prot_Q9SLK0	
+draw_prot_Q9SMS0	
+draw_prot_Q9SN86	
+draw_prot_Q9SPK5	
+draw_prot_Q9SQG2	
+draw_prot_Q9SQQ7	
+draw_prot_Q9SQT8	
+draw_prot_Q9SR52	
+draw_prot_Q9SR86	
+draw_prot_Q9SRV5	
+draw_prot_Q9SRZ6	
+draw_prot_Q9SSB8	
+draw_prot_Q9SSE7	
+draw_prot_Q9SSP5	
+draw_prot_Q9SSS9	
+draw_prot_Q9STG6	
+draw_prot_Q9STG9	
+draw_prot_Q9SU38	
+draw_prot_Q9SU39	
+draw_prot_Q9SUB4	
+draw_prot_Q9SUD3	
+draw_prot_Q9SUI4	
+draw_prot_Q9SUI5	
+draw_prot_Q9SUI6	
+draw_prot_Q9SUI7	
+draw_prot_Q9SUU5	
+draw_prot_Q9SUW0	
+draw_prot_Q9SUW2	
+draw_prot_Q9SVM4	
+draw_prot_Q9SWW6	
+draw_prot_Q9SX77	
+draw_prot_Q9SXS7	
+draw_prot_Q9SYG7	
+draw_prot_Q9SYM4	
+draw_prot_Q9SYP2	
+draw_prot_Q9SZ30	
+draw_prot_Q9SZJ5	
+draw_prot_Q9SZT8	
+draw_prot_Q9SZX3	
+draw_prot_Q9T074	
+draw_prot_Q9T0A4	
+draw_prot_Q9T0J5	
+draw_prot_Q9T0P4	
+draw_prot_Q9XF91	
+draw_prot_Q9XFT3	
+draw_prot_Q9XGZ0	
+draw_prot_Q9XI73	
+draw_prot_Q9ZNZ7	
+draw_prot_Q9ZP05	
+draw_prot_Q9ZP06	
+draw_prot_Q9ZPF5	
+draw_prot_Q9ZPS3	
+draw_prot_Q9ZPS4	
+draw_prot_Q9ZPX5	
+draw_prot_Q9ZR03	
+draw_prot_Q9ZSS6	
+draw_prot_Q9ZU25	
+draw_prot_Q9ZU52	
+draw_prot_Q9ZUC2	
+draw_prot_Q9ZUR7	
+draw_prot_Q9ZUU1	
+draw_prot_Q9ZUY3	
+draw_prot_Q9ZV48	
+draw_prot_Q9ZW34	
+draw_prot_Q9ZW84	
+draw_prot_Q9ZW85	
+draw_prot_O48717	
+prot_pool_exchange	

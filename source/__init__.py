@@ -37,7 +37,7 @@ PROT_GENES_2_UNIPROT = LOOKUP_TABLES / "ProteomicsGenesToUniprot.tsv"
 ## Sensitivity analysis
 ESC_DATA_WIDE = RESULT_DIR / "tables/SensitivityAnalysis/wide_SC_10_to_40.csv"
 ESC_DATA_COMP_SUMMED = RESULT_DIR / "tables/SensitivityAnalysis/wide_SC_10_to_40_comp_summed.csv"
-
+LIMITING_CLASS_TAB = RESULT_DIR / "tables/SensitivityAnalysis/limiting_class_mapping.csv"
 ## Subsystem correction
 MODEL_ENZYME_2_SUBSYSTEM = LOOKUP_TABLES / "EnzymeToSubsystemMap_corrected.csv"
 PATHWAY_MAPPING_DF = LOOKUP_TABLES/ "Pathway_mapping_supporting_table.csv"

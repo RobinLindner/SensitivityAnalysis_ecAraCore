@@ -9,7 +9,7 @@ from statsmodels.stats import multitest
 
 root_dir = Path(__file__).resolve().parents[2]
 sys.path.append(str(root_dir))
-from source import MODEL_DIR, MODEL_ENZYME_2_PMET, ESC_DATA_WIDE ,PFBA_DATA, MODEL_ENZYME_2_SUBSYSTEM, FLUX_SAMP_WIDE, SUPP_RES_DIR, SUPP_FIG_DIR
+from source import MODEL_DIR, MODEL_ENZYME_2_PMET, ESC_DATA_WIDE ,PFBA_DATA, MODEL_ENZYME_2_SUBSYSTEM, FLUX_SAMP_WIDE, SUPP_RES_DIR, SUPP_FIG_DIR ,LIMITING_CLASS_TAB
 from source.GEM import GEM
 
 class silence():
@@ -50,7 +50,24 @@ def main():
     # Correlation between temperature and number of non-zero ESC
     print("\tSpearman correlation between number of LE and Temperature in °C:")
     print(f"\t{sp.spearmanr(active_enzme_at_temp,np.arange(10,41))}")
-    print()
+
+    dicti = {"UniprotID":[],
+             "LimitingClass":[]}
+    for enzyme in SC_wide.index:
+        le = "NLE"
+        if enzyme in PLE:
+            le = "PLE"
+        if enzyme in OLE:
+            le="OLE"
+        dicti["LimitingClass"].append(le)
+        dicti["UniprotID"].append(enzyme)
+
+
+
+                        
+    pd.DataFrame(dicti).set_index("UniprotID").to_csv(LIMITING_CLASS_TAB)
+
+
 
     print("==TEMPERATURE DEPENDENCY OF METABOLIC FLUX DISTRIBUTIONS==")
     print("H1: Is there a qualitative change in metabolic flux distributions across temperatures?")
